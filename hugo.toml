@@ -1,0 +1,70 @@
+baseURL = "https://nocoderequired.net"
+languageCode = "en-us"
+title = "NCR — No Code Required"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+  description = "Learn AI tools without the jargon. From a bodybuilder who never opened a terminal."
+  author = "NCR"
+
+[params.assets]
+  favicon = "/favicon.ico"
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+
+[params.label]
+  text = "NCR"
+  icon = ""
+  iconHeight = 35
+
+[params.homeInfoParams]
+  Title = "You don't need to code.\nYou need to learn how machines think."
+  Content = "Real tools. Tested workflows. No jargon.<br>From someone who was scared of the terminal too."
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://x.com/Mbj444"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Tools"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tutorials"
+    name = "Tutorials"
+    url = "/tags/tutorial/"
+    weight = 2
+  [[menu.main]]
+    identifier = "start"
+    name = "Start Here"
+    url = "/start-here/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
