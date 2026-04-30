@@ -1,0 +1,6 @@
+{
+  "name": "no-code-required",
+  "scripts": {
+    "build": "hugo --minify"
+  }
+}
