@@ -40,7 +40,7 @@ This isn't theory. I actually built all of this:
 
 **Fitness Data Tools:**
 - **[CoachMetrics](https://coachmetrics.app)** — AI-powered SaaS that predicts client churn for fitness coaches
-- **[Code Collab](https://codecollab.net)** — developer collaboration platform
+- **[Code Collab](https://codecollab.net)** — the fitness industry's own network. Like GitHub for fitness — connect, collaborate, and actually reach your real audience instead of renting it from Instagram.
 
 All built by me. A bodybuilder who never opened a terminal before AI.
 
