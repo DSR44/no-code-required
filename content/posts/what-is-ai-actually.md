@@ -1,6 +1,6 @@
 ---
 title: "What is AI actually? (No jargon, I promise)"
-date: 2026-05-02
+date: 2026-05-01
 draft: false
 tags: ["basics", "tutorial", "AI history"]
 categories: ["basics"]
