@@ -4,7 +4,7 @@ title = "NCR — No Code Required"
 theme = "PaperMod"
 
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
