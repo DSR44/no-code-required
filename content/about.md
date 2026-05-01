@@ -7,7 +7,9 @@ ShowToc: false
 
 ## Hey, I'm Menel.
 
-I didn't grow up with tech. I grew up in the gym.
+I didn't plan to learn AI. Life kind of forced me into it.
+
+👉 **[Read my full story: "I didn't plan to learn AI"](/posts/i-didnt-plan-to-learn-ai/)**
 
 I'm a bodybuilder. I trained athletes. I ran programs for people who needed discipline, structure, and results. I knew how to push through pain and build something from nothing.
 
