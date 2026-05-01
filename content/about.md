@@ -31,11 +31,16 @@ No jargon. No gatekeeping. No "just run this command" without explaining what it
 
 This isn't theory. I actually built all of this:
 
+**AI & Math Tools:**
 - **[The Infinity Engine](https://constellationcompiler.art)** — a mathematical tool suite built on SHA-256 hashing. Pure deterministic math, no AI, no cloud. Generates infinite non-derivative outputs.
 - **[Resonance Engine](https://resonanceengine.art)** — finds trending topics via math + social media
 - **[Password Engine](https://password-engine.art)** — deterministic passwords with zero storage. Brain Wallet 2.0.
 - **[Infinity Shield](https://constellationcompiler.art/shield)** — browser privacy through mathematical abundance
 - **[Creation Language Generator](https://huggingface.co/spaces/FutureHAi/creation-language-generator)** — the original tool that started it all
+
+**Fitness Data Tools:**
+- **[CoachMetrics](https://coachmetrics.app)** — AI-powered SaaS that predicts client churn for fitness coaches
+- **[Code Collab](https://codecollab.net)** — developer collaboration platform
 
 All built by me. A bodybuilder who never opened a terminal before AI.
 
@@ -43,7 +48,6 @@ All built by me. A bodybuilder who never opened a terminal before AI.
 
 - **YouTube:** [from no one](https://www.youtube.com/@from_no_one) — ambient dub techno, algorithm experiments
 - **YouTube:** [PRMVL](https://www.youtube.com/@PRMVL) — sacred geometry meets dark techno
-- **X/Twitter:** [@Mbj444](https://x.com/Mbj444)
 
 ## What you'll find here
 

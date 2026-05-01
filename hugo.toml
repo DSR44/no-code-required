@@ -34,8 +34,8 @@ theme = "PaperMod"
   Content = "Real tools. Tested workflows. No jargon.<br>From someone who was scared of the terminal too."
 
 [[params.socialIcons]]
-  name = "twitter"
-  url = "https://x.com/Mbj444"
+  name = "youtube"
+  url = "https://www.youtube.com/@from_no_one"
 
 [menu]
   [[menu.main]]
