@@ -68,8 +68,8 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--text) !important;
-  background: var(--bg-hover);
+  color: var(--accent) !important;
+  background: var(--accent-glow);
 }
 
 /* ===== HERO — CENTERED, SPACED ===== */
@@ -78,6 +78,20 @@ nav a:hover {
   padding: 8rem 2rem 6rem !important;
   max-width: 800px;
   margin: 0 auto;
+  position: relative;
+}
+
+.home-info::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(232, 168, 124, 0.06) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: -1;
 }
 
 .home-info h1 {
@@ -89,6 +103,7 @@ nav a:hover {
   letter-spacing: -0.04em;
   white-space: pre-line;
   margin-bottom: 1.5rem;
+  text-shadow: 0 0 60px rgba(232, 168, 124, 0.15), 0 4px 20px rgba(0,0,0,0.5);
 }
 
 .home-info .entry-content {
@@ -97,6 +112,7 @@ nav a:hover {
   max-width: 500px;
   margin: 0 auto;
   line-height: 1.7;
+  text-shadow: 0 0 40px rgba(232, 168, 124, 0.08), 0 2px 12px rgba(0,0,0,0.4);
 }
 
 .home-info .entry-footer {
@@ -207,6 +223,7 @@ article.post h2 {
   color: var(--accent);
   margin-top: 3rem;
   letter-spacing: -0.02em;
+  text-shadow: 0 0 30px rgba(232, 168, 124, 0.2);
 }
 
 article.post h3 {
