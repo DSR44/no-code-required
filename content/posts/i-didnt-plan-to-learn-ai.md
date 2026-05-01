@@ -5,6 +5,7 @@ draft: false
 tags: ["personal story", "AI journey", "beginner"]
 categories: ["basics"]
 description: "A bodybuilder with a major injury, zero coding experience, and a lot of stubbornness — here's how I ended up building AI tools."
+url: /posts/i-didnt-plan-to-learn-ai/
 ShowToc: false
 ---
 
