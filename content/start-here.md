@@ -1,60 +1,69 @@
 ---
 title: "Start Here"
-date: 2026-04-30
+date: 2026-05-01
 draft: false
 ShowToc: false
 ---
 
-## What do you want to do?
-
-Pick your path:
+I built this page so you don't have to wander around aimlessly. Pick what you want to do, and I'll point you to the right place.
 
 ---
 
+## What do you want to do?
+
 ### 🔧 I want to automate something boring
-→ Check out our automation tutorials
-- n8n basics — connect tools without code
-- Webhooks explained — how tools talk to each other
-- Content scheduling — publish without being online
+**Start here:** [What is AI actually?](/posts/what-is-ai-actually/) — understand the engine before you drive the car.
+
+Coming soon:
+- Build your first automation in 15 minutes
+- Webhooks — how tools talk to each other
+- My automation pipeline (how my blog publishes itself)
 
 ---
 
 ### 🖼️ I want to create images or videos with AI
-→ See our creative tools reviews
-- AI image generators — tested and compared
+**Start here:** [What is AI actually?](/posts/what-is-ai-actually/) — same foundation, different application.
+
+Coming soon:
+- AI images — which tool actually works?
+- AI music — I made an album without knowing theory
 - Video creation with AI — from script to publish
-- Logo and design tools — what actually works
 
 ---
 
 ### ✍️ I want to write content faster
-→ Our content creation tools
-- AI writing assistants — honest reviews
-- Research automation — find what matters
-- SEO basics — get found without paying for ads
+Coming soon:
+- I tested 10 AI writing tools so you don't have to
+- The one prompt that changed everything
+- Research automation — find what matters in seconds
 
 ---
 
 ### 🚀 I want to build a website or blog
-→ From zero to online
-- How to set up a blog in 1 hour (with AI)
+**Start here:** [How I built a blog in 1 hour with AI](/posts/how-i-built-a-blog-in-1-hour-with-ai/) — coming soon
+
+Coming soon:
 - Domain, hosting, deployment — explained simply
 - My blog publishes itself — here's how
+- GitHub is not scary — your 5-minute intro
 
 ---
 
 ### 💰 I want to make money with AI
-→ Monetization guides
+Coming soon:
+- How to actually make money with AI tools
 - Affiliate marketing basics
 - Content that converts
-- Passive income automation
 
 ---
 
 ### 🤷 I have no idea what I want yet
-→ Start with this:
+**Start here:**
 
-**[What is AI actually?]** — No jargon. No hype. Just what it is, what it does, and why you should care.
+1. [I didn't plan to learn AI](/posts/i-didnt-plan-to-learn-ai/) — my story, from injury to building AI tools
+2. [What is AI actually?](/posts/what-is-ai-actually/) — no jargon, just what it is
+
+Then come back here and pick a path.
 
 ---
 
