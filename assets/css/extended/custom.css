@@ -322,10 +322,32 @@ footer a {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   header { padding: 0.75rem 1rem !important; }
-  .home-info { padding: 5rem 1.5rem 3rem !important; }
-  article.post { padding: 2.5rem 1.5rem 2rem; }
-  .post-entry { padding: 1.5rem !important; }
+  .home-info { padding: 4rem 1.25rem 2.5rem !important; }
+  .home-info h1 { 
+    font-size: 1.8rem !important; 
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+  }
+  .home-info .entry-content { 
+    font-size: 1rem !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    max-width: 100% !important;
+  }
+  article.post { padding: 2rem 1.25rem 1.5rem; }
+  article.post h1 { font-size: 1.6rem; }
+  .post-entry { padding: 1.25rem !important; }
+  .post-entry .entry-header h2 { font-size: 1.15rem !important; }
+  .post-entry .entry-content { 
+    font-size: 0.9rem;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    -webkit-line-clamp: unset !important;
+  }
   .main .list { padding: 1.5rem 1rem; }
+  nav { gap: 0.25rem; }
+  nav a { font-size: 0.8rem !important; padding: 0.4rem 0.6rem !important; }
 }
 
 /* ===== SUBTLE ANIMATIONS ===== */
