@@ -65,6 +65,8 @@ theme = "PaperMod"
     weight = 5
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     codeFences = true
     guessSyntax = true
