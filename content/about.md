@@ -21,6 +21,24 @@ When AI started getting real, I didn't understand the concepts. Not the tools. N
 
 Not with a CS degree. Not with a bootcamp. Just curiosity, a laptop, and enough stubbornness to figure it out.
 
+## What this blog is
+
+**I test AI tools so you don't waste money on the ones that don't work.**
+
+Every tool on this blog — I've used it. Every review — based on real experience. Every recommendation — something I actually pay for or use daily.
+
+This isn't a blog that reads product specs and calls it a review. This is a blog where someone who doesn't code tries every tool, breaks things, fixes them, and tells you exactly what happened.
+
+**The format:**
+- 🔍 **Honest reviews** — I test, I break, I report back
+- 🛠️ **Step-by-step guides** — no assumptions, no "just run this"
+- 📊 **Comparisons** — I test 5 tools and tell you which one actually works
+- 💡 **What I'd do differently** — lessons from building this blog with AI
+
+**The promise:** If I recommend something, I use it. If it sucks, I'll say so. If there's a better option, I'll tell you.
+
+No affiliate-first recommendations. No "this tool is amazing!" when it's not. Just honest testing from someone who started from zero.
+
 ## What I learned
 
 You don't need to "learn to code" to build with AI. You need to learn **how machines think** — how tools connect, how automation works, how to ask the right questions.
