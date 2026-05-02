@@ -265,15 +265,15 @@ I test tools so you don't have to waste money on the ones that don't work. Here 
   <a href="https://n8n.io" class="tool-link" target="_blank">Try it →</a>
 </div>
 
-</div>
-
-
 <div class="tool-card">
   <span class="tool-badge badge-free">Free</span>
   <h3>LibreChat</h3>
   <p>Your own private ChatGPT. Self-hosted, supports all AI models (Claude, GPT, Gemini, Mistral), multi-user with login. One-click deploy on Railway. You own your data.</p>
   <a href="https://www.librechat.ai" class="tool-link" target="_blank">Try it →</a>
 </div>
+
+</div>
+
 ## Power Tools — For When You're Ready
 
 <div class="section-subtitle">More advanced. Bigger results. You'll know when you need these.</div>
