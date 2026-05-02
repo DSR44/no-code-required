@@ -31,9 +31,9 @@ Before I started, I thought I'd need:
 - Thousands of dollars ❌
 
 What I actually needed:
-- A GitHub account (free) ✅
-- A Vercel account (free) ✅
-- An AI tool (ChatGPT, Claude, whatever you use) ✅
+- A [GitHub](https://github.com) account (free) ✅
+- A [Vercel](https://vercel.com) account (free) ✅
+- An AI tool ([ChatGPT](https://chat.openai.com), [Claude](https://claude.ai), whatever you use) ✅
 - About 60 minutes ✅
 
 Total cost: $0.
@@ -44,7 +44,7 @@ I opened ChatGPT and typed:
 
 > "I want to build a blog. I don't know how to code. Walk me through it step by step."
 
-It suggested Hugo — a tool that generates blogs from simple text files. No database, no WordPress, no monthly fees. Just text files that become a website.
+It suggested Hugo — a tool that generates blogs from simple text files. No database, no WordPress, no monthly fees. Just text files that become a website. ([See Hugo in action](https://gohugo.io))
 
 Then it walked me through:
 1. Installing Hugo (3 commands)
@@ -163,19 +163,28 @@ Yes. If I can do it with zero coding experience, you can too.
 The only skill you need is knowing how to ask questions. And you already know how to do that.
 
 **Start here:**
-1. Open your AI tool of choice
+1. Open your AI tool of choice ([ChatGPT](https://chat.openai.com) or [Claude](https://claude.ai))
 2. Type: "I want to build a blog. I don't know how to code. Help me."
 3. Follow the steps
 4. Ask when you get stuck
 
 That's it. One hour. Your blog is live.
 
+**Want to see what I built?** Check out the [Tools page](/tools/) — all the AI tools I actually use, organized from beginner to power user.
+
 ---
 
 **Related reading:**
-- *What is AI actually?* — the basics explained without the jargon
+- [What is AI actually?](/posts/what-is-ai-actually/) — the basics explained without the jargon
+- [I didn't plan to learn AI](/posts/i-didnt-plan-to-learn-ai/) — how I got started
 - *The tools I actually use every day* (coming May 3) — my real toolkit
 - *AI images: which tool actually works?* (coming May 4) — honest comparison
+
+**External resources:**
+- [Hugo documentation](https://gohugo.io/documentation/) — official Hugo docs
+- [PaperMod theme guide](https://github.com/adityatelange/hugo-PaperMod/wiki) — theme setup
+- [Vercel deployment docs](https://vercel.com/docs) — hosting guide
+- [GitHub for beginners](https://docs.github.com/en/get-started) — Git basics
 
 ---
 
