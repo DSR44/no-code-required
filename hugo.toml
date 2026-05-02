@@ -40,24 +40,29 @@ theme = "PaperMod"
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "Tools"
+    name = "Blog"
     url = "/posts/"
     weight = 1
+  [[menu.main]]
+    identifier = "tools"
+    name = "Tools"
+    url = "/tools/"
+    weight = 2
   [[menu.main]]
     identifier = "tutorials"
     name = "Tutorials"
     url = "/tags/tutorial/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "start"
     name = "Start Here"
     url = "/start-here/"
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 4
+    weight = 5
 
 [markup]
   [markup.highlight]
