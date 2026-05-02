@@ -113,14 +113,48 @@ It walked me through adding DNS records. Took 5 minutes. Now my blog lives at no
 
 **AI is the real upgrade.** Without AI, I'd have spent weeks learning Hugo, Git, deployment. With AI, I did it in an hour by asking questions.
 
+## What I'd do differently
+
+Looking back, there are a few things I'd change:
+
+1. **Start with the domain first.** I built the whole blog on a Vercel subdomain, then had to reconnect everything when I bought nocoderequired.net. Buy the domain first ($10/year on Namecheap or Cloudflare).
+
+2. **Write 5 posts before publishing.** I published with just one post. The blog looked empty. Write 5 posts first, then go live. Your visitors will stay longer.
+
+3. **Set up analytics from day one.** I waited weeks before adding Vercel Analytics (free). Now I know which posts people read. Add it on day one.
+
+4. **Don't overthink the theme.** I spent 2 hours comparing themes. PaperMod was the right choice from the start. Pick one, move on. You can change it later.
+
+5. **Ask AI to review your posts.** After writing, paste your draft into AI and ask: "What's missing? What would a beginner ask?" It'll find gaps you didn't see.
+
+## Comparison: different ways to build a blog
+
+| Method | Cost | Difficulty | Time | Best for |
+|--------|------|------------|------|----------|
+| **Hugo + Vercel** (what I used) | $0-10/year | Easy with AI | 1 hour | Fast, free, no maintenance |
+| WordPress | $30-100/month | Medium | 2-3 hours | Plugins, SEO tools, flexibility |
+| Squarespace | $16-49/month | Easy | 1-2 hours | Beautiful templates, drag-and-drop |
+| Ghost | $9-25/month | Easy | 1 hour | Newsletter integration, paid subscriptions |
+| Medium | Free | Easiest | 10 minutes | No setup, built-in audience, but no control |
+
+I went with Hugo because:
+- **Free forever** (no monthly fees)
+- **Fast** (static sites load instantly)
+- **No maintenance** (no updates, no security patches)
+- **Full control** (you own everything)
+
+The tradeoff: it's slightly more technical than Squarespace. But with AI walking you through it, that tradeoff disappears.
+
 ## The tools I used
 
-- **Hugo** — static site generator (free)
-- **PaperMod** — theme (free)
-- **GitHub** — code storage (free)
-- **Vercel** — hosting + deployment (free)
-- **ChatGPT/Claude** — my guide through the whole process
-- **Namecheap** — domain ($10/year)
+- **[Hugo](https://gohugo.io)** — static site generator (free)
+- **[PaperMod](https://github.com/adityatelange/hugo-PaperMod)** — theme (free)
+- **[GitHub](https://github.com)** — code storage (free)
+- **[Vercel](https://vercel.com)** — hosting + deployment (free)
+- **ChatGPT / Claude** — my guide through the whole process
+- **[Namecheap](https://namecheap.com)** — domain ($10/year)
+
+All free except the domain. Total startup cost: $10.
 
 ## Can you do this?
 
