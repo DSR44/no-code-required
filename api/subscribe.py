@@ -12,26 +12,26 @@ RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
 AUDIENCE_ID = os.environ.get("RESEND_AUDIENCE_ID", "")
 
 WELCOME_HTML = """
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 0; background: #0a0a0b;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; background: #0a0a0b;">
     <!-- Header -->
     <div style="background: linear-gradient(135deg, #131316 0%, #1a1a1d 100%); padding: 40px 20px; text-align: center; border-bottom: 3px solid #e8a87c;">
         <h1 style="color: #e8e6e1; font-size: 28px; margin: 0; letter-spacing: 2px;">NO CODE REQUIRED</h1>
-        <p style="color: #e8a87c; font-size: 12px; margin: 8px 0 0 0; letter-spacing: 3px; text-transform: uppercase;">I test it so you don't have to</p>
+        <p style="color: #e8a87c; font-size: 13px; margin: 10px 0 0 0; letter-spacing: 1px;">i test it so you don't have to</p>
     </div>
     
     <!-- Body -->
-    <div style="padding: 32px 20px;">
+    <div style="padding: 32px 24px;">
         <p style="font-size: 18px; color: #e8e6e1; margin-bottom: 16px;">Hey,</p>
         <p style="font-size: 16px; line-height: 1.7; color: #8a8880; margin-bottom: 16px;">Thanks for subscribing to No Code Required.</p>
-        <p style="font-size: 16px; line-height: 1.7; color: #8a8880; margin-bottom: 16px;">I test AI tools so you don't waste money on the ones that don't work. Every review is based on real experience — not product pages and press releases.</p>
-        <p style="font-size: 16px; line-height: 1.7; color: #8a8880; margin-bottom: 16px;">You'll get an email when I publish something new. No daily digests. No "5 reasons you NEED this tool" spam. Just honest reviews from someone who started from zero.</p>
+        <p style="font-size: 16px; line-height: 1.7; color: #8a8880; margin-bottom: 16px;">I test AI tools so you don't waste money on the ones that don't work. Every review is based on real experience. Not product pages. Not press releases.</p>
+        <p style="font-size: 16px; line-height: 1.7; color: #8a8880; margin-bottom: 16px;">You will get an email when I publish something new. No daily digests. No spam. Just honest reviews from someone who started from zero.</p>
         <p style="font-size: 16px; line-height: 1.7; color: #8a8880; margin-bottom: 24px;">Hit reply if you ever want to suggest a tool for me to test. I actually read them.</p>
-        <p style="font-size: 16px; color: #e8a87c;">— Manal</p>
+        <p style="font-size: 16px; color: #e8a87c; font-weight: 600;">Manal</p>
     </div>
     
     <!-- Footer -->
-    <div style="background: #111; padding: 20px; text-align: center; border-top: 1px solid #222;">
-        <p style="font-size: 12px; color: #555; line-height: 1.5; margin: 0;">No Code Required | <a href="https://www.nocoderequired.net" style="color: #e8a87c; text-decoration: none;">nocoderequired.net</a><br>You're receiving this because you subscribed. Reply "unsubscribe" to stop.</p>
+    <div style="background: #131316; padding: 20px 24px; text-align: center;">
+        <p style="font-size: 12px; color: #555; line-height: 1.5; margin: 0;"><a href="https://www.nocoderequired.net" style="color: #e8a87c; text-decoration: none;">nocoderequired.net</a> | Reply "unsubscribe" to stop</p>
     </div>
 </div>
 """
