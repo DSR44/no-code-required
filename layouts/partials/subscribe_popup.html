@@ -119,17 +119,10 @@
         btn.textContent = '...';
         
         try {
-            const response = await fetch('https://api.resend.com/contacts', {
+            const response = await fetch('/api/subscribe', {
                 method: 'POST',
-                headers: { 
-                    'Content-Type': 'application/json',
-                    'Authorization': 'Bearer re_LB9DJvVf_QFq2zGLsDz6xQ6v8rBqEhvnQ'
-                },
-                body: JSON.stringify({ 
-                    email: email,
-                    audience_id: 'nocoderequired',
-                    unsubscribed: false
-                })
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email: email })
             });
             
             const data = await response.json();
