@@ -1,0 +1,159 @@
+<!-- NCR Slide-In Subscription Pop-up -->
+<div id="subscribe-popup" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #131316 0%, #1a1a1d 100%);
+    border: 1px solid #2a2a2d;
+    border-radius: 12px;
+    padding: 24px;
+    width: 320px;
+    max-width: calc(100vw - 40px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transform: translateX(400px);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+">
+    <button id="close-popup" style="
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background: none;
+        border: none;
+        color: #666;
+        font-size: 20px;
+        cursor: pointer;
+        line-height: 1;
+        padding: 4px;
+        transition: color 0.2s;
+    ">&times;</button>
+    
+    <h4 style="color: #e8e6e1; font-size: 16px; margin: 0 0 6px 0; font-weight: 600;">Like what you're reading?</h4>
+    <p style="color: #8a8880; font-size: 13px; margin: 0 0 16px 0; line-height: 1.4;">Get new tool reviews delivered. Honest, not sponsored.</p>
+    
+    <form id="popup-subscribe-form" style="display: flex; gap: 8px;">
+        <input type="email" id="popup-email" placeholder="your@email.com" required style="
+            flex: 1;
+            padding: 10px 12px;
+            border: 1px solid #333;
+            border-radius: 6px;
+            background: #0a0a0b;
+            color: #e8e6e1;
+            font-size: 14px;
+            outline: none;
+        ">
+        <button type="submit" id="popup-subscribe-btn" style="
+            background: #e8a87c;
+            color: #0a0a0b;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            font-weight: 600;
+            white-space: nowrap;
+        ">Subscribe</button>
+    </form>
+    
+    <p id="popup-message" style="margin: 12px 0 0 0; font-size: 12px; display: none;"></p>
+</div>
+
+<style>
+#subscribe-popup.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+#close-popup:hover { color: #aaa !important; }
+#popup-email:focus { border-color: #e8a87c !important; }
+#popup-subscribe-btn:hover { background: #d4956a !important; }
+@media (max-width: 400px) {
+    #subscribe-popup {
+        left: 10px;
+        right: 10px;
+        width: auto;
+        bottom: 10px;
+    }
+}
+</style>
+
+<script>
+(function() {
+    if (sessionStorage.getItem('ncr_subscribed') || sessionStorage.getItem('ncr_popup_dismissed')) {
+        return;
+    }
+    
+    let shown = false;
+    const showPopup = function() {
+        if (shown) return;
+        shown = true;
+        const popup = document.getElementById('subscribe-popup');
+        if (popup) popup.classList.add('show');
+    };
+    
+    setTimeout(showPopup, 30000);
+    
+    window.addEventListener('scroll', function() {
+        const scrollPercent = (window.scrollY + window.innerHeight) / document.body.scrollHeight;
+        if (scrollPercent > 0.5) showPopup();
+    }, { passive: true });
+    
+    document.getElementById('close-popup')?.addEventListener('click', function() {
+        const popup = document.getElementById('subscribe-popup');
+        if (popup) {
+            popup.classList.remove('show');
+            sessionStorage.setItem('ncr_popup_dismissed', 'true');
+        }
+    });
+    
+    document.getElementById('popup-subscribe-form')?.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const email = document.getElementById('popup-email').value;
+        const msg = document.getElementById('popup-message');
+        const btn = document.getElementById('popup-subscribe-btn');
+        
+        btn.disabled = true;
+        btn.textContent = '...';
+        
+        try {
+            const response = await fetch('https://api.resend.com/contacts', {
+                method: 'POST',
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer re_LB9DJvVf_QFq2zGLsDz6xQ6v8rBqEhvnQ'
+                },
+                body: JSON.stringify({ 
+                    email: email,
+                    audience_id: 'nocoderequired',
+                    unsubscribed: false
+                })
+            });
+            
+            const data = await response.json();
+            
+            if (data.id || response.ok) {
+                msg.textContent = '✓ Check your inbox!';
+                msg.style.color = '#6bc4c4';
+                msg.style.display = 'block';
+                sessionStorage.setItem('ncr_subscribed', 'true');
+                setTimeout(function() {
+                    document.getElementById('subscribe-popup')?.classList.remove('show');
+                }, 2000);
+            } else {
+                msg.textContent = 'Error. Try again.';
+                msg.style.color = '#f87171';
+                msg.style.display = 'block';
+            }
+        } catch (err) {
+            msg.textContent = 'Error. Try again.';
+            msg.style.color = '#f87171';
+            msg.style.display = 'block';
+        }
+        
+        btn.disabled = false;
+        btn.textContent = 'Subscribe';
+    });
+})();
+</script>
