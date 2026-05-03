@@ -24,7 +24,7 @@ This is the honest list — what works, what doesn't, and why.
 
 ## ChatGPT — the one I keep going back to
 
-**What it is:** OpenAI's chatbot. Text, code, images, voice — it does most things well.
+**What it is:** [OpenAI's chatbot](https://chat.openai.com). Text, code, images, voice — it does most things well.
 
 **What I actually use it for:**
 - Writing first drafts (blog posts, emails, social media)
@@ -39,13 +39,13 @@ This is the honest list — what works, what doesn't, and why.
 
 **Honest take:** ChatGPT is the Swiss Army knife of AI. It's not the best at anything specific, but it's good enough at most things. If you're only going to use one AI tool, start here.
 
-**Price:** Free tier is surprisingly good. $20/month for Plus gives you better models and image generation.
+**Price:** Free tier is surprisingly good. [$20/month for Plus](https://openai.com/chatgpt/pricing) gives you better models and image generation.
 
 ---
 
 ## Claude — the one I use for serious writing
 
-**What it is:** Anthropic's chatbot. Better at long-form writing and nuanced reasoning.
+**What it is:** [Anthropic's chatbot](https://claude.ai). Better at long-form writing and nuanced reasoning.
 
 **What I actually use it for:**
 - Writing blog posts that need to sound human
@@ -60,13 +60,13 @@ This is the honest list — what works, what doesn't, and why.
 
 **Honest take:** Claude writes better than ChatGPT. If you're writing something that needs to sound authentic — not like AI wrote it — Claude is the move. It's more careful, more thoughtful, and less likely to give you generic filler.
 
-**Price:** Free tier is solid. $20/month for Pro.
+**Price:** Free tier is solid. [$20/month for Pro](https://claude.ai/pricing).
 
 ---
 
 ## Notion — my second brain
 
-**What it is:** Notes, databases, project management. All in one place.
+**What it is:** [Notes, databases, project management](https://notion.so). All in one place.
 
 **What I actually use it for:**
 - Tracking blog posts (status, publish date, topic)
@@ -75,19 +75,19 @@ This is the honest list — what works, what doesn't, and why.
 - Meeting notes and research
 
 **What it's NOT good at:**
-- Complex project management (use dedicated tools for that)
+- Complex project management (use [Linear](https://linear.app) for that)
 - Offline access (needs internet to work well)
 - Speed with large databases (can get slow)
 
 **Honest take:** Notion isn't AI, but its AI features are getting better. The real value is organization. If you're building anything with content, you need a system. Notion is mine.
 
-**Price:** Free for personal use. $10/month for Plus.
+**Price:** Free for personal use. [$10/month for Plus](https://notion.so/pricing).
 
 ---
 
 ## GitHub — where my code lives
 
-**What it is:** Code hosting. Version control. Collaboration.
+**What it is:** [Code hosting](https://github.com). Version control. Collaboration.
 
 **What I actually use it for:**
 - Hosting my blog (connected to Vercel for auto-deploy)
@@ -96,7 +96,7 @@ This is the honest list — what works, what doesn't, and why.
 - Sharing projects publicly
 
 **What it's NOT good at:**
-- Learning to code (use a course for that)
+- Learning to code (use a [free course](https://www.freecodecamp.org) for that)
 - Non-code projects (it's built for developers)
 
 **Honest take:** GitHub scared me at first. It looked like it was built for engineers. But for hosting a blog with auto-deploy? It's dead simple. Push code → blog updates. That's it.
@@ -107,7 +107,7 @@ This is the honest list — what works, what doesn't, and why.
 
 ## Vercel — my blog runs here
 
-**What it is:** Hosting platform. You push code to GitHub, Vercel makes it a website.
+**What it is:** [Hosting platform](https://vercel.com). You push code to GitHub, Vercel makes it a website.
 
 **What I actually use it for:**
 - Hosting [my blog](/posts/i-didnt-plan-to-learn-ai/)
@@ -121,13 +121,13 @@ This is the honest list — what works, what doesn't, and why.
 
 **Honest take:** Vercel made it possible for me to have a blog without understanding servers, DNS, or hosting. Push to GitHub → blog goes live. Free. No credit card.
 
-**Price:** Free tier is generous. Pro is $20/month if you need more.
+**Price:** Free tier is generous. [Pro is $20/month](https://vercel.com/pricing) if you need more.
 
 ---
 
 ## Hugo — my blog's engine
 
-**What it is:** A static site generator. Turns markdown files into a website.
+**What it is:** A [static site generator](https://gohugo.io). Turns markdown files into a website.
 
 **What I actually use it for:**
 - Building my blog from markdown files
@@ -138,9 +138,9 @@ This is the honest list — what works, what doesn't, and why.
 - Dynamic content (comments, user accounts — need plugins)
 - Visual editing (you write in code/markdown, not a drag-and-drop builder)
 
-**Honest take:** Hugo is fast. Like, really fast. My blog loads in under a second. If you want a blog that's fast, simple, and free to host — Hugo is the answer. But if you want a visual builder where you drag stuff around, use something else.
+**Honest take:** Hugo is fast. Like, really fast. My blog loads in under a second. If you want a blog that's fast, simple, and free to host — Hugo is the answer. But if you want a visual builder where you drag stuff around, use [Wix](https://wix.com) or [Squarespace](https://squarespace.com).
 
-**Price:** Free. Open source.
+**Price:** Free. [Open source](https://github.com/gohugoio/hugo).
 
 ---
 
@@ -148,36 +148,36 @@ This is the honest list — what works, what doesn't, and why.
 
 Not everything works. Here's what I tested and why I stopped:
 
-**Midjourney** — Beautiful images, but expensive and requires Discord. Switched to free alternatives.
+**[Midjourney](https://midjourney.com)** — Beautiful images, but expensive and requires Discord. Switched to free alternatives.
 
 **Notion AI** — Writing assistant in Notion. Okay for quick edits, but not good enough for real writing.
 
-**Grammarly** — Good for catching typos, but the AI suggestions made my writing sound generic.
+**[Grammarly](https://grammarly.com)** — Good for catching typos, but the AI suggestions made my writing sound generic.
 
-**Jasper** — AI writing tool. Great for marketing copy, but $49/month is too much for what it does.
+**[Jasper](https://jasper.ai)** — AI writing tool. Great for marketing copy, but $49/month is too much for what it does.
 
-**Copy.ai** — Similar to Jasper. Good templates, but not worth the subscription.
+**[Copy.ai](https://copy.ai)** — Similar to Jasper. Good templates, but not worth the subscription.
 
 ---
 
 ## What I'd recommend if you're starting today
 
 **If you have $0:**
-1. ChatGPT (free tier)
-2. Notion (free)
-3. GitHub (free)
-4. Vercel (free)
-5. Hugo (free)
+1. [ChatGPT](https://chat.openai.com) (free tier)
+2. [Notion](https://notion.so) (free)
+3. [GitHub](https://github.com) (free)
+4. [Vercel](https://vercel.com) (free)
+5. [Hugo](https://gohugo.io) (free)
 
 That's a complete blog setup. For free.
 
 **If you have $20/month:**
-- Upgrade ChatGPT to Plus ($20/month)
+- Upgrade [ChatGPT to Plus](https://openai.com/chatgpt/pricing) ($20/month)
 - Everything else stays free
 
 **If you have $40/month:**
-- ChatGPT Plus ($20/month)
-- Claude Pro ($20/month)
+- [ChatGPT Plus](https://openai.com/chatgpt/pricing) ($20/month)
+- [Claude Pro](https://claude.ai/pricing) ($20/month)
 - Everything else stays free
 
 Don't buy more tools. Use what you have. The tools aren't the bottleneck — the work is.
