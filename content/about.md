@@ -5,7 +5,7 @@ draft: false
 ShowToc: false
 ---
 
-## Hey, I'm Menel.
+## Hey, I'm Manal.
 
 I didn't plan to learn AI. Life kind of forced me into it.
 

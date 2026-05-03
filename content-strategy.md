@@ -166,14 +166,14 @@ Rule: If you wouldn't recommend it to a friend, don't recommend it to your reade
 
 ## Creator Database
 
-### Menel's Story (to be filled in by creator)
+### Manal's Story (to be filled in by creator)
 - First encounter with AI: [TBD]
 - First project built: [TBD]
 - Biggest frustration: [TBD]
 - Key lesson: [TBD]
 - Breakthrough moment: [TBD]
 
-### Tools Menel Has Built:
+### Tools Manal Has Built:
 1. The Infinity Engine (SHA-256 mathematical tool suite)
 2. Constellation Compiler (3D web visualization)
 3. Resonance Engine (trending topic finder)
@@ -183,10 +183,10 @@ Rule: If you wouldn't recommend it to a friend, don't recommend it to your reade
 7. CoachMetrics (fitness SaaS)
 8. Code Collab (fitness industry network)
 
-### Tools Menel Uses Daily:
+### Tools Manal Uses Daily:
 [To be filled in as we build content]
 
-### Menel's Fitness Background:
+### Manal's Fitness Background:
 - Bodybuilder
 - Trains athletes
 - Runs programs

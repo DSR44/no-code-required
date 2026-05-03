@@ -1,7 +1,7 @@
-# NCR — Creator Profile: Menel
+# NCR — Creator Profile: Manal
 
 ## Background
-- **Name:** Menel
+- **Name:** Manal
 - **Background:** Bodybuilder, trains athletes
 - **Location:** New Hampshire, USA
 - **Started with AI:** 2021-2022 (crypto space, bots and generative AI)

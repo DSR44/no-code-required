@@ -1,7 +1,7 @@
 # NCR — AI Tools Database
 
 ## Writing & Content
-| Tool | What It Does | Price | Menel's Verdict | Link |
+| Tool | What It Does | Price | Manal's Verdict | Link |
 |------|-------------|-------|-----------------|------|
 | ChatGPT | General AI assistant | Free / $20/mo | Essential. Start here. | chat.openai.com |
 | Claude | Advanced writing AI | Free / $20/mo | Better for long-form. More nuanced. | claude.ai |
@@ -11,7 +11,7 @@
 | Notion AI | Writing in Notion | $10/mo add-on | Great if you already use Notion. | notion.so |
 
 ## Image Generation
-| Tool | What It Does | Price | Menel's Verdict | Link |
+| Tool | What It Does | Price | Manal's Verdict | Link |
 |------|-------------|-------|-----------------|------|
 | Midjourney | AI image generation | $10/mo | Best quality. Learning curve. | midjourney.com |
 | DALL-E 3 | AI images via ChatGPT | Included in Plus | Easy. Good for beginners. | via ChatGPT |
@@ -20,7 +20,7 @@
 | Leonardo AI | AI image generation | Free / $12/mo | Good free tier. Gaming/art focus. | leonardo.ai |
 
 ## Video & Audio
-| Tool | What It Does | Price | Menel's Verdict | Link |
+| Tool | What It Does | Price | Manal's Verdict | Link |
 |------|-------------|-------|-----------------|------|
 | Suno | AI music generation | Free / $10/mo | Incredible. Makes real songs. | suno.com |
 | Runway | AI video editing | Free / $15/mo | Advanced. Worth learning. | runway.ml |
@@ -29,7 +29,7 @@
 | CapCut | Video editing | Free | Best free video editor. | capcut.com |
 
 ## Automation
-| Tool | What It Does | Price | Menel's Verdict | Link |
+| Tool | What It Does | Price | Manal's Verdict | Link |
 |------|-------------|-------|-----------------|------|
 | n8n | Workflow automation | Free (self-hosted) | Powerful. Steep learning curve. | n8n.io |
 | Zapier | Connect apps | Free / $20/mo | Easiest. Limited free tier. | zapier.com |
@@ -37,7 +37,7 @@
 | IFTTT | Simple automation | Free / $5/mo | Very basic. Good for beginners. | ifttt.com |
 
 ## Coding & Development
-| Tool | What It Does | Price | Menel's Verdict | Link |
+| Tool | What It Does | Price | Manal's Verdict | Link |
 |------|-------------|-------|-----------------|------|
 | GitHub Copilot | AI code completion | $10/mo | Essential for coding. | github.com/features/copilot |
 | Cursor | AI code editor | Free / $20/mo | Best AI-first code editor. | cursor.sh |
@@ -47,7 +47,7 @@
 | v0 by Vercel | UI component generator | Free tier | Generate React components. | v0.dev |
 
 ## Business & Productivity
-| Tool | What It Does | Price | Menel's Verdict | Link |
+| Tool | What It Does | Price | Manal's Verdict | Link |
 |------|-------------|-------|-----------------|------|
 | Notion | All-in-one workspace | Free / $10/mo | You need this. Period. | notion.so |
 | Superhuman | AI email client | $30/mo | Expensive but saves hours. | superhuman.com |
@@ -56,7 +56,7 @@
 | Perplexity | AI search engine | Free / $20/mo | Better than Google for research. | perplexity.ai |
 
 ## Website & Hosting
-| Tool | What It Does | Price | Menel's Verdict | Link |
+| Tool | What It Does | Price | Manal's Verdict | Link |
 |------|-------------|-------|-----------------|------|
 | Vercel | Website hosting | Free tier | Best for static sites. | vercel.com |
 | Netlify | Website hosting | Free tier | Good alternative to Vercel. | netlify.com |
@@ -67,4 +67,4 @@
 
 ---
 
-*This database grows as Menel tests more tools. Only tools she's actually used get added.*
+*This database grows as Manal tests more tools. Only tools she's actually used get added.*

@@ -79,7 +79,7 @@
 - **Type:** Personal List
 - **Angle:** Honest, no-BS tool stack
 - **Personal hook:** "Most 'best tools' lists are ads. These are mine."
-- **Tools mentioned:** All of Menel's actual tools
+- **Tools mentioned:** All of Manal's actual tools
 - **Key message:** You don't need 50 tools. You need 5 good ones.
 - **Length:** 1000 words
 - **Affiliate potential:** HIGH
