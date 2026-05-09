@@ -70,7 +70,7 @@ Click "Publish" and set it to "Anyone with a link." Copy the link. You now have 
 
 ### Step 4: Embed it on your website (10 minutes)
 
-To embed it on your site, you'll need a wrapper. [ChatBotBuilder.ai](https://www.chatbotbuilder.ai) and [Botsonic](https://writesonic.com/chatbot) both let you import a GPT and embed it as a widget on your site.
+To embed it on your site, you'll need a wrapper. [ChatBotBuilder.ai](https://www.chatbotbuilder.ai) and [Botsonic](https://writesonic.com/botsonic) both let you import a GPT and embed it as a widget on your site.
 
 Alternatively, just share the link directly — put it in your bio, email signature, or landing page.
 
@@ -89,7 +89,7 @@ Alternatively, just share the link directly — put it in your bio, email signat
 - [ChatBotBuilder.ai](https://www.chatbotbuilder.ai) — fastest, no-code, website crawl
 - [Botpress](https://botpress.com) — drag-and-drop flows, multi-channel
 - [ChatGPT Custom GPT](https://chat.openai.com) — most powerful, requires Plus ($20/mo)
-- [Botsonic by Writesonic](https://writesonic.com/chatbot) — GPT wrapper with embed
+- [Botsonic by Writesonic](https://writesonic.com/botsonic) — GPT wrapper with embed
 - [Thinkstack.ai](https://www.thinkstack.ai) — free tier, simple embed
 - [BotPenguin](https://botpenguin.com) — free plan, works with WhatsApp and Telegram
 
