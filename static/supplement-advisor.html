@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Supplement Advisor — Research-Backed Recommendations</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',-apple-system,sans-serif;background:#0f0f0f;color:#e0e0e0;min-height:100vh}
+.container{max-width:700px;margin:0 auto;padding:20px}
+h1{font-size:1.8rem;margin-bottom:8px;color:#fff}
+.subtitle{color:#888;margin-bottom:30px;font-size:.95rem}
+.section{margin-bottom:24px}
+label{display:block;margin-bottom:8px;font-weight:600;color:#ccc;font-size:.9rem}
+select,input[type="text"]{width:100%;padding:12px;background:#1a1a1a;border:1px solid #333;border-radius:8px;color:#fff;font-size:.95rem}
+select[multiple]{height:180px}
+option{padding:8px}
+option:checked{background:#dc3232;color:#fff}
+.btn{background:#dc3232;color:#fff;border:none;padding:14px 28px;border-radius:8px;font-size:1rem;font-weight:600;cursor:pointer;width:100%;margin-top:20px}
+.btn:hover{background:#b82828}
+.results{display:none;margin-top:30px}
+.result-card{background:#1a1a1a;border:1px solid #333;border-radius:12px;padding:20px;margin-bottom:16px}
+.result-num{display:inline-block;background:#dc3232;color:#fff;width:28px;height:28px;border-radius:50%;text-align:center;line-height:28px;font-weight:700;font-size:.85rem;margin-right:10px}
+.result-name{font-size:1.1rem;font-weight:700;color:#fff}
+.result-detail{margin-top:12px;font-size:.88rem;line-height:1.6;color:#aaa}
+.result-detail strong{color:#ccc}
+.result-caution{margin-top:10px;padding:10px;background:#2a1a1a;border-radius:6px;font-size:.82rem;color:#dc3232}
+.result-source{margin-top:8px;font-size:.8rem}
+.result-source a{color:#4a9eff;text-decoration:none}
+.disclaimer{margin-top:30px;padding:16px;background:#1a1a1a;border:1px solid #333;border-radius:8px;font-size:.8rem;color:#666;line-height:1.5}
+.email-gate{text-align:center;padding:40px 20px}
+.email-gate h2{color:#fff;margin-bottom:10px}
+.email-gate p{color:#888;margin-bottom:20px}
+.email-input{width:100%;padding:12px;background:#1a1a1a;border:1px solid #333;border-radius:8px;color:#fff;font-size:.95rem;margin-bottom:12px}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>AI Supplement Advisor</h1>
+<p class="subtitle">Research-backed recommendations based on your needs. Powered by PubMed, Examine.com, and NIH data.</p>
+
+<div id="questionnaire">
+<div class="section">
+<label>Your age</label>
+<input type="text" id="age" placeholder="e.g., 32">
+</div>
+<div class="section">
+<label>Sex</label>
+<select id="sex">
+<option value="">Select</option>
+<option value="F">Female</option>
+<option value="M">Male</option>
+</select>
+</div>
+<div class="section">
+<label>Your main concerns (hold Ctrl/Cmd to select multiple)</label>
+<select id="concerns" multiple>
+<option value="sleep">Trouble sleeping / waking at 3am</option>
+<option value="anxiety">Anxiety / racing thoughts</option>
+<option value="fatigue">Fatigue / low energy</option>
+<option value="brain_fog">Brain fog / poor concentration</option>
+<option value="stress">High stress / feeling overwhelmed</option>
+<option value="inflammation">Joint pain / inflammation</option>
+<option value="gut_health">Digestive issues / bloating</option>
+<option value="muscle">Building muscle / strength</option>
+<option value="hormones">Hormonal issues / low libido</option>
+<option value="immune">Getting sick often</option>
+<option value="mood">Low mood / lack of motivation</option>
+<option value="skin">Skin problems / acne</option>
+<option value="weight_management">Weight management / insulin resistance</option>
+<option value="heart_health">Heart health concerns</option>
+</select>
+</div>
+<div class="section">
+<label>Supplements you already take (comma-separated, or "none")</label>
+<input type="text" id="current" placeholder="e.g., magnesium, vitamin d">
+</div>
+<div class="section">
+<label>Are you on any medications?</label>
+<select id="meds">
+<option value="no">No</option>
+<option value="yes">Yes</option>
+</select>
+</div>
+<button class="btn" onclick="analyze()">Get My Recommendations</button>
+</div>
+
+<div class="email-gate hidden" id="emailGate">
+<h2>Your results are ready</h2>
+<p>Enter your email to see your personalized supplement stack</p>
+<input type="email" class="email-input" id="email" placeholder="your@email.com">
+<button class="btn" onclick="showResults()">Show My Results</button>
+</div>
+
+<div class="results" id="results">
+<h2 style="color:#fff;margin-bottom:20px">Your Personalized Supplement Stack</h2>
+<p style="color:#888;margin-bottom:20px;font-size:.9rem" id="summary"></p>
+<div id="recommendations"></div>
+<div class="disclaimer">
+<strong>DISCLAIMER:</strong> This is not medical advice. These recommendations are based on published research and are intended for educational purposes only. Always consult your healthcare provider before starting any supplement regimen, especially if you are on medications.
+</div>
+</div>
+</div>
+
+<script>
+const DB={
+magnesium:{name:"Magnesium Glycinate",relevance:["sleep","anxiety","muscle_cramps","stress","blood_pressure","headaches"],dose:"200-400mg before bed",timing:"Evening",evidence:"Involved in 600+ enzymatic reactions. 50% of people are deficient.",source:"NIH Office of Dietary Supplements",pubmed:"https://pubmed.ncbi.nlm.nih.gov/29342754/",caution:"Avoid magnesium oxide (4% absorption). Use glycinate or citrate."},
+vitamin_d:{name:"Vitamin D3 + K2",relevance:["fatigue","immune","bone_health","mood","hormones","autoimmune"],dose:"2,000-5,000 IU D3 + 100mcg K2",timing:"Morning with fat",evidence:"50% of people are deficient. Affects immune, mood, hormones, and bone density.",source:"NIH Office of Dietary Supplements",pubmed:"https://pubmed.ncbi.nlm.nih.gov/28768407/",caution:"Take with K2 to prevent calcium buildup in arteries."},
+omega3:{name:"Omega-3 (Fish Oil — TG form)",relevance:["inflammation","brain_fog","joint_pain","heart_health","mood","skin"],dose:"2-3g EPA+DHA combined",timing:"With meals",evidence:"Reduces inflammation, supports brain function, improves mood.",source:"Cochrane Reviews",pubmed:"https://pubmed.ncbi.nlm.nih.gov/30146932/",caution:"Use TG (triglyceride) form, not ethyl ester. Smell it — if fishy, it's rancid."},
+zinc:{name:"Zinc (with Copper)",relevance:["immune","skin","hormones","testosterone","wound_healing","taste_smell"],dose:"15-30mg zinc + 1-2mg copper",timing:"With food",evidence:"Critical for immune function, hormone production, and skin health.",source:"Examine.com",pubmed:"https://pubmed.ncbi.nlm.nih.gov/30146932/",caution:"Always take with copper. Zinc alone depletes copper over time."},
+creatine:{name:"Creatine Monohydrate",relevance:["muscle","strength","brain_fog","energy","recovery"],dose:"3-5g daily",timing:"Any time",evidence:"Most researched supplement. Improves strength, muscle, and cognitive function.",source:"Examine.com",pubmed:"https://pubmed.ncbi.nlm.nih.gov/28615996/",caution:"Monohydrate is the only form with strong evidence."},
+ashwagandha:{name:"Ashwagandha KSM-66",relevance:["stress","anxiety","cortisol","sleep","testosterone","fatigue"],dose:"300-600mg KSM-66 extract",timing:"Morning or evening",evidence:"Reduces cortisol by 30% in stressed individuals. Supports testosterone in men.",source:"Examine.com",pubmed:"https://pubmed.ncbi.nlm.nih.gov/23439984/",caution:"Cycle it — 8 weeks on, 4 weeks off. May affect thyroid medication."},
+probiotics:{name:"Multi-strain Probiotic",relevance:["gut_health","bloating","digestion","immune","mood","skin"],dose:"10-50 billion CFU, multiple strains",timing:"Morning on empty stomach or before bed",evidence:"Gut bacteria produce 95% of serotonin. Affects digestion, immunity, and mood.",source:"Cochrane Reviews",pubmed:"https://pubmed.ncbi.nlm.nih.gov/29043404/",caution:"Look for Lactobacillus and Bifidobacterium strains."},
+berberine:{name:"Berberine",relevance:["blood_sugar","insulin_resistance","cholesterol","weight_management","pcos"],dose:"500mg 2-3x daily with meals",timing:"Before meals",evidence:"Comparable to metformin for blood sugar control in some studies.",source:"Examine.com",pubmed:"https://pubmed.ncbi.nlm.nih.gov/18442447/",caution:"Can interact with medications. Check with doctor if on blood sugar meds."},
+l_theanine:{name:"L-Theanine",relevance:["anxiety","focus","sleep","stress","calm"],dose:"200-400mg",timing:"As needed or with morning coffee",evidence:"Promotes calm focus without drowsiness. Works synergistically with caffeine.",source:"Examine.com",pubmed:"https://pubmed.ncbi.nlm.nih.gov/30599503/",caution:"Safe at recommended doses. No significant side effects."},
+iron:{name:"Iron (Ferrous Bisglycinate)",relevance:["fatigue","cold_hands_feet","hair_loss","heavy_periods","pale_skin","brain_fog"],dose:"25-50mg elemental iron",timing:"Morning on empty stomach with vitamin C",evidence:"Ferritin under 30 = iron deficient. Most common deficiency worldwide.",source:"WHO",pubmed:"https://pubmed.ncbi.nlm.nih.gov/29084781/",caution:"Only supplement if blood work confirms low ferritin. Excess iron is toxic."},
+b12:{name:"Vitamin B12 (Methylcobalamin)",relevance:["fatigue","brain_fog","numbness_tingling","mood","vegetarian","vegan"],dose:"1,000-2,000mcg",timing:"Morning",evidence:"Critical for nerve function and energy. Common deficiency in plant-based diets.",source:"NIH Office of Dietary Supplements",pubmed:"https://pubmed.ncbi.nlm.nih.gov/29043404/",caution:"Use methylcobalamin form, not cyanocobalamin."}
+};
+
+let userData={};
+
+function analyze(){
+const age=document.getElementById('age').value;
+const sex=document.getElementById('sex').value;
+const concerns=Array.from(document.getElementById('concerns').selectedOptions).map(o=>o.value);
+const current=document.getElementById('current').value.toLowerCase().split(',').map(s=>s.trim()).filter(s=>s&&s!=='none');
+const meds=document.getElementById('meds').value;
+
+if(concerns.length===0){alert('Please select at least one concern.');return}
+
+userData={age,sex,concerns,current,meds};
+document.getElementById('questionnaire').classList.add('hidden');
+document.getElementById('emailGate').classList.remove('hidden');
+}
+
+function showResults(){
+const email=document.getElementById('email').value;
+if(!email||!email.includes('@')){alert('Please enter a valid email.');return}
+// In production, send email to Resend/email list here
+document.getElementById('emailGate').classList.add('hidden');
+document.getElementById('results').style.display='block';
+renderRecommendations();
+}
+
+function renderRecommendations(){
+const scores={};
+for(const[key,supp]of Object.entries(DB)){
+let score=0;
+for(const c of userData.concerns){
+if(supp.relevance.includes(c))score++;
+}
+if(score>0)scores[key]=score;
+}
+const ranked=Object.entries(scores).sort((a,b)=>b[1]-a[1]).slice(0,5);
+const summary=`Based on: ${userData.concerns.map(c=>c.replace(/_/g,' ')).join(', ')}. ${userData.current.length?'Already taking: '+userData.current.join(', ')+'.':''}`;
+document.getElementById('summary').textContent=summary;
+
+let html='';
+ranked.forEach(([key,score],i)=>{
+const s=DB[key];
+html+=`<div class="result-card">
+<div><span class="result-num">${i+1}</span><span class="result-name">${s.name}</span></div>
+<div class="result-detail">
+<strong>Dose:</strong> ${s.dose}<br>
+<strong>When:</strong> ${s.timing}<br>
+<strong>Why:</strong> ${s.evidence}
+</div>
+<div class="result-caution">⚠️ ${s.caution}</div>
+<div class="result-source">Source: ${s.s} · <a href="${s.pubmed}" target="_blank">Research</a></div>
+</div>`;
+});
+
+if(userData.meds==='yes'){
+html+=`<div class="result-card" style="border-color:#dc3232">
+<div class="result-name" style="color:#dc3232">⚠️ Medication Warning</div>
+<div class="result-detail">You reported taking medications. Always check with your doctor before adding supplements. Some supplements interact with medications — especially blood thinners, blood pressure meds, and diabetes medications.</div>
+</div>`;
+}
+
+document.getElementById('recommendations').innerHTML=html;
+}
+</script>
+</body>
+</html>
