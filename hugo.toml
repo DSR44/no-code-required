@@ -77,3 +77,9 @@ theme = "PaperMod"
   home = ["HTML", "RSS", "JSON"]
 
   [[menu.main]]
+
+  [[menu.main]]
+    identifier = "tool-advisor"
+    name = "Tool Advisor"
+    url = "/ai-tool-advisor.html"
+    weight = 2

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tool Advisor — Find the right tool in 60 seconds</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',-apple-system,sans-serif;background:#0f0f0f;color:#e0e0e0;min-height:100vh}
+.container{max-width:700px;margin:0 auto;padding:20px}
+h1{font-size:1.8rem;margin-bottom:8px;color:#fff}
+.subtitle{color:#888;margin-bottom:30px;font-size:.95rem}
+.section{margin-bottom:24px}
+label{display:block;margin-bottom:8px;font-weight:600;color:#ccc;font-size:.9rem}
+select,input[type="text"]{width:100%;padding:12px;background:#1a1a1a;border:1px solid #333;border-radius:8px;color:#fff;font-size:.95rem}
+option{padding:8px}
+.btn{background:#7c3aed;color:#fff;border:none;padding:14px 28px;border-radius:8px;font-size:1rem;font-weight:600;cursor:pointer;width:100%;margin-top:20px}
+.btn:hover{background:#6d28d9}
+.results{display:none;margin-top:30px}
+.result-card{background:#1a1a1a;border:1px solid #333;border-radius:12px;padding:20px;margin-bottom:16px}
+.result-num{display:inline-block;background:#7c3aed;color:#fff;width:28px;height:28px;border-radius:50%;text-align:center;line-height:28px;font-weight:700;font-size:.85rem;margin-right:10px}
+.result-name{font-size:1.1rem;font-weight:700;color:#fff}
+.result-badge{display:inline-block;background:#7c3aed22;color:#7c3aed;padding:2px 10px;border-radius:12px;font-size:.75rem;margin-left:8px;font-weight:600}
+.result-detail{margin-top:12px;font-size:.88rem;line-height:1.6;color:#aaa}
+.result-detail strong{color:#ccc}
+.result-link{display:inline-block;margin-top:10px;padding:8px 16px;background:#7c3aed;color:#fff;border-radius:6px;text-decoration:none;font-size:.85rem;font-weight:600}
+.result-link:hover{background:#6d28d9}
+.result-blog{margin-top:8px;font-size:.8rem;color:#888}
+.result-blog a{color:#7c3aed;text-decoration:none}
+.disclaimer{margin-top:30px;padding:16px;background:#1a1a1a;border:1px solid #333;border-radius:8px;font-size:.8rem;color:#666;line-height:1.5}
+.email-gate{text-align:center;padding:40px 20px}
+.email-gate h2{color:#fff;margin-bottom:10px}
+.email-gate p{color:#888;margin-bottom:20px}
+.email-input{width:100%;padding:12px;background:#1a1a1a;border:1px solid #333;border-radius:8px;color:#fff;font-size:.95rem;margin-bottom:12px}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>AI Tool Advisor</h1>
+<p class="subtitle">Tell us what you need. We'll match you to the right tools. No overwhelm. No 50-tool lists.</p>
+
+<div id="questionnaire">
+<div class="section">
+<label>What do you want to do?</label>
+<select id="goal">
+<option value="">Select your goal</option>
+<option value="write">Write content faster (blogs, emails, copy)</option>
+<option value="images">Create images or graphics</option>
+<option value="video">Create or edit videos</option>
+<option value="automate">Automate repetitive tasks</option>
+<option value="website">Build a website or landing page</option>
+<option value="social">Manage social media</option>
+<option value="research">Research and analyze data</option>
+<option value="email">Email marketing</option>
+<option value="chatbot">Build a chatbot or AI assistant</option>
+<option value="productivity">General productivity (notes, tasks, organization)</option>
+</select>
+</div>
+<div class="section">
+<label>Your technical level</label>
+<select id="level">
+<option value="">Select</option>
+<option value="beginner">Beginner — I want something that just works</option>
+<option value="intermediate">Intermediate — I can follow tutorials</option>
+<option value="advanced">Advanced — I'm comfortable with APIs and code</option>
+</select>
+</div>
+<div class="section">
+<label>Budget</label>
+<select id="budget">
+<option value="">Select</option>
+<option value="free">Free only</option>
+<option value="cheap">Under $20/month</option>
+<option value="mid">Under $50/month</option>
+<option value="any">No limit — just give me the best</option>
+</select>
+</div>
+<div class="section">
+<label>What's your biggest time waster right now?</label>
+<select id="waste">
+<option value="">Select</option>
+<option value="repetitive">Doing the same task over and over</option>
+<option value="research">Searching for information</option>
+<option value="writing">Writing content</option>
+<option value="design">Creating visuals</option>
+<option value="scheduling">Scheduling and organizing</option>
+<option value="communication">Emails and messages</option>
+</select>
+</div>
+<button class="btn" onclick="analyze()">Find My Tools</button>
+</div>
+
+<div class="email-gate hidden" id="emailGate">
+<h2>Your recommendations are ready</h2>
+<p>Enter your email to see your matched tools</p>
+<input type="email" class="email-input" id="email" placeholder="your@email.com">
+<button class="btn" onclick="showResults()">Show My Tools</button>
+</div>
+
+<div class="results" id="results">
+<h2 style="color:#fff;margin-bottom:20px">Your AI Tool Stack</h2>
+<p style="color:#888;margin-bottom:20px;font-size:.9rem" id="summary"></p>
+<div id="recommendations"></div>
+<div class="disclaimer">
+<strong>NOTE:</strong> These recommendations are based on our testing and research. We only recommend tools we've actually used. Some links may be affiliate links — if you sign up, we may earn a small commission at no extra cost to you.
+</div>
+</div>
+</div>
+
+<script>
+const TOOLS={
+chatgpt:{name:"ChatGPT",url:"https://chat.openai.com",price:"Free / $20/mo Plus",goals:["write","research","chatbot","productivity"],level:["beginner","intermediate","advanced"],budget:["free","cheap","mid","any"],badge:"Most Versatile",summary:"The Swiss army knife of AI. Good at writing, research, brainstorming, coding, and analysis. Free tier is generous. Plus gives you GPT-4, plugins, and image generation.",blog:"/posts/the-one-prompt-that-changed-everything/"},
+claude:{name:"Claude",url:"https://claude.ai",price:"Free / $20/mo Pro",goals:["write","research","chatbot"],level:["beginner","intermediate","advanced"],budget:["free","cheap","mid","any"],badge:"Best Writer",summary:"Better at nuanced writing and long documents than ChatGPT. Handles 200K+ tokens (entire books). Best for complex analysis, editing, and creative writing.",blog:null},
+midjourney:{name:"Midjourney",url:"https://midjourney.com",price:"$10/mo Basic",goals:["images"],level:["beginner","intermediate"],budget:["cheap","mid","any"],badge:"Best Image Quality",summary:"Creates the highest quality AI images. Requires Discord (weird, but worth it). Best for artistic, stylized visuals. Not great for photorealism.",blog:"/posts/ai-images-which-tool-actually-works/"},
+canva:{name:"Canva",url:"https://canva.com",price:"Free / $13/mo Pro",goals:["images","video","social"],level:["beginner"],budget:["free","cheap","mid","any"],badge:"Easiest to Use",summary:"Drag-and-drop design with AI features (Magic Eraser, text-to-image, templates). Free tier is incredibly generous. Best for non-designers who need professional-looking graphics.",blog:null},
+runway:{name:"Runway",url:"https://runwayml.com",price:"Free trial / $15/mo",goals:["video"],level:["beginner","intermediate"],budget:["cheap","mid","any"],badge:"Best AI Video",summary:"AI video generation and editing. Text-to-video, image-to-video, green screen removal, motion tracking. The tool that made AI video actually usable.",blog:null},
+zapier:{name:"Zapier",url:"https://zapier.com",price:"Free / $20/mo Starter",goals:["automate"],level:["beginner","intermediate"],budget:["free","cheap","mid","any"],badge:"Easiest Automation",summary:"Connect 6,000+ apps without code. If X happens, do Y. Free tier: 100 tasks/month. Best for simple automations that just need to work.",blog:"/posts/build-your-first-automation-in-15-minutes/"},
+make:{name:"Make (Integromat)",url:"https://make.com",price:"Free / $10.59/mo Core",goals:["automate"],level:["intermediate","advanced"],budget:["free","cheap","mid","any"],badge:"Most Visual",summary:"Visual workflow builder with more control than Zapier. Free tier: 1,000 operations/month. Better for complex multi-step automations.",blog:"/posts/build-your-first-automation-in-15-minutes/"},
+n8n:{name:"n8n",url:"https://n8n.io",price:"Free self-hosted / $24/mo Cloud",goals:["automate","chatbot"],level:["advanced"],budget:["free","cheap","mid","any"],badge:"Most Powerful",summary:"Open source workflow automation. Free if you self-host. Most control, most flexibility, steepest learning curve. Best for developers and technical users.",blog:"/posts/build-your-first-automation-in-15-minutes/"},
+systeme:{name:"Systeme.io",url:"https://systeme.io",price:"Free / $27/mo Startup",goals:["website","email","automate"],level:["beginner"],budget:["free","cheap","mid","any"],badge:"Best Free Funnel Builder",summary:"Funnels + email + courses + communities, all free. 2,000 contacts, 3 funnels, unlimited emails. Cheaper and more complete than ClickFunnels.",blog:"/posts/free-funnel-builders-compared/"},
+carrd:{name:"Carrd",url:"https://carrd.co",price:"Free / $19/yr Pro",goals:["website"],level:["beginner"],budget:["free","cheap","mid","any"],badge:"Simplest Landing Pages",summary:"One-page websites in minutes. Beautiful templates, drag and drop. Free: 3 sites. Best for simple landing pages, link-in-bio, portfolios.",blog:null},
+beehiiv:{name:"Beehiiv",url:"https://beehiiv.com",price:"Free / $39/mo Scale",goals:["email"],level:["beginner","intermediate"],budget:["free","cheap","mid","any"],badge:"Best Newsletter Platform",summary:"Built for newsletter creators. Free tier: 2,500 subscribers. Built-in ad network that places sponsors in your newsletter automatically.",blog:null},
+convertkit:{name:"Kit (ConvertKit)",url:"https://convertkit.com",price:"Free / $15/mo Creator",goals:["email"],level:["beginner","intermediate"],budget:["free","cheap","mid","any"],badge:"Best for Creators",summary:"Email marketing built for creators, bloggers, podcasters. Visual automation builder is excellent. Free: 1,000 subscribers.",blog:null},
+researchrabbit:{name:"ResearchRabbit",url:"https://researchrabbit.ai",price:"Free",goals:["research"],level:["beginner","intermediate","advanced"],budget:["free","cheap","mid","any"],badge:"Hidden Gem",summary:"Maps citation networks, finds related papers, visualizes research topics. Free, no signup required. Researchers who find it never leave.",blog:"/posts/the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of/"},
+consensus:{name:"Consensus",url:"https://consensus.app",price:"Free / $8.99/mo Premium",goals:["research"],level:["beginner","intermediate"],budget:["free","cheap","mid","any"],badge:"Best for Science",summary:"Searches 200M+ scientific papers and gives you direct answers with citations. Doesn't hallucinate — it cites actual studies.",blog:"/posts/the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of/"},
+cleanup:{name:"Cleanup.pictures",url:"https://cleanup.pictures",price:"Free / $5/mo Pro",goals:["images"],level:["beginner"],budget:["free","cheap","mid","any"],badge:"Hidden Gem",summary:"Remove anything from any photo. Point, click, gone. Free, no signup. Better than Photoshop's content-aware fill for simple removals.",blog:"/posts/the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of/"},
+writecream:{name:"Writecream",url:"https://writecream.com",price:"Free / $29/mo",goals:["write","email"],level:["beginner","intermediate"],budget:["free","cheap","mid","any"],badge:"Best Cold Emails",summary:"Hyper-personalized cold emails and LinkedIn messages using AI. Users report 3x response rates. Pulls data from recipient's LinkedIn profile.",blog:"/posts/the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of/"},
+frase:{name:"Frase.io",url:"https://frase.io",price:"$15/mo Starter",goals:["write","research"],level:["intermediate"],budget:["cheap","mid","any"],badge:"Best Content Research",summary:"Analyzes top-ranking content and gives you a brief with headings, questions, and subtopics. Cuts research time in half.",blog:"/posts/the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of/"},
+buffer:{name:"Buffer",url:"https://buffer.com",price:"Free / $6/mo per channel",goals:["social"],level:["beginner"],budget:["free","cheap","mid","any"],badge:"Simplest Social Scheduler",summary:"Schedule posts across platforms. Free: 3 channels, 10 posts each. Best for individuals who just need to schedule without complexity.",blog:null},
+scalenut:{name:"Scalenut",url:"https://scalenut.com",price:"Free trial / $39/mo",goals:["write","research"],level:["intermediate"],budget:["mid","any"],badge:"Hidden Gem",summary:"Full content lifecycle: plan, write, optimize based on SERP analysis. Users who switch from Surfer SEO never go back.",blog:"/posts/the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of/"},
+notion:{name:"Notion",url:"https://notion.so",price:"Free / $10/mo Plus",goals:["productivity","website"],level:["beginner","intermediate"],budget:["free","cheap","mid","any"],badge:"Best All-in-One",summary:"Notes, databases, project management, wikis, AI assistant — all in one tool. Free for personal use. Can even host simple websites.",blog:null}
+};
+
+let userData={};
+
+function analyze(){
+const goal=document.getElementById('goal').value;
+const level=document.getElementById('level').value;
+const budget=document.getElementById('budget').value;
+const waste=document.getElementById('waste').value;
+if(!goal){alert('Please select your goal.');return}
+if(!level){alert('Please select your technical level.');return}
+userData={goal,level,budget,waste};
+document.getElementById('questionnaire').classList.add('hidden');
+document.getElementById('emailGate').classList.remove('hidden');
+}
+
+function showResults(){
+const email=document.getElementById('email').value;
+if(!email||!email.includes('@')){alert('Please enter a valid email.');return}
+document.getElementById('emailGate').classList.add('hidden');
+document.getElementById('results').style.display='block';
+renderRecommendations();
+}
+
+function renderRecommendations(){
+const scores={};
+for(const[key,tool]of Object.entries(TOOLS)){
+let score=0;
+if(tool.goals.includes(userData.goal))score+=3;
+if(tool.level.includes(userData.level))score+=2;
+if(userData.budget&&tool.budget.includes(userData.budget))score+=1;
+if(score>0)scores[key]=score;
+}
+const ranked=Object.entries(scores).sort((a,b)=>b[1]-a[1]).slice(0,3);
+const goalText=document.getElementById('goal').options[document.getElementById('goal').selectedIndex].text;
+document.getElementById('summary').textContent=`Goal: ${goalText}. Level: ${userData.level}. Showing top 3 matches.`;
+
+let html='';
+ranked.forEach(([key,score],i)=>{
+const t=TOOLS[key];
+html+=`<div class="result-card">
+<div>
+<span class="result-num">${i+1}</span>
+<span class="result-name">${t.name}</span>
+<span class="result-badge">${t.badge}</span>
+</div>
+<div class="result-detail">
+<strong>Price:</strong> ${t.price}<br>
+${t.summary}
+</div>
+<a class="result-link" href="${t.url}" target="_blank">Try ${t.name} →</a>
+${t.blog?`<div class="result-blog">Read our review: <a href="${t.blog}">NCR blog post</a></div>`:''}
+</div>`;
+});
+document.getElementById('recommendations').innerHTML=html;
+}
+</script>
+</body>
+</html>
