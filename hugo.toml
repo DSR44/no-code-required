@@ -75,3 +75,9 @@ theme = "PaperMod"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+  [[menu.main]]
+    identifier = "supplement-advisor"
+    name = "Supplement Advisor"
+    url = "/supplement-advisor.html"
+    weight = 2
