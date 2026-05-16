@@ -6,7 +6,8 @@ tags: ["AI tools", "mistakes", "beginner", "productivity", "lessons learned"]
 categories: ["tools"]
 description: "I wasted months and money on AI tools that didn't work. Here are the biggest mistakes I made — so you can skip them and start with what actually works."
 ShowToc: true
-image: "/images/ncr/NCR-mistakes-01.jpg"
+cover:
+  image: "/images/posts/the-mistakes-i-made-so-you-dont-have-to.jpg"
 ---
 
 I've been using AI tools for about a year now. Not as a developer. Not as someone with a CS degree. Just as a regular person who wanted to get things done faster.
