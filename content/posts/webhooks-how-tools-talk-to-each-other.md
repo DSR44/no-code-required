@@ -82,11 +82,11 @@ Your app reads this and knows exactly what happened. No need to call an API to c
 
 This is where it gets good.
 
-**Zapier** uses webhooks to connect apps. When something happens in App A, Zapier receives a webhook, then triggers an action in App B. That's how you automate things without code.
+**[Zapier](https://zapier.com)** uses webhooks to connect apps. When something happens in App A, Zapier receives a webhook, then triggers an action in App B. That's how you automate things without code.
 
-**Make (formerly Integromat)** works the same way. Webhooks are the trigger that starts your automation.
+**[Make](https://www.make.com)** (formerly Integromat) works the same way. Webhooks are the trigger that starts your automation.
 
-**n8n** — the open-source automation tool — uses webhooks as the starting point for most workflows.
+**[n8n](https://n8n.io)** — the open-source automation tool — uses webhooks as the starting point for most workflows.
 
 Every automation you've ever seen — "when someone fills out a form, send them an email and add them to a spreadsheet" — starts with a webhook.
 
@@ -112,11 +112,11 @@ Someone submits a support question → webhook fires → AI generates a response
 
 ## Common webhook platforms (no code required)
 
-**Zapier Webhooks:** The easiest way to start. Create a "Catch Hook" trigger, get a unique URL, paste it into the sending app. Zapier handles the rest. Free tier available.
+**[Zapier Webhooks](https://zapier.com/apps/webhook/integrations):** The easiest way to start. Create a "Catch Hook" trigger, get a unique URL, paste it into the sending app. Zapier handles the rest. Free tier available.
 
-**Make (Integromat):** More powerful than Zapier, slightly more complex. Great for multi-step automations. Free tier with 1,000 operations/month.
+**[Make](https://www.make.com)** (Integromat): More powerful than Zapier, slightly more complex. Great for multi-step automations. Free tier with 1,000 operations/month.
 
-**n8n:** Open-source and self-hostable. If you're technical, this gives you full control. Free if you host it yourself.
+**[n8n](https://n8n.io):** Open-source and self-hostable. If you're technical, this gives you full control. Free if you host it yourself.
 
 **IFTTT:** Simplest option. Good for personal automations (turn on lights when you arrive home, etc.). Free tier available.
 

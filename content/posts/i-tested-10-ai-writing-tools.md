@@ -20,16 +20,16 @@ Here's what I learned — so you don't have to make the same mistakes I did.
 
 ## The tools I tested
 
-1. **Jasper** — $49-125/month
-2. **ChatGPT** — $20/month (Plus)
-3. **Claude** — $20/month (Pro)
-4. **Copy.ai** — $36/month
-5. **Writesonic** — $16/month
-6. **Rytr** — $9/month
-7. **Grammarly AI** — $12/month
-8. **Notion AI** — $10/month
-9. **Perplexity** — $20/month
-10. **Google Gemini** — Free / $20/month (Advanced)
+1. **[Jasper](https://www.jasper.ai)** — $49-125/month
+2. **[ChatGPT](https://chat.openai.com)** — $20/month (Plus)
+3. **[Claude](https://claude.ai)** — $20/month (Pro)
+4. **[Copy.ai](https://www.copy.ai)** — $36/month
+5. **[Writesonic](https://writesonic.com)** — $16/month
+6. **[Rytr](https://rytr.me)** — $9/month
+7. **[Grammarly AI](https://www.grammarly.com)** — $12/month
+8. **[Notion AI](https://www.notion.so)** — $10/month
+9. **[Perplexity](https://www.perplexity.ai)** — $20/month
+10. **[Google Gemini](https://gemini.google.com)** — Free / $20/month (Advanced)
 
 I used each tool for at least 2 weeks on real writing projects. Blog posts, social media captions, emails, product descriptions. Real work, not just testing prompts.
 
@@ -39,7 +39,7 @@ I used each tool for at least 2 weeks on real writing projects. Blog posts, soci
 
 Let me start with the tool that cost me the most money.
 
-**Jasper** was my first AI writing tool. I paid $49/month for almost 6 months. That's $295.
+**[Jasper](https://www.jasper.ai)** was my first AI writing tool. I paid $49/month for almost 6 months. That's $295.
 
 **What it did well:** Brand voice training. If you feed Jasper enough examples of your writing style, it starts to sound like you. The templates are nice for quick content.
 
@@ -55,7 +55,7 @@ The problem wasn't Jasper's output — it was that I thought having a good writi
 
 ## The one I actually use every day: ChatGPT
 
-**ChatGPT Plus** at $20/month is the best value in AI writing. Period.
+**[ChatGPT Plus](https://chat.openai.com)** at $20/month is the best value in AI writing. Period.
 
 **Why:**
 - It writes everything — blog posts, emails, captions, scripts
@@ -72,7 +72,7 @@ The problem wasn't Jasper's output — it was that I thought having a good writi
 
 ## The quiet genius: Claude
 
-**Claude Pro** at $20/month is ChatGPT's smarter cousin.
+**[Claude Pro](https://claude.ai)** at $20/month is ChatGPT's smarter cousin.
 
 **Why it's different:** Claude writes more naturally. Less "AI-sounding." Better at long-form content. Better at following complex instructions. Better at creative writing.
 
@@ -86,29 +86,29 @@ The problem wasn't Jasper's output — it was that I thought having a good writi
 
 ## The free options
 
-### Google Gemini (Free)
+### [Google Gemini](https://gemini.google.com) (Free)
 Good for basic writing tasks. The free tier is surprisingly capable. If you're on a budget, start here.
 
-### Perplexity ($20/month)
+### [Perplexity](https://www.perplexity.ai) ($20/month)
 Not a writing tool — it's a research tool. But it's the BEST research tool. I use it to find sources, verify facts, and gather data before writing. Worth the price if you do research-heavy content.
 
-### Notion AI ($10/month)
+### [Notion AI](https://www.notion.so) ($10/month)
 Great if you already use Notion. Writing directly in your workspace is convenient. Not worth switching to Notion just for the AI.
 
 ---
 
 ## The ones I'd skip
 
-### Copy.ai ($36/month)
+### [Copy.ai](https://www.copy.ai) ($36/month)
 Too expensive for what it does. ChatGPT at $20 does the same things better. The templates are nice but not worth the premium.
 
-### Writesonic ($16/month)
+### [Writesonic](https://writesonic.com) ($16/month)
 Decent but clunky interface. Output quality is below ChatGPT and Claude. Save your money.
 
-### Rytr ($9/month)
+### [Rytr](https://rytr.me) ($9/month)
 Cheapest option but you get what you pay for. Output is basic and repetitive. Fine for simple social media captions, not for serious writing.
 
-### Grammarly AI ($12/month)
+### [Grammarly AI](https://www.grammarly.com) ($12/month)
 Good for grammar checking, not for writing. The AI features are limited. Use the free Grammarly extension + ChatGPT instead.
 
 ---
