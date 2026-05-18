@@ -99,7 +99,7 @@ Here are three things you can do today:
 
 - [GitHub](https://github.com) — free, the standard
 - [GitHub Desktop](https://desktop.github.com) — if you hate the command line, this gives you a visual interface
-- [Cursor](https://cursor.sh) — AI code editor that connects to GitHub
+- [Cursor](https://cursor.com/referral?code=A6W8KXAAVUV0) — AI code editor that connects to GitHub
 - [Bolt](https://bolt.new) — AI app builder that saves to GitHub
 
 ---
