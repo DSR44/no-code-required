@@ -20,13 +20,13 @@ These are five things I'm actually seeing change — tools that work today, tren
 
 ## 1. Local AI is getting good enough
 
-Six months ago, running an AI model on your laptop meant accepting noticeably worse results. You'd get something usable, but it clearly wasn't ChatGPT.
+Six months ago, running an AI model on your laptop meant accepting noticeably worse results. You'd get something usable, but it clearly wasn't [ChatGPT](/posts/what-is-ai-actually/).
 
 That gap is closing fast.
 
 Qwen3-Coder-Next, an 80-billion parameter model released in early 2026, runs on consumer hardware and performs close to top closed models on coding tasks. Llama 3.2 runs on phones. Stable Diffusion generates images on a gaming laptop in seconds.
 
-Why this matters: You don't need to send your data to a corporation. Your AI runs on your machine. No API costs. No usage limits. No one reading your prompts.
+Why this matters: You don't need to send your data to a corporation. Your AI runs on your machine. No [API](/posts/apis-explained-like-youre-5/) costs. No usage limits. No one reading your prompts.
 
 I've been running OpenClaw as a personal assistant on my own server. It posts to social media, manages my blog, researches topics — all without sending a single request to OpenAI or Anthropic. The model runs locally. The tools are local. The data stays with me.
 
@@ -34,17 +34,17 @@ If you care about privacy at all, local AI is the trend to watch.
 
 ## 2. MCP is the new USB-C
 
-MCP — Model Context Protocol — is boring to explain and exciting in practice. It's a standard way to connect AI models to tools.
+[MCP — Model Context Protocol](/posts/how-ai-calls-other-tools/) — is boring to explain and exciting in practice. It's a standard way to connect AI models to tools.
 
-Before MCP, every AI had its own plugin system. ChatGPT had plugins. Claude had integrations. Each one was different. Building a tool for one AI didn't mean it worked with another.
+Before MCP, every AI had its own plugin system. [ChatGPT](/posts/chatgpt-can-now-see-your-bank-account/) had plugins. Claude had integrations. Each one was different. Building a tool for one AI didn't mean it worked with another.
 
 MCP changes that. One standard. Connect your tools once. Use them with any AI. It's like USB-C for AI — one connector, everything works.
 
-What this looks like in practice: I ask my AI to "find trending topics, write a post about it, and schedule it on my blog." The AI uses MCP to search the web, generate content, and push to my CMS. Three different tools, one conversation, zero copy-pasting.
+What this looks like in practice: I ask my AI to "find trending topics, write a post about it, and schedule it on my [blog](/posts/how-i-built-a-blog-in-1-hour-with-ai/)." The AI uses MCP to search the web, generate content, and push to my CMS. Three different tools, one conversation, zero copy-pasting.
 
 ## 3. AI video is crossing the quality threshold
 
-Image generation went through this in 2024. Video is going through it now.
+[Image generation](/posts/best-ai-image-generators/) went through this in 2024. Video is going through it now.
 
 Tools like Runway, Pika, and Kling can generate short video clips from text prompts or images. Six months ago, these were fun toys. Now they're producing content that's genuinely usable for social media, ads, and creative work.
 
@@ -54,7 +54,7 @@ The quality ceiling is still below real footage, but for social media content �
 
 ## 4. Open-source is catching up (fast)
 
-The open-source AI ecosystem hit 800K+ GitHub stars in 2026. Agentic skills frameworks gained 120K stars in 90 days. The community isn't just keeping up with closed models — in some areas, it's pulling ahead.
+The [open-source](/posts/kimu-free-open-source-alternative-capcut/) AI ecosystem hit 800K+ [GitHub](/posts/github-is-not-scary-5-minute-intro/) stars in 2026. Agentic skills frameworks gained 120K stars in 90 days. The community isn't just keeping up with closed models — in some areas, it's pulling ahead.
 
 What's available for free now:
 
@@ -76,7 +76,7 @@ An agent that researches a topic, writes a blog post, generates images, and publ
 
 The difference from last year? Reliability. Early agents broke constantly. They'd get stuck on pop-ups, misread interfaces, lose context. The models got better, the frameworks got more robust, and the tooling improved.
 
-I'm not saying agents will replace your job. I'm saying they're finally useful enough to save you a few hours a week on repetitive tasks. That's the threshold that matters.
+I'm not saying agents will replace your job. I'm saying they're finally useful enough to save you a few hours a week on repetitive [tasks](/posts/build-your-first-automation-in-15-minutes/). That's the threshold that matters.
 
 ## What I'm doing about it
 
@@ -88,6 +88,6 @@ That's what "no code required" really means to me: not just building without cod
 
 ---
 
-*Coming soon: How I built a social media automation system that runs locally — no API keys, no subscriptions, just my laptop.*
+*Coming soon: [How I built a social media automation](/posts/my-automation-pipeline/) system that runs locally — no API keys, no subscriptions, just my laptop.*
 
 *I test and review AI tools every week on No Code Required. No sponsorships. No affiliate links. Just what actually works.*
