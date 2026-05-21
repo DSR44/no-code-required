@@ -1,6 +1,6 @@
 ---
 title: "What's next: tools I'm watching in 2026"
-date: 2026-05-22
+date: 2026-05-21
 draft: false
 tags: ["AI tools", "trends", "open source", "local AI", "automation", "2026"]
 categories: ["tools"]
