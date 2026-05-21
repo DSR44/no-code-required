@@ -10,6 +10,8 @@ cover:
   image: "/images/20260521_012852_A_person_sitting_at_a_desk_with_multiple.jpg"
 ---
 
+{{< audio src="/audio/how-ai-calls-other-tools.mp3" >}}
+
 Last week I asked my AI assistant to check my calendar, find a gap, and schedule a meeting. It did it. No copy-pasting. No switching tabs. Just... did it.
 
 That's tool calling. And if you're using AI without it, you're using 10% of what these models can actually do.
