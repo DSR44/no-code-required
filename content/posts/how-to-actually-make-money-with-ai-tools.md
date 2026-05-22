@@ -73,7 +73,7 @@ Here's what actually works for regular people — specific methods, real tools, 
 **The specific play:**
 1. Pick a niche (tech explainers, history, psychology, finance)
 2. Use ChatGPT to research and write scripts
-3. Use [ElevenLabs](https://elevenlabs.io) for AI voiceover ($5/mo)
+3. Use [ElevenLabs](https://try.elevenlabs.io/hixrf1ztbv8x) for AI voiceover ($5/mo)
 4. Use [Canva](https://canva.com) or [Midjourney](https://midjourney.com) for thumbnails
 5. Edit with [CapCut](https://capcut.com) (free)
 

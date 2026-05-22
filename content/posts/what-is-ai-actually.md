@@ -69,7 +69,7 @@ That's it. Pattern recognition + prediction. Not magic. Not consciousness. Math.
 - **Midjourney / DALL-E** — image generation
 - **GitHub Copilot** — code completion
 - **Suno** — music generation
-- **ElevenLabs** — voice cloning
+- **[ElevenLabs](https://try.elevenlabs.io/hixrf1ztbv8x)** — voice cloning
 
 These are all built on the same basic idea: pattern recognition + prediction. Different inputs, different outputs, same engine underneath.
 

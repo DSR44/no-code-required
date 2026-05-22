@@ -59,7 +59,7 @@ The [open-source](/posts/kimu-free-open-source-alternative-capcut/) AI ecosystem
 What's available for free now:
 
 - **Image generation:** Flux, Stable Diffusion — comparable to Midjourney on many tasks
-- **Voice cloning:** Fish Speech, OpenVoice — approaching ElevenLabs quality
+- **Voice cloning:** Fish Speech, OpenVoice — approaching [ElevenLabs](https://try.elevenlabs.io/hixrf1ztbv8x) quality
 - **Code generation:** Qwen3-Coder-Next — close to Claude on coding benchmarks
 - **Personal assistants:** OpenClaw — runs your entire digital life locally
 - **Video generation:** Wan2.7, CogVideoX — catching up to Runway
