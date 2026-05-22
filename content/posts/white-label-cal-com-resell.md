@@ -7,7 +7,7 @@ tags: ["AI tools", "no-code", "automation", "business", "open source", "monetiza
 categories: ["tools"]
 slug: "white-label-cal-com-resell"
 cover:
-  image: "/images/20260522_153217_A_person_using_a_scheduling_calendar_app.jpg"
+  image: "/images/white-label-cal-com-resell.jpg"
 ---
 
 {{< audio src="/audio/white-label-cal-com-resell.mp3" >}}
