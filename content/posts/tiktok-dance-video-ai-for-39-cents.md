@@ -132,15 +132,138 @@ $0.39 per video vs $200+. That's a 500x cost reduction.
 
 ---
 
-## What you need
+## What you need (the full setup)
 
-An API key from muapi.ai — that gives you access to GPT Image 2.0, PixVerse v6, and 100+ other models through one endpoint. No subscriptions, pay per generation.
+**Tools:**
+- **muapi.ai** — API key that gives you access to 100+ models (GPT Image 2.0, PixVerse v6, Seedance, Kling, etc.) through one endpoint. [Get your key here →](https://muapi.ai)
+- **That's it.** No other subscriptions.
 
-This is the kind of thing I build and share on [@manalbuilds](https://instagram.com/manalbuilds). Real tools. Real output. No courses.
+**Cost breakdown:**
+- API key: free to create, pay per generation
+- Each dance video: $0.09 (image) + $0.295 (video) = **$0.39**
 
 ---
 
-*More storyboard templates coming soon. Subscribe to the newsletter to get them first.*
+## The exact code (copy and run)
+
+### Step 1: Generate the storyboard image
+
+```bash
+curl -X POST "https://api.muapi.ai/api/v1/gpt-image-2-text-to-image" \
+  -H "x-api-key: YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "prompt": "Generate a clean TikTok dance storyboard in a 9:16 portrait layout with 9 panels arranged in a 3x3 grid. A fit confident woman with minimal stylish outfit. Soft natural lighting, plain dance studio background, neutral tones. Each panel shows a different dance moment: top-left wide neutral pose, top-center arm wave, top-right close-up expression, mid-left hip sway, mid-center step and turn, mid-right hair flip, bottom-left full dance combo, bottom-center signature pose, bottom-right direct eye contact smile. Clean minimal smartphone-style TikTok aesthetic.",
+    "aspect_ratio": "9:16",
+    "num_images": 1
+  }'
+```
+
+This returns a `request_id`. Poll for the result:
+
+```bash
+curl -H "x-api-key: YOUR_API_KEY" \
+  "https://api.muapi.ai/api/v1/predictions/REQUEST_ID/result"
+```
+
+Wait for `status: "completed"`, then grab the image URL from `outputs[0]`.
+
+### Step 2: Animate the storyboard
+
+```bash
+curl -X POST "https://api.muapi.ai/api/v1/pixverse-v6-i2v" \
+  -H "x-api-key: YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "images_list": ["YOUR_IMAGE_URL_FROM_STEP_1"],
+    "prompt": "A fit woman performing a TikTok dance sequence, smooth flowing dance movements, energetic hip hop style dance, dynamic camera, warm studio lighting, smartphone vertical video feel",
+    "aspect_ratio": "9:16",
+    "duration": 10
+  }'
+```
+
+Same polling pattern. When it completes, download your video from `outputs[0]`.
+
+### Python version (if you prefer)
+
+```python
+import requests, time, json
+
+API_KEY = "YOUR_API_KEY"
+BASE = "https://api.muapi.ai/api/v1"
+
+# Step 1: Generate storyboard
+r1 = requests.post(f"{BASE}/gpt-image-2-text-to-image",
+    headers={"x-api-key": API_KEY, "Content-Type": "application/json"},
+    json={
+        "prompt": "Generate a clean TikTok dance storyboard in a 9:16 portrait layout...",
+        "aspect_ratio": "9:16",
+        "num_images": 1
+    })
+request_id = r1.json()["request_id"]
+
+# Poll for image
+while True:
+    time.sleep(8)
+    result = requests.get(f"{BASE}/predictions/{request_id}/result",
+        headers={"x-api-key": API_KEY}).json()
+    if result["status"] == "completed":
+        image_url = result["outputs"][0]
+        break
+
+# Step 2: Animate
+r2 = requests.post(f"{BASE}/pixverse-v6-i2v",
+    headers={"x-api-key": API_KEY, "Content-Type": "application/json"},
+    json={
+        "images_list": [image_url],
+        "prompt": "A fit woman performing a TikTok dance sequence...",
+        "aspect_ratio": "9:16",
+        "duration": 10
+    })
+video_id = r2.json()["request_id"]
+
+# Poll for video
+while True:
+    time.sleep(8)
+    result = requests.get(f"{BASE}/predictions/{video_id}/result",
+        headers={"x-api-key": API_KEY}).json()
+    if result["status"] == "completed":
+        video_url = result["outputs"][0]
+        print(f"Done! Video: {video_url}")
+        break
+```
+
+---
+
+## Alternative video models (pick your favorite)
+
+PixVerse v6 is my go-to, but muapi.ai has other options:
+
+| Model | Cost | Quality | Best for |
+|-------|------|---------|----------|
+| **PixVerse v6** | $0.295/10s | High | Dance, movement, energy |
+| **Seedance Pro** | $0.18/5s | High | Smooth transitions |
+| **Kling v3.0 Standard** | $0.72/5s | Very high | Cinematic quality |
+| **LTX-2.3** | $0.104/5s | Good | Budget-friendly |
+| **Wan 2.7** | $0.10/5s | Good | Budget-friendly |
+
+Same workflow, just swap the endpoint name. The image generation stays the same.
+
+---
+
+## What's coming next
+
+I'm building more storyboard templates:
+- **Fitness reel** — gym movements, athletic wear
+- **Product showcase** — 9-panel product story
+- **Tutorial breakdown** — step-by-step visual guide
+- **Before/after** — transformation storyboards
+
+Subscribe to the newsletter to get them when they drop.
+
+---
+
+This is the kind of thing I build and share on [@manalbuilds](https://instagram.com/manalbuilds). Real tools. Real output. No courses.
 
 ---
 
@@ -148,6 +271,7 @@ This is the kind of thing I build and share on [@manalbuilds](https://instagram.
 
 ## References
 
-1. muapi.ai API Documentation — https://muapi.ai
-2. GPT Image 2.0 — OpenAI's latest image generation model
-3. PixVerse v6 — Video generation from images
+1. [muapi.ai](https://muapi.ai) — API access to 100+ models
+2. [muapi.ai/docs](https://muapi.ai/docs) — Full API documentation
+3. GPT Image 2.0 — OpenAI's latest image generation model
+4. PixVerse v6 — Video generation from images
