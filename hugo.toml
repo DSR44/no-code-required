@@ -35,7 +35,7 @@ theme = "PaperMod"
 
 [[params.socialIcons]]
   name = "youtube"
-  url = "https://www.youtube.com/@from_no_one"
+  url = "https://www.youtube.com/@manalbuilds"
 
 [menu]
   [[menu.main]]
