@@ -6,6 +6,8 @@ description: "No dancer. No camera. No studio. I used GPT Image 2.0 to generate 
 tags: ["AI tools", "no-code", "automation", "video generation", "TikTok", "GPT Image", "PixVerse"]
 categories: ["tools"]
 slug: "tiktok-dance-video-ai-for-39-cents"
+cover:
+  image: "/images/tiktok-dance-video-ai-for-39-cents.jpg"
 ---
 
 {{< audio src="/audio/tiktok-dance-video-ai-for-39-cents.mp3" >}}
