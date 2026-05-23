@@ -10,8 +10,8 @@ keywords: ["how to automate client follow-ups without coding", "no-code client f
 ShowToc: true
 TocOpen: false
 cover:
-  image: "/images/posts/my-automation-pipeline.jpg"
-  alt: "Automation workflow on a laptop screen in a cozy workspace"
+  image: "/images/posts/20260523_134012_Zoe_young_woman_dark_brown_shoulder-len.jpg"
+  alt: "Zoe at laptop setting up email follow-up automation in a cozy coffee shop"
 ---
 {{< audio src="/audio/automate-client-follow-ups-no-code.mp3" >}}
 
