@@ -3,14 +3,20 @@ title: "OpenAI vs Apple: what happened and what it means for you"
 date: 2026-05-23
 draft: false
 description: "OpenAI is reportedly considering suing Apple over how badly they integrated ChatGPT into Siri. Here's what actually happened, why it matters, and what it means for the tools you use every day."
+summary: "Apple buried the ChatGPT integration. OpenAI feels burned. Now they might sue. Here's what it means for your phone."
 tags: ["AI tools", "apple", "openai", "chatgpt", "tech news"]
 categories: ["tools"]
 slug: "openai-vs-apple-chatgpt"
 cover:
-  image: "/images/openai-vs-apple-chatgpt.jpg"
+  image: "/images/posts/20260523_093302_Zoe_young_woman_dark_brown_shoulder-len.jpg"
+  alt: "Zoe looking surprised while reading about the OpenAI and Apple conflict on her laptop"
 ---
 
-{{< audio src="/audio/openai-vs-apple-chatgpt.mp3" >}}
+<div style="margin: 1.5em 0; padding: 1em; background: #1a1a1a; border-radius: 8px;">
+<p style="font-size: 0.9em; color: #aaa; margin-bottom: 0.5em;">🎧 Prefer to listen?</p>
+<audio controls style="width: 100%; border-radius: 8px;">
+<source src="/audio/openai-vs-apple-chatgpt.mp3" type="audio/mpeg">
+</audio></div>
 
 # OpenAI vs Apple: what happened and what it means for you
 
@@ -18,7 +24,7 @@ Remember when Apple announced ChatGPT integration with Siri? The crowd went wild
 
 One year later, OpenAI is reportedly exploring legal action against Apple. Not because the integration broke. Because it barely works.
 
-Here's the story, what it means, and why you should care — even if you've never used ChatGPT.
+Here's the story, what it means, and why you should care — even if you've never used [ChatGPT](https://chat.openai.com/).
 
 ---
 
@@ -28,28 +34,42 @@ In 2024, Apple and OpenAI announced a partnership. ChatGPT would be baked into S
 
 Sounds great on a keynote stage. In practice? Reports say the integration is shallow. ChatGPT gets buried behind permission dialogs. Siri still handles most queries (badly). And users have to opt in manually — most never do.
 
-OpenAI reportedly feels "burned." They gave Apple access to their best model. Apple gave them... a buried menu option.
+OpenAI reportedly feels "burned." They gave Apple access to their best model. Apple gave them... a buried menu option. According to Bloomberg, OpenAI took a "leap of faith" without fully understanding how Apple would design the integration. When users summon Siri, they have to specifically say "ChatGPT" to trigger the handoff — a friction point OpenAI never wanted.
+
+The result? Apple's [Visual Intelligence](https://support.apple.com/guide/iphone/visual-intelligence-iph8c6bb3e1e/ios) feature lets you point your camera at something and send the image to ChatGPT. But most iPhone users don't even know it exists. OpenAI expected billions in new subscriptions. Instead, the deal has been a quiet disappointment.
 
 ## Now OpenAI might sue
 
-According to multiple reports (Ars Technica, SiliconANGLE, Futurism), OpenAI is exploring a breach-of-contract notice against Apple. The core complaint: Apple didn't integrate ChatGPT deeply enough, which means OpenAI isn't getting the user growth or revenue they were promised.
+According to [Ars Technica](https://arstechnica.com/tech-policy/2026/05/openai-feels-burned-by-apples-crappy-chatgpt-integration-insiders-say/), OpenAI has enlisted an outside law firm and is actively exploring a breach-of-contract notice against Apple. The core complaint: Apple didn't integrate ChatGPT deeply enough, which means OpenAI isn't getting the user growth or revenue they were promised.
 
-Apple's response? They reportedly didn't pay OpenAI anything upfront for the integration. The deal was exposure-based — OpenAI gets distribution, Apple gets AI features.
+Apple's side of this is more complicated. They reportedly didn't pay OpenAI anything upfront for the integration. The deal was exposure-based — OpenAI gets distribution, Apple gets AI features. And Apple has its own grievances: concerns about OpenAI's privacy standards, and irritation over OpenAI's push into hardware with former Apple executives like Jony Ive.
 
-The problem: Apple doesn't actually want to promote a third-party AI. They want to build their own. ChatGPT in Siri was always a stopgap until Apple Intelligence caught up.
+As one OpenAI executive told Bloomberg: "We have done everything from a product perspective. They have not, and worse, they haven't even made an honest effort."
 
----
+The irony? [Google Gemini is now powering Apple's AI features](https://techcrunch.com/2026/01/12/googles-gemini-to-power-apples-ai-features-like-siri/) through a separate multiyear deal. So Apple replaced one AI partner with the one they're already fighting in search.
+
+## This isn't new for Apple
+
+If you think Apple burned OpenAI, you should talk to their other ex-partners.
+
+**Google Maps** was a flagship feature of the original iPhone. So central that when Apple removed it in 2012 and replaced it with their own [markedly inferior Apple Maps](https://arstechnica.com/tech-policy/2024/08/google-loses-dojs-big-monopoly-trial-over-search-business/), it became one of the biggest tech disasters of the decade. Tim Cook had to publicly apologize.
+
+**Adobe Flash** got killed by Steve Jobs' famous open letter in 2010, which effectively doomed Flash on mobile. Jobs didn't negotiate — he just said no.
+
+**Spotify** spent years arguing that Apple used the App Store to disadvantage rival music services after launching Apple Music. The European Commission agreed, [fining Apple nearly €1.8 billion](https://techcrunch.com/2024/03/04/apple-fined-1-84bn-in-eu-over-anti-steering-on-ios-music-streaming-market/) in 2024.
+
+The pattern is consistent: Apple invites partners in, learns what it needs, then builds its own version. If you're partnering with Apple, you're a guest in someone else's house — and the lease is always month-to-month.
 
 ## What this means for you
 
 ### If you use iPhone + Siri
-You're not getting the AI experience Apple promised. The ChatGPT integration is buried, permission-heavy, and clunky. If you want real AI assistance, you're still better off opening the ChatGPT app directly.
+You're not getting the AI experience Apple promised. The [ChatGPT](https://chat.openai.com/) integration is buried, permission-heavy, and clunky. If you want real AI assistance, you're still better off opening the ChatGPT app directly — or switching to a tool like [Copilot](https://copilot.microsoft.com/) that doesn't need a platform partner to work.
 
-### If you use ChatGPT
-OpenAI is losing money on every dollar they make ($1.25 lost per $1 earned, according to Apple Insider). They need the Apple deal to work. If Apple won't play ball, OpenAI might pivot to building their own hardware or deepening partnerships with Samsung and Google.
+### If you use AI tools daily
+This is a reminder that platform distribution is fragile. I wrote about [the privacy problem nobody talks about](/posts/the-privacy-problem-nobody-talks-about/) with AI tools — and platform dependency is another layer. When your AI experience depends on Apple's willingness to promote it, you're one quarterly earnings call away from losing features.
 
-### If you're a developer or builder
-This is a warning sign about platform dependency. OpenAI built their distribution strategy around Apple. Apple barely delivered. If you're building on someone else's platform, you're at their mercy.
+### If you're building with AI
+Don't build your distribution strategy on someone else's platform. OpenAI bet on Apple. Apple didn't deliver. If you're creating tools or products, own your relationship with users directly. I covered this in [my automation pipeline breakdown](/posts/my-automation-pipeline/) — the tools that last are the ones you control.
 
 ---
 
@@ -57,31 +77,25 @@ This is a warning sign about platform dependency. OpenAI built their distributio
 
 This isn't really about ChatGPT and Siri. It's about who controls AI on your phone.
 
-Apple wants AI to be invisible — baked into the OS, running on Apple Silicon, controlled by Apple. OpenAI wants AI to be front and center — their brand, their model, their relationship with you.
+Apple wants AI to be invisible — baked into the OS, running on [Apple Silicon](https://www.apple.com/newsroom/2024/06/apple-intelligence-ushers-in-new-era-for-iphone/), controlled by Apple. OpenAI wants AI to be front and center — their brand, their model, their relationship with you.
 
 Those two goals are fundamentally incompatible. The partnership was always going to break.
 
-The real winner? Google. Gemini is deeply integrated into Android. No permission dialogs. No buried menus. It just works.
+The real winner here? Google. [Gemini is deeply integrated into Android](https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/) — no permission dialogs, no buried menus. It just works. And now Google is also powering Apple's AI through the Gemini deal. They win either way.
 
----
-
-## The bottom line
-
-OpenAI gave Apple their best tech. Apple buried it in a menu. Now OpenAI might sue. Meanwhile, Google is running away with the mobile AI race.
-
-If you're picking a phone in 2026, the AI integration story is clear: Android wins. If you're on iPhone, you're still waiting for Apple to figure out what they actually want to do with AI.
-
-This is the kind of thing I break down on [@manalbuilds](https://instagram.com/manalbuilds) — real tools, real news, no hype.
+If you're picking a phone in 2026, the AI integration story is clear: Android offers a more seamless experience. If you're on iPhone, you're still waiting for Apple to figure out what they actually want to do with AI — while Google quietly powers both platforms.
 
 ---
 
 ## References
 
-1. [OpenAI Feels Burned by Apple ChatGPT Integration](https://vocal.media/futurism/open-ai-feels-burned-by-apple-chat-gpt-integration-as-partnership-sours-and-legal-options-emerge) — Futurism
-2. [OpenAI Reportedly Mulls Taking Apple to Court](https://siliconangle.com/2026/05/14/openai-reportedly-mulls-taking-apple-court-chatgpts-siri-integration/) — SiliconANGLE
-3. [Apple's AI Spend Remains Flat as OpenAI Loses $1.25 for Every $1](https://appleinsider.com/articles/26/05/22/apples-ai-spend-remains-flat-as-openai-loses-125-for-every-1) — Apple Insider
-4. [OpenAI May Sue Apple for Not Integrating ChatGPT Deep Enough](https://www.shopifreaks.com/openai-may-sue-apple-for-not-integrating-chatgpt-deep-enough-into-ios-but-its-reasons-are-ridiculous/) — Shopifreaks
+1. [OpenAI Feels Burned by Apple ChatGPT Integration](https://arstechnica.com/tech-policy/2026/05/openai-feels-burned-by-apples-crappy-chatgpt-integration-insiders-say/) — Ars Technica
+2. [OpenAI Reportedly Preparing Legal Action Against Apple](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/) — TechCrunch
+3. [OpenAI Eyes Legal Action Against Apple](https://www.trendingtopics.eu/openai-eyes-legal-action-against-apple-over-failed-chatgpt-integration/) — Trending Topics
+4. [Apple ChatGPT Deal and OpenAI Legal Tensions](https://www.kucoin.com/blog/Apple-ChatGPT-deal-and-OpenAI-legal-tensions) — KuCoin
 
 ---
 
-> Want to build your own AI tools? I use [ElevenLabs](https://try.elevenlabs.io/hixrf1ztbv8x) for voice generation in all my content. Try it free.
+**Coming soon on No Code Required:**
+- *How to build an AI agent that runs your entire content calendar*
+- *I tested 5 AI coding assistants — here's which one actually ships*
