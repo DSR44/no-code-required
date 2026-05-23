@@ -1,18 +1,5 @@
 {
   "buildCommand": "./build.sh",
   "outputDirectory": "public",
-  "framework": null,
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.nocoderequired.net"
-        }
-      ],
-      "destination": "https://nocoderequired.net/:path*",
-      "permanent": true
-    }
-  ]
+  "framework": null
 }
