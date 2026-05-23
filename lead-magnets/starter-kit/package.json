@@ -1,0 +1,11 @@
+{
+  "name": "ncr-starter-kit-pdf",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build_pdf.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.52.0"
+  }
+}

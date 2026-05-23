@@ -36,7 +36,32 @@ WELCOME_HTML = """
 </div>
 """
 
-def send_welcome_email(email):
+STARTER_KIT_HTML = """
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; background: #0a0a0b;">
+    <div style="background: linear-gradient(135deg, #131316 0%, #1a1a1d 100%); padding: 40px 20px; text-align: center; border-bottom: 3px solid #e8a87c;">
+        <h1 style="color: #e8e6e1; font-size: 26px; margin: 0; letter-spacing: 1px;">YOUR STARTER KIT IS READY</h1>
+        <p style="color: #e8a87c; font-size: 13px; margin: 10px 0 0 0;">The $0 AI Starter Kit · No Code Required</p>
+    </div>
+    <div style="padding: 32px 24px;">
+        <p style="font-size: 18px; color: #e8e6e1; margin-bottom: 16px;">Hey,</p>
+        <p style="font-size: 16px; line-height: 1.7; color: #8a8880; margin-bottom: 16px;">Here's your download — 5 free tools and a step-by-step client follow-up automation you can build tonight.</p>
+        <p style="text-align: center; margin: 28px 0;">
+            <a href="https://www.nocoderequired.net/downloads/the-0-dollar-ai-starter-kit.pdf" style="display: inline-block; background: #e8a87c; color: #0a0a0b; text-decoration: none; padding: 14px 28px; border-radius: 8px; font-weight: 700; font-size: 16px;">Download the PDF</a>
+        </p>
+        <p style="font-size: 15px; line-height: 1.7; color: #8a8880; margin-bottom: 12px;"><strong style="color: #e8e6e1;">Start with Path A</strong> — the client follow-up sequence. Full blog walkthrough with screenshots:</p>
+        <p style="margin-bottom: 20px;"><a href="https://www.nocoderequired.net/posts/automate-client-follow-ups-no-code/" style="color: #6bc4c4;">How I automated my client follow-ups in an afternoon</a></p>
+        <p style="font-size: 15px; line-height: 1.7; color: #8a8880; margin-bottom: 8px;">New to AI tools? Follow the <a href="https://www.nocoderequired.net/start-here/" style="color: #6bc4c4;">Start Here</a> path after you build your first workflow.</p>
+        <p style="font-size: 16px; color: #e8a87c; font-weight: 600; margin-top: 24px;">Manal</p>
+    </div>
+    <div style="background: #131316; padding: 20px 24px; text-align: center;">
+        <p style="font-size: 12px; color: #555; line-height: 1.5; margin: 0;">You'll also get new posts when I publish. Reply "unsubscribe" anytime.</p>
+    </div>
+</div>
+"""
+
+def send_welcome_email(email, source=None):
+    html = STARTER_KIT_HTML if source == "starter-kit" else WELCOME_HTML
+    subject = "Your $0 AI Starter Kit is ready" if source == "starter-kit" else "Welcome to No Code Required"
     cmd = [
         "curl", "-s", "-X", "POST", "https://api.resend.com/emails",
         "-H", f"Authorization: Bearer {RESEND_API_KEY}",
@@ -45,8 +70,8 @@ def send_welcome_email(email):
             "from": "hello@nocoderequired.net",
             "reply_to": "hello@manal.pro",
             "to": email,
-            "subject": "Welcome to No Code Required",
-            "html": WELCOME_HTML
+            "subject": subject,
+            "html": html
         })
     ]
     subprocess.run(cmd, capture_output=True, text=True, timeout=30)
@@ -60,6 +85,7 @@ class handler(BaseHTTPRequestHandler):
         try:
             data = json.loads(body)
             email = data.get("email", "").strip()
+            source = data.get("source", "").strip() or None
             
             if not email or "@" not in email:
                 self.send_response(400)
@@ -86,7 +112,7 @@ class handler(BaseHTTPRequestHandler):
             
             if response.get("id") or response.get("error") == "Contact already exists":
                 # Send welcome email
-                send_welcome_email(email)
+                send_welcome_email(email, source=source)
                 
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json")

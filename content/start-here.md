@@ -9,6 +9,16 @@ I built this page so you don't have to wander around aimlessly. Pick what you wa
 
 ---
 
+## Free: The $0 AI Starter Kit
+
+**New here?** Grab the free PDF first — 5 tools + a client follow-up automation you can build tonight.
+
+→ **[Download The $0 AI Starter Kit](/starter-kit/)** (email → instant PDF)
+
+Then follow the path below.
+
+---
+
 ## Start your AI journey (recommended path)
 
 New here? Follow this order — each step builds on the last. No coding required.
