@@ -15,6 +15,7 @@ theme = "PaperMod"
   TocOpen = false
   description = "Learn AI tools without the jargon. From a bodybuilder who never opened a terminal."
   author = "NCR"
+  images = ["/images/og-default.jpg"]
 
 [params.assets]
   favicon = "/favicon.ico"
