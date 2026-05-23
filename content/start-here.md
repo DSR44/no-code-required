@@ -9,6 +9,22 @@ I built this page so you don't have to wander around aimlessly. Pick what you wa
 
 ---
 
+## Start your AI journey (recommended path)
+
+New here? Follow this order — each step builds on the last. No coding required.
+
+1. [What is AI actually?](/posts/what-is-ai-actually/) — the foundation, no jargon
+2. [APIs explained like you're 5](/posts/apis-explained-like-youre-5/) — how tools talk to each other
+3. [Build your first automation in 15 minutes](/posts/build-your-first-automation-in-15-minutes/) — your first real workflow
+4. [Build your own AI chatbot in 30 minutes](/posts/build-your-own-ai-chatbot-in-30-minutes/) — something you can actually use
+5. [How to actually make money with AI tools](/posts/how-to-actually-make-money-with-ai-tools/) — realistic paths, not hype
+
+Bonus when you're ready: [How I automated my client follow-ups](/posts/automate-client-follow-ups-no-code/) · [My automation pipeline](/posts/my-automation-pipeline/) · [Webhooks — how tools talk to each other](/posts/webhooks-how-tools-talk-to-each-other/)
+
+Not sure which tool fits you? Try the [AI Tool Advisor](/ai-tool-advisor.html).
+
+---
+
 ## What do you want to do?
 
 **Automate something boring**
@@ -16,11 +32,10 @@ Start here: [What is AI actually?](/posts/what-is-ai-actually/) — understand t
 
 Next steps:
 - [Build your first automation in 15 minutes](/posts/build-your-first-automation-in-15-minutes/) — your first Zapier workflow, step by step
+- [How I automated my client follow-ups](/posts/automate-client-follow-ups-no-code/) — a full follow-up sequence, no developer
+- [Webhooks — how tools talk to each other](/posts/webhooks-how-tools-talk-to-each-other/) — the concept behind every automation
+- [My automation pipeline](/posts/my-automation-pipeline/) — how my blog publishes itself
 - [The AI tools with the highest satisfaction rates](/posts/the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of/) — 12 tools nobody talks about
-
-Coming soon:
-- Webhooks — how tools talk to each other
-- My automation pipeline (how my blog publishes itself)
 
 ---
 
