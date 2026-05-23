@@ -2,6 +2,7 @@ baseURL = "https://nocoderequired.net"
 languageCode = "en-us"
 title = "NCR — No Code Required"
 theme = "PaperMod"
+canonifyURLs = true
 
 [params]
   defaultTheme = "dark"
