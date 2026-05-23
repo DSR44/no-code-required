@@ -77,7 +77,11 @@ This is the kind of thing I break down on [@manalbuilds](https://instagram.com/m
 
 ## References
 
-1. OpenAI Feels Burned by Apple ChatGPT Integration — Futurism
-2. OpenAI Reportedly Mulls Taking Apple to Court — SiliconANGLE
-3. Apple's AI Spend Remains Flat — Apple Insider
-4. OpenAI May Sue Apple — Shopifreaks
+1. [OpenAI Feels Burned by Apple ChatGPT Integration](https://vocal.media/futurism/open-ai-feels-burned-by-apple-chat-gpt-integration-as-partnership-sours-and-legal-options-emerge) — Futurism
+2. [OpenAI Reportedly Mulls Taking Apple to Court](https://siliconangle.com/2026/05/14/openai-reportedly-mulls-taking-apple-court-chatgpts-siri-integration/) — SiliconANGLE
+3. [Apple's AI Spend Remains Flat as OpenAI Loses $1.25 for Every $1](https://appleinsider.com/articles/26/05/22/apples-ai-spend-remains-flat-as-openai-loses-125-for-every-1) — Apple Insider
+4. [OpenAI May Sue Apple for Not Integrating ChatGPT Deep Enough](https://www.shopifreaks.com/openai-may-sue-apple-for-not-integrating-chatgpt-deep-enough-into-ios-but-its-reasons-are-ridiculous/) — Shopifreaks
+
+---
+
+> Want to build your own AI tools? I use [ElevenLabs](https://try.elevenlabs.io/hixrf1ztbv8x) for voice generation in all my content. Try it free.

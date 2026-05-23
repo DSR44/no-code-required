@@ -86,7 +86,11 @@ This is the kind of thing I write about on [@manalbuilds](https://instagram.com/
 
 ## References
 
-1. OpenAI US Privacy Policy — https://openai.com/policies/us-privacy-policy/
-2. Gemini Apps Privacy Hub — https://support.google.com/gemini/answer/13594961
-3. Alberta Privacy Commissioner Investigation — YouTube
-4. Ollama — https://ollama.com
+1. [OpenAI US Privacy Policy](https://openai.com/policies/us-privacy-policy/) — Updated May 18, 2026
+2. [Gemini Apps Privacy Hub](https://support.google.com/gemini/answer/13594961) — Google
+3. [Alberta Privacy Commissioner Investigation into OpenAI](https://www.youtube.com/watch?v=JxLK0uv3Vd0) — YouTube
+4. [Ollama — Run AI models locally](https://ollama.com) — Free, open-source
+
+---
+
+> Want to build your own AI tools? I use [ElevenLabs](https://try.elevenlabs.io/hixrf1ztbv8x) for voice generation in all my content. Try it free.
