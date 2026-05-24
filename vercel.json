@@ -4,6 +4,21 @@
   "framework": null,
   "redirects": [
     {
+      "source": "/free",
+      "destination": "/starter-kit/",
+      "permanent": true
+    },
+    {
+      "source": "/free/",
+      "destination": "/starter-kit/",
+      "permanent": true
+    },
+    {
+      "source": "/the-0-dollar-ai-starter-kit.pdf",
+      "destination": "/starter-kit/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
