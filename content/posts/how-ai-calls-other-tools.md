@@ -8,6 +8,7 @@ description: "Your AI assistant can now check your email, search the web, book f
 ShowToc: true
 cover:
   image: "/images/20260521_012852_A_person_sitting_at_a_desk_with_multiple.jpg"
+  alt: "Person at a desk with multiple browser tabs open, illustrating how AI tool calling automates tasks"
 ---
 
 {{< audio src="/audio/how-ai-calls-other-tools.mp3" >}}

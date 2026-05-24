@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "white-label-cal-com-resell"
 cover:
   image: "/images/white-label-cal-com-resell.jpg"
+  alt: "Cal.com scheduling interface showing white-label setup for reselling as a SaaS product"
 ---
 
 {{< audio src="/audio/white-label-cal-com-resell.mp3" >}}

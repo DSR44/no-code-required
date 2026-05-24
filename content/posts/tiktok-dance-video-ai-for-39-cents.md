@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "tiktok-dance-video-ai-for-39-cents"
 cover:
   image: "/images/tiktok-dance-video-ai-for-39-cents.jpg"
+  alt: "AI-generated TikTok dance video storyboard created with GPT Image 2.0 and PixVerse for $0.39"
 ---
 
 {{< audio src="/audio/tiktok-dance-video-ai-for-39-cents.mp3" >}}

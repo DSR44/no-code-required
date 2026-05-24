@@ -8,6 +8,7 @@ description: "I tested every major [AI image generator](/posts/ai-images-which-t
 ShowToc: true
 cover:
   image: "/images/best-ai-image-generators-2026.jpg"
+  alt: "Comparison of the best AI image generators in 2026 including Midjourney, DALL-E, and Flux"
 ---
 
 <div style="margin: 1.5em 0; padding: 1em; background: #1a1a1a; border-radius: 8px;"><p style="font-size: 0.9em; color: #aaa; margin-bottom: 0.5em;">🎧 Prefer to listen?</p><audio controls style="width: 100%; border-radius: 8px;"><source src="/audio/best-ai-image-generators-2026.mp3" type="audio/mpeg"></audio></div>
