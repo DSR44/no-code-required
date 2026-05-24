@@ -1,0 +1,81 @@
+{{- define "main" }}
+<div style="max-width: 600px; margin: 60px auto; padding: 0 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+    <div style="background: linear-gradient(135deg, #131316 0%, #1a1a1d 100%); border: 1px solid #2a2a2d; border-radius: 16px; padding: 48px 40px;">
+        <h1 style="color: #e8e6e1; font-size: 28px; margin-bottom: 12px; font-weight: 700;">The $0 AI Starter Kit</h1>
+        <p style="color: #8a8880; font-size: 16px; margin-bottom: 32px; line-height: 1.6;">12 free AI tools. Step-by-step setups. No coding, no paid subscriptions, no fluff.</p>
+        
+        <div style="background: #0a0a0b; border-radius: 12px; padding: 24px; margin-bottom: 32px; text-align: left;">
+            <p style="color: #e8e6e1; font-size: 14px; font-weight: 600; margin-bottom: 16px;">What's inside:</p>
+            <ul style="color: #8a8880; font-size: 14px; line-height: 2; padding-left: 20px; margin: 0;">
+                <li>12 tools ranked by beginner-friendliness</li>
+                <li>5-minute setup guides for each tool</li>
+                <li>3 workflows you can build today</li>
+                <li>What to skip (tools that waste your time)</li>
+            </ul>
+        </div>
+
+        <form id="lead-magnet-form" style="display: flex; flex-direction: column; gap: 12px;">
+            <input type="email" id="lm-email" name="email" placeholder="your@email.com" required
+                   style="padding: 14px 16px; border: 1px solid #333; border-radius: 8px; background: #0a0a0b; color: #e8e6e1; font-size: 16px; outline: none; transition: border-color 0.2s;">
+            <button type="submit" id="lm-btn"
+                    style="background: #e8a87c; color: #0a0a0b; border: none; padding: 14px 24px; border-radius: 8px; font-size: 16px; cursor: pointer; font-weight: 600; transition: background 0.2s;">
+                Get the Free PDF
+            </button>
+        </form>
+
+        <p id="lm-message" style="margin-top: 16px; font-size: 14px; display: none;"></p>
+        
+        <div id="lm-download" style="display: none; margin-top: 24px;">
+            <a href="/the-0-dollar-ai-starter-kit.pdf" 
+               style="display: inline-block; background: #e8a87c; color: #0a0a0b; padding: 14px 32px; border-radius: 8px; font-size: 16px; font-weight: 600; text-decoration: none; transition: background 0.2s;"
+               download>
+                ↓ Download PDF
+            </a>
+            <p style="color: #555; font-size: 11px; margin-top: 12px;">Also sent to your inbox.</p>
+        </div>
+
+        <p style="color: #555; font-size: 11px; margin-top: 24px; line-height: 1.4;">No spam. Unsubscribe anytime. <a href="/privacy/" style="color: #8a8880;">Privacy</a></p>
+    </div>
+</div>
+
+<style>
+#lm-email:focus { border-color: #e8a87c !important; }
+#lm-btn:hover { background: #d4956a !important; }
+</style>
+
+<script>
+document.getElementById('lead-magnet-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const email = document.getElementById('lm-email').value;
+    const msg = document.getElementById('lm-message');
+    const btn = document.getElementById('lm-btn');
+    const download = document.getElementById('lm-download');
+    
+    btn.disabled = true;
+    btn.textContent = 'Subscribing...';
+    
+    try {
+        const resp = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email })
+        });
+        const data = await resp.json();
+        
+        // Show download regardless (subscriber gets email too)
+        download.style.display = 'block';
+        msg.textContent = '✓ Check your inbox — PDF also sent there!';
+        msg.style.color = '#6bc4c4';
+        msg.style.display = 'block';
+        btn.textContent = 'Done!';
+        this.querySelector('input').style.display = 'none';
+    } catch(e) {
+        msg.textContent = 'Something went wrong. Try again.';
+        msg.style.color = '#f87171';
+        msg.style.display = 'block';
+        btn.disabled = false;
+        btn.textContent = 'Get the Free PDF';
+    }
+});
+</script>
+{{- end }}
