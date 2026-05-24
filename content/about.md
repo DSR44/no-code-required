@@ -3,6 +3,7 @@ title: "About"
 date: 2026-04-30
 draft: false
 ShowToc: false
+description: "Manal built No Code Required after learning AI from zero — no dev background, no jargon. Honest tool reviews and tutorials for non-technical people."
 ---
 
 ## Hey, I'm Manal.

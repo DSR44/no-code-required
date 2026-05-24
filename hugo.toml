@@ -14,9 +14,14 @@ canonifyURLs = true
   ShowWordCount = true
   ShowToc = true
   TocOpen = false
-  description = "Learn AI tools without the jargon. From a bodybuilder who never opened a terminal."
+  description = "Learn AI and no-code tools without the jargon. Honest tutorials, tool reviews, and step-by-step guides for non-technical people."
   author = "NCR"
+  env = "production"
   images = ["/images/og-default.jpg"]
+
+[params.schema]
+  publisherType = "Organization"
+  sameAs = ["https://www.youtube.com/@manalbuilds", "https://www.nocoderequired.net/"]
 
 [params.assets]
   favicon = "/favicon.ico"

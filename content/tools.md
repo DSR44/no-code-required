@@ -5,6 +5,7 @@ draft: false
 layout: "tools"
 ShowToc: false
 ShowBreadCrumbs: false
+description: "AI and no-code tools I actually use — tested, sorted from beginner to power user. ChatGPT, Zapier, Make, Suno, and more. No fluff."
 ---
 
 I test tools so you don't have to waste money on the ones that don't work. Here are the ones I actually use — sorted from "start here" to "power user."

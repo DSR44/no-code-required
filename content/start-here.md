@@ -3,6 +3,7 @@ title: "Start Here"
 date: 2026-05-01
 draft: false
 ShowToc: false
+description: "New to AI and no-code? Start here — free starter kit, beginner path, and links to the right tutorials without the jargon."
 ---
 
 I built this page so you don't have to wander around aimlessly. Pick what you want to do, and I'll point you to the right place.
