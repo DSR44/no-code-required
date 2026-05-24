@@ -1,6 +1,6 @@
 baseURL = "https://www.nocoderequired.net"
 languageCode = "en-us"
-title = "NCR — No Code Required"
+title = "No Code AI Tools for Beginners | No Code Required"
 theme = "PaperMod"
 canonifyURLs = true
 
@@ -14,7 +14,7 @@ canonifyURLs = true
   ShowWordCount = true
   ShowToc = true
   TocOpen = false
-  description = "Learn AI tools without the jargon. From a bodybuilder who never opened a terminal."
+  description = "Learn no code AI tools without the jargon. Practical guides for beginners — from someone who never opened a terminal. Start here."
   author = "NCR"
   images = ["/images/og-default.jpg"]
 
