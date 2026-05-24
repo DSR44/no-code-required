@@ -8,6 +8,7 @@ description: "CapCut sold your data. Kimu won't. Here's a free, open-source vide
 ShowToc: true
 cover:
   image: "/images/20260521_012553_A_person_editing_video_on_a_laptop_scree.jpg"
+  alt: "Person editing video on a laptop using Kimu, a free open-source CapCut alternative with AI"
 ---
 
 I used CapCut for months. Then I read the privacy policy. Then I stopped.

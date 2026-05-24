@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "ai-privacy-problem"
 cover:
   image: "/images/ai-privacy-problem.jpg"
+  alt: "Person using ChatGPT on a laptop, raising concerns about AI data privacy"
 ---
 
 {{< audio src="/audio/ai-privacy-problem.mp3" >}}
