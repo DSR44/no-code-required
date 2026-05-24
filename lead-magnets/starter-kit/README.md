@@ -11,6 +11,6 @@ npx playwright install chromium   # first time only
 python3 build_pdf.py
 ```
 
-Output: `static/downloads/the-0-dollar-ai-starter-kit.pdf` (served at `/downloads/the-0-dollar-ai-starter-kit.pdf`)
+Output: `api/assets/the-0-dollar-ai-starter-kit.pdf` (email attachment only — not a public URL)
 
 Landing page: `/starter-kit/`

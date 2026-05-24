@@ -6,10 +6,12 @@ Handles email subscriptions via Resend API
 import json
 import os
 import subprocess
+import base64
 from http.server import BaseHTTPRequestHandler
 
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
 AUDIENCE_ID = os.environ.get("RESEND_AUDIENCE_ID", "")
+STARTER_KIT_PDF = os.path.join(os.path.dirname(__file__), "assets", "the-0-dollar-ai-starter-kit.pdf")
 
 WELCOME_HTML = """
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; background: #0a0a0b;">
@@ -44,10 +46,7 @@ STARTER_KIT_HTML = """
     </div>
     <div style="padding: 32px 24px;">
         <p style="font-size: 18px; color: #e8e6e1; margin-bottom: 16px;">Hey,</p>
-        <p style="font-size: 16px; line-height: 1.7; color: #8a8880; margin-bottom: 16px;">Here's your download — 5 free tools and a step-by-step client follow-up automation you can build tonight.</p>
-        <p style="text-align: center; margin: 28px 0;">
-            <a href="https://www.nocoderequired.net/downloads/the-0-dollar-ai-starter-kit.pdf" style="display: inline-block; background: #e8a87c; color: #0a0a0b; text-decoration: none; padding: 14px 28px; border-radius: 8px; font-weight: 700; font-size: 16px;">Download the PDF</a>
-        </p>
+        <p style="font-size: 16px; line-height: 1.7; color: #8a8880; margin-bottom: 16px;">Here's your starter kit — <strong style="color: #e8e6e1;">the PDF is attached to this email</strong>. 5 free tools and a step-by-step client follow-up automation you can build tonight.</p>
         <p style="font-size: 15px; line-height: 1.7; color: #8a8880; margin-bottom: 12px;"><strong style="color: #e8e6e1;">Start with Path A</strong> — the client follow-up sequence. Full blog walkthrough with screenshots:</p>
         <p style="margin-bottom: 20px;"><a href="https://www.nocoderequired.net/posts/automate-client-follow-ups-no-code/" style="color: #6bc4c4;">How I automated my client follow-ups in an afternoon</a></p>
         <p style="font-size: 15px; line-height: 1.7; color: #8a8880; margin-bottom: 8px;">New to AI tools? Follow the <a href="https://www.nocoderequired.net/start-here/" style="color: #6bc4c4;">Start Here</a> path after you build your first workflow.</p>
@@ -62,17 +61,24 @@ STARTER_KIT_HTML = """
 def send_welcome_email(email, source=None):
     html = STARTER_KIT_HTML if source == "starter-kit" else WELCOME_HTML
     subject = "Your $0 AI Starter Kit is ready" if source == "starter-kit" else "Welcome to No Code Required"
+    payload = {
+        "from": "hello@nocoderequired.net",
+        "reply_to": "hello@manal.pro",
+        "to": email,
+        "subject": subject,
+        "html": html,
+    }
+    if source == "starter-kit" and os.path.exists(STARTER_KIT_PDF):
+        with open(STARTER_KIT_PDF, "rb") as f:
+            payload["attachments"] = [{
+                "filename": "The-0-Dollar-AI-Starter-Kit.pdf",
+                "content": base64.b64encode(f.read()).decode("ascii"),
+            }]
     cmd = [
         "curl", "-s", "-X", "POST", "https://api.resend.com/emails",
         "-H", f"Authorization: Bearer {RESEND_API_KEY}",
         "-H", "Content-Type: application/json",
-        "-d", json.dumps({
-            "from": "hello@nocoderequired.net",
-            "reply_to": "hello@manal.pro",
-            "to": email,
-            "subject": subject,
-            "html": html
-        })
+        "-d", json.dumps(payload),
     ]
     subprocess.run(cmd, capture_output=True, text=True, timeout=30)
 

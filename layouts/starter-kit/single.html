@@ -26,7 +26,7 @@
 
   <div style="background: linear-gradient(135deg, #131316 0%, #1a1a1d 100%); border-radius: 16px; padding: 2.5rem 2rem; max-width: 480px; margin: 0 auto 3rem; text-align: center; border: 1px solid #2a2a2d;">
     <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: #e8e6e1; margin-bottom: 0.5rem;">Get the PDF free</h2>
-    <p style="color: #8a8880; font-size: 0.9rem; margin-bottom: 1.5rem;">Enter your email — instant download link. No spam. Unsubscribe anytime.</p>
+    <p style="color: #8a8880; font-size: 0.9rem; margin-bottom: 1.5rem;">Enter your email — we’ll send the PDF to your inbox. No spam. Unsubscribe anytime.</p>
     <form id="starter-kit-form" style="display: flex; flex-direction: column; gap: 12px;">
       <input type="email" id="starter-kit-email" name="email" placeholder="your@email.com" required
         style="padding: 14px 16px; border: 1px solid #333; border-radius: 8px; background: #0a0a0b; color: #e8e6e1; font-size: 16px; outline: none;">
@@ -40,7 +40,6 @@
   </div>
 
   <div style="max-width: 560px; margin: 0 auto; text-align: center; color: #8a8880; font-size: 0.95rem; line-height: 1.7;">
-    <p>Already on the list? <a href="/downloads/the-0-dollar-ai-starter-kit.pdf" style="color: #6bc4c4;">Download the PDF directly</a>.</p>
     <p style="margin-top: 1rem;">New to AI tools? After the kit, follow the <a href="/start-here/" style="color: #6bc4c4;">Start Here</a> path.</p>
   </div>
 </article>
@@ -65,7 +64,7 @@ document.getElementById('starter-kit-form').addEventListener('submit', async fun
     });
     const data = await response.json();
     if (data.id || data.status === 'subscribed') {
-      msg.innerHTML = '✓ Check your inbox — your download link is on the way.<br><a href="/downloads/the-0-dollar-ai-starter-kit.pdf" style="color:#6bc4c4;margin-top:8px;display:inline-block;">Or download now</a>';
+      msg.textContent = '✓ Check your inbox — the PDF is attached to your welcome email.';
       msg.style.color = '#6bc4c4';
       msg.style.display = 'block';
       this.reset();
