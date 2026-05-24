@@ -6,8 +6,7 @@ Handles email subscriptions via Resend API
 import base64
 import json
 import os
-import urllib.error
-import urllib.request
+import subprocess
 from http.server import BaseHTTPRequestHandler
 
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
@@ -61,28 +60,29 @@ STARTER_KIT_HTML = """
 
 
 def _resend_post(url: str, payload: dict) -> dict:
+    """POST JSON to Resend via curl stdin — avoids ARG_MAX on large PDF attachments."""
     if not RESEND_API_KEY:
         raise RuntimeError("RESEND_API_KEY not configured")
-    body = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        url,
-        data=body,
-        headers={
-            "Authorization": f"Bearer {RESEND_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
+    body = json.dumps(payload)
+    result = subprocess.run(
+        [
+            "curl", "-s", "-S", "-X", "POST", url,
+            "-H", f"Authorization: Bearer {RESEND_API_KEY}",
+            "-H", "Content-Type: application/json",
+            "--data-binary", "@-",
+        ],
+        input=body,
+        capture_output=True,
+        text=True,
+        timeout=60,
     )
+    raw = (result.stdout or "").strip()
+    if not raw:
+        return {"error": result.stderr.strip() or "Empty response from Resend"}
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            raw = resp.read().decode("utf-8")
-            return json.loads(raw) if raw else {}
-    except urllib.error.HTTPError as e:
-        raw = e.read().decode("utf-8")
-        try:
-            return json.loads(raw)
-        except json.JSONDecodeError:
-            return {"error": raw or str(e)}
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        return {"error": raw}
 
 
 def add_contact(email: str) -> dict:
@@ -109,6 +109,11 @@ def send_welcome_email(email: str, source: str | None = None) -> dict:
                 "content": base64.b64encode(f.read()).decode("ascii"),
             }]
     return _resend_post("https://api.resend.com/emails", payload)
+
+
+def _contact_ok(response: dict) -> bool:
+    msg = (response.get("message") or response.get("error") or "").lower()
+    return bool(response.get("id") or "already exists" in msg)
 
 
 class handler(BaseHTTPRequestHandler):
@@ -139,8 +144,17 @@ class handler(BaseHTTPRequestHandler):
 
             response = add_contact(email)
 
-            if response.get("id") or response.get("message") == "Contact already exists":
-                send_welcome_email(email, source=source)
+            if _contact_ok(response):
+                email_result = send_welcome_email(email, source=source)
+                if source == "starter-kit" and not email_result.get("id"):
+                    self.send_response(502)
+                    self.send_header("Content-Type", "application/json")
+                    self.send_header("Access-Control-Allow-Origin", "*")
+                    self.end_headers()
+                    self.wfile.write(json.dumps({
+                        "error": email_result.get("message") or email_result.get("error") or "Could not send starter kit email",
+                    }).encode())
+                    return
 
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json")
