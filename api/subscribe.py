@@ -3,10 +3,11 @@ Subscribe endpoint for No Code Required
 Handles email subscriptions via Resend API
 """
 
+import base64
 import json
 import os
-import subprocess
-import base64
+import urllib.error
+import urllib.request
 from http.server import BaseHTTPRequestHandler
 
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
@@ -58,7 +59,40 @@ STARTER_KIT_HTML = """
 </div>
 """
 
-def send_welcome_email(email, source=None):
+
+def _resend_post(url: str, payload: dict) -> dict:
+    if not RESEND_API_KEY:
+        raise RuntimeError("RESEND_API_KEY not configured")
+    body = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=body,
+        headers={
+            "Authorization": f"Bearer {RESEND_API_KEY}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            raw = resp.read().decode("utf-8")
+            return json.loads(raw) if raw else {}
+    except urllib.error.HTTPError as e:
+        raw = e.read().decode("utf-8")
+        try:
+            return json.loads(raw)
+        except json.JSONDecodeError:
+            return {"error": raw or str(e)}
+
+
+def add_contact(email: str) -> dict:
+    return _resend_post(
+        "https://api.resend.com/contacts",
+        {"email": email, "audience_id": AUDIENCE_ID, "unsubscribed": False},
+    )
+
+
+def send_welcome_email(email: str, source: str | None = None) -> dict:
     html = STARTER_KIT_HTML if source == "starter-kit" else WELCOME_HTML
     subject = "Your $0 AI Starter Kit is ready" if source == "starter-kit" else "Welcome to No Code Required"
     payload = {
@@ -74,25 +108,19 @@ def send_welcome_email(email, source=None):
                 "filename": "The-0-Dollar-AI-Starter-Kit.pdf",
                 "content": base64.b64encode(f.read()).decode("ascii"),
             }]
-    cmd = [
-        "curl", "-s", "-X", "POST", "https://api.resend.com/emails",
-        "-H", f"Authorization: Bearer {RESEND_API_KEY}",
-        "-H", "Content-Type: application/json",
-        "-d", json.dumps(payload),
-    ]
-    subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+    return _resend_post("https://api.resend.com/emails", payload)
 
 
 class handler(BaseHTTPRequestHandler):
     def do_POST(self):
         content_length = int(self.headers.get("Content-Length", 0))
         body = self.rfile.read(content_length)
-        
+
         try:
             data = json.loads(body)
             email = data.get("email", "").strip()
             source = data.get("source", "").strip() or None
-            
+
             if not email or "@" not in email:
                 self.send_response(400)
                 self.send_header("Content-Type", "application/json")
@@ -100,26 +128,20 @@ class handler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({"error": "Invalid email"}).encode())
                 return
-            
-            # Add to Resend audience
-            cmd = [
-                "curl", "-s", "-X", "POST", "https://api.resend.com/contacts",
-                "-H", f"Authorization: Bearer {RESEND_API_KEY}",
-                "-H", "Content-Type: application/json",
-                "-d", json.dumps({
-                    "email": email,
-                    "audience_id": AUDIENCE_ID,
-                    "unsubscribed": False
-                })
-            ]
-            
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-            response = json.loads(result.stdout) if result.returncode == 0 else {}
-            
-            if response.get("id") or response.get("error") == "Contact already exists":
-                # Send welcome email
+
+            if not RESEND_API_KEY or not AUDIENCE_ID:
+                self.send_response(500)
+                self.send_header("Content-Type", "application/json")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"error": "Email service not configured"}).encode())
+                return
+
+            response = add_contact(email)
+
+            if response.get("id") or response.get("message") == "Contact already exists":
                 send_welcome_email(email, source=source)
-                
+
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json")
                 self.send_header("Access-Control-Allow-Origin", "*")
@@ -130,15 +152,15 @@ class handler(BaseHTTPRequestHandler):
                 self.send_header("Content-Type", "application/json")
                 self.send_header("Access-Control-Allow-Origin", "*")
                 self.end_headers()
-                self.wfile.write(json.dumps({"error": response.get("error", "Unknown error")}).encode())
-                
+                self.wfile.write(json.dumps({"error": response.get("message") or response.get("error", "Unknown error")}).encode())
+
         except Exception as e:
             self.send_response(500)
             self.send_header("Content-Type", "application/json")
             self.send_header("Access-Control-Allow-Origin", "*")
             self.end_headers()
             self.wfile.write(json.dumps({"error": str(e)}).encode())
-    
+
     def do_OPTIONS(self):
         self.send_response(200)
         self.send_header("Access-Control-Allow-Origin", "*")
