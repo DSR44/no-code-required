@@ -3,9 +3,8 @@ title: "Privacy Policy"
 date: 2026-05-03
 draft: false
 ShowToc: false
+description: "How No Code Required collects and uses your data — newsletter emails, analytics, cookies, and third-party services. Last updated May 2026."
 ---
-
-# Privacy Policy
 
 **Last updated:** May 3, 2026
 

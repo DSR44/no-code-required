@@ -124,6 +124,51 @@
   }
 }
 </script>
+{{- else if eq .File.BaseFileName "privacy" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ .Title | plainify }},
+  "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ site.Params.description | plainify }}{{ end }},
+  "url": {{ .Permalink | safeHTML }},
+  "inLanguage": {{ .Language.Lang | default "en" | safeHTML }},
+  "dateModified": {{ .Lastmod }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink | safeHTML }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": {{ printf "%s#organization" site.Home.Permalink | safeHTML }},
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink | safeHTML }}
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": {{ printf "%s#organization" site.Home.Permalink | safeHTML }},
+  "name": {{ site.Title }},
+  "url": {{ site.Home.Permalink | safeHTML }},
+  "email": "hello@nocoderequired.net",
+  "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }}
+  },
+  "sameAs": [
+    {{- if site.Params.schema.sameAs }}
+      {{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
+    {{- else }}
+      {{ range $i, $e := site.Params.socialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " | safeURL }}{{ end }}
+    {{- end }}
+  ]
+}
+</script>
 {{- else if eq .Section "posts" }}
 <script type="application/ld+json">
 {
