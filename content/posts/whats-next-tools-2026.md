@@ -8,6 +8,7 @@ description: "Five AI trends that are actually changing how regular people build
 ShowToc: true
 cover:
   image: "/images/whats-next-tools-2026.jpg"
+  alt: "Zoe at laptop reviewing AI tool trends and forecasts for 2026 on screen"
 ---
 
 <div style="margin: 1.5em 0; padding: 1em; background: #1a1a1a; border-radius: 8px;"><p style="font-size: 0.9em; color: #aaa; margin-bottom: 0.5em;">🎧 Prefer to listen?</p><audio controls style="width: 100%; border-radius: 8px;"><source src="/audio/whats-next-tools-2026.mp3" type="audio/mpeg"></audio></div>
