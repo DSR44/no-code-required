@@ -110,4 +110,16 @@ Then come back here and pick a path.
 
 ---
 
+## Sources & references
+
+These are the official and academic resources behind the beginner path above — not affiliate blogs or hype threads:
+
+- **[NIST — Artificial Intelligence](https://www.nist.gov/artificial-intelligence)** — U.S. federal guidance on AI basics, risk, and trustworthiness
+- **[MIT OpenCourseWare — Introduction to AI](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/)** — foundational concepts without the marketing spin
+- **[GitHub Docs — Getting Started](https://docs.github.com/en/get-started)** — official guide for the GitHub step in the blog-building path
+- **[MDN Web Docs — HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)** — how the web works (essential before automations and webhooks)
+- **[OpenAI — Help Center](https://help.openai.com/)** — primary documentation for ChatGPT, the tool most beginners start with
+
+---
+
 *This page grows as the blog grows. Bookmark it.*

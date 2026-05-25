@@ -169,6 +169,93 @@
   ]
 }
 </script>
+{{- else if eq .File.BaseFileName "start-here" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ .Title | plainify }},
+  "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ site.Params.description | plainify }}{{ end }},
+  "url": {{ .Permalink | safeHTML }},
+  "inLanguage": {{ .Language.Lang | default "en" | safeHTML }},
+  "dateModified": {{ .Lastmod }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink | safeHTML }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": {{ printf "%s#organization" site.Home.Permalink | safeHTML }},
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink | safeHTML }}
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Start your AI journey (no code required)",
+  "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ site.Params.description | plainify }}{{ end }},
+  "url": {{ .Permalink | safeHTML }},
+  "inLanguage": {{ .Language.Lang | default "en" | safeHTML }},
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "What is AI actually?",
+      "url": {{ "/posts/what-is-ai-actually/" | absURL | safeHTML }}
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "APIs explained like you're 5",
+      "url": {{ "/posts/apis-explained-like-youre-5/" | absURL | safeHTML }}
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Build your first automation in 15 minutes",
+      "url": {{ "/posts/build-your-first-automation-in-15-minutes/" | absURL | safeHTML }}
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Build your own AI chatbot in 30 minutes",
+      "url": {{ "/posts/build-your-own-ai-chatbot-in-30-minutes/" | absURL | safeHTML }}
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "How to actually make money with AI tools",
+      "url": {{ "/posts/how-to-actually-make-money-with-ai-tools/" | absURL | safeHTML }}
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": {{ printf "%s#organization" site.Home.Permalink | safeHTML }},
+  "name": {{ site.Title }},
+  "url": {{ site.Home.Permalink | safeHTML }},
+  "email": "hello@nocoderequired.net",
+  "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }}
+  },
+  "sameAs": [
+    {{- if site.Params.schema.sameAs }}
+      {{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
+    {{- else }}
+      {{ range $i, $e := site.Params.socialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " | safeURL }}{{ end }}
+    {{- end }}
+  ]
+}
+</script>
 {{- else if eq .Section "posts" }}
 <script type="application/ld+json">
 {
