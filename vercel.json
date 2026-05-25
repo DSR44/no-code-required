@@ -19,6 +19,16 @@
       "permanent": true
     },
     {
+      "source": "/posts/ai-privacy-problem/",
+      "destination": "/posts/the-privacy-problem-nobody-talks-about/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/ai-privacy-problem",
+      "destination": "/posts/the-privacy-problem-nobody-talks-about/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
