@@ -13,7 +13,7 @@
 </div>
 {{- end }}
 
-<h2 class="terms-index-heading">All categories</h2>
+<h2 class="terms-index-heading">{{ if eq .Type "tags" }}All tags{{ else }}All {{ .Type }}{{ end }}</h2>
 <ul class="terms-tags">
   {{- $type := .Type }}
   {{- range $key, $value := .Data.Terms.Alphabetical }}
