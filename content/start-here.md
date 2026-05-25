@@ -34,6 +34,8 @@ Bonus when you're ready: [How I automated my client follow-ups](/posts/automate-
 
 Not sure which tool fits you? Try the [AI Tool Advisor](/ai-tool-advisor.html).
 
+**Common questions?** See the [No-Code & AI FAQ](/faq/) — answers for beginners who don't code (including people running AI-built sites on GitHub/Vercel).
+
 ---
 
 ## What do you want to do?
