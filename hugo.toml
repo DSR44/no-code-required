@@ -21,6 +21,10 @@ canonifyURLs = true
   env = "production"
   images = ["/images/og-default.jpg"]
 
+[params.ogImage]
+  width = 1200
+  height = 630
+
 [params.schema]
   publisherType = "Organization"
   sameAs = ["https://www.youtube.com/@manalbuilds", "https://www.nocoderequired.net/"]

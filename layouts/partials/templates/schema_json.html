@@ -20,7 +20,7 @@
   ]
 }
 </script>
-{{- else if (or .IsPage .IsSection) }}
+{{- else if (or .IsPage .IsSection (eq .Kind "term") (eq .Kind "taxonomy")) }}
 {{/* BreadcrumbList */}}
 {{- $url := replace .Parent.Permalink ( printf "%s" site.Home.Permalink) "" }}
 {{- $lang_url := strings.TrimPrefix ( printf "%s/" .Lang) $url }}
@@ -58,6 +58,32 @@
   ]
 }
 </script>
+{{- if eq .Kind "term" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ .Title | plainify }},
+  "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ site.Params.description | plainify }}{{ end }},
+  "url": {{ .Permalink | safeHTML }},
+  "inLanguage": {{ .Language.Lang | default "en" | safeHTML }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink | safeHTML }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink | safeHTML }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }}
+    }
+  }
+}
+</script>
+{{- end }}
 {{- if .IsPage }}
 {{- if eq .File.BaseFileName "about" }}
 <script type="application/ld+json">
