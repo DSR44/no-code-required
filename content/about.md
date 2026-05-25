@@ -83,6 +83,16 @@ AI writing, image generation, no-code automation, APIs, GitHub, webhooks, conten
 
 **I'm not an expert.** I'm someone who started from zero and figured it out — and I'm bringing you along for the ride.
 
+## Sources & references
+
+I research tools against primary sources — official docs and established institutions — not random Reddit threads. A few references I use regularly when writing and testing:
+
+- **[NIST — Artificial Intelligence](https://www.nist.gov/artificial-intelligence)** — U.S. federal guidance on AI trustworthiness, risk, and standards
+- **[MIT OpenCourseWare — Artificial Intelligence](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/)** — foundational AI concepts explained academically, no hype
+- **[GitHub Docs — Getting Started](https://docs.github.com/en/get-started)** — the official guide I follow when explaining Git and deployment to beginners
+- **[MDN Web Docs — HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)** — Mozilla's reference for how the web actually works (APIs, webhooks, browsers)
+- **[CDC — Physical Activity Basics](https://www.cdc.gov/physical-activity-basics/about/index.html)** — evidence-based fitness guidance from the U.S. Centers for Disease Control
+
 ---
 
 *Built with AI. Written by a human. Tested in the real world.*
