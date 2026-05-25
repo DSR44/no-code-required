@@ -29,7 +29,7 @@ But then things started happening that didn't match the marketing.
 
 ## What actually happened with Brave
 
-In 2020, users discovered that Brave was silently auto-completing URLs to crypto exchanges — like Binance — with affiliate links. So when you typed "binance.com" into the address bar, Brave quietly redirected you to a version that earned them a commission. They didn't ask. They didn't tell you. You had to notice it yourself.
+In 2020, users discovered that Brave was silently auto-completing URLs to crypto exchanges — like Binance — with referral links. So when you typed "binance.com" into the address bar, Brave quietly redirected you to a version that earned them a commission. They didn't ask. They didn't tell you. You had to notice it yourself.
 
 This wasn't a bug. This was a design choice by a browser that marketed itself on respecting your privacy. The irony isn't subtle.
 
@@ -45,7 +45,7 @@ Here's where this stops being about browser drama and starts being about your ac
 
 When you're building with [no-code tools](/posts/build-a-tool-that-actually-does-something/), you're handling sensitive stuff. API keys. Authentication tokens. Workflow configurations. [Client data flowing through automations](/posts/automate-client-follow-ups-no-code/). All of that passes through your browser.
 
-If your browser is silently adding affiliate links to URLs, what else is it doing that you can't see? If its "private" mode leaks DNS, how private is the regular mode?
+If your browser is silently adding referral links to URLs, what else is it doing that you can't see? If its "private" mode leaks DNS, how private is the regular mode?
 
 I wrote about [the AI privacy problem](/posts/the-ai-privacy-problem/) before — the data you're feeding into language models, the questions you're asking, the files you're uploading. But before any of that reaches your AI, it goes through your browser first. Your browser is the layer underneath everything.
 
@@ -71,7 +71,7 @@ I use LibreWolf as my daily driver now. I keep Brave installed as a backup for s
 
 The no-code and AI space is obsessed with the tools you can see — the automations, the prompts, the workflows. But the infrastructure underneath matters just as much. Your browser. Your password manager. Your VPN. These aren't sexy topics, but they're the foundation everything else sits on.
 
-Brave taught us an important lesson: marketing isn't the same as reality. A company can slap "privacy" on everything and still quietly insert affiliate links into your address bar. The label isn't the thing. You have to look under the hood.
+Brave taught us an important lesson: marketing isn't the same as reality. A company can slap "privacy" on everything and still quietly insert referral links into your address bar. The label isn't the thing. You have to look under the hood.
 
 If you're building with AI tools — and if you're reading this, you probably are — [pick your tools deliberately](/posts/whats-next-tools-2026/). Pick your browser the same way you pick any other tool in your stack. Based on what it actually does, not what it says it does.
 
