@@ -313,6 +313,20 @@ I test tools so you don't have to waste money on the ones that don't work. Here 
 
 ---
 
+## Sources & references
+
+I evaluate tools against official documentation and established standards — not random listicles:
+
+- **[OpenAI Help Center](https://help.openai.com/)** — primary docs for ChatGPT features and usage policies
+- **[Anthropic — Claude documentation](https://docs.anthropic.com/)** — official Claude capabilities and limits
+- **[Zapier Help documentation](https://help.zapier.com/)** — how automations, tasks, and pricing actually work
+- **[GitHub Docs — Getting Started](https://docs.github.com/en/get-started)** — version control basics for the GitHub tool listed above
+- **[NIST — Artificial Intelligence](https://www.nist.gov/artificial-intelligence)** — U.S. federal guidance on AI trustworthiness and risk
+
+For hands-on reviews of these tools, browse the [Tools category](/categories/tools/) or use the [AI Tool Advisor](/ai-tool-advisor.html).
+
+---
+
 *I test every tool before recommending it. Some links are affiliate links — if you sign up, I may earn a small commission at no extra cost to you. I only recommend tools I actually use.*
 
 *Have a tool you want me to test? [Contact me](/about/).*
