@@ -15,7 +15,7 @@
 {{- end }}
 {{- end }}
 
-{{- with or .Title site.Title site.Params.title | plainify }}
+{{- with cond .IsHome (site.Params.homeTitle | default site.Title) (or .Title site.Title site.Params.title) | plainify }}
   <meta name="twitter:title" content="{{ . }}">
 {{- end }}
 
