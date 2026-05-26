@@ -1,0 +1,92 @@
+{{- $count := site.Params.latestPosts.count | default 5 }}
+{{- $sections := site.Params.mainSections | default (slice "posts") }}
+{{- $pages := where site.RegularPages "Type" "in" $sections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+{{- $latest := first $count ($pages.ByDate.Reverse) }}
+{{- if $latest }}
+
+<section class="latest-posts" aria-labelledby="latest-posts-heading">
+  <div class="latest-posts__header">
+    <h2 id="latest-posts-heading">Latest posts</h2>
+    <a class="latest-posts__all" href="{{ "/posts/" | absURL }}">View all posts →</a>
+  </div>
+
+  <div class="latest-posts__viewport">
+    <button type="button" class="latest-posts__nav latest-posts__nav--prev" aria-label="Scroll to previous posts" hidden>
+      ‹
+    </button>
+
+    <div class="latest-posts__track" tabindex="0" role="list">
+      {{- range $latest }}
+      {{- $page := . }}
+      <article class="latest-posts__card" role="listitem">
+        <a class="latest-posts__link" href="{{ $page.Permalink }}">
+          {{- with $page.Params.cover.image }}
+          <div class="latest-posts__media">
+            <img
+              src="{{ . | absURL }}"
+              alt="{{ $page.Params.cover.alt | default $page.Title | plainify }}"
+              width="320"
+              height="180"
+              loading="lazy"
+              decoding="async">
+          </div>
+          {{- else }}
+          <div class="latest-posts__media latest-posts__media--placeholder" aria-hidden="true"></div>
+          {{- end }}
+          <div class="latest-posts__body">
+            <h3 class="latest-posts__title">{{ $page.Title | plainify }}</h3>
+            <p class="latest-posts__meta">
+              {{- if not $page.Date.IsZero -}}
+              <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "Jan 2, 2006" }}</time>
+              {{- end -}}
+              {{- if $page.ReadingTime -}}
+              <span>{{ $page.ReadingTime }} min read</span>
+              {{- end -}}
+            </p>
+            <p class="latest-posts__summary">{{ with $page.Description }}{{ . | truncate 120 }}{{ else }}{{ $page.Summary | plainify | truncate 120 }}{{ end }}</p>
+          </div>
+        </a>
+      </article>
+      {{- end }}
+    </div>
+
+    <button type="button" class="latest-posts__nav latest-posts__nav--next" aria-label="Scroll to next posts">
+      ›
+    </button>
+  </div>
+
+  <p class="latest-posts__hint">Swipe or use arrows to browse · every card links to a full article</p>
+</section>
+
+<script>
+(function () {
+  var section = document.currentScript && document.currentScript.previousElementSibling;
+  if (!section || !section.classList.contains('latest-posts')) return;
+
+  var track = section.querySelector('.latest-posts__track');
+  var prev = section.querySelector('.latest-posts__nav--prev');
+  var next = section.querySelector('.latest-posts__nav--next');
+  if (!track || !prev || !next) return;
+
+  function scrollByCard(dir) {
+    var card = track.querySelector('.latest-posts__card');
+    var gap = parseFloat(getComputedStyle(track).gap) || 16;
+    var amount = card ? card.offsetWidth + gap : track.clientWidth * 0.85;
+    track.scrollBy({ left: dir * amount, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  }
+
+  function updateNav() {
+    var max = track.scrollWidth - track.clientWidth - 2;
+    prev.hidden = track.scrollLeft <= 2;
+    next.hidden = track.scrollLeft >= max;
+  }
+
+  prev.addEventListener('click', function () { scrollByCard(-1); });
+  next.addEventListener('click', function () { scrollByCard(1); });
+  track.addEventListener('scroll', updateNav, { passive: true });
+  window.addEventListener('resize', updateNav);
+  updateNav();
+})();
+</script>
+{{- end }}

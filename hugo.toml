@@ -46,6 +46,10 @@ canonifyURLs = true
   Title = "You don't need to code.\nYou need to learn how machines think."
   Content = "Real tools. Tested workflows. No jargon.<br>From someone who was scared of the terminal too."
 
+[params.latestPosts]
+  enabled = true
+  count = 5
+
 [[params.socialIcons]]
   name = "youtube"
   url = "https://www.youtube.com/@manalbuilds"
