@@ -10,7 +10,7 @@ keywords: ["ChatGPT alternatives 2026", "best AI assistant", "Claude vs ChatGPT"
 ShowToc: true
 TocOpen: false
 cover:
-  image: "/images/posts/chatgpt-alternatives-2026-actually-worth-switching.jpg"
+  image: "/images/posts/20260526_153307_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Zoe at laptop comparing AI tool dashboards, warm editorial photography"
 ---
 {{< audio src="/audio/chatgpt-alternatives-2026-actually-worth-switching.mp3" >}}
