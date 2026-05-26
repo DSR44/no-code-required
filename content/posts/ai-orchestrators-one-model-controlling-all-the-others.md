@@ -10,7 +10,7 @@ keywords: ["AI orchestrator", "multi-model AI routing", "AI agent orchestration"
 ShowToc: true
 TocOpen: false
 cover:
-  image: "/images/posts/ai-orchestrators-one-model-controlling-all-the-others.jpg"
+  image: "/images/posts/20260526_113543_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Young woman reviewing multiple AI tool dashboards on laptop, warm coffee-shop editorial photography"
 ---
 {{< audio src="/audio/ai-orchestrators-one-model-controlling-all-the-others.mp3" >}}
