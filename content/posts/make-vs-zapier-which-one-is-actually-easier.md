@@ -23,7 +23,7 @@ Here's what happened when I treated both tools like a total beginner would.
 
 ## The 30-second answer
 
-If you've literally never automated anything in your life and the phrase "webhook" makes your eye twitch — start with [Zapier](https://zapier.com). It's slower, more expensive at scale, and less powerful. But it works on day one, and for a small business owner juggling twelve things, that matters more than features.
+If you've never automated anything in your life and the phrase "webhook" makes your eye twitch — start with [Zapier](https://zapier.com). It's slower, more expensive at scale, and less powerful. But it works on day one, and for a [small business owner juggling twelve things](/posts/how-to-actually-make-money-with-ai-tools/), that matters more than features.
 
 If you're the kind of person who enjoys tinkering — you've built a [Notion dashboard](/posts/the-tools-i-actually-use-every-day/) or played with [Canva templates](/posts/best-ai-image-generators/) just to see what they do — [Make](https://www.make.com) will feel like unlocking a cheat code. The learning curve is real but short, and you'll save money once you're past it.
 
@@ -55,6 +55,8 @@ I built my first automation (new Google Form submission → add row to Google Sh
 - You're locked into a linear flow. No visual overview of what connects to what
 
 I wrote more about this in my [full automation pipeline breakdown](/posts/my-automation-pipeline/) if you want to see how Zapier fits into a bigger system.
+
+For a deeper breakdown on how different automation tools compare on pricing and integrations, check out [Zapier vs Make vs n8n — which automation tool should you actually pick](/posts/zapier-vs-make-vs-n8n-which-automation-tool/).
 
 **The real cost for a small business:** Budget $30–50/month once you're past the free tier. It's predictable, which is nice — but you're paying a premium for simplicity.
 
