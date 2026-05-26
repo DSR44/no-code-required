@@ -41,7 +41,7 @@ The controversy: some developers got inconsistent results on launch day. Others 
 
 I switched three weeks ago and haven't looked back. My AI bill dropped 90%. I'm doing more work than before, still within my monthly token limits. Full [breakdown on Composer 2.5 here](/posts/cursor-composer-2-5-free-claude-killer/).
 
-**Best for:** Coding, building apps, anyone tired of paying Claude's API prices.
+**Best for:** Coding, building apps, anyone tired of paying Claude's API prices. [Try Cursor free](https://cursor.com/referral?code=A6W8KXAAVUV0).
 
 ### Perplexity — the research engine
 

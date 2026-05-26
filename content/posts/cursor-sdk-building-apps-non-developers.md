@@ -71,3 +71,5 @@ If you've used [our AI tool advisor](/ai-tool-advisor.html) to find the right to
 Cursor's SDK is proof that AI coding is moving from "helpful assistant" to "autonomous builder." For non-developers, this means the gap between "I have an idea" and "I have a working app" is collapsing. The model does the coding. The agent does the building. You do the thinking.
 
 If you've been waiting for the right moment to try building something with AI, this is it. Start with our [start here guide](/start-here/) to see what's possible — then pick a small project and let Cursor build it.
+
+*Try Cursor for free — [referral link](https://cursor.com/referral?code=A6W8KXAAVUV0).*
