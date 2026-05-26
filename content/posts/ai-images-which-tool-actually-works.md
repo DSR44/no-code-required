@@ -1,5 +1,5 @@
 ---
-title: "AI images: which tool actually works?"
+title: "AI Image Generators Compared: Which Tool Actually Works?"
 date: 2026-05-08
 draft: false
 description: "I tested 5 AI image generators with the same prompts. Midjourney, DALL-E, Flux, Ideogram, and Stable Diffusion — honest comparison with real outputs and pricing."
