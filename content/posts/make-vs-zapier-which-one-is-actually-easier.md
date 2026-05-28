@@ -10,7 +10,7 @@ keywords: ["Make.com vs Zapier for small business owners without coding experien
 ShowToc: true
 TocOpen: false
 cover:
-  image: "/images/posts/20260526_041711_Zoe_young_woman_dark_brown_shoulder-len.jpg"
+  image: "/images/posts/make-vs-zapier-which-one-is-actually-easier.jpg"
   alt: "Woman at laptop comparing automation workflows on screen with Make and Zapier interfaces"
 ---
 {{< audio src="/audio/make-vs-zapier-which-one-is-actually-easier.mp3" >}}
@@ -116,7 +116,7 @@ Here's my actual recommendation, not a hedge:
 
 **The move I'd actually make:** Start with [Zapier's free plan](https://zapier.com). Build two or three simple automations. Get comfortable with the concept. Then migrate to Make when you outgrow it. It's not a forever choice — it's a starting point.
 
-If you want to see how I fit automation into a real small business workflow, check out [how I built my first automation in 15 minutes](/posts/build-your-first-automation-in-15-minutes/). It walks through the exact steps.
+If you want to see how I fit automation into a real small business workflow, check out [how I built my first automation in 15 minutes](/posts/build-your-first-automation-in-15-minutes/). It walks through the exact steps. For a three-way comparison including n8n, see [Zapier vs Make vs n8n](/posts/zapier-vs-make-vs-n8n-which-automation-tool/).
 
 ## The bottom line
 

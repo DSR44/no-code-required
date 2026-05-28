@@ -100,3 +100,5 @@ If you've been holding off on building with AI because of cost, the barrier just
 I made [the mistakes](/posts/the-mistakes-i-made-so-you-dont-have-to/) so you don't have to. Switching to Composer 2.5 wasn't one of them.
 
 Ready to start building? Check out our [AI Tool Advisor](/ai-tool-advisor.html) to find the right tools for your project.
+
+*Try Cursor yourself — [free referral link](https://cursor.com/referral?code=A6W8KXAAVUV0).*
