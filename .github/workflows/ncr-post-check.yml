@@ -1,0 +1,26 @@
+name: NCR post validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/posts/**"
+      - "static/images/**"
+      - "static/audio/**"
+
+jobs:
+  validate-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Validate changed blog posts
+        run: |
+          SLUGS=$(git diff --name-only HEAD~1 HEAD -- content/posts/ | sed 's|.*/||;s|\.md$||' | grep -v '^_index$' || true)
+          if [ -z "$SLUGS" ]; then
+            echo "No post markdown changed in this push."
+            exit 0
+          fi
+          python3 scripts/validate_ncr_post.py $SLUGS
