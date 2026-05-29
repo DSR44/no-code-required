@@ -39,5 +39,11 @@
       "destination": "https://www.nocoderequired.net/:path*",
       "permanent": true
     }
-  ]
+  ],
+  "functions": {
+    "api/**/*.py": {
+      "maxDuration": 10,
+      "memory": 1024
+    }
+  }
 }
