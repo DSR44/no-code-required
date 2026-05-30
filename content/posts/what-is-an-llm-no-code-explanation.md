@@ -75,6 +75,8 @@ Different companies trained their own LLMs on different data with different prio
 
 They're all LLMs. They all predict the next word. But they differ in training data, size, safety tuning, and specialization — like how different chefs trained in different kitchens produce different food from the same basic ingredients.
 
+If you're trying to decide which one to actually use, I broke down the real differences in [ChatGPT alternatives worth switching to](/posts/chatgpt-alternatives-2026-actually-worth-switching/).
+
 I compared writing quality across models in [I tested 10 AI writing tools](/posts/i-tested-10-ai-writing-tools/) — the LLM underneath matters more than the app wrapping it.
 
 ## What LLMs can and can't do
