@@ -39,5 +39,10 @@
       "destination": "https://www.nocoderequired.net/:path*",
       "permanent": true
     }
-  ]
+  ],
+  "functions": {
+    "api/subscribe.py": {
+      "excludeFiles": "{public/**,static/**,themes/**,resources/**,content/**,archetypes/**,assets/**}"
+    }
+  }
 }
