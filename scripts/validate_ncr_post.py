@@ -102,9 +102,28 @@ def changed_slugs() -> list[str]:
     return slugs
 
 
+# Hard failures block the deploy (a post would publish broken). Everything else
+# is a soft SEO warning that must NOT take the whole site build down.
+HARD_ERROR_MARKERS = (
+    "Post not found",
+    "Cover image missing on disk",
+    "Cover image suspiciously small",
+    "Missing cover.image",
+    "Missing audio file",
+    "Audio too small",
+    "Missing audio shortcode",
+)
+
+
+def is_hard(err: str) -> bool:
+    return any(marker in err for marker in HARD_ERROR_MARKERS)
+
+
 def main() -> int:
-    if len(sys.argv) > 1:
-        slugs = sys.argv[1:]
+    args = [a for a in sys.argv[1:] if a != "--deploy-gate"]
+    deploy_gate = "--deploy-gate" in sys.argv
+    if args:
+        slugs = args
     else:
         slugs = changed_slugs()
         if not slugs:
@@ -114,13 +133,27 @@ def main() -> int:
     failed = False
     for slug in slugs:
         errors = validate_slug(slug)
-        if errors:
+        if not errors:
+            print(f"PASS — {slug}")
+            continue
+        hard = [e for e in errors if is_hard(e)]
+        soft = [e for e in errors if not is_hard(e)]
+        if deploy_gate:
+            # Only hard errors block the deploy; soft SEO issues just warn.
+            for err in soft:
+                print(f"  ⚠ {slug}: {err} (soft — deploy continues)")
+            if hard:
+                failed = True
+                print(f"FAIL (blocks deploy) — {slug}:")
+                for err in hard:
+                    print(f"  ✗ {err}")
+            else:
+                print(f"PASS (deploy gate) — {slug}")
+        else:
             failed = True
             print(f"FAIL — {slug}:")
             for err in errors:
                 print(f"  ✗ {err}")
-        else:
-            print(f"PASS — {slug}")
     return 1 if failed else 0
 
 

@@ -7,7 +7,9 @@ if git rev-parse HEAD~1 >/dev/null 2>&1; then
     | sed 's|.*/||;s|\.md$||' | grep -v '^_index$' || true)
   if [ -n "$CHANGED" ]; then
     echo "Validating changed posts: $CHANGED"
-    python3 scripts/validate_ncr_post.py $CHANGED
+    # Deploy gate: only HARD failures (missing cover/audio) block the build.
+    # Soft SEO issues (link count, word count) warn but never take the site down.
+    python3 scripts/validate_ncr_post.py --deploy-gate $CHANGED
   fi
 fi
 
