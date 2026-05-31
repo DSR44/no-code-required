@@ -75,8 +75,6 @@ Different companies trained their own LLMs on different data with different prio
 
 They're all LLMs. They all predict the next word. But they differ in training data, size, safety tuning, and specialization — like how different chefs trained in different kitchens produce different food from the same basic ingredients.
 
-If you're trying to decide which one to actually use, I broke down the real differences in [ChatGPT alternatives worth switching to](/posts/chatgpt-alternatives-2026-actually-worth-switching/).
-
 I compared writing quality across models in [I tested 10 AI writing tools](/posts/i-tested-10-ai-writing-tools/) — the LLM underneath matters more than the app wrapping it.
 
 ## What LLMs can and can't do
@@ -119,5 +117,7 @@ I walk through building your first AI-powered workflow in [build your first auto
 An LLM is a prediction engine trained on most of the written human knowledge available online. It predicts what words should come next based on patterns it learned. That prediction capability is what makes ChatGPT, Claude, and every other AI tool work. It's powerful, it's useful, and it's not going away — but it's not thinking, it's not sentient, and it's not always right.
 
 Now you know what's actually happening when you type a prompt.
+
+If you want to see what these models can actually do for free right now, check out [Google I/O 2026: every free AI tool they just launched](/posts/google-io-2026-free-ai-tools-for-beginners/) — a practical breakdown of what's worth your time.
 
 If you're just getting started with AI tools, [start here](/start-here/) — I put together a path that doesn't assume any technical background.
