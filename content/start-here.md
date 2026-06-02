@@ -1,9 +1,10 @@
 ---
-title: "Start Here"
+title: "Start Here: No Code AI for Beginners"
 date: 2026-05-01
 draft: false
 ShowToc: false
-description: "New to AI and no-code? Start here — free starter kit, beginner path, and links to the right tutorials without the jargon."
+description: "New to no code AI? Start here — grab the free $0 AI Starter Kit, follow the beginner path, and learn with jargon-free tutorials."
+canonicalURL: "https://nocoderequired.net/start-here/"
 ---
 
 I built this page so you don't have to wander around aimlessly. Pick what you want to do, and I'll point you to the right place.
