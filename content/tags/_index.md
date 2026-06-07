@@ -1,6 +1,6 @@
 ---
-title: "Blog Tags & Topics"
-description: "Browse No Code Required by tag — AI tools, no-code tutorials, automation, ChatGPT, and beginner guides. Find posts on exactly what you're looking for."
+title: "No Code Tutorials & Topics"
+description: "Explore no code tutorials, AI tools, automation guides, and ChatGPT tips — all organized by topic. Find exactly what you need at No Code Required."
 ---
 
 Every post on **No Code Required** is tagged so you can drill down by tool, topic, or skill level. Tags are more specific than [categories](/categories/) — use them when you know what you're hunting for (e.g. "Zapier" or "privacy") rather than browsing a broad topic.
