@@ -1,8 +1,14 @@
 #!/bin/bash
 set -e
 
-# Initialize submodules (PaperMod theme) — with fallback
-git submodule update --init --recursive 2>&1 || echo "WARNING: submodule init failed, continuing..."
+# Ensure PaperMod theme is present (submodule may not init on Vercel)
+if [ ! -f themes/PaperMod/layouts/_default/baseof.html ]; then
+  echo "PaperMod theme missing — downloading..."
+  rm -rf themes/PaperMod
+  curl -sL https://github.com/adityatelange/hugo-PaperMod/archive/refs/tags/v8.0.tar.gz | tar xz
+  mv hugo-PaperMod-8.0 themes/PaperMod
+  echo "PaperMod downloaded."
+fi
 
 # Block deploy if a changed post is missing cover image or audio (prevents markdown-only publishes)
 if git rev-parse HEAD~1 >/dev/null 2>&1; then
