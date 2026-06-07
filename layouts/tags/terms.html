@@ -1,0 +1,71 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <p class="post-description">{{ . }}</p>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content md-content">
+  {{- partial "anchored_headings.html" .Content -}}
+</div>
+{{- end }}
+
+<h2 class="terms-index-heading">{{ if eq .Type "tags" }}All tags{{ else }}All {{ .Type }}{{ end }}</h2>
+<ul class="terms-tags">
+  {{- $type := .Type }}
+  {{- range $key, $value := .Data.Terms.Alphabetical }}
+  {{- $name := .Name }}
+  {{- $count := .Count }}
+  {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .LinkTitle }} <sup><strong><sup>{{ $count }}</sup></strong></sup></a>
+  </li>
+  {{- end }}
+  {{- end }}
+</ul>
+
+<script>
+(function () {
+  var CMP_TEXTS = [
+    "asks for your consent",
+    "Manage your data",
+    "Confirm our vendors"
+  ];
+
+  function demoteCMPH1s() {
+    document.querySelectorAll("h1").forEach(function (el) {
+      var text = el.textContent || "";
+      if (CMP_TEXTS.some(function (t) { return text.indexOf(t) !== -1; })) {
+        var h2 = document.createElement("h2");
+        h2.innerHTML = el.innerHTML;
+        for (var i = 0; i < el.attributes.length; i++) {
+          h2.setAttribute(el.attributes[i].name, el.attributes[i].value);
+        }
+        if (el.parentNode) {
+          el.parentNode.replaceChild(h2, el);
+        }
+      }
+    });
+  }
+
+  var observer = new MutationObserver(demoteCMPH1s);
+  if (document.body) {
+    observer.observe(document.body, { childList: true, subtree: true });
+  } else {
+    document.addEventListener("DOMContentLoaded", function () {
+      observer.observe(document.body, { childList: true, subtree: true });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", demoteCMPH1s);
+  } else {
+    demoteCMPH1s();
+  }
+})();
+</script>
+
+{{- end }}{{/* end main */ -}}
