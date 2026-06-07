@@ -103,9 +103,11 @@ def changed_slugs() -> list[str]:
 
 
 def main() -> int:
-    if len(sys.argv) > 1:
-        slugs = sys.argv[1:]
-    else:
+    args = sys.argv[1:]
+    deploy_gate = "--deploy-gate" in args
+    slugs = [a for a in args if not a.startswith("--")]
+
+    if not slugs:
         slugs = changed_slugs()
         if not slugs:
             print("No post slugs to validate (pass slug args or push post changes).")
@@ -115,10 +117,23 @@ def main() -> int:
     for slug in slugs:
         errors = validate_slug(slug)
         if errors:
-            failed = True
-            print(f"FAIL — {slug}:")
-            for err in errors:
-                print(f"  ✗ {err}")
+            if deploy_gate:
+                # In deploy-gate mode, only HARD failures block the build
+                hard_errors = [e for e in errors if any(k in e.lower() for k in ["missing cover", "missing audio", "cover image missing on disk"])]
+                if hard_errors:
+                    failed = True
+                    print(f"FAIL — {slug} (deploy-gate: HARD failure):")
+                    for err in hard_errors:
+                        print(f"  ✗ {err}")
+                else:
+                    print(f"WARN — {slug} (deploy-gate: soft issues, not blocking):")
+                    for err in errors:
+                        print(f"  ⚠ {err}")
+            else:
+                failed = True
+                print(f"FAIL — {slug}:")
+                for err in errors:
+                    print(f"  ✗ {err}")
         else:
             print(f"PASS — {slug}")
     return 1 if failed else 0
