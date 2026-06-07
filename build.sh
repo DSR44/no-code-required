@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+# Initialize submodules (PaperMod theme)
+git submodule update --init --recursive
+
 # Block deploy if a changed post is missing cover image or audio (prevents markdown-only publishes)
 if git rev-parse HEAD~1 >/dev/null 2>&1; then
   CHANGED=$(git diff --name-only HEAD~1 HEAD -- content/posts/ \
