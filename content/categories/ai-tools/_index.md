@@ -1,6 +1,7 @@
 ---
 title: "AI Tools"
 description: "Hands-on AI tool reviews and guides for non-developers — image generators, writing assistants, and apps tested honestly by someone who started from zero."
+schema_name: "AI Tools for Beginners — Reviews & Guides"
 ---
 
 The **AI Tools** category covers apps that use artificial intelligence to create, edit, automate, or analyze — tested by someone with no developer background and no patience for hype.
