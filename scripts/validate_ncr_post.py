@@ -63,16 +63,22 @@ def validate_slug(slug: str) -> list[str]:
         elif cover_path.stat().st_size < 10_000:
             errors.append(f"Cover image suspiciously small: {cover_web}")
 
-    if "{{< audio" not in text:
-        errors.append(f'Missing audio shortcode: {{{{< audio src="/audio/{slug}.mp3" >}}}}')
-
-    audio_path = STATIC / "audio" / f"{slug}.mp3"
-    if not audio_path.is_file():
-        errors.append(f"Missing audio file: static/audio/{slug}.mp3")
-    elif audio_path.stat().st_size < 200_000:
-        errors.append(
-            f"Audio too small ({audio_path.stat().st_size} bytes) — regenerate full narration"
-        )
+    # Accept the {{< audio >}} shortcode OR a raw <audio> HTML block, then verify the
+    # actually-referenced mp3 exists. Older posts predate the slug-named shortcode
+    # convention; this checks the real audio file instead of assuming "<slug>.mp3".
+    audio_ref = re.search(r'{{<\s*audio\s+src=["\']([^"\']+\.mp3)', text)
+    if not audio_ref:
+        audio_ref = re.search(r'<source[^>]+src=["\']([^"\']+\.mp3)', text)
+    if not audio_ref:
+        errors.append(f'Missing audio: add {{{{< audio src="/audio/{slug}.mp3" >}}}}')
+    else:
+        audio_path = static_path(audio_ref.group(1))
+        if not audio_path.is_file():
+            errors.append(f"Missing audio file on disk: {audio_ref.group(1)}")
+        elif audio_path.stat().st_size < 200_000:
+            errors.append(
+                f"Audio too small ({audio_path.stat().st_size} bytes) — regenerate full narration"
+            )
 
     internal_links = len(re.findall(r"\]\(/posts/[^)]+\)", body))
     if internal_links < 5:
