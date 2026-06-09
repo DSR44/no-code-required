@@ -4,14 +4,20 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {{- range $i, $faq := . }}
+    {{- range $i, $faq := . -}}
+    {{- $q := $faq.q -}}
+    {{- $a := $faq.a -}}
+    {{- if reflect.IsMap $faq -}}
+      {{- $q = index $faq "q" -}}
+      {{- $a = index $faq "a" -}}
+    {{- end -}}
     {{- if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": {{ $faq.q | plainify | jsonify }},
+      "name": {{ $q | plainify }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $faq.a | plainify | jsonify }}
+        "text": {{ $a | plainify }}
       }
     }
     {{- end }}

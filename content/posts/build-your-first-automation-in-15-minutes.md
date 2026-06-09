@@ -8,6 +8,22 @@ categories: ["tools"]
 slug: "build-your-first-automation-in-15-minutes"
 cover:
   image: "/images/posts/build-your-first-automation-in-15-minutes.jpg"
+howto:
+  totalTime: "PT15M"
+  estimatedCost:
+    currency: "USD"
+    value: "0"
+  steps:
+    - name: "Create a Zapier account"
+      text: "Go to zapier.com, sign up for free, and click Create Zap."
+    - name: "Set the trigger"
+      text: "Search for Gmail (or your email provider), select New Email as the trigger, connect your account, and filter to a specific sender so only important emails run the automation."
+    - name: "Set the action"
+      text: "Search for Google Sheets, select Create Spreadsheet Row, connect Google, pick your sheet, and map email subject, sender, date, and body to columns."
+    - name: "Test the Zap"
+      text: "Click Test in Zapier, confirm a matching email appears as a new row in your Google Sheet, then fix field mapping if anything is wrong."
+    - name: "Publish and turn it on"
+      text: "Click Publish, name your Zap, and turn it on so every matching email logs automatically."
 ---
 
 # Build your first automation in 15 minutes

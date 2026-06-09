@@ -8,6 +8,20 @@ categories: ["tools"]
 slug: "build-your-own-ai-chatbot-in-30-minutes"
 cover:
   image: "/images/posts/build-your-own-ai-chatbot-in-30-minutes.jpg"
+howto:
+  totalTime: "PT5M"
+  estimatedCost:
+    currency: "USD"
+    value: "0"
+  steps:
+    - name: "Create a ChatBotBuilder account"
+      text: "Go to chatbotbuilder.ai and sign up for a free account."
+    - name: "Train on your content"
+      text: "Paste your website URL or upload documents so the bot learns your business information automatically."
+    - name: "Customize appearance and greeting"
+      text: "Set the bot name, colors, and welcome message to match your brand."
+    - name: "Embed on your website"
+      text: "Copy the embed code and paste it into your site — the chatbot now answers customer questions 24/7."
 ---
 
 # Build your own AI chatbot in 30 minutes

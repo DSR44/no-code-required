@@ -1,6 +1,7 @@
 ---
 title: "AI images: which tool actually works?"
 date: 2026-05-08
+lastmod: 2026-05-26
 draft: false
 description: "I tested 5 AI image generators with the same prompts. Midjourney, DALL-E, Flux, Ideogram, and Stable Diffusion — honest comparison with real outputs and pricing."
 tags: ["AI tools", "image generation", "Midjourney", "DALL-E", "comparison", "no-code"]
@@ -21,6 +22,27 @@ faqs:
     a: "Ideogram. In hands-on testing it rendered readable text more reliably than Midjourney, DALL-E, Flux, or Stable Diffusion — best for logos, quotes, and social posters with words."
   - q: "Which AI image tool is best for automating a blog pipeline?"
     a: "Flux via the Replicate API. It supports programmatic generation, photorealistic output, and pay-per-use pricing — the setup used behind the scenes for automated blog cover workflows."
+reviews:
+  - item: "Midjourney V7"
+    url: "https://midjourney.com"
+    rating: 4.5
+    summary: "Highest-quality artistic images for blog headers and social visuals. Stunning composition and lighting with almost no learning curve, but weak at text rendering."
+  - item: "DALL-E 3"
+    url: "https://chat.openai.com"
+    rating: 3.5
+    summary: "Fast and literal — gives you exactly the scene you describe. Good for quick concept images and text in images, but output lacks personality for public-facing content."
+  - item: "Flux"
+    url: "https://replicate.com/black-forest-labs/flux-1.1-pro"
+    rating: 4
+    summary: "Strong photorealism and the best balance of quality and cost for programmatic generation via the Replicate API."
+  - item: "Ideogram"
+    url: "https://ideogram.ai"
+    rating: 4.5
+    summary: "Best-in-class for readable text inside images — logos, quotes, and social posters with words beat every other tool in this test."
+  - item: "Stable Diffusion 3.5"
+    url: "https://stability.ai"
+    rating: 3
+    summary: "Free and fully customizable if you enjoy tinkering with LoRAs and ComfyUI, but steep setup time compared to hosted tools."
 ---
 
 I needed images for blog posts, social media, and thumbnails. Stock photos look like stock photos. Hiring a designer costs $50-200 per image.

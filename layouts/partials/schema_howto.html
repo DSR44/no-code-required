@@ -1,0 +1,46 @@
+{{- with .Params.howto }}
+{{- $page := $ }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": {{ with .name }}{{ . | plainify }}{{ else }}{{ $page.Title | plainify }}{{ end }},
+  "description": {{ with .description }}{{ . | plainify }}{{ else }}{{ with $page.Description }}{{ . | plainify }}{{ else }}{{ $page.Summary | plainify }}{{ end }}{{ end }},
+  "url": {{ $page.Permalink | safeHTML }},
+  "inLanguage": {{ $page.Language.Lang | default "en" | plainify }},
+  {{- with .totalTime }}
+  "totalTime": {{ . | plainify }},
+  {{- end }}
+  {{- with .estimatedCost }}
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": {{ .currency | plainify }},
+    "value": {{ .value | plainify }}
+  },
+  {{- end }}
+  "step": [
+    {{- range $i, $step := .steps -}}
+    {{- $name := $step.name -}}
+    {{- $text := $step.text -}}
+    {{- $url := $step.url -}}
+    {{- if reflect.IsMap $step -}}
+      {{- $name = index $step "name" -}}
+      {{- $text = index $step "text" -}}
+      {{- $url = index $step "url" -}}
+    {{- end -}}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "HowToStep",
+      "position": {{ add $i 1 }},
+      "name": {{ $name | plainify }},
+      "text": {{ $text | plainify }}
+      {{- with $url -}}
+      ,
+      "url": {{ . | absURL | safeHTML }}
+      {{- end -}}
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}

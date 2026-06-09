@@ -12,6 +12,20 @@ TocOpen: false
 cover:
   image: "/images/posts/20260524_115503_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Woman at laptop building an AI automation workflow on screen"
+howto:
+  totalTime: "PT30M"
+  estimatedCost:
+    currency: "USD"
+    value: "0"
+  steps:
+    - name: "Pick a trigger"
+      text: "Choose one starting event such as a contact form submission, new email, spreadsheet row, or Stripe payment. A contact form is the simplest first example."
+    - name: "Connect an AI action"
+      text: "In Zapier, add a ChatGPT action, connect your OpenAI API key, map the customer message from the form, and paste a system prompt tailored to your business."
+    - name: "Save the draft to Gmail"
+      text: "Add a Gmail Create Draft action, map the AI response to the email body, and set a subject line that includes the customer name or topic."
+    - name: "Test with real data and turn it on"
+      text: "Submit a real test through your form, review the draft quality, adjust the prompt if needed, then enable the Zap."
 ---
 {{< audio src="/audio/how-to-build-first-ai-workflow-online-business.mp3" >}}
 

@@ -8,6 +8,30 @@ categories: ["tools"]
 slug: "free-funnel-builders-compared"
 cover:
   image: "/images/posts/free-funnel-builders-compared.jpg"
+faqs:
+  - q: "What is the best free funnel builder for beginners?"
+    a: "Systeme.io — the only free plan with funnels, email marketing, courses, and automation in one place with no credit card required."
+  - q: "What free funnel builder is best for a simple landing page?"
+    a: "Carrd — three free sites with a clean one-page builder, ideal when you only need a single landing page."
+  - q: "Do I need ClickFunnels or Kajabi to build a funnel?"
+    a: "No — free builders like Systeme.io cover 90% of what paid funnel tools do when you're starting out."
+reviews:
+  - item: "Systeme.io"
+    url: "https://systeme.io"
+    rating: 4.5
+    summary: "Best overall free funnel builder — funnels, email, courses, and automation on one free tier with 2,000 contacts."
+  - item: "Carrd"
+    url: "https://carrd.co"
+    rating: 4
+    summary: "Best for simple one-page landing pages — fast and clean, but limited to three sites on the free plan."
+  - item: "MailerLite"
+    url: "https://mailerlite.com"
+    rating: 3.5
+    summary: "Best email-first funnel approach — strong newsletter tooling but less full-funnel power than Systeme.io."
+  - item: "ConvertKit"
+    url: "https://convertkit.com"
+    rating: 3.5
+    summary: "Best for creators and bloggers — visual automations on free tier but funnel features are lighter than all-in-one tools."
 ---
 
 # Free funnel builders compared: which one actually works?

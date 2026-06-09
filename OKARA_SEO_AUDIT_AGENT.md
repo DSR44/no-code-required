@@ -42,9 +42,40 @@ Each hub needs: frontmatter `description` (155 chars), 100+ word body intro, int
 ## Step 3 — Schema & posts
 
 - All posts: `"@type": ["BlogPosting", "Article"]` in `layouts/partials/templates/schema_json.html`
-- FAQ partial: `layouts/partials/schema_faq.html` on `/faq/` and posts with `faqs:` frontmatter
+- **Do NOT add FAQ/HowTo/Review to every post** — only when content type matches (see below)
+- FAQ partial: `layouts/partials/schema_faq.html` — posts with `faqs:` frontmatter (3–5 Q&As)
+- HowTo partial: `layouts/partials/schema_howto.html` — posts with `howto:` + numbered steps
+- Review partial: `layouts/partials/schema_review.html` — posts with `reviews:` (tool comparisons)
 - Check posts missing: `description`, `keywords`, `cover.image`, duplicate H1 in body
 - Okara citation gaps (Zapier cited instead of NCR) → ensure `/faq/` Q&As target those queries
+
+### When to add schema (per post, at publish time)
+
+| Post type | Add | Skip |
+|-----------|-----|------|
+| Tool comparison / "best X tested" | `reviews:` + `faqs:` | — |
+| Step-by-step tutorial | `howto:` | FAQ unless there's a Q&A section |
+| Opinion / news / personal story | nothing extra | all three |
+| Mixed tutorial + FAQ section | `howto:` + `faqs:` | reviews |
+
+After publish: run [Google Rich Results Test](https://search.google.com/test/rich-results) on high-traffic posts only — not required for every post.
+
+Example frontmatter:
+```yaml
+faqs:
+  - q: "Question people search for?"
+    a: "Direct answer in 1–3 sentences."
+howto:
+  totalTime: "PT15M"
+  steps:
+    - name: "Step title"
+      text: "What to do."
+reviews:
+  - item: "Tool Name"
+    url: "https://tool.com"
+    rating: 4.5
+    summary: "One-sentence honest verdict."
+```
 
 ---
 

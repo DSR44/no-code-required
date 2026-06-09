@@ -409,40 +409,37 @@
     {{- end }}
   ],
   "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
-  "wordCount" : "{{ .WordCount }}",
+  "wordCount": {{ .WordCount }},
   "inLanguage": {{ .Language.Lang | default "en-us" }},
   {{ if .Params.cover.image -}}
-  "image":
-    {{- if (ne .Params.cover.relative true) -}}
-    {{ .Params.cover.image | absURL }},
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ if (ne .Params.cover.relative true) -}}
+      {{ .Params.cover.image | absURL }}
     {{- else -}}
-    {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }},
-    {{- end}}
+      {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}
+    {{- end }},
+    "width": {{ site.Params.ogImage.width | default 1200 }},
+    "height": {{ site.Params.ogImage.height | default 630 }}
+  },
   {{- else }}
     {{- $images := partial "templates/_funcs/get-page-images" . -}}
     {{- with index $images 0 -}}
-  "image": {{ .Permalink }},
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ .Permalink }},
+    "width": {{ site.Params.ogImage.width | default 1200 }},
+    "height": {{ site.Params.ogImage.height | default 630 }}
+  },
     {{- end }}
-  {{- end -}}
+  {{- end }}
   "datePublished": {{ .PublishDate }},
   "dateModified": {{ .Lastmod }},
-  {{- with (.Params.author | default site.Params.author) }}
-  "author":
-    {{- if (or (eq (printf "%T" .) "[]string") (eq (printf "%T" .) "[]interface {}")) -}}
-  [{{- range $i, $v := . -}}
-  {{- if $i }}, {{end -}}
-  {
+  "author": {
     "@type": "Person",
-    "name": {{ $v }}
-  }
-  {{- end }}],
-    {{- else -}}
-  {
-    "@type": "Person",
-    "name": {{ . }}
+    "name": "Manal",
+    "url": {{ "/about/" | absURL }}
   },
-    {{- end -}}
-  {{- end }}
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ .Permalink | safeHTML }}
@@ -450,14 +447,19 @@
   "publisher": {
     "@type": "{{- ( site.Params.schema.publisherType | default "Organization") | title -}}",
     "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink | safeHTML }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }}
+      "url": {{ (index site.Params.images 0 | default "/images/og-default.jpg") | absURL }},
+      "width": 512,
+      "height": 512
     }
   }
 }
 </script>
 {{- partial "schema_faq.html" . }}
+{{- partial "schema_howto.html" . }}
+{{- partial "schema_review.html" . }}
 {{- else }}
 <script type="application/ld+json">
 {

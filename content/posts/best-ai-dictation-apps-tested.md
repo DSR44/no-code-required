@@ -8,6 +8,36 @@ categories: ["tools"]
 slug: "best-ai-dictation-apps-tested"
 cover:
   image: "/images/posts/best-ai-dictation-apps-tested.jpg"
+faqs:
+  - q: "What is the best AI dictation app for Mac daily writing?"
+    a: "Superwhisper — fast, accurate, learns your vocabulary, and works system-wide in any text field with optional offline mode."
+  - q: "What is the best free dictation app for privacy?"
+    a: "VoiceInk — open-source, runs Whisper locally on Mac, and keeps all voice data on your machine."
+  - q: "Which dictation app is best for meeting transcription?"
+    a: "Otter.ai — built for multi-speaker meetings and conversation transcription, not real-time solo dictation."
+  - q: "Can I use OpenAI Whisper for dictation?"
+    a: "Whisper is the engine, not a ready-made app — use Superwhisper, VoiceInk, or MacWhisper unless you want to build your own."
+reviews:
+  - item: "Superwhisper"
+    url: "https://superwhisper.com"
+    rating: 4.5
+    summary: "Best daily dictation on Mac — fast, context-aware, learns brand names, and works offline when you need privacy."
+  - item: "Wispr Flow"
+    url: "https://wisprflow.ai"
+    rating: 4
+    summary: "Best for quick messages and emails — hotkey dictation that feels instant, but cloud-based not offline-first."
+  - item: "Otter.ai"
+    url: "https://otter.ai"
+    rating: 3.5
+    summary: "Excellent meeting transcription with multi-speaker support — overkill if you just want to dictate writing drafts."
+  - item: "VoiceInk"
+    url: "https://github.com/voiceink-ai/voiceink"
+    rating: 4
+    summary: "Best privacy play — free, open-source, 100+ languages, fully offline on Mac, but setup is more technical."
+  - item: "MacWhisper"
+    url: "https://goodsnooze.gumroad.com/l/macwhisper"
+    rating: 4
+    summary: "Best for transcribing audio and video files in batch — drag-and-drop file processing, not live dictation."
 ---
 
 # Best AI dictation apps — tested and ranked

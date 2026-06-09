@@ -12,6 +12,28 @@ TocOpen: false
 cover:
   image: "/images/posts/20260523_134012_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Zoe at laptop setting up email follow-up automation in a cozy coffee shop"
+howto:
+  totalTime: "PT90M"
+  estimatedCost:
+    currency: "USD"
+    value: "0"
+  steps:
+    - name: "Create a Make account"
+      text: "Sign up free at make.com and click Create a new scenario."
+    - name: "Connect your intake form as the trigger"
+      text: "Add a Webhooks Custom webhook module, paste the URL into your contact form, and submit a test entry so Make detects the fields."
+    - name: "Add a 24-hour delay"
+      text: "Insert a Flow Control Sleep module set to 24 hours so leads have time to reply before the first follow-up sends."
+    - name: "Send the first follow-up email"
+      text: "Add an Email module, map the form email and name fields, and write a short checking-in message."
+    - name: "Add a second delay and follow-up"
+      text: "Wait 3 days with another Sleep module, then send a different email with a useful tip related to their inquiry."
+    - name: "Send the final check-in"
+      text: "After a 4-day delay, send a last no-pressure email letting them know they can reply whenever."
+    - name: "Test on yourself"
+      text: "Turn the scenario on, submit your own email through the form, and verify all three messages arrive with correct names."
+    - name: "Enable for real leads"
+      text: "Reset sleep timers to production delays, turn the scenario on, and every new lead gets automated follow-ups."
 ---
 {{< audio src="/audio/automate-client-follow-ups-no-code.mp3" >}}
 

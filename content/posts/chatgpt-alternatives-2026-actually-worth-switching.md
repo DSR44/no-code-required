@@ -12,6 +12,36 @@ TocOpen: false
 cover:
   image: "/images/posts/20260526_153307_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Zoe at laptop comparing AI tool dashboards, warm editorial photography"
+faqs:
+  - q: "What is the best ChatGPT alternative for writing quality?"
+    a: "Claude — best prose and tone control when you need content that sounds like a specific voice."
+  - q: "What is the best ChatGPT alternative for research with sources?"
+    a: "Perplexity — answers include citations and verifiable sources, unlike ChatGPT's default chat mode."
+  - q: "What is the cheapest way to get Claude-level coding quality?"
+    a: "Cursor Composer 2.5 — free tier includes enough usage to build real projects without paying for Claude API access."
+  - q: "Do I need to switch from ChatGPT completely?"
+    a: "No — most power users run two or three tools for different jobs rather than replacing ChatGPT with one alternative."
+reviews:
+  - item: "Claude"
+    url: "https://claude.ai"
+    rating: 4.5
+    summary: "Best writing quality and nuanced reasoning — the top pick when voice and long-form prose matter most."
+  - item: "Perplexity"
+    url: "https://perplexity.ai"
+    rating: 4
+    summary: "Best for sourced research — verifiable answers with citations instead of confident guesses."
+  - item: "Google Gemini"
+    url: "https://gemini.google.com"
+    rating: 4
+    summary: "Best if your workflow lives in Google Docs, Sheets, and Gmail — deep Workspace integration beats standalone chat."
+  - item: "Cursor Composer 2.5"
+    url: "https://cursor.com"
+    rating: 4.5
+    summary: "Best value for building apps and automations — free tier with Claude-level coding quality for non-developers."
+  - item: "Microsoft Copilot"
+    url: "https://copilot.microsoft.com"
+    rating: 3.5
+    summary: "Most practical if you live in Microsoft 365 — AI inside Word, Excel, and Outlook rather than a separate tool."
 ---
 {{< audio src="/audio/chatgpt-alternatives-2026-actually-worth-switching.mp3" >}}
 
@@ -41,7 +71,7 @@ The controversy: some developers got inconsistent results on launch day. Others 
 
 I switched three weeks ago and haven't looked back. My AI bill dropped 90%. I'm doing more work than before, still within my monthly token limits. Full [breakdown on Composer 2.5 here](/posts/cursor-composer-2-5-free-claude-killer/).
 
-**Best for:** Coding, building apps, anyone tired of paying Claude's API prices. [Try Cursor free](https://cursor.com/referral?code=A6W8KXAAVUV0).
+**Best for:** Coding, building apps, anyone tired of paying Claude's API prices.
 
 ### Perplexity — the research engine
 

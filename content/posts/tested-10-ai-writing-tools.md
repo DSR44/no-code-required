@@ -8,6 +8,40 @@ categories: ["tools"]
 slug: "tested-10-ai-writing-tools"
 cover:
   image: "/images/posts/tested-10-ai-writing-tools.jpg"
+faqs:
+  - q: "Which AI writing tool sounds most human for blog posts?"
+    a: "Claude — best prose quality and tone control in side-by-side testing with the same prompt."
+  - q: "Is ChatGPT good enough for writing without paying for Jasper?"
+    a: "Yes — ChatGPT's free tier beats most paid writing tools for brainstorming, drafting, and rewriting."
+  - q: "Which AI tool is best for editing and grammar?"
+    a: "Grammarly — best at polishing what you already wrote rather than generating from scratch."
+  - q: "Do I need a paid AI writing tool in 2026?"
+    a: "Probably not unless you write 10,000+ words per week — ChatGPT and Claude free tiers cover most use cases."
+reviews:
+  - item: "Claude"
+    url: "https://claude.ai"
+    rating: 4.5
+    summary: "Best prose quality for blog writing — understands tone and produces the most natural-sounding long-form output."
+  - item: "ChatGPT"
+    url: "https://chat.openai.com"
+    rating: 4
+    summary: "Solid default for brainstorming and editing — clear structure but can read impersonal without prompt tuning."
+  - item: "Jasper"
+    url: "https://jasper.ai"
+    rating: 3.5
+    summary: "Built for marketing teams with brand voice enforcement — hard to justify the price versus ChatGPT for solo writers."
+  - item: "Grammarly"
+    url: "https://grammarly.com"
+    rating: 4
+    summary: "Best editor in the test — fixes grammar and clarity on drafts you wrote yourself rather than generating from zero."
+  - item: "Writesonic"
+    url: "https://writesonic.com"
+    rating: 3
+    summary: "SEO-focused output that hits keywords but reads robotic — fine for search-first content, not human-first writing."
+  - item: "Copy.ai"
+    url: "https://copy.ai"
+    rating: 3.5
+    summary: "Strong for short sales copy and conversion-focused snippets — less useful for long-form blog content."
 ---
 
 # I tested 10 AI writing tools so you don't have to

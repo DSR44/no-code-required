@@ -10,6 +10,22 @@ cover:
     image: "/images/posts/how-i-built-a-blog-in-1-hour.jpg"
     alt: "Building a blog with AI tools"
     caption: ""
+howto:
+  totalTime: "PT60M"
+  estimatedCost:
+    currency: "USD"
+    value: "10"
+  steps:
+    - name: "Set up Hugo with AI guidance"
+      text: "Ask ChatGPT or Claude to walk you through installing Hugo, creating the blog structure, and writing your first post as a text file."
+    - name: "Install a theme"
+      text: "Pick a Hugo theme like PaperMod and install it with one git submodule command."
+    - name: "Write your first post"
+      text: "Create a markdown file with frontmatter title and date, then write your content in plain text."
+    - name: "Deploy to Vercel via GitHub"
+      text: "Push files to GitHub, connect the repo to Vercel, and click Deploy — every future push auto-updates the site."
+    - name: "Add a custom domain"
+      text: "Buy a domain and add DNS records pointing to Vercel — takes about 5 minutes with AI walking you through it."
 ---
 
 # How I built a blog in 1 hour with AI

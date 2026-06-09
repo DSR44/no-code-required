@@ -1,0 +1,53 @@
+{{- with .Params.reviews }}
+{{- $page := $ }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {{- range $i, $review := . -}}
+    {{- $item := $review.item -}}
+    {{- $summary := $review.summary -}}
+    {{- $rating := $review.rating -}}
+    {{- $best := $review.bestRating -}}
+    {{- $worst := $review.worstRating -}}
+    {{- $itemType := $review.itemType -}}
+    {{- $url := $review.url -}}
+    {{- if reflect.IsMap $review -}}
+      {{- $item = index $review "item" -}}
+      {{- $summary = index $review "summary" -}}
+      {{- $rating = index $review "rating" -}}
+      {{- $best = index $review "bestRating" -}}
+      {{- $worst = index $review "worstRating" -}}
+      {{- $itemType = index $review "itemType" -}}
+      {{- $url = index $review "url" -}}
+    {{- end -}}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Manal",
+        "url": {{ "/about/" | absURL }}
+      },
+      "datePublished": {{ $page.PublishDate }},
+      "reviewBody": {{ $summary | plainify }},
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": {{ $rating }},
+        "bestRating": {{ $best | default 5 }},
+        "worstRating": {{ $worst | default 1 }}
+      },
+      "itemReviewed": {
+        "@type": {{ ($itemType | default "SoftwareApplication") | plainify }},
+        "name": {{ $item | plainify }}
+        {{- with $url -}}
+        ,
+        "url": {{ . | absURL | safeHTML }}
+        {{- end -}}
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}
