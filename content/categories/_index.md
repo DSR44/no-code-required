@@ -1,11 +1,11 @@
 ---
-title: "Blog Categories"
-description: "Browse No Code Required by topic — AI tools, automation, basics, and honest reviews. Find guides written for non-technical people."
+title: "No Code Blog Categories"
+description: "Explore our no code blog by category — AI tools for beginners, automation guides, tutorials, and honest reviews. Written for non-technical people."
 ---
 
 Not sure where to start? Browse by category. Every article on No Code Required is tagged by topic so you can jump straight to what you need — whether you're picking your first AI tool, wiring up an automation, or learning the basics without the jargon.
 
-## AI Tools
+## AI Tools for Beginners
 
 Hands-on reviews and comparisons of AI writing tools, image generators, chatbots, and the apps everyone is talking about. These posts focus on what actually works when you're not a developer — with real tests, real costs, and honest verdicts.
 
@@ -17,7 +17,7 @@ Our largest category. Step-by-step guides, tool roundups, and workflows for Chat
 
 [Browse Tools posts →](/categories/tools/)
 
-## Automation
+## Automation Guides
 
 Posts about connecting apps, building workflows, and saving hours without writing code. Perfect if you know what you want to automate but don't know which platform to use.
 
