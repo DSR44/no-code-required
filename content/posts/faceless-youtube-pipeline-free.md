@@ -39,13 +39,13 @@ I use [ChatGPT](https://chat.openai.com) for shorter scripts (under 5 minutes) a
 
 **Free tier limits:** ChatGPT's free tier caps at GPT-4o-mini for most hours. Claude's free tier gives you a few messages with Sonnet per day. For one script per day, both are enough. If you're batching 5–10 scripts, you'll hit limits.
 
-**Pro tip:** I use [Perplexity](https://perplexity.ai) for research because it cites sources. ChatGPT and Claude can hallucinate facts — Perplexity shows you where the information came from. I verify every claim before it goes in a script.
+**Pro tip:** I use [Perplexity](https://perplexity.ai) for research because it cites sources. ChatGPT and Claude can hallucinate facts — Perplexity shows you where the information came from. I verify every claim before it goes in a script. If you're new to these tools, I break them down in my guide to [the AI tools I actually use every day](/posts/the-tools-i-actually-use-every-day/).
 
 ## Stage 2: Voice — ElevenLabs free tier
 
 This is where most people recommend paying. I didn't — and the results are good enough to start.
 
-[ElevenLabs](https://elevenlabs.io) gives you 10,000 characters per month on the free tier. That's roughly 15–20 minutes of voiceover content per month — enough for 3–4 short videos or 2 longer ones.
+[ElevenLabs](https://elevenlabs.io) gives you 10,000 characters per month on the free tier. I covered [AI music creation without knowing theory](/posts/ai-music-i-made-an-album-without-knowing-theory/) — voice generation uses the same approach: AI does the technical work, you provide direction. That's roughly 15–20 minutes of voiceover content per month — enough for 3–4 short videos or 2 longer ones.
 
 Here's how I use it:
 
@@ -63,13 +63,13 @@ Here's how I use it:
 This is where the pipeline gets interesting. You need visuals that fill 3–5 minutes of video without a camera. Three approaches that work:
 
 **Option A: Canva video templates (easiest)**
-[Canva](https://canva.com) has thousands of free video templates. I search for my topic, pick a template, swap the text and images, and export as MP4. The free tier includes enough templates and stock footage for most niches.
+[Canva](https://canva.com) has thousands of free video templates. If you've tried [AI image generators](/posts/ai-images-which-tool-actually-works/), you already know the workflow — pick a starting point, customize it, export. I search for my topic, pick a template, swap the text and images, and export as MP4. The free tier includes enough templates and stock footage for most niches.
 
 **Option B: Free stock footage (most professional)**
 [Pexels](https://pexels.com) and [Pixabay](https://pixabay.com) have free stock video. I search for 5–10 clips per script, download them, and layer them over the voiceover in CapCut. This is more work but looks the most polished.
 
 **Option C: AI-generated images (most unique)**
-I use [Ideogram](https://ideogram.ai) (free tier: 5 images/day) or [Leonardo AI](https://leonardo.ai) (free tier: 150 tokens/day) to generate custom visuals. This works great for educational or explainer content where stock footage doesn't quite fit.
+I use [Ideogram](https://ideogram.ai) (free tier: 5 images/day) or [Leonardo AI](https://leonardo.ai) (free tier: 150 tokens/day) to generate custom visuals. For a deeper comparison of AI image tools, I wrote [a full breakdown here](/posts/ai-images-which-tool-actually-works/). This works great for educational or explainer content where stock footage doesn't quite fit.
 
 **What I actually do:** I mix all three. Canva for intro/outro, stock footage for b-roll sections, and AI images for specific concepts that need custom illustration. The key is consistency — pick a visual style and stick with it across videos.
 
@@ -77,7 +77,7 @@ I use [Ideogram](https://ideogram.ai) (free tier: 5 images/day) or [Leonardo AI]
 
 ## Stage 4: Editing — CapCut (completely free)
 
-[CapCut](https://capcut.com) is the backbone of the pipeline. It's free, it runs in the browser or as a desktop app, and it handles everything a faceless channel needs:
+[CapCut](https://capcut.com) is the backbone of the pipeline. I also tried [Kimu](/posts/kimu-free-open-source-alternative-capcut/) as an open-source alternative — worth a look if you want more control. It's free, it runs in the browser or as a desktop app, and it handles everything a faceless channel needs:
 
 1. **Import voiceover** — drag the MP3 onto the timeline
 2. **Add visuals** — layer stock footage, AI images, or Canva exports over the voiceover
@@ -109,7 +109,7 @@ I published 12 videos in my first month using this exact pipeline. Here's what a
 - **Subscribers:** 47 after month one
 - **Revenue:** $0 (you need 1,000 subscribers and 4,000 watch hours for monetization)
 
-The gurus who promise "passive income in 30 days" are lying. But the pipeline works — it just takes 6–12 months of consistent publishing before you see meaningful traction. The free tools are genuinely good enough to get started. The bottleneck isn't tools — it's consistency.
+The gurus who promise "passive income in 30 days" are lying. But the pipeline works — it just takes 6–12 months of consistent publishing before you see meaningful traction. The free tools are genuinely good enough to get started. The bottleneck isn't tools — it's consistency. If you're struggling with tool overload, I wrote about [how to escape AI tool overwhelm](/posts/ai-tool-overwhelm-how-to-escape/) — the same principles apply to YouTube.
 
 ## Where the free tier hits the ceiling
 
@@ -136,4 +136,4 @@ The total cost to go from free to "comfortable" is about $30/month. That's less 
 
 Start with one video. Don't overthink the niche. Don't spend three weeks designing a logo. Just publish, learn from the analytics, and iterate. The pipeline gets faster every time.
 
-New to AI tools? Start [here](/start-here/) — I break down the basics so you're not guessing.
+New to AI tools? Start [here](/start-here/). Want to automate your entire content pipeline? Check out [building your first automation in 15 minutes](/posts/build-your-first-automation-in-15-minutes/). — I break down the basics so you're not guessing.
