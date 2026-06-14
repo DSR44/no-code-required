@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About NCR — Honest Reviews of No Code AI Tools"
 date: 2026-04-30
 draft: false
 ShowToc: false
@@ -96,3 +96,33 @@ I research tools against primary sources — official docs and established insti
 ---
 
 *Built with AI. Written by a human. Tested in the real world.*
+
+<script>
+(function() {
+  function demoteNode(node) {
+    if (node.nodeType !== 1) return;
+    if (node.tagName === 'H1') {
+      var h2 = document.createElement('h2');
+      h2.innerHTML = node.innerHTML;
+      Array.from(node.attributes).forEach(function(a) { h2.setAttribute(a.name, a.value); });
+      node.replaceWith(h2);
+    } else {
+      node.querySelectorAll('h1').forEach(function(h1) {
+        var h2 = document.createElement('h2');
+        h2.innerHTML = h1.innerHTML;
+        Array.from(h1.attributes).forEach(function(a) { h2.setAttribute(a.name, a.value); });
+        h1.replaceWith(h2);
+      });
+    }
+  }
+  var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      mutation.addedNodes.forEach(demoteNode);
+    });
+  });
+  function start() {
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+  if (document.body) { start(); } else { document.addEventListener('DOMContentLoaded', start); }
+})();
+</script>
