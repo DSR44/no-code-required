@@ -1,7 +1,7 @@
 ---
 title: "MCP vs Skills — what's the difference and when to use which"
 date: 2026-06-14
-draft: false
+draft: true
 description: "MCP and Skills are both used by AI agents, but they solve different problems. Here's when to use each one."
 tags: ["AI agents", "MCP", "Skills", "automation", "no-code"]
 categories: ["tools"]

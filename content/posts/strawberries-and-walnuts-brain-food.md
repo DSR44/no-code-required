@@ -1,7 +1,7 @@
 ---
 title: "Strawberries and walnuts: the brain food nobody talks about"
 date: 2026-06-15
-draft: false
+draft: true
 description: "New research shows strawberries and walnuts can boost memory, reaction time, and cognitive processing. Here's what the studies found."
 tags: ["brain health", "food", "research", "cognitive function", "nutrition"]
 categories: ["tools"]
