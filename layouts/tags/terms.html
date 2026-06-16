@@ -1,0 +1,52 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <p class="post-description">{{ . }}</p>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content md-content">
+  {{- partial "anchored_headings.html" .Content -}}
+</div>
+{{- end }}
+
+<h2 class="terms-index-heading">{{ if eq .Type "tags" }}All tags{{ else }}All {{ .Type }}{{ end }}</h2>
+<ul class="terms-tags">
+  {{- $type := .Type }}
+  {{- range $key, $value := .Data.Terms.Alphabetical }}
+  {{- $name := .Name }}
+  {{- $count := .Count }}
+  {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .LinkTitle }} <sup><strong><sup>{{ $count }}</sup></strong></sup></a>
+  </li>
+  {{- end }}
+  {{- end }}
+</ul>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "No Code Required",
+  "alternateName": "NCR",
+  "url": "https://nocoderequired.net",
+  "logo": "https://nocoderequired.net/images/logo.png",
+  "description": "No Code Required (NCR) publishes beginner-friendly tutorials, AI tool reviews, and automation guides for non-technical users.",
+  "sameAs": [
+    "https://www.youtube.com/@nocoderequired",
+    "https://www.linkedin.com/company/nocoderequired",
+    "https://www.reddit.com/r/nocoderequired"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://nocoderequired.net/contact/"
+  }
+}
+</script>
+
+{{- end }}{{/* end main */ -}}
