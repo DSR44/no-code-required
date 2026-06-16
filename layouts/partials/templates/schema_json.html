@@ -83,6 +83,30 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": {{ printf "%s#organization" site.Home.Permalink | safeHTML }},
+  "name": {{ site.Title }},
+  "alternateName": "NCR",
+  "url": {{ site.Home.Permalink | safeHTML }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ "/images/logo.png" | absURL }}
+  },
+  "description": "No Code Required helps non-developers discover, evaluate, and use AI tools and no-code platforms to build real things without writing code.",
+  "sameAs": [
+    {{- if site.Params.schema.sameAs }}
+      {{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
+    {{- else }}
+      "https://www.linkedin.com/company/nocoderequired",
+      "https://www.youtube.com/@nocoderequired",
+      "https://reddit.com/r/nocoderequired"
+    {{- end }}
+  ]
+}
+</script>
 {{- else if eq .Kind "taxonomy" }}
 <script type="application/ld+json">
 {
