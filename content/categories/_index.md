@@ -1,6 +1,7 @@
 ---
 title: "Blog Categories"
 description: "Browse No Code Required by topic — AI tools, automation, basics, and honest reviews. Find guides written for non-technical people."
+canonicalURL: "https://www.nocoderequired.net/categories/"
 ---
 
 Not sure where to start? Browse by category. Every article on No Code Required is tagged by topic so you can jump straight to what you need — whether you're picking your first AI tool, wiring up an automation, or learning the basics without the jargon.
