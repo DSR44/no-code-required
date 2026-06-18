@@ -1,10 +1,13 @@
 ---
 title: "About NCR — Honest Reviews of No Code AI Tools"
+seoTitle: "About NCR | No Code AI Tools for Non-Technical People"
 date: 2026-04-30
 draft: false
 ShowToc: false
-description: "Manal built No Code Required after learning AI from zero — no dev background, no jargon. Honest tool reviews and tutorials for non-technical people."
+description: "Manal reviews no code AI tools for non-technical people — honest tutorials, zero jargon. Learn how to use AI without writing a single line of code."
 ---
+
+No Code Required is a blog dedicated to no code AI tools — reviewed and tested by someone who started from zero. Over 60% of AI tool users have no coding background, yet most resources assume you do. This blog exists to close that gap: honest reviews, real workflows, and zero assumptions about what you already know.
 
 ## Hey, I'm Manal.
 

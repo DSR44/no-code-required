@@ -11,6 +11,8 @@
 {{- $seoTitle := site.Title }}
 {{- if .IsHome }}
   {{- $seoTitle = site.Params.homeTitle | default site.Title }}
+{{- else if .Params.seoTitle }}
+  {{- $seoTitle = .Params.seoTitle }}
 {{- else if .Title }}
   {{- $seoTitle = printf "%s | %s" .Title site.Title }}
 {{- end }}
