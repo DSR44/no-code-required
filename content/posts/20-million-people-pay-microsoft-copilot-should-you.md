@@ -21,11 +21,11 @@ Microsoft announced that 20 million people are now paying for Copilot. That's a 
 
 Copilot lives inside Microsoft 365 — Word, Excel, PowerPoint, Outlook, Teams. It's not a standalone app you open separately. It's embedded in the tools you already use, which is both its biggest strength and its biggest limitation.
 
-In **Word**, it drafts documents, rewrites sections, summarizes long files, and generates content from prompts. You can say "write a project proposal based on these meeting notes" and it'll produce a first draft in seconds.
+In **Word**, it drafts documents, rewrites sections, summarizes long files, and generates content from prompts. You can say "write a project proposal based on these meeting notes" and it'll produce a first draft in seconds. If you're already using AI for writing, [My Favorite Lazy-Genius AI Workflows for Solo Creators](/posts/my-favorite-lazy-genius-ai-workflows-for-solo-creators/) covers how to integrate AI into your daily content process.
 
 In **Excel**, it creates formulas, analyzes data, generates charts, and answers questions about your spreadsheets in plain English. "What's the trend in column B over the last 6 months?" gets you an answer instead of a formula you have to debug.
 
-In **Outlook**, it drafts replies, summarizes long email threads, and highlights action items. The email thread summary alone saves me 20 minutes a day.
+In **Outlook**, it drafts replies, summarizes long email threads, and highlights action items. The email thread summary alone saves me 20 minutes a day. For a deeper dive on automating email workflows, check out [How I Automated My Client Follow-Ups in an Afternoon](/posts/automate-client-follow-ups-no-code/).
 
 In **PowerPoint**, it generates entire presentations from a document or outline. Give it a Word doc and it'll build slides with speaker notes. The design isn't always beautiful, but the structure is solid.
 
@@ -66,7 +66,7 @@ In **Teams**, it summarizes meetings you missed, extracts action items from reco
 
 ## The comparison nobody makes
 
-Here's what Microsoft doesn't want you to think about: [ChatGPT Plus](https://chat.openai.com) is $20/month and does most of what Copilot does — just not inside Microsoft apps. You can paste a document into ChatGPT and get the same rewrite, summary, or analysis. The difference is workflow integration. Copilot saves you the copy-paste step. Whether that convenience is worth an extra $10/month depends on how often you'd actually use it.
+Here's what Microsoft doesn't want you to think about: [ChatGPT Plus](https://chat.openai.com) is $20/month and does most of what Copilot does — just not inside Microsoft apps. You can paste a document into ChatGPT and get the same rewrite, summary, or analysis. The difference is workflow integration. Copilot saves you the copy-paste step. Whether that convenience is worth an extra $10/month depends on how often you'd actually use it. If you're weighing AI tool costs, [Stop Doing Things Manually — 5 AI Workflows That Save Hours](/posts/stop-doing-things-manually-5-ai-workflows/) shows what's possible with free tools alone.
 
 For a full breakdown of AI subscription pricing and what's actually worth paying for, check out [AI Subscription Price War: What to Actually Pay For](/posts/ai-subscription-price-war-what-to-pay-for/). And if you're comparing assistants, [ChatGPT Alternatives: 2026 Edition](/posts/chatgpt-alternatives-2026-actually-worth-switching/) covers the full landscape.
 
