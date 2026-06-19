@@ -1,0 +1,7 @@
+{{- $id := .Attributes.id -}}
+<h{{ .Level }}{{ with $id }} id="{{ . }}"{{ end }}>
+  {{- .Text | safeHTML -}}
+  {{- with $id }}
+  <a href="#{{ . }}" aria-hidden="true" tabindex="-1">#</a>
+  {{- end }}
+</h{{ .Level }}>
