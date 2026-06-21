@@ -1,8 +1,9 @@
 ---
-title: "Blog"
+title: "No Code Tutorials, AI Tool Reviews & Step-by-Step Guides"
+seoTitle: "No Code Tutorials & AI Tool Guides | No Code Required"
 date: 2026-04-30
 draft: false
-description: "Honest AI and no-code tutorials, tool reviews, and step-by-step guides — written for people who don't code. Tested in the real world, no jargon."
+description: "Explore no code tutorials, honest AI tool reviews, and step-by-step guides — written for people who don't code. Real-world tested, zero jargon."
 ---
 
 Every article on **No Code Required** is something I actually tried — not a spec sheet rewrite or an affiliate-first roundup. If you're looking for AI tool reviews, automation walkthroughs, or beginner explainers without the gatekeeping, you're in the right place.
