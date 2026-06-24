@@ -4,32 +4,36 @@ description: "Browse No Code Required by topic — AI tools, automation, basics,
 canonicalURL: "https://www.nocoderequired.net/categories/"
 ---
 
-Not sure where to start? Browse by category. Every article on No Code Required is tagged by topic so you can jump straight to what you need — whether you're picking your first AI tool, wiring up an automation, or learning the basics without the jargon.
+Welcome to No Code Required's category index — your starting point for finding guides tailored to your skill level and goals. Whether you're exploring AI tools for the first time, trying to automate repetitive tasks, or just learning the basics of no-code software, every article here is written in plain English for non-technical people. Browse by topic below and find exactly what you need.
 
 ## AI Tools
 
-Hands-on reviews and comparisons of AI writing tools, image generators, chatbots, and the apps everyone is talking about. These posts focus on what actually works when you're not a developer — with real tests, real costs, and honest verdicts.
+Discover the best AI tools built for non-technical users. From AI writing assistants to image generators and chatbots, these guides explain what each tool does, who it's for, and how to get started — no coding knowledge required. Updated regularly as new tools launch.
 
 [Browse AI Tools posts →](/categories/ai-tools/)
 
 ## Tools
 
-Our largest category. Step-by-step guides, tool roundups, and workflows for ChatGPT, Zapier, Make, Cursor, and dozens of other apps. If you're trying to solve a specific problem — client follow-ups, content creation, video editing — start here.
+Our largest category. Step-by-step guides, tool roundups, and practical workflows for the apps non-technical people actually use — ChatGPT, Zapier, Make, Notion, Cursor, and dozens more. Each guide focuses on solving a specific real-world problem without writing code: automating client follow-ups, creating content faster, editing video, or managing projects. If you have a task you want to simplify, this is the place to start.
 
 [Browse Tools posts →](/categories/tools/)
 
 ## Automation
 
-Posts about connecting apps, building workflows, and saving hours without writing code. Perfect if you know what you want to automate but don't know which platform to use.
+Connect your apps, eliminate repetitive tasks, and save hours every week — without writing a single line of code. These posts walk through real automation workflows: how to set them up, which platform fits your needs, and where to begin if you've never tried this before. Whether you're routing form submissions, syncing tools, or building multi-step workflows, every guide here is written for people who aren't developers.
 
 [Browse Automation posts →](/categories/automation/)
 
 ## Basics
 
-New to AI and no-code? Start with explainers that assume zero technical background — what AI actually is, how APIs work, why GitHub isn't scary, and the foundations everything else builds on.
+New to AI and no-code software? Start here. These explainers assume zero technical background and break down the foundations in plain, everyday English — what AI actually is, how large language models work, what APIs are and why they matter, and what "no-code" really means. Building this knowledge first makes everything else on the site easier to follow and helps you make smarter decisions about which tools to use.
 
 [Browse Basics posts →](/categories/basics/)
 
 ---
+
+## Not sure where to start?
+
+If you're brand new to no-code tools, start with our [Basics](/categories/basics/) section. Already comfortable with the fundamentals? Jump into [AI Tools](/categories/ai-tools/) or [Automation](/categories/automation/) to level up your workflow.
 
 **Still not sure?** Head to [Start Here](/start-here/) for a guided path, or try the [AI Tool Advisor](/ai-tool-advisor.html) to get a personalized recommendation in 60 seconds.
