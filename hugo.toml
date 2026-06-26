@@ -100,13 +100,5 @@ canonifyURLs = true
     lineNos = true
     style = "monokai"
 
-[minify]
-  disableHTML = false
-
-[minify.tdewolff]
-  [minify.tdewolff.HTML]
-    keepComments = true
-    keepWhitespace = false
-
 [outputs]
   home = ["HTML", "RSS", "JSON"]

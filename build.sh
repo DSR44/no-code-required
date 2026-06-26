@@ -26,6 +26,6 @@ tar xzf hugo.tar.gz
 chmod +x hugo
 
 # Build
-./hugo --minify
+./hugo
 
 echo "Build complete!"
