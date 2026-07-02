@@ -13,6 +13,7 @@ cover:
   image: "/images/posts/claude-fable-5-is-here-what-anthropic-mythos-means-for-ai-users.jpg"
   alt: "AI safety concept with digital lock and neural network visualization"
 ---
+
 {{< audio src="/audio/claude-fable-5-is-here-what-anthropic-mythos-means-for-ai-users.mp3" >}}
 
 Three weeks ago, the US government banned one of the most powerful AI models ever built. Yesterday, it came back online. And if you're using Claude for anything — work, coding, research — you need to know what just happened.
