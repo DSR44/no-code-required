@@ -13,6 +13,7 @@ cover:
   image: "/images/posts/spotify-ai-covers-how-to.jpg"
   alt: "Person at laptop creating an AI music cover with headphones and Spotify interface"
 ---
+
 {{< audio src="/audio/spotify-ai-covers-how-to.mp3" >}}
 
 I've been making AI music for months — I even [released an album without knowing theory](/posts/ai-music-i-made-an-album-without-knowing-theory/) — but there was always one problem: you couldn't legally use someone else's song. That just changed.
