@@ -1,7 +1,7 @@
 ---
 title: "Strawberries and walnuts: the brain food nobody talks about"
-date: 2026-06-15
-draft: true
+date: 2026-07-04
+draft: false
 description: "New research shows strawberries and walnuts can boost memory, reaction time, and cognitive processing. Here's what the studies found."
 tags: ["brain health", "food", "research", "cognitive function", "nutrition"]
 categories: ["tools"]
@@ -13,9 +13,10 @@ cover:
   image: "/images/posts/strawberries-and-walnuts-brain-food.jpg"
   alt: "Zoe discovering brain food research on laptop with strawberries and walnuts on desk"
 ---
+
 {{< audio src="/audio/strawberries-and-walnuts-brain-food.mp3" >}}
 
-I came across some research this week that made me rethink what I know about brain food. Not the vague "eat blueberries for your brain" advice you see in wellness blogs — actual clinical trials with specific doses and measured outcomes. Two foods I already had in my kitchen turned out to have surprisingly strong evidence for cognitive function. Strawberries and walnuts. Here's what the studies actually show.
+I came across some research this week that made me rethink what I know about brain food. Not the vague "eat blueberries for your brain" advice you see in wellness blogs — actual clinical trials with specific doses and measured outcomes. If you've read my take on [why you shouldn't trust AI with your health](/posts/dont-trust-ai-with-your-health-heres-how-to-use-it-right/), you know I go straight to the source. Two foods I already had in my kitchen turned out to have surprisingly strong evidence for cognitive function. Strawberries and walnuts. Here's what the studies actually show.
 
 ## What the walnut research says
 
@@ -47,7 +48,7 @@ The reason I'm writing about both in the same post is that they work through com
 
 **Strawberries** provide anthocyanins (anti-inflammatory, blood flow), vitamin C (antioxidant), and fiber (gut-brain axis support). They support the functional and signaling aspects of brain health.
 
-Together, they cover more ground than either one alone. And both have clinical trial evidence — not just observational studies or mechanistic speculation.
+Together, they cover more ground than either one alone. And both have clinical trial evidence — not just observational studies or mechanistic speculation. If you're dealing with [AI tool overwhelm](/posts/ai-tool-overwhelm-how-to-escape/) and mental fatigue from decision overload, this kind of simple, evidence-based nutrition hack is exactly the low-effort win your brain needs.
 
 ## How to actually use this
 
@@ -55,13 +56,13 @@ Together, they cover more ground than either one alone. And both have clinical t
 
 **The strawberry dose from the studies:** 26 grams of freeze-dried (roughly one cup fresh) for the processing speed benefits, or two cups fresh for the spatial memory benefits. Fresh or frozen both work. Freeze-dried is more concentrated per gram but less practical for daily use.
 
-**Don't overthink it.** This isn't a supplement protocol. It's breakfast. A handful of walnuts and a cup of strawberries costs maybe $2 and takes zero preparation.
+**Don't overthink it.** This isn't a supplement protocol. It's breakfast. A handful of walnuts and a cup of strawberries costs maybe $2 and takes zero preparation. The same way [building your first automation](/posts/build-your-first-automation-in-15-minutes/) removes friction from your workflow, this removes friction from feeding your brain.
 
 **The timing matters less than the consistency.** The walnut study showed same-day benefits from a single dose, but the strawberry studies used daily supplementation over weeks. The realistic approach: eat them regularly, not as a one-time experiment.
 
 ## What this doesn't mean
 
-This doesn't mean walnuts and strawberries are a substitute for [sleep](/posts/what-a-20-minute-nap-actually-does-to-your-brain/), exercise, or managing stress. Food is one input into cognitive function, not the only one. But it's an input that's easy, cheap, and well-supported by evidence.
+This doesn't mean walnuts and strawberries are a substitute for [sleep](/posts/what-a-20-minute-nap-actually-does-to-your-brain/), exercise, or managing stress. If you're running a business on AI tools like [I do with two blogs](/posts/how-i-use-ai-to-run-two-blogs-without-hiring-anyone/), cognitive performance isn't optional — it's the whole game. Food is one input into cognitive function, not the only one. But it's an input that's easy, cheap, and well-supported by evidence.
 
 It also doesn't mean more is better. The studies used specific doses — 50g of walnuts, 1–2 cups of strawberries. Eating a pound of walnuts won't make you smarter. It'll just make you full.
 
