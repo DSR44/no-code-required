@@ -6,7 +6,6 @@ draft: false
 description: "GPT 5.6 and Claude Mythos are stuck in government review. Here's what the new AI model approval process means for your business."
 tags: ["AI tools", "no-code", "automation", "AI regulation", "solo builders"]
 categories: ["tools"]
-slug: "ai-model-regulation-changes-solo-builders"
 keywords: ["AI model regulation solo builders", "GPT 5.6 government approval", "AI model release process business"]
 ShowToc: true
 TocOpen: false
