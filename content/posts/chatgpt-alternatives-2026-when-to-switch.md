@@ -7,7 +7,6 @@ description: "Not every task needs ChatGPT. Here's when to switch to Claude, Per
 summary: "ChatGPT is great, but it's not the best at everything. Here's a practical guide to when you should switch tools and which one to use instead."
 tags: ["ChatGPT", "AI tools", "comparison", "no-code", "productivity"]
 categories: ["tools"]
-slug: "chatgpt-alternatives-2026-when-to-switch"
 keywords: ["when to switch from ChatGPT", "ChatGPT vs Claude vs Perplexity", "best AI tool for each task 2026", "ChatGPT alternatives when to use"]
 ShowToc: true
 TocOpen: false
