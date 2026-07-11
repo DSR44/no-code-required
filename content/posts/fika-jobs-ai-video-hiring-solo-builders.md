@@ -1,5 +1,5 @@
 ---
-title: "AI Agents Are Now Conducting Job Interviews — Here's What That Means for Solo Builders"
+title: "AI Agents Now Run Job Interviews: What Solo Builders Need to Know"
 date: 2026-07-06
 draft: false
 description: "Fika Jobs raised $4M for AI video interviews. Here's how AI hiring agents change the game for small teams."

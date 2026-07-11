@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Alternatives in 2026: Which Ones Are Actually Worth Switching To?"
+title: "ChatGPT Alternatives 2026: Which Are Worth Switching To?"
 date: 2026-05-26
 draft: false
 description: "Seven ChatGPT alternatives that are worth your time in 2026 — based on real usage, not marketing pages."

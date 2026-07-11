@@ -1,5 +1,5 @@
 ---
-title: "I made a TikTok dance video for $0.39 with AI — here's the exact prompt"
+title: "I Made a TikTok Dance Video for $0.39 With AI — Here's How"
 date: 2026-05-22
 draft: false
 description: "No dancer. No camera. No studio. I used GPT Image 2.0 to generate a 9-panel storyboard, then fed it into PixVerse to create a 10-second dance video. Total cost: $0.39. Here's the exact prompt and JSON I used — copy it, change the style, make it yours."

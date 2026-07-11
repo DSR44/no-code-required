@@ -1,5 +1,5 @@
 ---
-title: "What is AI actually? (No jargon, I promise)"
+title: "What is AI Actually? No Jargon Explained"
 date: 2026-05-01
 draft: false
 tags: ["basics", "tutorial", "AI history"]

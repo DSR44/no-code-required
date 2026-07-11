@@ -1,5 +1,5 @@
 ---
-title: "The 7 AI Tools I'd Learn First if I Started Over in 2026"
+title: "7 AI Tools to Learn First in 2026 | No Code Required"
 date: 2026-06-04
 draft: false
 description: "If I had to start from zero with AI tools in 2026, these are the 7 I'd learn — in this exact order."

@@ -1,5 +1,5 @@
 ---
-title: "Don't Trust AI With Your Health — Here's How to Use It Right"
+title: "How to Use AI for Health Advice Safely"
 date: 2026-06-10
 draft: false
 description: "AI chatbots give health advice to 40 million people daily. Here's what they get wrong and how to actually use them safely."

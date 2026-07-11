@@ -1,5 +1,5 @@
 ---
-title: "Google I/O 2026: Every Free AI Tool They Just Launched (And How to Use Them)"
+title: "Google I/O 2026: Free AI Tools for Non-Developers"
 date: 2026-05-31
 draft: false
 description: "Google dropped 100 announcements at I/O 2026. Here are the free AI tools that actually matter if you're not a developer."
