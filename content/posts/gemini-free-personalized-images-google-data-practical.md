@@ -1,5 +1,5 @@
 ---
-title: "Gemini's Free AI Image Generation Uses Your Google Data — Here's When That's Actually Useful"
+title: "Gemini's Free AI Image Generation: When It's Actually Useful"
 slug: "gemini-free-personalized-images-google-data-practical"
 date: 2026-07-10
 draft: false

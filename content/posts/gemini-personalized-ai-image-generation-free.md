@@ -1,5 +1,5 @@
 ---
-title: "Gemini's Personalized AI Image Generation Is Now Free — Here's What That Actually Means"
+title: "Gemini's Free AI Image Generation: What It Means for You"
 date: 2026-07-10
 draft: false
 description: "Google just made Gemini's personalized AI image generation free for all US users. I tested it — here's how it works and whether it's worth your time."

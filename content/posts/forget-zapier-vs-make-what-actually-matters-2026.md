@@ -1,5 +1,5 @@
 ---
-title: "Forget Zapier vs Make — Here's What Actually Matters for Automation in 2026"
+title: "Zapier vs Make: What Actually Matters for Automation in 2026"
 slug: "forget-zapier-vs-make-what-actually-matters-2026"
 date: 2026-07-10
 draft: false

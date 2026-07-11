@@ -1,5 +1,5 @@
 ---
-title: "7 ChatGPT Alternatives I'd Actually Switch To in 2026 (And Who Each One Is For)"
+title: "7 ChatGPT Alternatives Worth Switching To in 2026"
 date: 2026-07-11
 draft: false
 description: "Tired of ChatGPT? Here are 7 AI tools worth switching to in 2026 — each one better than ChatGPT for a specific use case."

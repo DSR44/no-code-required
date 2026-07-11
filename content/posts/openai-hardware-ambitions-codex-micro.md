@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's Hardware Ambitions Just Got a Lot More Interesting — And Not Just Because of the Codex Micro"
+title: "OpenAI's Hardware Push: What It Means for AI Tool Users"
 date: 2026-07-11
 draft: false
 description: "OpenAI is launching physical hardware while Apple sues over stolen trade secrets. Here's what it means for AI tool users."

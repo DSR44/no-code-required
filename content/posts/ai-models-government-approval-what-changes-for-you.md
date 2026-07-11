@@ -1,5 +1,5 @@
 ---
-title: "AI Models Are Getting Held at the Border — What Government Approval Means for Your Tools"
+title: "AI Model Border Holds: What Gov Approval Means for Your Tools"
 date: 2026-07-10
 draft: false
 description: "GPT5.6 and Anthropic's Mythos are stuck in US government review. Here's what the new AI model approval process means for your tools."
