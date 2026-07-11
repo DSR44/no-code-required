@@ -1,5 +1,5 @@
 ---
-title: "Zapier vs Make in 2026: What Changed (And What It Means for Your Wallet)"
+title: "Zapier vs Make 2026: What Changed and What It Costs"
 date: 2026-07-10
 draft: false
 description: "Both Zapier and Make shipped major updates in 2026. Here's what changed, what it costs, and which one makes sense for your business now."

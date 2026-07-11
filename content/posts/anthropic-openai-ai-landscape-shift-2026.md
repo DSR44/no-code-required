@@ -1,5 +1,5 @@
 ---
-title: "It's Not About Anthropic vs. OpenAI Anymore — Here's What Actually Changed"
+title: "AI Regulation Now Shapes Your Model Choices"
 date: 2026-07-10
 draft: false
 description: "The AI industry rivalry has shifted. Government regulation now shapes which models you can use — and that changes everything for solopreneurs."

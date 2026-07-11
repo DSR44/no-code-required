@@ -1,5 +1,5 @@
 ---
-title: "The U.S. Government Now Approves AI Models Before You Can Use Them — Here's What That Means"
+title: "US Government Now Approves AI Models for Users"
 date: 2026-07-09
 draft: false
 description: "The U.S. government is now approving AI models customer by customer. What happened to Anthropic and OpenAI, and what it means for you."

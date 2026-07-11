@@ -1,5 +1,5 @@
 ---
-title: "It's Not About Anthropic vs. OpenAI Anymore — Here's What Actually Matters for Your AI Choices"
+title: "Anthropic vs OpenAI: What Matters for Your AI Choices"
 date: 2026-07-09
 draft: false
 description: "The AI landscape changed. Anthropic and OpenAI aren't the only players that matter anymore — here's how to choose the right model for what you're building."
