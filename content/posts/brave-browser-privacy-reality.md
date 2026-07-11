@@ -1,5 +1,5 @@
 ---
-title: "Your Browser Knows More About You Than Your AI Does — Is Brave Still Private?"
+title: "Is Brave Still Private? What AI Users Need to Know"
 date: 2026-05-25
 draft: false
 description: "Brave was supposed to be the privacy browser. Here's what actually happened and what to use instead if you work with AI tools."

@@ -1,5 +1,5 @@
 ---
-title: "Exposed: Cursor Built a Free Model That's as Good as Claude — Here's What That Means for You"
+title: "Cursor's Free Model Rivals Claude: What It Means for You"
 date: 2026-05-25
 draft: false
 description: "Cursor's Composer 2.5 matches Claude Opus at 1/10th the cost. I switched — here's what actually happened."
