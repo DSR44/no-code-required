@@ -1,5 +1,5 @@
 ---
-title: "HeyGen Video Translation: Reach a Global Audience Without Speaking Another Language"
+title: "HeyGen Video Translation: Reach Global Audiences Without Languages"
 date: 2026-07-07
 draft: false
 description: "HeyGen translates your videos into 175+ languages with AI lip-sync — no re-recording needed. Reach global audiences from your desk in minutes."

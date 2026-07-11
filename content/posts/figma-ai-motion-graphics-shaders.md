@@ -1,5 +1,5 @@
 ---
-title: "Figma Just Added AI Motion Graphics and Shaders — Here's What Non-Designers Can Actually Do With Them"
+title: "Figma AI Motion Graphics & Shaders: A No-Code Guide"
 date: 2026-07-08
 draft: false
 description: "Figma's Config 2026 added AI motion graphics, shader effects, and generative plugins. Here's what these tools mean for no-code creators."

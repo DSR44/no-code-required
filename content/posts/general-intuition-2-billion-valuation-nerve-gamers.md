@@ -1,5 +1,5 @@
 ---
-title: "General Intuition Just Hit a $2.3B Valuation — And It's Building a Jobs Platform for Gamers"
+title: "General Intuition's $2.3B Valuation: AI Agents Trained on Gaming Data"
 date: 2026-07-07
 draft: false
 description: "General Intuition just raised $320M at a $2.3B valuation to train AI agents using video game data. Here's everything that changed since their seed round."

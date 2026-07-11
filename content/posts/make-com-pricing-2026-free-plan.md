@@ -1,5 +1,5 @@
 ---
-title: "Make.com Pricing in 2026: Is the Free Plan Actually Enough for Your Business?"
+title: "Make.com Pricing 2026: Is the Free Plan Enough?"
 date: 2026-07-08
 draft: false
 description: "Make.com's free plan gives you 1,000 credits and 2 active scenarios. Here's when it's enough and when you actually need to upgrade."

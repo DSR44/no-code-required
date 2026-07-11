@@ -1,5 +1,5 @@
 ---
-title: "Zapier Pricing in 2026: What You Actually Pay (and Cheaper Alternatives)"
+title: "Zapier Pricing 2026: Costs & Cheaper Alternatives"
 date: 2026-07-07
 draft: false
 description: "Zapier pricing breakdown for 2026. What each plan costs, hidden expenses, and cheaper alternatives like Make and n8n that do the same thing."
