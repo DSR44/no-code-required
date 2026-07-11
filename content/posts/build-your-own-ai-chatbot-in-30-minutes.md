@@ -24,7 +24,7 @@ howto:
       text: "Copy the embed code and paste it into your site — the chatbot now answers customer questions 24/7."
 ---
 
-# Build your own AI chatbot in 30 minutes
+## Build your own AI chatbot in 30 minutes
 
 I built my first AI chatbot thinking it would take all day. It took 12 minutes.
 

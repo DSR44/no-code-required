@@ -10,7 +10,7 @@ cover:
   image: "/images/posts/the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of.jpg"
 ---
 
-# The AI tools with the highest satisfaction rates you've never heard of
+## The AI tools with the highest satisfaction rates you've never heard of
 
 Every "best AI tools" list is the same: ChatGPT, Midjourney, Notion AI, Jasper. You've seen them. You've probably tried them. They're fine.
 

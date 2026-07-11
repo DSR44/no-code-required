@@ -12,7 +12,7 @@ cover:
 
 {{< audio src="/audio/white-label-cal-com-resell.mp3" >}}
 
-# White-label this open-source tool and sell it for $200/month
+## White-label this open-source tool and sell it for $200/month
 
 Last week I was paying $12/month for Calendly. Then I found Cal.com — an open-source alternative that does everything Calendly does, plus more, for free.
 

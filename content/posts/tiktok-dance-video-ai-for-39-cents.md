@@ -12,7 +12,7 @@ cover:
 
 {{< audio src="/audio/tiktok-dance-video-ai-for-39-cents.mp3" >}}
 
-# I made a TikTok dance video for $0.39 with AI — here's the exact prompt
+## I made a TikTok dance video for $0.39 with AI — here's the exact prompt
 
 Last night I spent $0.39 and made a TikTok dance video. No dancer. No camera. No studio. Two AI tools. One prompt. Ten seconds of content.
 
@@ -194,7 +194,7 @@ import requests, time, json
 API_KEY = "YOUR_API_KEY"
 BASE = "https://api.muapi.ai/api/v1"
 
-# Step 1: Generate storyboard
+## Step 1: Generate storyboard
 r1 = requests.post(f"{BASE}/gpt-image-2-text-to-image",
     headers={"x-api-key": API_KEY, "Content-Type": "application/json"},
     json={
@@ -204,7 +204,7 @@ r1 = requests.post(f"{BASE}/gpt-image-2-text-to-image",
     })
 request_id = r1.json()["request_id"]
 
-# Poll for image
+## Poll for image
 while True:
     time.sleep(8)
     result = requests.get(f"{BASE}/predictions/{request_id}/result",
@@ -213,7 +213,7 @@ while True:
         image_url = result["outputs"][0]
         break
 
-# Step 2: Animate
+## Step 2: Animate
 r2 = requests.post(f"{BASE}/pixverse-v6-i2v",
     headers={"x-api-key": API_KEY, "Content-Type": "application/json"},
     json={
@@ -224,7 +224,7 @@ r2 = requests.post(f"{BASE}/pixverse-v6-i2v",
     })
 video_id = r2.json()["request_id"]
 
-# Poll for video
+## Poll for video
 while True:
     time.sleep(8)
     result = requests.get(f"{BASE}/predictions/{video_id}/result",

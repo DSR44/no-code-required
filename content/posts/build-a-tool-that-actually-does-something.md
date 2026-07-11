@@ -10,7 +10,7 @@ cover:
   image: "/images/posts/build-a-tool-that-actually-does-something.jpg"
 ---
 
-# Build a tool that actually does something
+## Build a tool that actually does something
 
 Most AI tutorials end with "and now you have a chatbot!" Congratulations. You built something that answers questions nobody asked.
 

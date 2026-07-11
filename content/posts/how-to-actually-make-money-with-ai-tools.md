@@ -10,7 +10,7 @@ cover:
   image: "/images/posts/how-to-actually-make-money-with-ai-tools.jpg"
 ---
 
-# How to actually make money with AI tools
+## How to actually make money with AI tools
 
 Every "make money with AI" article says the same thing: sell AI art on Etsy, start a dropshipping store, or become an AI consultant.
 

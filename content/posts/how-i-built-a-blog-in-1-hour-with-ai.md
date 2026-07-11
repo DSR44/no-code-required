@@ -28,7 +28,7 @@ howto:
       text: "Buy a domain and add DNS records pointing to Vercel — takes about 5 minutes with AI walking you through it."
 ---
 
-# How I built a blog in 1 hour with AI
+## How I built a blog in 1 hour with AI
 
 I'd never built a website before. Never touched a terminal. Never used GitHub. Didn't know what "deploy" meant.
 

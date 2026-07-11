@@ -40,7 +40,7 @@ reviews:
     summary: "Best for transcribing audio and video files in batch — drag-and-drop file processing, not live dictation."
 ---
 
-# Best AI dictation apps — tested and ranked
+## Best AI dictation apps — tested and ranked
 
 I stopped typing my blog posts 3 months ago. I talk them out loud, then edit.
 

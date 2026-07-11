@@ -34,7 +34,7 @@ reviews:
     summary: "Best for creators and bloggers — visual automations on free tier but funnel features are lighter than all-in-one tools."
 ---
 
-# Free funnel builders compared: which one actually works?
+## Free funnel builders compared: which one actually works?
 
 Everyone says you need ClickFunnels ($97/month) or Kajabi ($149/month) to build a funnel. You don't. There are free funnel builders that do 90% of what the paid ones do.
 

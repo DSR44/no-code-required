@@ -26,7 +26,7 @@ howto:
       text: "Click Publish, name your Zap, and turn it on so every matching email logs automatically."
 ---
 
-# Build your first automation in 15 minutes
+## Build your first automation in 15 minutes
 
 I built my first automation to solve a problem I had every single morning: I'd check 5 websites for updates, then copy-paste the interesting ones into a note. It took 20 minutes. Every day.
 

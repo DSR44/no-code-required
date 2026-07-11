@@ -18,7 +18,7 @@ cover:
 <source src="/audio/openai-vs-apple-chatgpt.mp3" type="audio/mpeg">
 </audio></div>
 
-# OpenAI vs Apple: what happened and what it means for you
+## OpenAI vs Apple: what happened and what it means for you
 
 Remember when Apple announced ChatGPT integration with Siri? The crowd went wild. "Finally," everyone said. "AI on my iPhone."
 

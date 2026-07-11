@@ -10,7 +10,7 @@ cover:
   image: "/images/posts/ai-music-i-made-an-album-without-knowing-theory.jpg"
 ---
 
-# AI music: I made an album without knowing theory
+## AI music: I made an album without knowing theory
 
 I can't play guitar. I can't read music. I took piano lessons for three weeks when I was 12 and quit because I couldn't figure out what "allegro" meant.
 

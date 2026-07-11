@@ -44,7 +44,7 @@ reviews:
     summary: "Strong for short sales copy and conversion-focused snippets — less useful for long-form blog content."
 ---
 
-# I tested 10 AI writing tools so you don't have to
+## I tested 10 AI writing tools so you don't have to
 
 Every "best AI writing tools" article lists the same 10 tools with the same feature tables. ChatGPT is "versatile." Claude is "nuanced." Jasper is "for marketing."
 

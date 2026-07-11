@@ -10,7 +10,7 @@ cover:
   image: "/images/posts/the-one-prompt-that-changed-everything.jpg"
 ---
 
-# The one prompt that changed everything
+## The one prompt that changed everything
 
 I spent months typing into ChatGPT like I was texting a friend. Short. Vague. Hoping for the best.
 

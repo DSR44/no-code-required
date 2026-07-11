@@ -16,7 +16,7 @@ cover:
 <source src="/audio/the-privacy-problem-nobody-talks-about.mp3" type="audio/mpeg">
 </audio></div>
 
-# The privacy problem nobody talks about
+## The privacy problem nobody talks about
 
 Every article about AI privacy says the same thing. "Your data might be used to train models." "Use enterprise versions for sensitive work." "Turn off chat history."
 

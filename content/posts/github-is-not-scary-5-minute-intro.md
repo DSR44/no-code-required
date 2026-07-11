@@ -10,7 +10,7 @@ cover:
   image: "/images/posts/github-is-not-scary-5-minute-intro.jpg"
 ---
 
-# GitHub is not scary — 5-minute intro
+## GitHub is not scary — 5-minute intro
 
 I avoided GitHub for years. Every time someone mentioned it, my brain shut down. Repositories. Branches. Pull requests. It sounded like a foreign language designed to make me feel stupid.
 

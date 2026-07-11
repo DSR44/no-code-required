@@ -10,7 +10,7 @@ cover:
   image: "/images/posts/the-tools-i-actually-use-every-day.jpg"
 ---
 
-# The AI Tools I Actually Use Every Day (Honest Review)
+## The AI Tools I Actually Use Every Day (Honest Review)
 
 Most AI tool reviews are written by people who tested the tool for 20 minutes and wrote a summary from the product page. That's not a review. That's a press release.
 
