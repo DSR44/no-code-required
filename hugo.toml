@@ -102,3 +102,6 @@ canonifyURLs = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[params.analytics.google]
+  SiteVerificationTag = "5wZ13B4b4vNn2hpTOLEUq6k4r3In0OU--1n0gQ_B4jw"
