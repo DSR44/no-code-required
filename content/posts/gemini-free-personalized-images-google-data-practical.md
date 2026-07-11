@@ -1,7 +1,7 @@
 ---
 title: "Gemini's Free AI Image Generation: When It's Actually Useful"
 slug: "gemini-free-personalized-images-google-data-practical"
-date: 2026-07-10
+date: 2026-07-24
 draft: false
 description: "Google Gemini's free personalized image generation pulls from your Photos, Gmail, and YouTube. Here's when that's helpful and when to use something else."
 tags: ["Google Gemini", "AI images", "personalized AI", "free AI tools", "privacy"]

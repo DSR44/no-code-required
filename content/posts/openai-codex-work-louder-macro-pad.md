@@ -1,6 +1,6 @@
 ---
 title: "OpenAI's Codex Macro Pad Signals the Future of AI Hardware"
-date: 2026-07-11
+date: 2026-08-04
 draft: false
 description: "OpenAI is launching a physical macro pad for Codex with Work Louder. Here's what it means for non-coders and why AI hardware is becoming a trend."
 tags: ["OpenAI", "Codex", "AI tools", "hardware", "no-code"]

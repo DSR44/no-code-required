@@ -1,6 +1,6 @@
 ---
 title: "Google Gemini's Free AI Image Generation: What It Means for You"
-date: 2026-07-10
+date: 2026-07-17
 draft: false
 description: "Google Gemini's personalized Nano Banana image generation is now free for all US users. Here's what it means for your creative workflow."
 tags: ["Google Gemini", "AI images", "personalized AI", "free AI tools", "Nano Banana"]

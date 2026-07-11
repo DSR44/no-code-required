@@ -1,6 +1,6 @@
 ---
 title: "OpenAI's Codex Micro: What It Actually Does and Whether You Need One"
-date: 2026-07-11
+date: 2026-08-04
 draft: false
 description: "OpenAI's Codex Micro macro pad launches July 15. Here's what it does, what it costs, and whether it makes sense for non-coders."
 summary: "OpenAI is shipping a physical macro pad for Codex — here's the practical breakdown of what it does and who it's actually for."

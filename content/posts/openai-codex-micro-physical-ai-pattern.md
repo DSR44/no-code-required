@@ -1,6 +1,6 @@
 ---
 title: "OpenAI's Codex Micro and the Pattern Every AI Tool Eventually Follows"
-date: 2026-07-11
+date: 2026-08-11
 draft: false
 description: "OpenAI's Codex Micro follows a pattern every major technology has repeated — physical interfaces make tools accessible. Here's what that means for you."
 summary: "OpenAI is launching a physical macro pad for Codex, and it follows the same pattern that made calculators, mice, and touchscreens mainstream."

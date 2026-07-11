@@ -1,6 +1,6 @@
 ---
 title: "Gemini's Free AI Images: A Solopreneur's Guide"
-date: 2026-07-10
+date: 2026-07-14
 draft: false
 description: "Gemini's personalized AI image generation is now free for US users. Here's how to use it for your business without paying for Midjourney."
 tags: ["AI tools", "image generation", "Google", "Gemini", "solopreneurs", "free tools"]
