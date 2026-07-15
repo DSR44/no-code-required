@@ -1,5 +1,5 @@
 ---
-title: "The AI Landscape Just Shifted — What the Regulatory Crackdown Means for the Tools You Use"
+title: "AI Regulatory Crackdown: What It Means for Your Tools"
 slug: "ai-landscape-after-regulatory-crackdown-2026"
 date: 2026-07-09
 draft: false

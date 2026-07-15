@@ -1,5 +1,5 @@
 ---
-title: "HeyGen's Video Agent Just Changed How I Think About AI Video Creation"
+title: "HeyGen's Video Agent: AI Video Creation Without Code"
 date: 2026-07-06
 draft: false
 description: "HeyGen's Video Agent turns a text prompt into a complete video. Here's what it produces and whether it's worth the credits."

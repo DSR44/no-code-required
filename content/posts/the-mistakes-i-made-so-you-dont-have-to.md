@@ -1,5 +1,5 @@
 ---
-title: "The mistakes I made (so you don't have to)"
+title: "My AI Tool Mistakes: Skip Them & Start Right"
 date: 2026-05-16
 draft: false
 tags: ["AI tools", "mistakes", "beginner", "productivity", "lessons learned"]
