@@ -1,5 +1,5 @@
 ---
-title: "Meta Just Released a Free AI That Codes Like GPT-5 — Here's Why Solo Builders Should Care"
+title: "Meta's Free Muse Spark AI Codes Like GPT-5 for Solo Builders"
 date: 2026-07-11
 draft: false
 description: "Meta's Muse Spark 1.1 is a free AI coding model with 1M token context and multi-agent support. Here's what it means for solo builders and no-code creators."

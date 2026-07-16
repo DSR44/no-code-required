@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Is Making Physical Hardware for Codex — And That Changes Everything for Non-Coders"
+title: "OpenAI's Codex Hardware: A Game-Changer for Non-Coders"
 slug: "openai-codex-hardware-what-it-means"
 date: 2026-07-11
 draft: false

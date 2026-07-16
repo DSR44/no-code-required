@@ -1,5 +1,5 @@
 ---
-title: "What Happens to Your $200/Month Claude Code Bill When Open Source Catches Up"
+title: "Open Source AI Cuts Your $200/Month Claude Code Bill"
 date: 2026-07-06
 draft: false
 description: "NousCoder-14B scored 67.87% on LiveCodeBench — and it's free. Here's what that means for your AI coding budget."

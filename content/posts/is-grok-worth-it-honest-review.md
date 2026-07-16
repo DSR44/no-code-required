@@ -1,5 +1,5 @@
 ---
-title: "I Tested Elon Musk's AI for 2 Hours — Here's What Surprised Me"
+title: "Testing Grok 4.5: What Surprised Me vs ChatGPT & Claude"
 date: 2026-07-12
 draft: false
 description: "Grok 4.5 just launched with a 50% off promo. I tested it against ChatGPT and Claude. Here's what it actually does well — and where it falls short."

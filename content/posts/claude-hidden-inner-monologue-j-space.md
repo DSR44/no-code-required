@@ -1,5 +1,5 @@
 ---
-title: "Anthropic Found a Hidden Space Where Claude Thinks — And It Changes Everything We Know About AI Safety"
+title: "Anthropic Found Where Claude Thinks: AI Safety Implications"
 date: 2026-07-11
 draft: false
 description: "Anthropic's new J-Lens tool reveals Claude has an internal 'J-Space' where it thinks in words it never says. Here's what that means for AI users."

@@ -1,5 +1,5 @@
 ---
-title: "This Free Tool Runs Your AI Models on Any Chip — No NVIDIA Lock-In Required"
+title: "Run AI Models on Any Chip Free — No NVIDIA Lock-In"
 slug: "zml-free-inference-tool-ai-chips"
 date: 2026-07-16
 draft: false

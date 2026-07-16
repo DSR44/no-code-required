@@ -1,5 +1,5 @@
 ---
-title: "The Download: Claude's Secret Inner Life and OpenAI's New 'Super App' — What It Means for You"
+title: "Claude's Inner Life & OpenAI's Super App: What It Means for You"
 date: 2026-07-12
 draft: false
 description: "I'm breaking down the biggest AI news—Claude's surprising inner life and OpenAI's new super app—and showing you exactly what it means for how you use these tools today."

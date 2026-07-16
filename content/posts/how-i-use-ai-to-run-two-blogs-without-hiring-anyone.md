@@ -1,5 +1,5 @@
 ---
-title: "How I Use AI to Run Two Blogs Without Hiring Anyone"
+title: "How I Use AI to Run Two Blogs Without Hiring Anyone | NCR"
 date: 2026-06-03
 draft: false
 description: "The exact AI automation workflow I use to publish on two blogs solo — no team, no VA, no code required."
