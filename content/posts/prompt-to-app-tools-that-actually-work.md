@@ -1,5 +1,5 @@
 ---
-title: "You can now build a web app by describing it — these 5 tools actually work"
+title: "5 Prompt-to-App Tools That Actually Work"
 date: 2026-06-14
 draft: false
 description: "Prompt-to-app tools let you build real web applications from a text description. Here's how Lovable, Bolt.new, v0, Replit, and Glide compare — and which one to pick."

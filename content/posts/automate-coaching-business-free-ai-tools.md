@@ -1,5 +1,5 @@
 ---
-title: "Finally: How I Automated My Coaching Business With Free AI Tools"
+title: "Automate Your Coaching Business With Free AI Tools"
 date: 2026-05-27
 draft: false
 description: "No degree, no budget. Here's the exact free AI workflow I built to automate my coaching business — Zapier, ChatGPT, Google Sheets, n8n step by step."

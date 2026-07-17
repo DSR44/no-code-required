@@ -1,5 +1,5 @@
 ---
-title: "Exposed: Your Boss Wants You to Use AI — But Does It Actually Help?"
+title: "Exposed: Your Boss Wants You to Use AI — Does It Help?"
 date: 2026-05-27
 draft: false
 description: "Amazon employees are 'tokenmaxxing' — gaming AI usage quotas instead of doing real work. Here's what forced AI adoption looks like inside big companies."

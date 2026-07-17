@@ -1,5 +1,5 @@
 ---
-title: "How AI calls other tools (and why you should care)"
+title: "How AI Calls Other Tools (And Why You Should Care)"
 date: 2026-05-21
 draft: false
 tags: ["AI tools", "no-code", "MCP", "function calling", "agents", "automation"]

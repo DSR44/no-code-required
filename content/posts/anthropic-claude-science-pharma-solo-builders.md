@@ -1,5 +1,5 @@
 ---
-title: "Claude Science and Anthropic's pharma play — what it means if you're building with AI"
+title: "Claude Science: What Anthropic's Pharma Play Means for AI Builders"
 date: 2026-07-17
 draft: false
 description: "Anthropic is entering drug development with Claude Science. Here's what solo builders should take from the move."

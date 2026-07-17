@@ -1,5 +1,5 @@
 ---
-title: "OpenAI vs Apple: what happened and what it means for you"
+title: "OpenAI vs Apple: What Happened and What It Means"
 date: 2026-05-23
 draft: false
 description: "OpenAI is reportedly considering suing Apple over how badly they integrated ChatGPT into Siri. Here's what actually happened, why it matters, and what it means for the tools you use every day."
