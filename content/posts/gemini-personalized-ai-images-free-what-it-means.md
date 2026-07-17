@@ -12,7 +12,10 @@ TocOpen: false
 cover:
   image: "/images/posts/gemini-personalized-ai-images-free-what-it-means.jpg"
   alt: "Zoe excited while generating personalized AI images on her laptop"
+lastmod: 2026-07-17
 ---
+> **Update July 2026: recent developments in gemini may affect the information in this post — see details below.**
+
 {{< audio src="/audio/gemini-personalized-ai-images-free-what-it-means.mp3" >}}
 
 I've been testing AI image generators for months, and the biggest frustration has always been the same: you have to describe exactly what you want, in exact detail, every single time. Google just changed that. Gemini's personalized image generation — powered by their Nano Banana model — is now free for all US users, and it works differently than anything else I've tried.

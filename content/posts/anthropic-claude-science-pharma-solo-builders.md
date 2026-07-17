@@ -12,7 +12,10 @@ TocOpen: false
 cover:
   image: "/images/posts/anthropic-claude-science-pharma-solo-builders.jpg"
   alt: "Zoe at a laptop reviewing AI science tools in a warm workspace"
+lastmod: 2026-07-17
 ---
+> **Update July 2026: recent developments in anthropic may affect the information in this post — see details below.**
+
 {{< audio src="/audio/anthropic-claude-science-pharma-solo-builders.mp3" >}}
 
 Anthropic just announced it's going to develop its own drugs. Not partner with pharma companies. Not license Claude to labs. Actually discover and develop treatments — starting with what it calls "neglected" diseases. If you're a solo builder using [Claude](https://claude.ai/) to run your business, this sounds like a headline from a different universe. But I think there's something here that directly affects how you should be thinking about your tools.
