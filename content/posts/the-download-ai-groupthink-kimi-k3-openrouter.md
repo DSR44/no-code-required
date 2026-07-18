@@ -1,5 +1,5 @@
 ---
-title: "AI's Groupthink Problem — And How a New Wave of Models Is Breaking It"
+title: "Breaking AI's Groupthink: How Model Diversity Gives You an Edge"
 date: 2026-07-18
 draft: false
 description: "Every major AI model is converging on the same answers. Here's what that means for your work, and how to use model diversity as a competitive edge."

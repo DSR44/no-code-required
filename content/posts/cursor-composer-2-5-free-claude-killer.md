@@ -2,7 +2,7 @@
 title: "Cursor's Free Model Rivals Claude: What It Means for You"
 date: 2026-05-25
 draft: false
-description: "Cursor's Composer 2.5 matches Claude Opus at 1/10th the cost. I switched — here's what actually happened."
+description: "Cursor's Composer 2.5 rivals Claude Opus at a fraction of the cost. I tested both head-to-head — here's what the data actually shows."
 tags: ["AI tools", "no-code", "cursor", "claude", "ai coding"]
 categories: ["tools"]
 slug: "cursor-composer-2-5-free-claude-killer"

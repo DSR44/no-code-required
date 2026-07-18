@@ -1,5 +1,5 @@
 ---
-title: "Build your first automation in 15 minutes"
+title: "Build Your First Automation in 15 Minutes — No Code Required"
 date: 2026-05-13
 draft: false
 description: "You've heard about automation but never built one. Here's your first — takes 15 minutes, costs nothing, and saves you 30 minutes every day."

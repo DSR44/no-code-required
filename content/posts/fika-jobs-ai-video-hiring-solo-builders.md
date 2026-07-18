@@ -2,7 +2,7 @@
 title: "AI Agents Now Run Job Interviews: What Solo Builders Need to Know"
 date: 2026-07-06
 draft: false
-description: "Fika Jobs raised $4M for AI video interviews. Here's how AI hiring agents change the game for small teams."
+description: "AI agents now conduct job interviews, reshaping hiring for solo builders. Learn what this shift means for your no-code business and how to adapt."
 tags: ["AI tools", "automation", "hiring", "solo builders", "AI agents"]
 categories: ["tools"]
 slug: "fika-jobs-ai-video-hiring-solo-builders"

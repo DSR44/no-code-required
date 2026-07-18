@@ -1,5 +1,5 @@
 ---
-title: "AI's Groupthink Problem — And Why It Matters for Solo Builders"
+title: "AI Groupthink: A Warning for Solo Builders"
 date: 2026-07-18
 draft: false
 description: "LLMs converge on similar outputs, creating AI groupthink. Here's what that means for solo builders and how to avoid generic AI-generated content."
