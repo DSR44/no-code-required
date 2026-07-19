@@ -1,5 +1,5 @@
 ---
-title: "Warning: Your ChatGPT Account Is a Bigger Target Than You Think"
+title: "Your ChatGPT Account Is a Bigger Target Than You Think"
 date: 2026-05-25
 draft: false
 description: "OpenAI partnered with Yubico for hardware security keys. Here's what that means for keeping your ChatGPT account safe."

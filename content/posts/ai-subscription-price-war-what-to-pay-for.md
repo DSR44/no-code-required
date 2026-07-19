@@ -1,5 +1,5 @@
 ---
-title: "The AI Subscription Price War Has Begun — Here's What It Means for Your Wallet"
+title: "AI Subscription Price War: What It Means for Your Wallet"
 date: 2026-06-16
 draft: false
 description: "Google, OpenAI, and Anthropic are slashing AI subscription prices. Here's which plans are actually worth paying for in 2026."

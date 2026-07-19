@@ -2,7 +2,7 @@
 title: "How I Use AI to Run Two Blogs Without Hiring Anyone | NCR"
 date: 2026-06-03
 draft: false
-description: "The exact AI automation workflow I use to publish on two blogs solo — no team, no VA, no code required."
+description: "Discover the exact AI automation workflow that lets one person publish on two blogs solo — no team, no VA, no code required. Save 15+ hours weekly."
 tags: ["AI tools", "automation", "blogging", "solopreneur"]
 categories: ["tools"]
 slug: "how-i-use-ai-to-run-two-blogs-without-hiring-anyone"

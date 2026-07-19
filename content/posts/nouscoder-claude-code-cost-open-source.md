@@ -2,7 +2,7 @@
 title: "Open Source AI Cuts Your $200/Month Claude Code Bill"
 date: 2026-07-06
 draft: false
-description: "NousCoder-14B scored 67.87% on LiveCodeBench — and it's free. Here's what that means for your AI coding budget."
+description: "NousCoder-14B scored 67.87% on LiveCodeBench and it's free. Discover how open source AI can slash your $200/month Claude Code bill with no code required."
 tags: ["AI tools", "open source", "AI coding", "solo builders", "cost savings"]
 categories: ["tools"]
 slug: "nouscoder-claude-code-cost-open-source"
