@@ -8,6 +8,16 @@ description: "I built an automated content pipeline that runs itself. Blog posts
 ShowToc: true
 cover:
   image: "/images/posts/my-automation-pipeline.jpg"
+faqs:
+  - q: "How can I automate my blog publishing and distribution?"
+    a: "You can build an automation pipeline using no-code tools like Zapier or Make to connect your writing, publishing, and social media platforms. The system triggers each step automatically, so a new post gets published and shared without manual intervention."
+  - q: "Which tools are needed for a hands-off content pipeline?"
+    a: "A typical stack includes a content management system like WordPress, an automation platform like Zapier, and social media schedulers like Buffer. These tools connect via APIs to pass your content through each stage seamlessly."
+  - q: "Can I set up automated announcements for new blog posts?"
+    a: "Yes, you can configure your automation to send notifications to email lists, Slack channels, or Discord servers whenever a post goes live. This ensures your audience is alerted immediately without you having to send a single message."
+  - q: "How do I ensure my automated pipeline runs reliably?"
+    a: "Start by testing each connection in your workflow individually before linking them together. Use built-in logging and error notifications in your automation platform to monitor runs and quickly fix any failures."
+
 ---
 
 I used to publish content like this: write the post, log into WordPress, paste it in, format it, add images, publish, then manually share it on five different platforms. Each post took 30 minutes just to distribute.

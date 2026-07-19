@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/faceless-youtube-pipeline-free.jpg"
   alt: "Zoe at laptop with YouTube workflow automation on screen"
+faqs:
+  - q: "Can I really start a YouTube channel without showing my face?"
+    a: "Yes, absolutely. A faceless channel uses AI-generated scripts, synthetic voices, and stock or AI-created visuals, so you never need to appear on camera or even own one."
+  - q: "Which free AI tools are needed for the entire pipeline?"
+    a: "The core free stack includes ChatGPT for scripting, ElevenLabs or a free TTS service for voiceover, and Canva or CapCut for editing. For visuals, you can use free stock footage from Pexels or AI image generators like Leonardo AI."
+  - q: "How do I generate a video script with AI?"
+    a: "Use a tool like ChatGPT with a detailed prompt specifying your niche, video length, and tone. For best results, ask it to structure the script with a hook, key points, and a call to action."
+  - q: "What's the fastest way to edit a faceless video for free?"
+    a: "CapCut is a powerful free editor that lets you combine your AI voiceover with visuals, add text overlays, and use auto-captions. Its timeline interface makes syncing audio and video clips straightforward."
+
 ---
 {{< audio src="/audio/faceless-youtube-pipeline-free.mp3" >}}
 

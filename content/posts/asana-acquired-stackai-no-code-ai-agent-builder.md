@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/asana-acquired-stackai-no-code-ai-agent-builder.jpg"
   alt: "Zoe discovering Asana's AI agent builder on her laptop"
+faqs:
+  - q: "Why did Asana acquire StackAI?"
+    a: "Asana acquired StackAI, a no-code platform for building AI agents, for $75M. The goal is to integrate its capabilities directly into Asana, allowing all users to create and deploy AI-powered workflows without writing any code."
+  - q: "How does this affect users who aren't developers?"
+    a: "This acquisition is specifically aimed at non-technical users by putting powerful AI agent creation behind a simple, no-code interface. It means you can build complex, automated helpers for your projects using a visual drag-and-drop system rather than coding."
+  - q: "Can I build an AI agent inside Asana now?"
+    a: "The integration is underway, so the full no-code builder isn't available to all users yet. However, the acquisition signals that building custom AI agents will soon become a native feature within the Asana platform."
+  - q: "Is the StackAI acquisition part of Asana's paid plans?"
+    a: "Asana has not yet announced specific pricing for the integrated AI agent builder. It's possible the functionality could be included in premium business tiers, but details will be confirmed once the feature is officially launched."
+
 ---
 {{< audio src="/audio/asana-acquired-stackai-no-code-ai-agent-builder.mp3" >}}
 

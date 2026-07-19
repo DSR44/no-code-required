@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/chrome-ai-browse-web-for-you.jpg"
   alt: "Zoe at laptop with Chrome browser showing AI features, warm coffee shop setting"
+faqs:
+  - q: "Does the new Chrome AI agent cost money to use?"
+    a: "Chrome's agent capabilities are currently available for free, though some advanced features may require a paid Google One AI Premium subscription."
+  - q: "How can I use Chrome to shop or book reservations for me?"
+    a: "You can give the AI agent a prompt like 'find me a blue running shoe under $100' or 'book a table for two at an Italian restaurant,' and it will browse and take actions on your behalf."
+  - q: "Is it safe to let an AI agent browse and buy things in Chrome?"
+    a: "The agent requires your explicit permission before taking most actions, like filling payment details, and operates within the browser environment to maintain security."
+  - q: "How does this Chrome feature compare to other AI browsing tools?"
+    a: "Unlike standalone AI tools, it's integrated directly into your Chrome browser and Google account, allowing it to seamlessly interact with websites you already use."
+
 ---
 {{< audio src="/audio/chrome-ai-browse-web-for-you.mp3" >}}
 

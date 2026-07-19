@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/google-ai-ultra-plan-100-dollars.jpg"
   alt: "Zoe looking surprised at AI subscription pricing on laptop screen"
+faqs:
+  - q: "How much does Google's new AI Ultra plan cost per month?"
+    a: "Google's AI Ultra plan costs $100 per month, positioning it as a premium tier for advanced AI features and higher usage limits."
+  - q: "Is Google AI Ultra worth switching to from ChatGPT or Claude?"
+    a: "It depends on your needs; Google AI Ultra offers deep integration with Google services and Gemini's capabilities, but ChatGPT and Claude may still excel in specific creative or reasoning tasks."
+  - q: "What features are included in the Google AI Ultra subscription?"
+    a: "The plan includes access to Gemini Advanced, higher usage limits, early access to new AI tools, and integration with Google Workspace apps like Docs and Sheets."
+  - q: "Are there any limitations or things not included in Google AI Ultra?"
+    a: "Yes, it doesn't include unlimited access to all models, and some features like certain third-party plugin integrations or enterprise-level support may require additional plans."
+
 ---
 {{< audio src="/audio/google-ai-ultra-plan-100-dollars.mp3" >}}
 

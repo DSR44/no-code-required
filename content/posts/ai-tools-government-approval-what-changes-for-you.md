@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-tools-government-approval-what-changes-for-you.jpg"
   alt: "Zoe looking concerned at a laptop showing AI tool dashboards with government approval notices"
+faqs:
+  - q: "How does the new US AI approval process affect ChatGPT and Claude?"
+    a: "The new process requires AI models like ChatGPT and Claude to receive government approval before public release, which could slow down updates and new feature rollouts for these tools you use daily."
+  - q: "Will my favorite AI tools become less useful because of government approvals?"
+    a: "Not necessarily less useful, but they may evolve more slowly as developers navigate the approval steps, potentially delaying the arrival of new capabilities."
+  - q: "Are there any benefits to the government approving AI models before release?"
+    a: "Yes, the approval process aims to ensure AI tools are safer and more reliable by evaluating them for potential risks before they become widely available."
+  - q: "How soon will the new AI approval rules impact the tools I use at work?"
+    a: "The impact will vary by tool and developer, but you might notice changes in update frequency or new feature announcements in the coming months as companies adapt to the process."
+
 ---
 {{< audio src="/audio/ai-tools-government-approval-what-changes-for-you.mp3" >}}
 

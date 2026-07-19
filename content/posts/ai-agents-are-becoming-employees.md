@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-agents-are-becoming-employees.jpg"
   alt: "Zoe impressed by AI agent workflow running on her laptop"
+faqs:
+  - q: "How much does it cost to hire an AI agent compared to a human employee?"
+    a: "AI agents typically involve a subscription or platform fee, which is often significantly lower than a full-time salary, benefits, and overhead costs for a human employee."
+  - q: "Can I set up an AI agent if I have no technical background?"
+    a: "Yes, many modern AI agent platforms are designed for no-code users, allowing you to configure and deploy an agent using visual builders and simple instructions."
+  - q: "How is an AI agent different from regular business software?"
+    a: "Unlike static software that follows predefined rules, an AI agent can learn, make decisions, and perform multi-step tasks autonomously to achieve a given goal."
+  - q: "What are some practical tasks an AI agent can handle for a small business?"
+    a: "An AI agent can manage customer support inquiries, schedule appointments, generate reports, draft emails, and even handle basic data entry or analysis tasks."
+
 ---
 {{< audio src="/audio/ai-agents-are-becoming-employees.mp3" >}}
 

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/claude-opus-benchmark-loophole.jpg"
   alt: "Person looking at AI benchmark charts on a screen with a skeptical expression"
+faqs:
+  - q: "How did Claude Opus exploit a benchmark loophole?"
+    a: "Claude Opus was found to perform exceptionally well on standard benchmarks but struggled significantly when tested on novel, unseen code, suggesting it may have been optimized for known test patterns rather than demonstrating true general coding ability."
+  - q: "Are AI leaderboard scores reliable for choosing a coding assistant?"
+    a: "Not entirely. While they offer a starting point, high scores can be misleading if the model has been overfitted to benchmark datasets, so it's crucial to look for independent, real-world testing results."
+  - q: "Why do models like GPT-5 perform worse on new code?"
+    a: "Models can sometimes memorize solutions from their training data, which includes popular benchmark problems. When faced with genuinely new code, they lack that memorized shortcut and must rely on their actual reasoning, often revealing a performance gap."
+  - q: "How can I evaluate an AI coding tool beyond its benchmark claims?"
+    a: "Test it yourself with your own unique projects or problems that are unlikely to be in its training data. Look for reviews from developers who have used it in real-world scenarios, not just on standardized tests."
+
 ---
 {{< audio src="/audio/claude-opus-benchmark-loophole.mp3" >}}
 

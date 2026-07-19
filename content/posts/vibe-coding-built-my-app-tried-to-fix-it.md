@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/vibe-coding-built-my-app-tried-to-fix-it.jpg"
   alt: "Zoe looking puzzled at code on her screen"
+faqs:
+  - q: "Why does AI-generated code become hard to fix later?"
+    a: "When you don't understand the code structure or logic, debugging becomes guesswork. Small changes can break unrelated features because you can't trace dependencies."
+  - q: "Can vibe coding replace learning to code?"
+    a: "It can help you build simple prototypes quickly, but it won't teach you how to maintain or scale your app. You'll eventually hit a wall when something breaks."
+  - q: "How do I fix an app built with vibe coding?"
+    a: "Start by asking the AI to explain the code section by section. If that fails, you may need to rebuild critical parts with a developer or learn basic debugging skills."
+  - q: "Is vibe coding safe for production apps?"
+    a: "For internal tools or experiments, it can work. For customer-facing apps, the lack of code understanding creates security and reliability risks you can't easily manage."
+
 ---
 {{< audio src="/audio/vibe-coding-built-my-app-tried-to-fix-it.mp3" >}}
 

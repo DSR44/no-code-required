@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/my-favorite-lazy-genius-ai-workflows-for-solo-creators.jpg"
   alt: "Solo creator at laptop with automation workflow glowing on screen"
+faqs:
+  - q: "How can solo creators use AI to automate repetitive tasks without coding?"
+    a: "You can use tools like Zapier or Make to connect apps and trigger AI actions automatically, such as drafting emails or summarizing notes. These platforms offer pre-built templates so you just copy, paste, and customize."
+  - q: "Which AI workflows save the most time for small business owners?"
+    a: "Content repurposing and email drafting are huge time-savers—turn one blog post into social media captions or generate client replies in seconds. Automating customer inquiry responses also frees up hours each week."
+  - q: "Do I need technical skills to set up AI automation for my business?"
+    a: "No, most modern AI tools are designed for non-technical users with drag-and-drop interfaces and step-by-step guides. You can start with simple copy-paste workflows and scale as you get comfortable."
+  - q: "Can AI workflows help with content creation for solo entrepreneurs?"
+    a: "Absolutely—AI can generate first drafts, suggest headlines, or even repurpose existing content into new formats like newsletters or scripts. This lets you focus on refining ideas rather than starting from scratch."
+
 ---
 
 {{< audio src="/audio/my-favorite-lazy-genius-ai-workflows-for-solo-creators.mp3" >}}

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/20260525_213501_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Young woman at laptop reviewing browser privacy settings in a coffee shop, warm natural light"
+faqs:
+  - q: "Does Brave browser still protect user privacy?"
+    a: "Brave still offers strong privacy features like built-in ad blocking and tracker protection, but recent controversies around its AI assistant and data collection have raised concerns among privacy advocates. For most users, it remains more private than Chrome, though it's no longer considered the gold standard it once was."
+  - q: "Why are AI users concerned about using Brave?"
+    a: "Brave's integration of its Leo AI assistant has sparked debate because the feature processes queries through Brave's servers, and the company's privacy policy allows some data collection for AI training. Users working with sensitive AI prompts or proprietary data may want to disable Leo or switch browsers entirely."
+  - q: "Which browser is better than Brave for privacy in 2024?"
+    a: "Firefox with strict privacy settings, Mullvad Browser, or Tor Browser are now recommended by many privacy experts over Brave. For AI users specifically, Firefox with uBlock Origin offers a good balance of privacy and compatibility with AI tools."
+  - q: "How do I disable Brave's AI features?"
+    a: "Navigate to brave://settings/leo-assistant in your address bar and toggle off 'Show Leo in the sidebar' and 'Automatically suggest Leo.' You can also disable Brave's AI-related flags at brave://flags by searching for 'leo' and setting them to disabled."
+
 ---
 {{< audio src="/audio/brave-browser-privacy-reality.mp3" >}}
 

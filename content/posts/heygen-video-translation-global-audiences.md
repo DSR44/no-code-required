@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/heygen-video-translation-global-audiences.jpg"
   alt: "Zoe at laptop with multilingual video thumbnails showing different languages on screen"
+faqs:
+  - q: "How does HeyGen translate videos into other languages?"
+    a: "HeyGen uses AI to translate your video's audio into over 175 languages and automatically syncs the speaker's lip movements to match the new language, eliminating the need for re-recording."
+  - q: "Can I use HeyGen to reach audiences in multiple countries?"
+    a: "Yes, HeyGen is designed for exactly that. It allows you to translate a single video into numerous languages, helping you connect with global audiences directly from your desk."
+  - q: "Do I need to re-record my video for each language?"
+    a: "No, you do not need to re-record. HeyGen's AI lip-sync technology handles the translation and synchronization automatically, saving you significant time and effort."
+  - q: "How many languages does HeyGen support for video translation?"
+    a: "HeyGen supports translation into over 175 languages, giving you extensive reach to diverse markets around the world."
+
 ---
 {{< audio src="/audio/heygen-video-translation-global-audiences.mp3" >}}
 

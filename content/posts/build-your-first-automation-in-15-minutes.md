@@ -24,6 +24,16 @@ howto:
       text: "Click Test in Zapier, confirm a matching email appears as a new row in your Google Sheet, then fix field mapping if anything is wrong."
     - name: "Publish and turn it on"
       text: "Click Publish, name your Zap, and turn it on so every matching email logs automatically."
+faqs:
+  - q: "How long does it take to build a simple automation for the first time?"
+    a: "You can build your first basic automation in about 15 minutes using a no-code platform. The process involves selecting a trigger, defining the action, and testing it—no programming skills needed."
+  - q: "Can I automate tasks without paying for software?"
+    a: "Yes, many no-code automation tools offer free tiers or trials that are perfect for building your first simple workflows. These plans typically cover basic tasks and are sufficient for personal use or small-scale automation."
+  - q: "What kind of daily tasks can I automate to save time?"
+    a: "Common tasks include automatically saving email attachments to cloud storage, posting social media updates, or sending reminders. The goal is to automate repetitive actions that currently take 30 minutes or more of your manual time each day."
+  - q: "Do I need any technical background to start with automation?"
+    a: "No technical background is required for modern no-code automation platforms. They use visual, drag-and-drop interfaces that allow anyone to connect apps and create workflows by following simple steps."
+
 ---
 
 ## Build your first automation in 15 minutes

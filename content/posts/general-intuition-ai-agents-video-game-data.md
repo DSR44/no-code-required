@@ -13,6 +13,16 @@ TocOpen: false
 cover:
   image: "/images/posts/general-intuition-ai-agents-video-game-data.jpg"
   alt: "Zoe excited about AI training with video game data on her laptop"
+faqs:
+  - q: "How does General Intuition train AI agents using video game data?"
+    a: "General Intuition uses a massive dataset of 2 billion video game clips to train AI agents, teaching them to understand and interact with complex virtual environments. This approach leverages the rich, structured data from games to build more capable and adaptable AI systems."
+  - q: "Why are investors betting $2 billion on this AI startup?"
+    a: "Investors believe that training AI on video game data is a scalable and cost-effective way to develop agents that can handle real-world tasks, from robotics to autonomous systems. The $2 billion valuation reflects confidence in this method's potential to accelerate general-purpose AI development."
+  - q: "Can video game data really help build better AI models?"
+    a: "Yes, video games provide diverse, high-quality data with clear cause-and-effect scenarios, which helps AI learn decision-making, planning, and interaction skills. This data is particularly useful for training agents that need to operate in dynamic, unpredictable environments."
+  - q: "What does this mean for the future of AI development?"
+    a: "This approach could shift how AI is trained, moving beyond static datasets to dynamic, interactive simulations. It may lead to more robust AI agents that can generalize across tasks, benefiting industries like gaming, robotics, and virtual assistants."
+
 ---
 {{< audio src="/audio/general-intuition-ai-agents-video-game-data.mp3" >}}
 

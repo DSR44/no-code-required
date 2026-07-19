@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/apple-shortcuts-ai-workflows-ios-27.jpg"
   alt: "Zoe excited about building automations on her iPhone"
+faqs:
+  - q: "How do I use Apple Intelligence to create a shortcut?"
+    a: "Open the Shortcuts app on your iPhone running iOS 27, tap the 'Create' button, and describe the automation you want in plain language, like 'Text my ETA when I leave work.' Apple Intelligence will generate the workflow for you."
+  - q: "Can I build automations without knowing any code?"
+    a: "Yes, the new AI feature in Apple Shortcuts lets you describe your desired automation in plain English, and the system builds the entire workflow automatically, requiring no coding knowledge."
+  - q: "Which iPhone models support the AI-powered Shortcuts feature?"
+    a: "The AI-powered Shortcuts feature requires iOS 27 and is available on iPhone models that support Apple Intelligence, which includes the iPhone 15 Pro and later."
+  - q: "Are there examples of automations I can create with the new AI?"
+    a: "You can create automations like 'Send a daily weather report to my family group,' 'Turn on my smart lights when I arrive home,' or 'Log my water intake in the Health app after I say I drank water.'"
+
 ---
 {{< audio src="/audio/apple-shortcuts-ai-workflows-ios-27.mp3" >}}
 

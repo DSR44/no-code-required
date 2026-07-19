@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/20-million-people-pay-microsoft-copilot-should-you.jpg"
   alt: "Zoe at her laptop comparing Microsoft Copilot features, looking thoughtful"
+faqs:
+  - q: "Is Microsoft Copilot worth the $30 monthly subscription?"
+    a: "For most beginners, the free version of Copilot or Microsoft 365's built-in AI features provide sufficient value. The $30/month Pro subscription is primarily justified for power users who heavily rely on advanced features like Copilot in Excel for complex data analysis or need the latest GPT-4 Turbo model."
+  - q: "How does Copilot compare to free alternatives like ChatGPT?"
+    a: "Copilot's main advantage is its deep integration into Microsoft 365 apps like Word, Excel, and Outlook, which can streamline workflows if you live in that ecosystem. For general questions and creative tasks, free alternatives like ChatGPT or Google's Gemini often perform equally well without a subscription."
+  - q: "Can beginners effectively use Microsoft Copilot?"
+    a: "Yes, beginners can use it, but the learning curve is steeper than simpler chatbots. Its real power comes from learning specific prompts for tasks like summarizing documents in Word or creating formulas in Excel, which requires some experimentation."
+  - q: "What are the main limitations of the Copilot Pro subscription?"
+    a: "The subscription does not include access to all Microsoft 365 desktop apps; you still need a separate Microsoft 365 Personal or Family plan. Additionally, its performance can be inconsistent, and it may not always save significant time on simple, one-off tasks."
+
 ---
 {{< audio src="/audio/20-million-people-pay-microsoft-copilot-should-you.mp3" >}}
 

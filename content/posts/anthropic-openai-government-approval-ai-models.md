@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/anthropic-openai-government-approval-ai-models.jpg"
   alt: "Zoe looking concerned while reading news about AI regulation on her laptop"
+faqs:
+  - q: "How is the US government approving AI models?"
+    a: "The US government is now evaluating and approving AI models on a customer-by-customer basis, moving away from blanket approvals. This means specific AI systems get clearance for specific users or use cases, not for everyone automatically."
+  - q: "Why did Anthropic and OpenAI get government approval?"
+    a: "Anthropic and OpenAI were among the first companies to have their AI models approved under this new customer-specific framework. Their models met the government's safety and compliance standards for designated user groups."
+  - q: "Does this new AI approval process affect everyday users?"
+    a: "For most consumers, nothing changes immediately—this approval mainly applies to government and enterprise use cases. However, it sets a precedent that could influence how AI is regulated and accessed more broadly in the future."
+  - q: "Are other AI companies also seeking US government approval?"
+    a: "Yes, other major AI developers are expected to go through similar approval processes as the framework expands. The government plans to evaluate more models over time, though timelines vary by company and model capabilities."
+
 ---
 
 {{< audio src="/audio/anthropic-openai-government-approval-ai-models.mp3" >}}

@@ -7,6 +7,16 @@ categories: ["basics"]
 description: "AI didn't start with ChatGPT. Here's what it actually is, where it came from, and why you should care — explained like you're five."
 ShowToc: true
 image: "/images/ncr/NCR-AI-01.jpg"
+faqs:
+  - q: "How does artificial intelligence work in simple terms?"
+    a: "AI works by finding patterns in huge amounts of data, then using those patterns to make predictions or decisions. Think of it like teaching a computer to recognize cats by showing it thousands of cat photos until it learns what makes a cat a cat."
+  - q: "When was AI first invented?"
+    a: "The term 'artificial intelligence' was coined in 1956 at a conference at Dartmouth College. However, the ideas behind AI go back even further to mathematicians like Alan Turing in the 1940s."
+  - q: "Why should I care about AI if I'm not a tech person?"
+    a: "AI already shapes your daily life — from the recommendations Netflix gives you to the spam filter in your email. Understanding the basics helps you make smarter decisions about the tools and services you use."
+  - q: "Is AI the same thing as machine learning?"
+    a: "Not exactly. AI is the broad goal of making machines smart, while machine learning is one specific method for achieving that goal by letting computers learn from data. It's like how squares are rectangles, but not all rectangles are squares."
+
 ---
 
 I'm going to explain AI the way I wish someone had explained it to me.

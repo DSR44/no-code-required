@@ -8,6 +8,16 @@ categories: ["tools"]
 cover:
   image: "/images/posts/20260523_044438_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Zoe looking concerned while reading something on her laptop in a cozy cafe setting"
+faqs:
+  - q: "How does AI infer personal information from my conversations?"
+    a: "AI models analyze patterns in your word choices, topics, and even sentence structure to build a profile of your interests, habits, and potential demographics, even if you never explicitly state them."
+  - q: "Can AI figure out my mood or emotional state from text?"
+    a: "Yes, by analyzing sentiment, punctuation, and specific language cues, AI can often infer emotional states like frustration, excitement, or stress from your written input."
+  - q: "Is my data safe if I don't share personal details with AI?"
+    a: "Not necessarily. The inferences AI makes about you from seemingly neutral data can be just as revealing as the explicit details you choose to share, creating a hidden privacy risk."
+  - q: "How can I limit what AI learns about me indirectly?"
+    a: "Be mindful of the context and detail in your prompts, use privacy-focused tools that minimize data retention, and regularly review the permissions and data policies of the AI services you use."
+
 ---
 
 <div style="margin: 1.5em 0; padding: 1em; background: #1a1a1a; border-radius: 8px;">

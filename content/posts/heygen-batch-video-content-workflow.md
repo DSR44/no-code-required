@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/heygen-batch-video-content-workflow.jpg"
   alt: "Zoe at laptop with multiple video thumbnails on screen, batch content creation workspace"
+faqs:
+  - q: "How can I batch create videos with HeyGen?"
+    a: "You can batch create videos by preparing all your scripts in one session, then using HeyGen's batch workflow to generate multiple videos at once. This lets you produce a full week of content in about 30 minutes without recording any footage."
+  - q: "Do I need a camera to make talking-head videos with HeyGen?"
+    a: "No camera is needed — HeyGen uses AI avatars to deliver your scripts as realistic talking-head videos. You simply input your text, and the platform generates the video content for you."
+  - q: "How long does it take to create a week of social media videos?"
+    a: "With HeyGen's batch workflow, you can create a full week of social content in approximately 30 minutes. This includes scripting, generating, and exporting all videos in one efficient session."
+  - q: "Can solo creators use HeyGen for batch video production?"
+    a: "Yes, HeyGen's batch workflow is designed specifically for solo creators who want to streamline video production. It eliminates the need for a production team, letting you handle everything from script to final video alone."
+
 ---
 {{< audio src="/audio/heygen-batch-video-content-workflow.mp3" >}}
 

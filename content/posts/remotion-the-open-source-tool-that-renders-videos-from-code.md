@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/remotion-the-open-source-tool-that-renders-videos-from-code.jpg"
   alt: "Zoe at laptop with code-based video timeline on screen"
+faqs:
+  - q: "How does Remotion create videos using React code?"
+    a: "Remotion lets you build video content as React components, where you define visuals, animations, and timing with JavaScript. It then renders these components frame-by-frame into a video file. This approach leverages your existing web development skills instead of requiring traditional video editing software."
+  - q: "Can I use Remotion for professional video production?"
+    a: "Yes, Remotion is suitable for professional use, especially for data-driven or templated videos like news graphics, social media content, or personalized video messages. It produces high-quality, programmable output that can be integrated into automated workflows. However, it may not replace a full-featured editor for complex, narrative-driven film editing."
+  - q: "Is Remotion free to use for commercial projects?"
+    a: "Yes, Remotion is open-source under the MIT license, which allows free use in commercial projects. You can create and sell videos made with it without licensing fees. The company also offers optional paid plans for cloud rendering and team features."
+  - q: "What are the main advantages of coding videos instead of using an editor?"
+    a: "Coding videos with tools like Remotion enables version control, easy updates, and dynamic content generation from data sources. It's particularly powerful for creating many similar videos efficiently, like personalized marketing clips or data visualizations. This method also allows seamless integration with other web technologies and APIs."
+
 ---
 {{< audio src="/audio/remotion-the-open-source-tool-that-renders-videos-from-code.mp3" >}}
 

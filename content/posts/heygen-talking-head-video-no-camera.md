@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/heygen-talking-head-video-no-camera.jpg"
   alt: "Zoe setting up an AI avatar video in HeyGen on her laptop"
+faqs:
+  - q: "How does HeyGen create videos without filming?"
+    a: "HeyGen uses AI to animate a digital avatar that speaks your script. You simply type your text, choose an avatar, and the platform generates a realistic talking-head video."
+  - q: "Can I use my own voice in a HeyGen video?"
+    a: "Yes, you can upload a recording of your voice or use a cloned AI version of it. This lets the avatar lip-sync to your exact speech patterns and tone."
+  - q: "Is HeyGen suitable for creating training or explainer videos?"
+    a: "Absolutely. It's ideal for corporate training, product demos, and educational content where a consistent presenter is needed without the cost of filming."
+  - q: "How realistic do the AI avatars look in HeyGen?"
+    a: "The avatars are highly realistic, with natural facial expressions and lip movements that sync accurately to the audio. The quality continues to improve with new AI models."
+
 ---
 {{< audio src="/audio/heygen-talking-head-video-no-camera.mp3" >}}
 

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/the-ai-world-is-getting-loopy.jpg"
   alt: "Zoe at laptop with circular workflow diagram on screen"
+faqs:
+  - q: "How do AI agents work in loops?"
+    a: "AI agents now follow a cycle where they plan a task, take action, check their own results, and repeat until they get it right. This self-correcting loop makes them much more reliable and capable of handling complex, multi-step tasks without constant human guidance."
+  - q: "Why does looping matter for everyday AI users?"
+    a: "Looping means AI can now handle entire workflows—like researching, drafting, and editing a report—without you needing to intervene at every step. You give one instruction and the agent works through the process autonomously, saving you significant time and effort."
+  - q: "Can non-technical people use these new looping AI agents?"
+    a: "Yes, absolutely. The whole point of looping agents is that they handle the complexity behind the scenes—you interact with them using simple, natural language prompts. The technical 'looping' mechanism is invisible to you; you just see better, more complete results."
+  - q: "What's an example of a looping AI agent in action?"
+    a: "Imagine asking an AI to 'find me three apartments under $2000/month near downtown with good reviews.' A looping agent would search listings, check reviews, verify details, and even re-search if initial results aren't good enough—all without you having to refine the query yourself."
+
 ---
 {{< audio src="/audio/the-ai-world-is-getting-loopy.mp3" >}}
 
