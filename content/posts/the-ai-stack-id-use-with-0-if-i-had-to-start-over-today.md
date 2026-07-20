@@ -2,7 +2,7 @@
 title: "Free AI Stack for Solopreneurs in 2026: Start From $0"
 date: 2026-06-01
 draft: false
-description: "Best free AI tools for solopreneurs in 2026 — the actual stack I'd build from scratch without spending a cent."
+description: "The free AI tools & stack I'd build from scratch today as a solopreneur. Never pay full price for an AI toolkit again with this step-by-step blueprint."
 tags: ["AI tools", "no-code", "solopreneur", "free tools", "automation"]
 categories: ["tools"]
 slug: "the-ai-stack-id-use-with-0-if-i-had-to-start-over-today"

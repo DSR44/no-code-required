@@ -1,5 +1,5 @@
 ---
-title: "What Nobody Tells You About AI Tool Overwhelm (and How to Escape It)"
+title: "Escape AI Tool Overwhelm: A Simple Framework"
 date: 2026-06-05
 draft: false
 description: "Feeling buried under AI tools? Here's why tool overwhelm happens and a simple framework to escape it — without missing the tools that actually matter."

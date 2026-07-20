@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Just Broke Free From OpenAI — What That Means for AI Users"
+title: "Microsoft's OpenAI Split: What It Means for AI Users"
 date: 2026-06-11
 draft: false
 description: "Microsoft confirmed its independence from OpenAI at Build 2026. Here's what the split means for anyone using AI tools today."
