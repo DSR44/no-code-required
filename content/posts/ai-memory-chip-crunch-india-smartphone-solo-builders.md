@@ -13,6 +13,7 @@ cover:
   image: "/images/posts/ai-memory-chip-crunch-india-smartphone-solo-builders.jpg"
   alt: "Zoe looking concerned at a laptop showing rising cloud costs and supply chain alerts"
 ---
+
 {{< audio src="/audio/ai-memory-chip-crunch-india-smartphone-solo-builders.mp3" >}}
 
 When I first [built a blog in one hour with AI](/posts/how-i-built-a-blog-in-1-hour-with-ai/), the hardware running underneath felt irrelevant — everything lives in the cloud, right? That assumption is about to get expensive. The same AI tools that make no-code work possible are now devouring the physical resources that keep the internet running, and the fallout is already hitting the devices and services you depend on.
