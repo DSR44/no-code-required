@@ -1,5 +1,5 @@
 ---
-title: "I spent $500 testing 10 AI writing tools — here's what worked"
+title: "I Spent $500 Testing 10 AI Writing Tools — Here's What Works"
 date: 2026-05-18
 draft: false
 tags: ["AI tools", "AI writing", "Jasper", "ChatGPT", "Claude", "no-code", "beginner", "review"]

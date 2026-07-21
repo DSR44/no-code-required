@@ -1,5 +1,5 @@
 ---
-title: "57% of Enterprises Caught Their AI Lying — Here's What Solo Builders Should Learn From That"
+title: "57% of Enterprises Caught AI Lying: Lessons for Solo Builders"
 date: 2026-07-20
 draft: false
 description: "Enterprise AI has a trust problem, not a retrieval problem. Here's what the context gap means for no-code builders and solo operators."

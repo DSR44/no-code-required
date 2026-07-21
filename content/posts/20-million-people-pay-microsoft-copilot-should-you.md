@@ -1,5 +1,5 @@
 ---
-title: "20 Million People Pay for Microsoft Copilot. Should You?"
+title: "Is Microsoft Copilot Worth $30/Month? Honest Review"
 date: 2026-06-18
 draft: false
 description: "Microsoft says 20 million people pay for Copilot. Is it worth $30/month for beginners? An honest review after real daily use."

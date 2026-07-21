@@ -1,5 +1,5 @@
 ---
-title: "AI Is Eating the World's Memory Chips — and It's About to Hit Your Cloud Bill"
+title: "AI's Memory Chip Crunch: What It Means for Cloud Costs"
 date: 2026-07-19
 draft: false
 description: "AI data centers are starving smartphones of memory chips. Here's what the India smartphone crunch means for solo builders and no-code users."

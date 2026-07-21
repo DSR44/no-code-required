@@ -1,5 +1,5 @@
 ---
-title: "Meta's Muse Spark 1.1 Just Entered the AI Coding Race — Here's What It Means If You Build Without Code"
+title: "Meta Muse Spark 1.1: What It Means for No-Code Builders"
 date: 2026-07-12
 draft: false
 description: "Meta launched Muse Spark 1.1 for agentic coding. Here is what solo builders and no-code creators need to know about this new option."
