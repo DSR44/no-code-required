@@ -12,7 +12,10 @@ TocOpen: false
 cover:
   image: "/images/posts/how-anthropic-may-have-talked-itself-into-an-ai-export-ban.jpg"
   alt: "Zoe at laptop looking concerned with news headlines on screen"
+lastmod: 2026-07-21
 ---
+> **Update July 2026: recent developments in anthropic may affect the information in this post — see details below.**
+
 {{< audio src="/audio/how-anthropic-may-have-talked-itself-into-an-ai-export-ban.mp3" >}}
 
 I was in the middle of a Claude session on June 12 when everything went dark. No warning, no error message — just gone. The most powerful AI model I'd been using for weeks simply stopped existing, and for the next 18 days, nobody could tell me if it was coming back.
