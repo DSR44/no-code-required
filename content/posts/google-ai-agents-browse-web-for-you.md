@@ -20,6 +20,7 @@ faqs:
   - q: "Can Gemini Spark actually buy things for me?"
     a: "Yes — it can browse products, compare options, and help complete bookings. It's designed to handle the research-to-purchase pipeline, though it checks with you before taking major actions like payments."
 ---
+
 {{< audio src="/audio/google-ai-agents-browse-web-for-you.mp3" >}}
 
 When we covered [Chrome's AI browsing feature](/posts/chrome-ai-browse-web-for-you/) back in May, the pitch was straightforward: highlight text, right-click, let Gemini summarize or research for you. Useful, but passive — it only worked when you were sitting in front of the browser. Google just dropped something fundamentally different. Gemini Spark is an AI agent that runs 24/7 in the background, connects to your entire Google workspace, and handles multi-step tasks while you're offline. If Chrome's AI feature was a smart assistant at your desk, Spark is an employee who never clocks out.
@@ -80,6 +81,4 @@ Google didn't just add another AI feature to Chrome — they built an always-on 
 
 The [AI tools landscape](/posts/ai-tools-actually-useful/) keeps splitting into two tiers: chatbots that answer questions and agents that do work. Gemini Spark is firmly in the second category. Whether you need it today depends on how much of your day is browsing, organizing, and researching versus actually building. But if the ratio is wrong, this might be the fix.
 
----
 
-**Affiliate note:** This post contains affiliate links for products we recommend. If you purchase through these links, we may earn a small commission at no extra cost to you.
