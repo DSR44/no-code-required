@@ -1,5 +1,5 @@
 ---
-title: "The Download: Claude's Inner Workings, and the Future of World Models — A Practical Take for Solo Builders"
+title: "Claude's Inner Workings: A Solo Builder's Guide"
 date: 2026-07-22
 draft: false
 description: "What a MIT Tech Review editor with a CS PhD really thinks about Claude's J-Space discovery, and what solo builders should actually change."

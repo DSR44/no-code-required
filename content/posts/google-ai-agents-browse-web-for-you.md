@@ -1,5 +1,5 @@
 ---
-title: "Google's AI Agent Now Browses, Shops, and Books While You Sleep — Here's What Changes for Solo Builders"
+title: "Google's AI Agent Browses, Shops, and Books for You"
 date: 2026-07-21
 draft: false
 description: "Gemini Spark is Google's new AI agent that handles multi-step web tasks 24/7. Here's what it does, what it costs, and what solo builders should know."

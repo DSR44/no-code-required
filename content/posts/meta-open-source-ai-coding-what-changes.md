@@ -1,5 +1,5 @@
 ---
-title: "Meta's Open-Source Bet on AI Coding — Why Muse Spark Changes the Game for Builders"
+title: "Meta's Muse Spark: Open-Source AI Coding for Solo Builders"
 slug: "meta-open-source-ai-coding-what-changes"
 date: 2026-07-13
 draft: false

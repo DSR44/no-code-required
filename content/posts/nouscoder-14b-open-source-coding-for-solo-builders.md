@@ -1,5 +1,5 @@
 ---
-title: "NousCoder-14B: The Free Open-Source Coding AI That's Actually Useful for Solo Builders"
+title: "NousCoder-14B: Free Open-Source AI for Solo Builders"
 date: 2026-06-21
 draft: false
 description: "NousCoder-14B is a free, open-source AI coding model trained in 4 days. Here's what it means for non-developers and solo builders."

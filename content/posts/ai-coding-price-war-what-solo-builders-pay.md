@@ -1,5 +1,5 @@
 ---
-title: "The AI Coding Price War Is Here — What Solo Builders Actually Pay in 2026"
+title: "AI Coding Price War 2026: What Solo Builders Pay"
 slug: "ai-coding-price-war-what-solo-builders-pay"
 date: 2026-07-13
 draft: false

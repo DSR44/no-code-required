@@ -1,5 +1,5 @@
 ---
-title: "Claude Has a Hidden Reasoning Layer — Here's Why Solo Builders Should Care"
+title: "Claude's Hidden J-Space: What Solo Builders Need to Know"
 date: 2026-07-22
 draft: false
 description: "Anthropic discovered a hidden reasoning layer inside Claude called J-Space. Here's what solo builders running AI agents need to know about trust."
