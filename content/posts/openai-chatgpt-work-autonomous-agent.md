@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Built an AI That Works Without You — ChatGPT Work Changes Everything"
+title: "ChatGPT Work: OpenAI's AI That Runs Tasks While You're Away"
 date: 2026-07-23
 draft: false
 description: "I break down how ChatGPT's new Work feature lets you build AI agents that handle tasks for you. Here's what it means for your workflow."

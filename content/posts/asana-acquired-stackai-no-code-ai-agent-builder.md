@@ -1,5 +1,5 @@
 ---
-title: "Asana Just Acquired a No-Code AI Agent Builder — Here's What That Means"
+title: "Asana Acquires No-Code AI Agent Builder StackAI"
 date: 2026-06-21
 draft: false
 description: "Asana bought StackAI for $75M to let you build AI agents without code. Here's what changed and why it matters for non-technical users."

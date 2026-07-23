@@ -1,5 +1,5 @@
 ---
-title: "Spotify Just Made AI Covers Legal — Here's How to Make One in 2 Minutes"
+title: "How to Make a Legal AI Cover on Spotify in 2 Minutes"
 date: 2026-06-22
 draft: false
 description: "Spotify and Universal Music now let you create AI covers and remixes of licensed songs. Here's how to actually do it — no music skills needed."

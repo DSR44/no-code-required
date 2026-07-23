@@ -1,5 +1,5 @@
 ---
-title: "The AI Tools I Actually Use Every Day (Honest Review)"
+title: "The AI Tools I Actually Use Every Day (Honest Review) | NCR"
 date: 2026-05-03
 draft: false
 description: "I tested every AI tool so you don't have to waste money on the ones that don't work. Here's what I actually use daily — and what I dropped after one week."

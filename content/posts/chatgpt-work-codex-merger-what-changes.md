@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Work Just Absorbed Codex — What That Means If You're Not a Developer"
+title: "ChatGPT Work Absorbs Codex: What Non-Coders Need to Know"
 date: 2026-07-23
 draft: false
 description: "OpenAI merged Codex into ChatGPT Work and killed Atlas. Here's what non-coders actually need to know about the changes."
