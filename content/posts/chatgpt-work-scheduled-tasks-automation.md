@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Work Scheduled Tasks: Set Up Recurring AI Workflows Without Code"
+title: "ChatGPT Scheduled Tasks: Automate Recurring Workflows Without Code"
 date: 2026-07-23
 draft: false
 description: "ChatGPT Work Scheduled Tasks lets you automate recurring jobs like email summaries and reports — no coding needed. Here's how to set it up."
