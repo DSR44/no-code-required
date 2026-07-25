@@ -1,5 +1,5 @@
 ---
-title: "Can You Really Make $10K/Month Building AI Automations? (Honest Breakdown)"
+title: "Can You Really Make $10K/Month With AI Automations?"
 date: 2026-06-02
 draft: false
 description: "Everyone's selling the dream of $10K/month with AI automations. Here's what's actually realistic — and what it takes to get there."

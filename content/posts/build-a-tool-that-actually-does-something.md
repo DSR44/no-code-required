@@ -1,5 +1,5 @@
 ---
-title: "Build a tool that actually does something"
+title: "Build a Tool That Actually Works | No Code Required"
 date: 2026-05-11
 draft: false
 description: "Everyone's building chatbots. Here's how to build something that actually solves a problem — an automation, a monitor, a system that works while you sleep."

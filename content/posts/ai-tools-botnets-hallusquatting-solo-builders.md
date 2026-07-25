@@ -1,5 +1,5 @@
 ---
-title: "Hackers Can Use 9 of the Most Popular AI Tools to Assemble Massive Botnets: A Practical Take for Solo Builders"
+title: "AI Tools' HalluSquatting Flaw: Protect Your Solo Builds"
 slug: "ai-tools-botnets-hallusquatting-solo-builders"
 date: 2026-07-25
 draft: false
