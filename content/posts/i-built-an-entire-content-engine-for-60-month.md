@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/i-built-an-entire-content-engine-for-60-month.jpg"
   alt: "Zoe looking at a content dashboard with automated workflows on screen"
+faqs:
+  - q: "How can I automate content creation without coding skills?"
+    a: "You can use AI writing tools and automation platforms like Zapier or Make to connect your blog, social media, and email. These tools handle the heavy lifting with simple drag-and-drop interfaces, so no coding is needed."
+  - q: "Which AI tools are best for running a blog on a tight budget?"
+    a: "For writing, tools like ChatGPT or Claude offer powerful free or low-cost tiers. For automation, platforms like Buffer or Later have free plans for social media scheduling, keeping your total costs minimal."
+  - q: "Can I really manage multiple blogs and social media alone?"
+    a: "Yes, by using a content batching system and scheduling tools, you can create content in advance and automate its distribution. This lets one person maintain a consistent presence across several platforms without daily manual work."
+  - q: "What's the most cost-effective way to start content automation?"
+    a: "Begin with free tiers of AI writers for drafting and free scheduling tools for social media. As you grow, you can upgrade to paid plans for more features, but the core engine can run for under $60 a month."
+
 ---
 {{< audio src="/audio/i-built-an-entire-content-engine-for-60-month.mp3" >}}
 

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-model-resilience-solo-builders.jpg"
   alt: "Zoe at a laptop with multiple AI tool dashboards open, looking prepared and confident"
+faqs:
+  - q: "How can I protect my business if an AI model gets pulled or deprecated?"
+    a: "Build a resilient stack by using model abstraction layers, maintaining fallback models, and avoiding hard dependencies on any single provider. This way, you can swap models with minimal code changes and zero downtime."
+  - q: "Why do AI models get pulled or delayed without warning?"
+    a: "Models can be pulled due to licensing changes, safety concerns, regulatory issues, or business decisions by the provider. That's why relying on a single model without a backup plan is risky for production systems."
+  - q: "Can I switch AI providers without rewriting my entire application?"
+    a: "Yes, by using abstraction layers or middleware like LangChain, LiteLLM, or a custom API wrapper. These tools let you route requests to different models using the same interface, making provider swaps straightforward."
+  - q: "Which strategies help build a model-agnostic AI stack?"
+    a: "Use standardized prompt templates, store embeddings in provider-independent formats, and keep your core logic separate from model-specific calls. Regularly test your fallback models so they're ready when you need them."
+
 ---
 {{< audio src="/audio/ai-model-resilience-solo-builders.mp3" >}}
 

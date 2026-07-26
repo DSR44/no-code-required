@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/what-anthropics-claude-discovery-actually-means-solo-builders.jpg"
   alt: "Person at laptop reviewing AI research with analytical expression"
+faqs:
+  - q: "How does Claude's J-Space discovery impact solo builders using AI?"
+    a: "It suggests that solo builders can achieve more sophisticated reasoning by structuring prompts to guide Claude through a 'journey' of intermediate steps, rather than asking for a final answer directly. This can lead to more reliable and complex outputs for tasks like coding or analysis."
+  - q: "Can I apply the J-Space technique to other AI models besides Claude?"
+    a: "The core principle of breaking down complex problems into sequential, reasoned steps is a powerful prompting strategy that can improve results on many large language models. However, the specific 'J-Space' terminology and optimal structure may be most effective with Claude's architecture."
+  - q: "What's a simple way to start using J-Space prompting today?"
+    a: "Begin by explicitly asking the AI to 'think step-by-step' or 'show your reasoning' before providing a final answer. For more complex tasks, outline the key stages or considerations you want the AI to address in sequence."
+  - q: "Does J-Space discovery mean I need to rewrite all my existing AI prompts?"
+    a: "Not necessarily. Review your most critical or complex workflows first. If they require nuanced reasoning, consider restructuring them to include a clear, multi-step reasoning phase to leverage this discovery for better performance."
+
 ---
 
 {{< audio src="/audio/what-anthropics-claude-discovery-actually-means-solo-builders.mp3" >}}

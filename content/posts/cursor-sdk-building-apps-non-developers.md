@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/20260525_114040_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Zoe at laptop with AI agent building an app on screen, warm workspace"
+faqs:
+  - q: "How does Cursor's AI SDK help someone who can't code?"
+    a: "The SDK allows AI agents to write, debug, and fix code automatically based on your instructions, so you can build functional apps without writing code yourself. It translates your plain-language requests into working software components."
+  - q: "Can I build a complete app using Cursor without any coding experience?"
+    a: "Yes, you can build and iterate on apps by describing what you want in natural language. The AI handles the technical implementation, though you may need to guide it with clear requirements and feedback."
+  - q: "What kinds of apps can be built with Cursor's AI SDK?"
+    a: "You can build a wide range of applications, from simple internal tools and dashboards to more complex web apps and automations. The SDK is designed to handle common software patterns and integrations."
+  - q: "Is there a cost to use Cursor's AI-powered app building features?"
+    a: "Cursor offers a free tier with limited AI interactions, while more extensive usage requires a paid subscription. The exact cost depends on your usage level and the complexity of the apps you're building."
+
 ---
 {{< audio src="/audio/cursor-sdk-building-apps-non-developers.mp3" >}}
 

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-codex-work-louder-macro-pad.jpg"
   alt: "Zoe at laptop with macro pad and AI coding interface on screen"
+faqs:
+  - q: "How does the OpenAI Codex macro pad work?"
+    a: "It's a physical device made with Work Louder that provides dedicated buttons to trigger Codex's AI coding functions, making common tasks faster without typing commands."
+  - q: "Can non-coders benefit from using this AI hardware?"
+    a: "Yes, it simplifies interacting with AI tools by offering one-touch access to features like code generation or debugging, lowering the barrier for beginners."
+  - q: "Why is OpenAI releasing physical AI hardware now?"
+    a: "It reflects a growing trend of integrating AI into tangible devices for quicker, more intuitive access, moving beyond purely software-based interfaces."
+  - q: "Where can I buy the Codex macro pad and what's the price?"
+    a: "It's available through Work Louder's website, though pricing and exact release dates may vary; check their official site for the latest details."
+
 ---
 {{< audio src="/audio/openai-codex-work-louder-macro-pad.mp3" >}}
 

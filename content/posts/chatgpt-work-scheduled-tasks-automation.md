@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/chatgpt-work-scheduled-tasks-automation.jpg"
   alt: "Zoe at her laptop with a calendar and automation workflow on screen, warm editorial lighting"
+faqs:
+  - q: "How do I schedule a recurring task in ChatGPT?"
+    a: "Navigate to the Scheduled Tasks section in ChatGPT, click 'Create Task,' define your prompt (e.g., 'Summarize my unread emails'), set the frequency (daily, weekly, etc.), and save. ChatGPT will then run it automatically at your chosen times."
+  - q: "Can ChatGPT send me automated email summaries every morning?"
+    a: "Yes, you can set a scheduled task to generate a summary of your emails or other data at a specific time each day. The output will be delivered to your ChatGPT interface or connected email, depending on your configuration."
+  - q: "Is there a limit to how many scheduled tasks I can create?"
+    a: "The number of tasks you can create may depend on your ChatGPT subscription plan. Free users typically have a lower limit, while Plus or Team plans allow for more concurrent scheduled automations."
+  - q: "Do I need any coding skills to use ChatGPT's task scheduler?"
+    a: "No, the feature is designed for no-code automation. You simply describe what you want in plain language, set the schedule, and ChatGPT handles the execution without requiring any programming knowledge."
+
 ---
 {{< audio src="/audio/chatgpt-work-scheduled-tasks-automation.mp3" >}}
 

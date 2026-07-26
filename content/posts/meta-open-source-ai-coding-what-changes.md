@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/meta-open-source-ai-coding-what-changes.jpg"
   alt: "Zoe reading about open source AI on her laptop"
+faqs:
+  - q: "How does Muse Spark differ from other AI coding assistants?"
+    a: "Muse Spark is built on Meta's open-source Llama models, giving developers full access to the underlying code and weights. This allows for greater customization and transparency compared to closed-source alternatives."
+  - q: "Can solo developers use Muse Spark without a large budget?"
+    a: "Yes, its open-source nature means there are no licensing fees, and you can run it on your own hardware to avoid recurring API costs. This makes it a cost-effective option for individual builders."
+  - q: "Why is the Llama foundation important for Muse Spark?"
+    a: "Llama's open-source heritage provides a powerful, community-vetted base that ensures flexibility and avoids vendor lock-in. Developers can modify and deploy the model according to their specific project needs."
+  - q: "Is Muse Spark suitable for building full applications?"
+    a: "It's designed to assist with coding tasks and generate functional code snippets, making it a strong tool for prototyping and development. However, for complex, production-grade applications, it works best as part of a broader development workflow."
+
 ---
 {{< audio src="/audio/meta-open-source-ai-coding-what-changes.mp3" >}}
 

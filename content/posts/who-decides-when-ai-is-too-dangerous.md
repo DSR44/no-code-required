@@ -13,6 +13,16 @@ TocOpen: false
 cover:
   image: "/images/posts/who-decides-when-ai-is-too-dangerous.jpg"
   alt: "Zoe looking concerned reading AI regulation news on her laptop"
+faqs:
+  - q: "Why did the US government ban Anthropic's newest AI model?"
+    a: "The government determined the model posed unacceptable risks, likely due to its advanced capabilities that could be misused for harmful purposes like generating dangerous content or enabling cyberattacks. This marks the first time a specific AI model has been banned preemptively rather than after an incident."
+  - q: "How does the Anthropic ban affect businesses using AI tools?"
+    a: "Companies relying on Anthropic's models may need to quickly switch to alternative providers or older versions, potentially disrupting workflows and increasing costs. It also forces businesses to evaluate their AI dependencies and develop contingency plans for future regulatory actions."
+  - q: "Can other AI companies face similar bans in the future?"
+    a: "Yes, this sets a precedent where any AI model deemed too dangerous by regulators could be restricted or banned, regardless of the company. The focus is on the model's capabilities and risks rather than the developer's reputation."
+  - q: "What should developers do to prepare for stricter AI regulations?"
+    a: "Developers should implement robust safety testing, maintain transparency about their models' capabilities, and stay informed about evolving regulatory frameworks. Building modular systems that can adapt to new restrictions will also help mitigate disruption."
+
 ---
 {{< audio src="/audio/who-decides-when-ai-is-too-dangerous.mp3" >}}
 

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-coding-price-war-what-solo-builders-pay.jpg"
   alt: "Zoe comparing pricing pages of AI coding tools on her laptop"
+faqs:
+  - q: "How much does AI coding assistance cost in 2026?"
+    a: "Prices have dropped significantly due to competition between Meta, Anthropic, and OpenAI. Solo builders can now access powerful coding models for as little as $10-$30 per month, with many offering generous free tiers."
+  - q: "Which AI coding tool offers the best value for indie developers?"
+    a: "The best value depends on your specific needs, but Meta's Code Llama and Anthropic's Claude often provide the most cost-effective solutions for solo builders. OpenAI's offerings remain competitive but tend to be slightly more expensive for comparable performance."
+  - q: "Are there free AI coding options available for solo builders?"
+    a: "Yes, all three major providers offer free tiers with limited usage, and open-source models like Meta's Code Llama can be run locally at no cost. These free options are often sufficient for small projects or learning purposes."
+  - q: "How do I choose between Meta, Anthropic, and OpenAI for coding?"
+    a: "Consider your budget, the specific programming languages you use, and whether you prefer cloud-based or local solutions. For most solo builders, starting with free tiers from each provider is the best way to evaluate which works best for your workflow."
+
 ---
 {{< audio src="/audio/ai-coding-price-war-what-solo-builders-pay.mp3" >}}
 

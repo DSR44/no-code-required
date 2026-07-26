@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/google-io-2026-free-ai-tools-for-beginners.jpg"
   alt: "Zoe at her laptop discovering new Google AI tools on screen, warm coffee shop setting"
+faqs:
+  - q: "Which free AI tools from Google I/O 2026 are best for non-developers?"
+    a: "The standout free tools for non-developers include NotebookLM for research and writing, Gemini's enhanced image generation in Google Slides, and the new AI-powered data analysis in Google Sheets. These tools are designed to work within apps you already use, requiring no coding knowledge."
+  - q: "How can I use Google's new AI tools without any coding experience?"
+    a: "You can access them directly through familiar Google Workspace apps like Docs, Sheets, and Slides. Simply look for the new AI features like 'Help me write' or 'Analyze data' buttons that appear in the interface."
+  - q: "Are the AI tools announced at Google I/O 2026 really free for everyone?"
+    a: "Yes, the core AI features announced are free for personal Google account holders. Some advanced capabilities or higher usage limits may require a Google Workspace subscription for business use."
+  - q: "Can I use Google's AI to create presentations or documents automatically?"
+    a: "Absolutely. Google's new 'Help me create' feature in Slides can generate entire presentation drafts from a simple prompt, while Docs can now draft, summarize, and rewrite content based on your instructions."
+
 ---
 
 {{< audio src="/audio/google-io-2026-free-ai-tools-for-beginners.mp3" >}}

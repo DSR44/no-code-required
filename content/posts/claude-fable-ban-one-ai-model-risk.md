@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/claude-fable-ban-one-ai-model-risk.jpg"
   alt: "Zoe looking concerned at her laptop showing an AI service unavailable screen"
+faqs:
+  - q: "Why was Claude Fable 5 banned by the White House?"
+    a: "The White House pulled Claude Fable 5 due to national security concerns, though specific details remain limited. This highlights the regulatory risks of relying on a single AI provider for critical business operations."
+  - q: "How can businesses protect themselves from sudden AI model shutdowns?"
+    a: "Build multi-model workflows that can switch between providers like OpenAI, Google, and Anthropic without major rework. Use abstraction layers and maintain fallback options so your operations don't halt if one model disappears."
+  - q: "What are the risks of building a business on just one AI model?"
+    a: "Single-model dependency creates catastrophic risk if that model gets banned, deprecated, or experiences downtime. You lose negotiating power, face vendor lock-in, and have no backup when the unexpected happens."
+  - q: "Should companies diversify their AI providers after the Claude Fable ban?"
+    a: "Absolutely—diversifying across multiple AI providers is now a business necessity, not just a technical preference. Start by identifying which workflows can use alternative models and test them regularly so switching is seamless when needed."
+
 ---
 {{< audio src="/audio/claude-fable-ban-one-ai-model-risk.mp3" >}}
 

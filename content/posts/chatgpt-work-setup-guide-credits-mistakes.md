@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/chatgpt-work-setup-guide-credits-mistakes.jpg"
   alt: "Zoe at laptop reviewing AI workflow dashboard with cost breakdown on screen"
+faqs:
+  - q: "How much does ChatGPT Work cost per workflow?"
+    a: "ChatGPT Work uses a credit-based system where costs vary by task complexity. Simple automations may use a few credits, while complex multi-step workflows can consume significantly more before you even see results."
+  - q: "Can I use ChatGPT Work for free or is there a trial?"
+    a: "ChatGPT Work is currently available to ChatGPT Plus and Team subscribers, with no separate free tier or trial. You'll need an active subscription to access and run any workflows."
+  - q: "Why is my ChatGPT Work workflow failing or giving errors?"
+    a: "Common failures stem from incorrect API permissions, vague task instructions, or missing data connections. Double-check that all integrated services are properly authorized and that your workflow steps have clear, specific prompts."
+  - q: "How do I set up ChatGPT Work without wasting credits?"
+    a: "Start by testing your workflow with a single, simple task to verify each step works as expected. Avoid chaining multiple complex actions in your first attempt, and use the preview or dry-run feature if available to catch errors before execution."
+
 ---
 {{< audio src="/audio/chatgpt-work-setup-guide-credits-mistakes.mp3" >}}
 

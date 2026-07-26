@@ -13,6 +13,15 @@ cover:
   image: "/images/posts/openai-chatgpt-work-autonomous-agent.jpg"
   alt: "Zoe at her laptop watching a progress bar run on its own, coffee in hand, warm editorial lighting"
 lastmod: 2026-07-23
+faqs:
+  - q: "How does ChatGPT Work run tasks automatically?"
+    a: "ChatGPT Work lets you build AI agents that can perform tasks like research, data analysis, or scheduling on your behalf, even when you're not actively using the chat interface. You set up the agent with specific instructions and it runs autonomously in the background."
+  - q: "Can I use ChatGPT Work to automate my daily workflow?"
+    a: "Yes, you can configure agents to handle repetitive tasks like summarizing emails, compiling reports, or monitoring data feeds. This frees you up to focus on higher-level work while the AI manages routine operations."
+  - q: "Is ChatGPT Work available to all users or just paid plans?"
+    a: "As of now, ChatGPT Work is rolling out to ChatGPT Plus and Enterprise users, with broader availability expected later. Check OpenAI's official announcements for the latest access details."
+  - q: "What kinds of tasks can ChatGPT Work agents perform?"
+    a: "Agents can handle a range of tasks including web research, document drafting, data organization, and even multi-step workflows like booking meetings or generating summaries from multiple sources. The key is defining clear goals and constraints for the agent."
 
 ---
 Last week, OpenAI quietly launched something that fundamentally changes what "using AI" means. It's called **ChatGPT Work**, and unlike every AI tool you've used before, this one doesn't wait for you to type something. It runs. For hours. Independently. I've been testing it since launch, and if you've been following the [Codex hardware tease](/posts/openai-codex-hardware-what-it-means/) from a few weeks ago, this is what they were building toward — minus the physical buttons.

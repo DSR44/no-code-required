@@ -26,6 +26,16 @@ howto:
       text: "Push files to GitHub, connect the repo to Vercel, and click Deploy — every future push auto-updates the site."
     - name: "Add a custom domain"
       text: "Buy a domain and add DNS records pointing to Vercel — takes about 5 minutes with AI walking you through it."
+faqs:
+  - q: "Can someone with no coding experience really build a blog using AI?"
+    a: "Yes, absolutely. The author had never built a website before and used AI tools to handle the setup, deployment, and publishing of their first blog post in under an hour."
+  - q: "How long does it take to create a blog with AI assistance?"
+    a: "The entire process, from initial setup to publishing your first post, can be completed in under one hour using the right AI tools and workflow."
+  - q: "Which AI tools are recommended for building a no-code blog?"
+    a: "The post details the specific AI tools and platforms used to generate the blog's code, configure hosting, and publish content without writing any code manually."
+  - q: "Do I need to purchase a domain or hosting service to start?"
+    a: "The guide covers the full deployment process, which typically includes setting up free or low-cost hosting and a domain to make your blog live on the web."
+
 ---
 
 ## How I built a blog in 1 hour with AI

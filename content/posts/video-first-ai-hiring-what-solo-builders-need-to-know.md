@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/video-first-ai-hiring-what-solo-builders-need-to-know.jpg"
   alt: "Solo builder reviewing AI-generated video candidate profiles on a laptop"
+faqs:
+  - q: "How do AI video interview platforms like Fika Jobs work?"
+    a: "These platforms use AI to analyze candidates' video responses for communication skills, cultural fit, and role suitability, going beyond traditional resume screening. They typically present pre-set questions and score answers based on predefined criteria, providing hiring managers with ranked shortlists."
+  - q: "Are there legal risks for solo builders using AI video hiring tools?"
+    a: "Yes, potential risks include bias in AI algorithms that could lead to discriminatory hiring practices, and privacy concerns regarding how candidate video data is stored and used. Solo builders must ensure compliance with local employment laws and data protection regulations like GDPR or CCPA."
+  - q: "Can small businesses or solo builders afford AI video hiring platforms?"
+    a: "Many platforms offer scalable pricing, including pay-per-use or monthly subscriptions suitable for small teams, making them accessible to solo builders. However, costs can add up with high-volume hiring, so it's important to compare plans and start with a free trial if available."
+  - q: "What are the benefits of switching to video-first AI hiring for a solo builder?"
+    a: "It can significantly speed up the initial screening process, reduce time-to-hire, and help identify candidates who might be overlooked in resume-only reviews. For solo builders, this means less administrative burden and more focus on interviewing the most promising candidates."
+
 ---
 {{< audio src="/audio/video-first-ai-hiring-what-solo-builders-need-to-know.mp3" >}}
 

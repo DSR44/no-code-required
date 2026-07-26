@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/anthropic-cowork-claude-agent.jpg"
   alt: "Zoe at her laptop discovering Claude Cowork agent working on local files"
+faqs:
+  - q: "How does Anthropic's Cowork agent work on my computer?"
+    a: "Cowork is a Claude agent that can directly read, edit, and create files on your local machine through a simple interface, requiring no coding knowledge or terminal access."
+  - q: "Can I use Cowork without any developer or technical skills?"
+    a: "Yes, Cowork is specifically designed for non-technical users, allowing you to manage files and automate tasks using natural language commands without writing code."
+  - q: "Is Cowork safe to use with my personal files?"
+    a: "Anthropic has built Cowork with user permission controls, so it only accesses files you explicitly allow it to work with, maintaining your privacy and security."
+  - q: "What kinds of tasks can Cowork help me complete?"
+    a: "Cowork can help with organizing documents, editing text files, creating new content, and managing your local file system based on your simple instructions."
+
 ---
 
 {{< audio src="/audio/anthropic-cowork-claude-agent.mp3" >}}

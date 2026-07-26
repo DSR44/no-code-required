@@ -13,6 +13,16 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-codex-micro-what-it-does.jpg"
   alt: "Zoe examining a compact macro pad device on a desk with code on a laptop screen"
+faqs:
+  - q: "How much does the OpenAI Codex Micro cost?"
+    a: "The Codex Micro is priced at $99. It's a compact macro pad designed to work with OpenAI's Codex AI, offering a physical interface for AI-assisted coding and automation tasks."
+  - q: "When does the OpenAI Codex Micro launch?"
+    a: "The Codex Micro launches on July 15. It will be available for purchase directly through OpenAI's website and select retailers."
+  - q: "Can non-coders use the OpenAI Codex Micro?"
+    a: "Yes, non-coders can use it. While it's optimized for coding workflows, its macro functions and AI integration can assist with general automation, text generation, and productivity tasks."
+  - q: "What are the main features of the Codex Micro?"
+    a: "The Codex Micro features programmable keys, a compact design, and direct integration with OpenAI's Codex API. It allows users to trigger AI-generated code snippets, automate repetitive tasks, and streamline workflows with physical shortcuts."
+
 ---
 {{< audio src="/audio/openai-codex-micro-what-it-does.mp3" >}}
 

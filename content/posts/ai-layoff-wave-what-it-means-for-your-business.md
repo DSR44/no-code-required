@@ -13,6 +13,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-layoff-wave-what-it-means-for-your-business.jpg"
   alt: "Zoe determined at her laptop reading about AI industry changes"
+faqs:
+  - q: "How many tech jobs were cut in Q1 2026 due to AI?"
+    a: "The tech industry saw 81,000 jobs cut in the first quarter of 2026 alone, a significant wave of layoffs driven by AI automation and restructuring."
+  - q: "Why are AI layoffs actually an opportunity for small businesses?"
+    a: "The layoffs are freeing up top-tier talent and creating market gaps that agile solo creators and small businesses can now fill, often with lower operational costs."
+  - q: "Can solo creators compete with large companies during the AI shift?"
+    a: "Yes, the current disruption is leveling the playing field, allowing solo creators to leverage AI tools and outsourced talent to deliver high-value work without the overhead of a large corporation."
+  - q: "How should my business respond to the 2026 AI layoff wave?"
+    a: "Focus on agility: adopt AI tools to boost productivity, consider hiring displaced talent on a contract basis, and target the new market opportunities created by corporate downsizing."
+
 ---
 {{< audio src="/audio/ai-layoff-wave-what-it-means-for-your-business.mp3" >}}
 
