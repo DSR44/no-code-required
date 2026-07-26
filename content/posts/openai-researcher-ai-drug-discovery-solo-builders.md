@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's Miles Wang Is Building a $2B AI Drug Discovery Startup — Here's What Solo Builders Should Watch"
+title: "OpenAI Researcher's $2B AI Startup: Solo Builder Takeaways"
 date: 2026-07-26
 draft: false
 description: "An OpenAI researcher is leaving to build an AI drug discovery startup at a $2B valuation. What this means for solo builders using AI tools."

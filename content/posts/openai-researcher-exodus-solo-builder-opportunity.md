@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's Talent Exodus Is Exposing a Massive Opportunity for Solo Builders"
+title: "OpenAI's Talent Exodus: A Massive Opportunity for Solo Builders"
 date: 2026-07-26
 draft: false
 description: "OpenAI researchers are leaving for drug discovery and regulated industries — here's what that means for the no-code tools you'll use next."

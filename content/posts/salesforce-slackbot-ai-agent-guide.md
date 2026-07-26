@@ -1,5 +1,5 @@
 ---
-title: "How to Use Salesforce's New Slackbot AI Agent (Without Being a Developer)"
+title: "Use Salesforce's Slackbot AI Agent Without Coding"
 date: 2026-06-25
 draft: false
 description: "Slackbot was rebuilt into a real AI agent in 2026. Here's how to use it for summarizing, searching, and automating — no coding required."

@@ -1,5 +1,5 @@
 ---
-title: "The AI Drug Repurposing Trick Solo Builders Should Steal Right Now"
+title: "OpenAI's $2B Drug Discovery Hack for Solo Builders"
 date: 2026-07-26
 draft: false
 description: "An OpenAI researcher's $2B drug discovery bet reveals a strategy solo builders should steal: repurpose what you already have instead of chasing new models."

@@ -1,5 +1,5 @@
 ---
-title: "AI Is Eating Regulated Industries — And That's a Signal for Where to Build Next"
+title: "AI Talent Floods Regulated Industries: A Signal for Builders"
 date: 2026-07-26
 draft: false
 description: "OpenAI and Anthropic researchers are flooding into pharma, healthcare, and finance. Here's what that talent migration means for solo builders."
