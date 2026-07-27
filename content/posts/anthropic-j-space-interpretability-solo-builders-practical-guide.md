@@ -1,5 +1,5 @@
 ---
-title: "What Anthropic's J-Space Discovery Means for How You Build with AI"
+title: "Anthropic's J-Space: What It Means for No-Code AI Builders"
 date: 2026-07-27
 draft: false
 description: "Anthropic found hidden 'thoughts' inside Claude that never appear in output. Here's what J-space means for solo builders using AI tools daily."

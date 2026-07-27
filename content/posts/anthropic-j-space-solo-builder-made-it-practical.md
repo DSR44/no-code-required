@@ -1,5 +1,5 @@
 ---
-title: "Anthropic's J-Space Sounds Like Sci-Fi — A Solo Builder Just Made It Practical"
+title: "Anthropic's J-Lens: From Hidden AI Words to a Practical Tool"
 date: 2026-07-27
 draft: false
 description: "Anthropic found hidden 'words' inside Claude that shape its reasoning. A solo builder turned the J-lens into a practical tool you can explore now."

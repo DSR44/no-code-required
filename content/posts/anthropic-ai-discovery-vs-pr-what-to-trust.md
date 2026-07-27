@@ -1,5 +1,5 @@
 ---
-title: "Anthropic Keeps Making Big Claims About Claude. Here's What Solo Builders Should Actually Trust"
+title: "What Solo Builders Should Trust About Claude"
 date: 2026-07-27
 draft: false
 description: "Anthropic's J-space research and government model bans reveal a pattern solo builders need to understand before trusting Claude with real work."
