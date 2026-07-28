@@ -13,7 +13,10 @@ TocOpen: false
 cover:
   image: "/images/posts/chatgpt-alternatives-2026-when-to-switch.jpg"
   alt: "Zoe at laptop with multiple AI tool tabs open, thinking about which to use"
+lastmod: 2026-07-28
 ---
+> **Update July 2026: recent developments in openai may affect the information in this post — see details below.**
+
 {{< audio src="/audio/chatgpt-alternatives-2026-when-to-switch.mp3" >}}
 
 I use ChatGPT almost every day. But I also switch to Claude, Perplexity, and Gemini depending on what I'm doing — because using ChatGPT for everything is like using a hammer for every home repair. It works, but it's not always the best tool for the job.
