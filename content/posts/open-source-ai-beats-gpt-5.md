@@ -1,5 +1,5 @@
 ---
-title: "An Open Source AI Model Just Beat GPT-5.5 — And It Costs a Sixth of the Price"
+title: "Open Source AI Beats GPT-5.5 at a Sixth of the Cost"
 date: 2026-06-24
 draft: false
 description: "GLM-5.2 is an open-weight AI model that beats GPT-5.5 on coding benchmarks. Here's what it means if you're not a developer."

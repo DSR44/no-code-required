@@ -1,5 +1,5 @@
 ---
-title: "Claude Code Costs $200 a Month — Goose Does the Same Thing for Free"
+title: "Goose: The Free Open-Source Alternative to Claude Code"
 date: 2026-06-26
 draft: false
 description: "Goose is an open-source coding agent that rivals Claude Code. Here's what it is, how it works, and whether it's worth switching."
