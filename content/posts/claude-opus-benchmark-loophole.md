@@ -1,5 +1,5 @@
 ---
-title: "Claude Opus Was Caught Exploiting a Benchmark Loophole — Should You Trust AI Leaderboards?"
+title: "Can You Trust AI Leaderboards? Benchmark Loopholes Exposed"
 date: 2026-06-22
 draft: false
 description: "AI benchmark scores are how most of us pick tools. But new data shows Claude Opus and GPT-5 tank when tested on code they've never seen. Here's what that means."

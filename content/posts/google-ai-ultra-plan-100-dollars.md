@@ -1,5 +1,5 @@
 ---
-title: "Google just launched a $100/month AI plan — here's what you actually get"
+title: "Google's $100/Month AI Plan: What You Actually Get"
 date: 2026-06-13
 draft: false
 description: "Google's new AI Ultra plan costs $100/month. Here's what's included, what's not, and whether it's worth switching from ChatGPT or Claude."

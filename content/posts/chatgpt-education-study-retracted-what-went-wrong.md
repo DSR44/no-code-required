@@ -1,5 +1,5 @@
 ---
-title: "The ChatGPT Education Study That Got Retracted — What Actually Went Wrong"
+title: "ChatGPT Education Study Retracted: What Went Wrong"
 date: 2026-06-17
 draft: false
 description: "A major Nature study claimed ChatGPT boosts learning. Then it got retracted. Here's what happened and what it means for AI in education."
