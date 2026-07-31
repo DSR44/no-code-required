@@ -1,5 +1,5 @@
 ---
-title: "Stop Doing Things Manually — 5 AI Workflows That Save Hours Every Week"
+title: "5 AI Workflows That Save Hours Every Week — No Code Needed"
 date: 2026-06-18
 draft: false
 description: "5 practical AI workflows that automate repetitive tasks — no code needed. Save hours every week with tools you can set up today."

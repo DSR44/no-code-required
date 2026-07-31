@@ -1,5 +1,5 @@
 ---
-title: "How to build a faceless YouTube channel for free — the complete AI pipeline"
+title: "Build a Faceless YouTube Channel for Free With AI Tools"
 date: 2026-06-13
 draft: false
 description: "Build a faceless YouTube channel from zero using free AI tools. Script, voice, visuals, editing — step by step, no camera needed."
