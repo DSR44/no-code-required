@@ -12,7 +12,10 @@ TocOpen: false
 cover:
   image: "/images/posts/anthropic-j-space-solo-builder-made-it-practical.jpg"
   alt: "Zoe at a laptop reviewing AI model visualization data"
+lastmod: 2026-07-31
 ---
+> **Update July 2026: recent developments in anthropic may affect the information in this post — see details below.**
+
 {{< audio src="/audio/anthropic-j-space-solo-builder-made-it-practical.mp3" >}}
 
 Two weeks ago, Anthropic announced it found a hidden space inside Claude where "words" like "panic" and "cheat" appear during reasoning but never show up in the output. The headlines were wild — "Claude's secret thoughts," "a window into AI consciousness." MIT Technology Review sent a senior editor with a PhD in computer science to investigate. His verdict was more measured: LLMs are not brains, and calling their internal states "thoughts" is misleading. But the research itself? Legitimate.
