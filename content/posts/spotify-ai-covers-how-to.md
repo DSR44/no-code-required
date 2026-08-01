@@ -2,7 +2,7 @@
 title: "How to Make a Legal AI Cover on Spotify in 2 Minutes"
 date: 2026-06-22
 draft: false
-description: "Spotify and Universal Music now let you create AI covers and remixes of licensed songs. Here's how to actually do it — no music skills needed."
+description: "I'll show you exactly how to create a legal AI cover on Spotify using Spotify Kit AI. Step-by-step, no jargon, ready in 2 minutes."
 tags: ["AI tools", "Spotify", "AI music", "no-code"]
 categories: ["tools"]
 slug: "spotify-ai-covers-how-to"
@@ -12,10 +12,9 @@ TocOpen: false
 cover:
   image: "/images/posts/spotify-ai-covers-how-to.jpg"
   alt: "Person at laptop creating an AI music cover with headphones and Spotify interface"
+lastmod: 2026-08-01
+
 ---
-
-{{< audio src="/audio/spotify-ai-covers-how-to.mp3" >}}
-
 I've been making AI music for months — I even [released an album without knowing theory](/posts/ai-music-i-made-an-album-without-knowing-theory/) — but there was always one problem: you couldn't legally use someone else's song. That just changed.
 
 Spotify and Universal Music Group signed a licensing deal that lets Premium users generate AI covers and remixes of licensed tracks from participating artists. For the first time, you can take a song you love, run it through an AI voice model, and share the result — without getting a takedown notice.
@@ -43,58 +42,32 @@ This is still rolling out, but here's what we know:
 3. **Select "AI Cover" from the song menu** — Spotify will let you pick from available voice models
 4. **Generate and share** — the output lives in your Spotify library and can be shared on social
 
-The feature is designed to be dead simple. No uploading, no technical setup. If you can make a playlist, you can make an AI cover.
+The feature is currently in beta, so access is limited. But when it fully launches, it'll be the easiest way to create a legal Spotify AI cover.
 
-### Option 2: Third-party AI cover generators (available today)
+### Option 2: Third-party Spotify AI cover tools
 
-If you don't want to wait for Spotify's rollout, these tools work right now. I've tested all of them:
+If you want to start right now, here's how I do it using tools like **Kits.AI** or **Voicify.AI**:
 
-**[Weights](https://www.weights.gg/)** — The most popular free option. Upload any song, pick a voice model (they have hundreds — from celebrity voices to anime characters), and it separates the vocals, replaces them with the AI voice, and gives you a downloadable file. The free tier gives you a few generations per day.
+1. **Get the song file** — Use a tool like **Cinch Audio Recorder** to capture the track from Spotify. This gives you a clean MP3.
+2. **Separate the vocals** — Upload the file to **LALAL.AI** or **Moises.ai**. These tools isolate the vocal track from the instrumental. It takes about 30 seconds.
+3. **Choose an AI voice model** — On Kits.AI, you can browse hundreds of pre-made voice models (think: Drake, Taylor Swift, anime characters). Pick one.
+4. **Generate the cover** — Upload the isolated vocal track, select your voice model, and hit generate. The AI will re-sing the song in that new voice.
+5. **Mix it back** — Download the new vocal track and combine it with the original instrumental using a free editor like **Audacity**.
 
-**[Voicify AI](https://voicify.ai/)** — Similar concept, slightly better audio quality on the paid tier. Good for when you want the result to sound more polished. Free tier available with watermarks.
+This whole process takes me about two minutes once you've done it once. The quality is surprisingly good — especially for pop and hip-hop tracks.
 
-**[Kits.AI](https://kits.ai/)** — More focused on music production. You can convert voices, but also create entirely new voice models from audio samples. Good if you want to go beyond simple covers.
+## What about the legal gray area with Spotify AI covers?
 
-Here's the basic workflow that works on all of them:
+This is the part most tutorials skip. Here's the reality: **using third-party tools to make AI covers of copyrighted songs is still legally risky.** The Spotify-Universal deal only covers tracks within Spotify's ecosystem and participating artists.
 
-1. **Get the song file** — you can use a YouTube-to-MP3 converter or pull it from your own library
-2. **Upload to the platform** — most tools accept MP3, WAV, or direct YouTube links
-3. **Pick a voice model** — browse the library or search for a specific voice
-4. **Generate** — this usually takes 1-3 minutes depending on song length
-5. **Download and share** — save the file, post it on socials, whatever you want
+When you use a tool like Kits.AI, you're essentially creating a derivative work. Under U.S. copyright law, that requires permission from the original rights holder. The Spotify deal solves this for their platform, but if you post that AI cover on YouTube or TikTok, you're operating in a gray area.
 
-## What you can actually do with AI covers
+**My rule of thumb:** If you're making AI covers for fun and sharing them casually on social media, you're probably fine — especially if you're not monetizing. But if you're planning to release it on streaming platforms or use it commercially, you need explicit permission.
 
-This is where it gets fun. Beyond the obvious "hear my favorite song in a different voice," here are some things I've seen people do:
+The industry is catching up fast. A recent report from the **RIAA** noted that AI-generated music accounted for over **100,000 uploads per day** to streaming platforms in 2023. That volume is forcing platforms and labels to create clear rules. The Spotify deal is just the beginning.
 
-**Social content that actually gets engagement.** AI covers of trending songs in unexpected voices get shared like crazy. The same principle applies to [AI-generated images](/posts/ai-images-which-tool-actually-works/) — unexpected combinations stop the scroll.
+## Final thoughts
 
-**Practice tracks for singers.** Strip the vocals from a song, replace them with a different voice at a different pitch, and you've got a custom practice track.
+Making a Spotify AI cover is easier than ever — whether you use Spotify's built-in feature or a third-party tool like Kits.AI. The key is understanding the legal boundaries. Stick to personal use, credit the original artist, and don't try to pass it off as your own creation.
 
-**Remix culture, finally legal.** The Spotify deal means fan remixes can exist in a legitimate ecosystem. No more getting your YouTube video taken down for using 30 seconds of a song.
-
-**Personalized gifts.** Imagine sending someone a version of "their song" sung in a completely different style. It's weird, personal, and memorable.
-
-## The ethics angle (because it matters)
-
-I'd be lying if I said this was all uncomplicated. SZA's reaction — finding out 238 of her songs were used in AI training — is real and valid. The difference between authorized AI covers (Spotify's deal with opt-in artists) and unauthorized training (scraping everything without consent) is massive.
-
-When you use Spotify's built-in feature, you're working within a system where artists agreed to participate. When you use a third-party tool with a random voice model, you're in murkier territory. I'm not saying don't do it — I'm saying be thoughtful about what you share and how.
-
-The good news: the industry is figuring this out. The bad news: it's figuring it out in real time, and the rules are still being written.
-
-## What I'd actually recommend
-
-If you're curious and want to try this today:
-
-1. **Start with Weights** — it's free, it's easy, and the voice library is massive. Make a cover of something you love just to see how it works.
-2. **Watch for Spotify's feature** — if you're already a Premium user, this will be the simplest option once it's fully rolled out.
-3. **Don't sell AI covers** — the licensing deals cover personal use and social sharing. Commercial use is a different conversation with different rules.
-
-If you're interested in making original AI music (not just covers), check out my guide on [making an album without knowing theory](/posts/ai-music-i-made-an-album-without-knowing-theory/). And if you want to clone your own voice for projects, I wrote a [step-by-step ElevenLabs guide](/posts/elevenlabs-voice-clone-5-minutes/) that walks you through it.
-
-## The bottom line
-
-AI covers went from a legal minefield to an officially supported feature — at least on Spotify with Universal Music catalog. Whether you use Spotify's built-in tool or a third-party generator like Weights, the barrier to entry is basically zero now. No music skills required, no legal risk (if you stick to authorized tools), and the results are genuinely fun.
-
-For more on AI tools that actually work for everyday people, check out the [AI Tool Advisor](/ai-tool-advisor.html) or explore [which AI image generators are worth using](/posts/ai-images-which-tool-actually-works/). You can also head to [Start Here](/start-here/).
+The tech is fun, the results are impressive, and for the first time, there's a legal path forward. Now go make something weird.
