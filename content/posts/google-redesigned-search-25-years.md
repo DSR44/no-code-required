@@ -1,5 +1,5 @@
 ---
-title: "Google Redesigned Search for the First Time in 25 Years — Here's What Changed and Why It Matters"
+title: "Google Redesigned Search: What Changed for Non-Coders"
 date: 2026-06-27
 draft: false
 description: "Google just overhauled its search box with AI. Here's what changed, what it means for non-coders, and how to use the new features today."

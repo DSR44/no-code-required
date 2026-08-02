@@ -1,5 +1,5 @@
 ---
-title: "Remotion: The Open-Source Tool That Renders Videos From Code"
+title: "Remotion: Render Videos From Code With React"
 date: 2026-06-12
 draft: false
 description: "Remotion lets developers create videos using React code instead of traditional editors. Here's what it does and why it matters."
