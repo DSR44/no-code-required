@@ -10,6 +10,16 @@ slug: "openai-vs-apple-chatgpt"
 cover:
   image: "/images/posts/20260523_093302_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Zoe looking surprised while reading about the OpenAI and Apple conflict on her laptop"
+faqs:
+  - q: "Why is OpenAI considering suing Apple over Siri integration?"
+    a: "OpenAI is reportedly unhappy with how poorly Apple integrated ChatGPT into Siri, claiming the implementation damages their brand and doesn't meet agreed-upon standards."
+  - q: "How did Apple integrate ChatGPT into Siri?"
+    a: "Apple added ChatGPT as an optional feature within Siri for answering complex questions, but OpenAI believes the execution was rushed and resulted in a subpar user experience."
+  - q: "What does this lawsuit mean for AI tools on my devices?"
+    a: "It highlights growing tensions between AI developers and hardware makers, which could affect how seamlessly AI assistants like Siri and ChatGPT work together on your phone or computer."
+  - q: "Could this legal dispute change how Apple partners with AI companies?"
+    a: "Yes, Apple may become more cautious about future AI integrations or renegotiate partnership terms to avoid similar conflicts, potentially slowing down new feature rollouts."
+
 ---
 
 <div style="margin: 1.5em 0; padding: 1em; background: #1a1a1a; border-radius: 8px;">

@@ -13,6 +13,16 @@ cover:
   image: "/images/posts/anthropic-j-space-solo-builder-made-it-practical.jpg"
   alt: "Zoe at a laptop reviewing AI model visualization data"
 lastmod: 2026-07-31
+faqs:
+  - q: "How did Anthropic discover hidden words inside Claude's AI model?"
+    a: "Anthropic researchers used interpretability techniques to identify internal activation patterns in Claude that function like conceptual 'words,' revealing how the model structures its reasoning at a fundamental level."
+  - q: "Can I try the J-lens tool myself to explore AI internals?"
+    a: "Yes, a solo developer built a practical, interactive version of the J-lens tool that you can access online to visualize and explore the hidden conceptual words inside Claude's neural network."
+  - q: "Why are these hidden AI words important for understanding language models?"
+    a: "These internal representations show how AI models break down and process complex ideas, offering a rare window into the 'black box' of neural networks and helping researchers understand AI decision-making."
+  - q: "Does the J-lens tool work with other AI models besides Claude?"
+    a: "Currently, the public J-lens tool is specifically designed to explore Anthropic's Claude model, as it relies on the unique internal architecture and interpretability research conducted by Anthropic."
+
 ---
 > **Update July 2026: recent developments in anthropic may affect the information in this post — see details below.**
 

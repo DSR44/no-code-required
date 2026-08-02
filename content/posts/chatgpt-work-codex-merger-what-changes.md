@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/chatgpt-work-codex-merger-what-changes.jpg"
   alt: "Zoe at her laptop looking at a confusing app interface with multiple tabs, warm editorial lighting"
+faqs:
+  - q: "How does ChatGPT Work replacing Codex affect non-coders?"
+    a: "Non-coders can now access advanced code generation and debugging directly within ChatGPT Work without needing separate tools. The integration simplifies workflows by combining conversational AI with coding assistance in one platform."
+  - q: "Why did OpenAI kill Atlas and merge Codex into ChatGPT Work?"
+    a: "OpenAI consolidated its tools to streamline user experience and reduce fragmentation. This move aims to make powerful AI capabilities more accessible to a broader audience, including those without technical backgrounds."
+  - q: "Can non-coders still use AI for coding tasks after these changes?"
+    a: "Yes, absolutely. ChatGPT Work now includes Codex's functionality, allowing non-coders to generate, explain, and debug code through natural language prompts without prior programming knowledge."
+  - q: "What should non-coders do to adapt to the new ChatGPT Work setup?"
+    a: "Start by exploring ChatGPT Work's integrated features for coding assistance, such as asking for code explanations or simple automation scripts. Familiarize yourself with prompt-based interactions to leverage the merged capabilities effectively."
+
 ---
 {{< audio src="/audio/chatgpt-work-codex-merger-what-changes.mp3" >}}
 

@@ -13,6 +13,16 @@ cover:
   image: "/images/posts/how-anthropic-may-have-talked-itself-into-an-ai-export-ban.jpg"
   alt: "Zoe at laptop looking concerned with news headlines on screen"
 lastmod: 2026-07-28
+faqs:
+  - q: "Why is Anthropic facing a potential AI export ban?"
+    a: "Anthropic's own public safety statements about the risks of advanced AI may have drawn regulatory attention, leading to scrutiny over whether their technology should be restricted from export."
+  - q: "How did Anthropic's safety advocacy contribute to this situation?"
+    a: "By consistently highlighting the potential dangers of powerful AI systems, Anthropic may have inadvertently provided regulators with the very arguments needed to justify an export ban on their own products."
+  - q: "Could other AI companies face similar export restrictions?"
+    a: "Yes, if regulators adopt Anthropic's stated risk assessments as a benchmark, other companies developing comparable AI models could also become targets for export controls."
+  - q: "What is the connection between AI safety research and export bans?"
+    a: "Detailed safety research can define the capability thresholds that trigger regulatory action; in this case, Anthropic's work may have helped establish the criteria that now applies to their own technology."
+
 ---
 I was in the middle of a Claude session on June 12 when everything went dark. No warning, no error message — just gone. The most powerful AI model I'd been using for weeks simply stopped existing, and for the next 18 days, nobody could tell me if it was coming back.
 

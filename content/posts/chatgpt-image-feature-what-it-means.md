@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/20260524_121002_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Woman at laptop looking at AI-generated images on screen"
+faqs:
+  - q: "How does ChatGPT's new image feature work for someone who's never used AI before?"
+    a: "You simply describe what you want in plain language, like 'a cartoon cat wearing a hat,' and ChatGPT creates the image for you. No design skills, software, or technical knowledge needed — just type your idea."
+  - q: "Can ChatGPT edit photos I already have?"
+    a: "Yes, you can upload an existing image and ask ChatGPT to make changes, such as removing a background, changing colors, or adding elements. It understands natural language instructions, so you just describe the edit you want."
+  - q: "Why is ChatGPT's image generation a big deal for non-technical people?"
+    a: "It removes the need for expensive software like Photoshop or years of design training. Anyone can now create professional-looking visuals just by describing them, which levels the playing field for small businesses, educators, and creators."
+  - q: "Do I need to pay extra to use ChatGPT's image features?"
+    a: "Image generation is included with ChatGPT Plus, which costs $20 per month, and is also available in the free tier with some usage limits. No separate subscription or add-on is required."
+
 ---
 {{< audio src="/audio/chatgpt-image-feature-what-it-means.mp3" >}}
 

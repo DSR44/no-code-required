@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/dont-trust-ai-with-your-health-heres-how-to-use-it-right.jpg"
   alt: "Zoe looking skeptical at a laptop showing health advice from an AI chatbot"
+faqs:
+  - q: "Can I trust AI chatbots for medical diagnosis?"
+    a: "No, AI chatbots should not be used for medical diagnosis. They can provide general health information but lack the ability to perform physical exams, order tests, or consider your full medical history like a doctor can."
+  - q: "How should I phrase my health questions to get better answers from AI?"
+    a: "Be specific about your symptoms, their duration, and your age, but avoid asking for a direct diagnosis. Frame questions as seeking general information, like 'What are common causes of a persistent headache?' instead of 'Do I have a brain tumor?'."
+  - q: "Are there any red flags that an AI's health advice is unreliable?"
+    a: "Yes, be wary if the AI gives a definitive diagnosis, recommends specific prescription medications, or dismisses your symptoms as minor without knowing your history. Reliable advice will always recommend consulting a healthcare professional for personal medical concerns."
+  - q: "What are the biggest risks of relying solely on AI for health advice?"
+    a: "The main risks are misdiagnosis, delayed treatment for serious conditions, and receiving advice based on outdated or incorrect information. AI lacks the human judgment and accountability of a licensed healthcare provider."
+
 ---
 {{< audio src="/audio/dont-trust-ai-with-your-health-heres-how-to-use-it-right.mp3" >}}
 

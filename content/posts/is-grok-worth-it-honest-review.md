@@ -13,6 +13,16 @@ cover:
   image: "/images/posts/is-grok-worth-it-honest-review.jpg"
   alt: "Person at laptop testing Grok AI with coffee nearby"
 lastmod: 2026-07-18
+faqs:
+  - q: "How does Grok 4.5 compare to ChatGPT and Claude for coding tasks?"
+    a: "Grok 4.5 showed surprisingly strong performance on complex coding problems, often generating cleaner initial code than ChatGPT. However, Claude maintained an edge in understanding nuanced instructions and debugging intricate logic errors."
+  - q: "Is Grok 4.5 better than ChatGPT for creative writing?"
+    a: "In my tests, Grok 4.5 produced more vivid and unconventional metaphors, but ChatGPT's output was more consistently structured and polished. The 'better' choice depends on whether you prioritize originality or reliability."
+  - q: "Which AI model is best for real work tasks like data analysis?"
+    a: "For structured data analysis and following precise formats, Claude was the most reliable. Grok 4.5 excelled at exploratory analysis and suggesting unexpected angles, while ChatGPT offered a balanced middle ground."
+  - q: "Did Grok 4.5 have any major weaknesses compared to the others?"
+    a: "Yes, Grok 4.5 occasionally struggled with strict adherence to very specific formatting rules and could be overly verbose. It also showed less consistency in maintaining context over extremely long, multi-step conversations compared to its competitors."
+
 ---
 **Update July 2026: recent developments in grok may affect the information in this post — see details below.**
 

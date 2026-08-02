@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/irisgo-ai-desktop-companion-honest-first-look.jpg"
   alt: "Person at laptop with AI workflow automation interface, warm editorial setting"
+faqs:
+  - q: "How does IrisGo learn my desktop workflows?"
+    a: "IrisGo observes your repeated actions—like file organization, email sorting, or data entry—and uses AI to identify patterns. It then suggests automating these tasks, which you can approve or customize before it runs them for you."
+  - q: "Is IrisGo safe to use with sensitive work files?"
+    a: "IrisGo processes data locally on your desktop by default, minimizing cloud exposure. You also review and approve every automated action before it executes, giving you full control over what it accesses."
+  - q: "Can IrisGo work with any software on my computer?"
+    a: "It integrates with common productivity apps like browsers, office suites, and file managers. However, it may have limited support for highly specialized or legacy software without standard interfaces."
+  - q: "How is IrisGo different from other automation tools like AutoHotkey?"
+    a: "Unlike rule-based tools, IrisGo uses AI to learn from your behavior without requiring you to write scripts. It adapts to your habits over time, making it more intuitive for non-technical users."
+
 ---
 {{< audio src="/audio/irisgo-ai-desktop-companion-honest-first-look.mp3" >}}
 

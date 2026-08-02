@@ -13,6 +13,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-coding-agents-taught-robots-install-gpus.jpg"
   alt: "Zoe impressed by AI agent and robot collaboration on her laptop"
+faqs:
+  - q: "How does Nvidia's ENPIRE framework use AI to train robots?"
+    a: "ENPIRE allows AI coding agents to autonomously write and refine training code for robots, enabling them to learn complex manipulation tasks like installing GPUs without human intervention."
+  - q: "Can AI coding agents really train robots overnight?"
+    a: "Yes, in Nvidia's experiments, AI agents successfully trained robotic systems to perform precise tasks with 99% accuracy, all completed autonomously while researchers were asleep."
+  - q: "What tasks did the AI-trained robots learn to perform?"
+    a: "The robots were trained to handle delicate manipulation tasks, such as installing GPUs into server racks, requiring fine motor skills and spatial awareness."
+  - q: "How accurate are robots trained by AI coding agents?"
+    a: "The ENPIRE framework achieved a 99% success rate on manipulation tasks, demonstrating high reliability for real-world applications like hardware installation."
+
 ---
 {{< audio src="/audio/ai-coding-agents-taught-robots-install-gpus.mp3" >}}
 

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/nano-banana-ai-image-generator-text.jpg"
   alt: "Zoe at her laptop excited about AI-generated images with text rendering on screen"
+faqs:
+  - q: "How does nano-banana handle text rendering in AI-generated images?"
+    a: "nano-banana uses Google's advanced diffusion architecture to accurately place and render legible text within images, solving a common problem where other models produce garbled or misspelled words."
+  - q: "Which AI image generators were compared to nano-banana in the tests?"
+    a: "The comparison included major models like DALL-E 3, Midjourney, Stable Diffusion XL, and Adobe Firefly, evaluating text accuracy, style consistency, and prompt adherence."
+  - q: "Can nano-banana generate images with multiple text elements?"
+    a: "Yes, it can handle multiple text blocks in a single image, though accuracy may decrease with very long phrases or complex layouts compared to simpler text prompts."
+  - q: "Is nano-banana available for public use or developers?"
+    a: "Currently, nano-banana is accessible through Google's AI Studio and select APIs, with broader availability expected as Google integrates it into more products."
+
 ---
 {{< audio src="/audio/nano-banana-ai-image-generator-text.mp3" >}}
 

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/the-agent-security-gap-what-solo-builders-need-to-know.jpg"
   alt: "Zoe reviewing agent security dashboard on a laptop — warm editorial lighting"
+faqs:
+  - q: "How can solo builders secure their AI agents from common vulnerabilities?"
+    a: "Start by strictly limiting agent permissions to only what's necessary for the task, and always validate and sanitize any external data or tool outputs before the agent acts on them. Regularly audit your agent's logs and behavior for unexpected actions."
+  - q: "Are tools like ChatGPT and Claude safe to use for building automated agents?"
+    a: "The tools themselves are generally secure, but the risk lies in how you integrate them and what you allow the agent to do. Never give an agent built on these models unrestricted access to sensitive systems or data without robust safeguards."
+  - q: "What are the most common security mistakes solo builders make with AI agents?"
+    a: "The biggest mistakes are granting overly broad permissions, failing to validate inputs and outputs, and not monitoring the agent's activity. Many also underestimate the risk of prompt injection or indirect attacks through connected tools."
+  - q: "Can a simple automation agent really pose a security risk to my business?"
+    a: "Absolutely. Even a simple agent that can send emails, update databases, or access APIs can be exploited to leak data, spread misinformation, or cause financial damage if compromised."
+
 ---
 {{< audio src="/audio/the-agent-security-gap-what-solo-builders-need-to-know.mp3" >}}
 

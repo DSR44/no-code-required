@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/general-intuition-gameplay-data-training-ai-agents.jpg"
   alt: "AI agent navigating a virtual game environment on a monitor, modern office"
+faqs:
+  - q: "How does General Intuition use video game data to train AI?"
+    a: "General Intuition trains AI agents on gameplay data, specifically using action labels rather than raw video. This approach provides structured, goal-oriented information that helps AI learn spatial reasoning and decision-making more effectively."
+  - q: "Why are action labels better than raw video for training spatial AI?"
+    a: "Action labels provide clear cause-and-effect relationships, showing what actions lead to what outcomes in a 3D space. Raw video is unstructured and requires the AI to infer actions, making learning much less efficient."
+  - q: "What is the significance of General Intuition's $2.3 billion funding?"
+    a: "The $2.3 billion funding validates the massive potential of using video game environments as scalable, rich data sources for training advanced AI agents. It signals strong investor confidence in this synthetic data approach for developing spatial intelligence."
+  - q: "Can this gameplay-trained AI be applied outside of gaming?"
+    a: "Yes, the core spatial reasoning and planning skills learned from gameplay are highly transferable. This AI could be applied to robotics, autonomous systems, and any task requiring navigation and interaction in complex 3D environments."
+
 ---
 {{< audio src="/audio/general-intuition-gameplay-data-training-ai-agents.mp3" >}}
 

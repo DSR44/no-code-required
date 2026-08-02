@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/anthropic-deleted-80-percent-system-prompt-what-it-means.jpg"
   alt: "Zoe at her laptop looking surprised at a simplified AI workflow on screen"
+faqs:
+  - q: "How did Anthropic reduce Claude's system prompt by 80%?"
+    a: "Anthropic achieved this by removing redundant instructions, consolidating overlapping rules, and focusing only on the core directives that actually guide Claude's behavior. They found that much of the original prompt was either ignored or had minimal impact on output quality."
+  - q: "Why does a shorter system prompt not hurt Claude's performance?"
+    a: "Modern LLMs like Claude are highly capable of inferring context and intent from minimal instructions. Overly verbose prompts can actually introduce noise or conflicting signals, so a leaner prompt often leads to more consistent and focused responses."
+  - q: "Should I shorten my own system prompts for AI tools?"
+    a: "Yes, it's worth auditing your prompts for redundancy and vague instructions. Focus on clear, specific directives that directly influence the output you want, and test whether removing less critical lines changes the results."
+  - q: "How can solo builders optimize their AI setup after this change?"
+    a: "Start by reviewing your system prompts line by line to identify what's truly essential. Replace lengthy explanations with concise rules, and use iterative testing to ensure performance stays consistent as you trim."
+
 ---
 {{< audio src="/audio/anthropic-deleted-80-percent-system-prompt-what-it-means.mp3" >}}
 

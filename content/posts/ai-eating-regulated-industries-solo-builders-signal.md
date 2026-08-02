@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-eating-regulated-industries-solo-builders-signal.jpg"
   alt: "Zoe reading about AI industry shifts on her laptop in a warm workspace"
+faqs:
+  - q: "Why are OpenAI and Anthropic researchers moving into regulated industries like pharma and finance?"
+    a: "They are attracted to the massive, complex data challenges and the potential for significant societal impact in these high-stakes sectors."
+  - q: "How does this talent shift affect independent developers and solo builders?"
+    a: "It signals a growing market and validation for AI solutions in these fields, creating new niches and opportunities for agile builders to solve specific problems."
+  - q: "What's the best strategy for a solo builder entering a regulated industry with AI?"
+    a: "Focus on a narrow, high-value problem where you can develop deep domain expertise and build trust, rather than competing with large tech talent on broad platforms."
+  - q: "Is the trend of AI experts moving to healthcare and finance temporary or permanent?"
+    a: "It appears to be a structural shift, as the fundamental value of AI in optimizing these massive, data-rich industries makes the demand for talent likely to be sustained."
+
 ---
 {{< audio src="/audio/ai-eating-regulated-industries-solo-builders-signal.mp3" >}}
 

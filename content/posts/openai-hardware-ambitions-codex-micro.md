@@ -13,6 +13,16 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-hardware-ambitions-codex-micro.jpg"
   alt: "Zoe reading news about OpenAI hardware on her laptop with a surprised expression"
+faqs:
+  - q: "How does OpenAI's hardware launch affect AI tool users?"
+    a: "OpenAI's move into hardware could mean tighter integration between AI software and devices, potentially offering faster, more seamless experiences for users of AI tools. It may also signal a shift toward more specialized AI-powered devices in the market."
+  - q: "Why is Apple suing OpenAI over trade secrets?"
+    a: "Apple alleges that OpenAI misappropriated proprietary information related to hardware or AI integration, though specific details of the lawsuit are still emerging. This legal battle highlights the intense competition and high stakes in the AI hardware space."
+  - q: "Should AI tool users be concerned about these developments?"
+    a: "For now, most users won't see immediate changes, but it's worth watching how this competition influences product innovation and pricing. Increased rivalry could ultimately lead to better, more affordable AI tools for consumers."
+  - q: "Will OpenAI hardware work with existing AI tools and platforms?"
+    a: "OpenAI has not yet detailed compatibility, but historically, new hardware launches aim to support popular AI tools and APIs. Users can likely expect some level of integration with existing ecosystems, though specifics will depend on the final product design."
+
 ---
 {{< audio src="/audio/openai-hardware-ambitions-codex-micro.mp3" >}}
 

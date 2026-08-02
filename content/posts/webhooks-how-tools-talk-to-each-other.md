@@ -8,6 +8,16 @@ description: "Webhooks are how apps notify each other when something happens. He
 ShowToc: true
 cover:
   image: "/images/posts/webhooks-how-tools-talk-to-each-other.jpg"
+faqs:
+  - q: "How do webhooks differ from APIs?"
+    a: "An API requires your app to ask for data, while a webhook automatically sends data to you when an event happens. Think of it like checking your mailbox versus having a mail carrier deliver a package directly to your door."
+  - q: "Can I set up a webhook without knowing how to code?"
+    a: "Yes, many no-code platforms like Zapier or Make provide simple interfaces to create and receive webhooks. You just copy and paste the provided URL into the settings of the sending app."
+  - q: "Why are my webhooks not working?"
+    a: "Common issues include an incorrect URL, the receiving server being offline, or the sending app not being configured to trigger the webhook. Always check the webhook logs in both apps for error messages."
+  - q: "Are webhooks secure for sending sensitive data?"
+    a: "They can be, if you use HTTPS and verify the incoming request with a secret signature or token. This ensures the data is encrypted in transit and that it's actually coming from the expected source."
+
 ---
 
 Last time I explained APIs — the restaurant waiter that carries your order to the kitchen. But APIs have a problem: you have to keep asking.

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/why-cognition-bought-poke-ai-personality-competitive-advantage.jpg"
   alt: "AI assistant chat interface with personality-driven conversation"
+faqs:
+  - q: "How does Cognition's acquisition of Poke affect solo builders in 2026?"
+    a: "It signals a shift toward more specialized, personality-driven AI assistants, giving solo builders access to tools designed for nuanced tasks and companionship, not just productivity."
+  - q: "Is Poke different from standard AI coding assistants?"
+    a: "Yes, Poke is an AI assistant with a distinct personality, acquired by Cognition to complement its Devin AI, focusing on interaction and support beyond pure code generation."
+  - q: "What practical benefits does an AI like Poke offer to someone building alone?"
+    a: "It can provide brainstorming support, reduce isolation by acting as a conversational partner, and handle a variety of non-coding tasks, making the solo development process less solitary and more efficient."
+  - q: "Should solo builders consider personality in their AI tools?"
+    a: "Yes, as AI evolves, tools with personality can improve user experience, maintain engagement, and better understand the builder's style and preferences over time."
+
 ---
 {{< audio src="/audio/why-cognition-bought-poke-ai-personality-competitive-advantage.mp3" >}}
 
