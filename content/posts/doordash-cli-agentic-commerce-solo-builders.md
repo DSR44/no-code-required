@@ -1,5 +1,5 @@
 ---
-title: "DoorDash Just Went From Your Phone to Your Terminal — What Solo Builders Should Know"
+title: "DoorDash CLI: What Solo Builders Need to Know About Agentic Commerce"
 slug: "doordash-cli-agentic-commerce-solo-builders"
 date: 2026-08-03
 draft: false

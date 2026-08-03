@@ -1,5 +1,5 @@
 ---
-title: "54% of Enterprises Already Had an AI Agent Incident — Here's What That Means for Solo Builders"
+title: "54% of Enterprises Had AI Agent Incidents: What Solo Builders Need to Know"
 date: 2026-08-01
 draft: false
 description: "Enterprise AI agents are getting hacked. Here's what solo builders using ChatGPT, Claude, and automation tools need to know about agent security."
