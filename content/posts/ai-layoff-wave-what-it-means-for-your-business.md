@@ -1,5 +1,5 @@
 ---
-title: "81,000 Jobs Cut in Q1 — What the AI Layoff Wave Means for Your Business"
+title: "AI Layoff Wave: What It Means for Your Business"
 slug: "ai-layoff-wave-what-it-means-for-your-business"
 date: 2026-07-01
 draft: false

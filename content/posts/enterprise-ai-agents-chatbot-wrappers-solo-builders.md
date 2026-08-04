@@ -1,5 +1,5 @@
 ---
-title: "71% of Enterprise AI Agents Are Chatbot Wrappers — Here's What That Means for Solo Builders"
+title: "71% of Enterprise AI Agents Are Chatbot Wrappers"
 date: 2026-07-30
 draft: false
 description: "A new survey found most enterprise 'agents' are chatbot wrappers. Here's how solo builders can spot real AI orchestration from marketing hype."

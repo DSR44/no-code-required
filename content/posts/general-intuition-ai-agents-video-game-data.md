@@ -1,5 +1,5 @@
 ---
-title: "This Startup Trains AI Agents Using Video Game Data — And Investors Are Betting $2B On It"
+title: "Startup Trains AI Agents With Video Game Data, Raises $300M"
 slug: "general-intuition-ai-agents-video-game-data"
 date: 2026-07-01
 draft: false

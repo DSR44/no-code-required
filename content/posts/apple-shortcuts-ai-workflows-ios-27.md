@@ -1,5 +1,5 @@
 ---
-title: "Apple Shortcuts App Now Uses AI to Build Workflows — Here Is How"
+title: "Apple Shortcuts AI: Build Workflows With Plain Language"
 date: 2026-06-28
 draft: false
 description: "iOS 27 lets you describe automations in plain language and Apple Intelligence builds them for you. Here's how to use Apple Shortcuts with AI."
