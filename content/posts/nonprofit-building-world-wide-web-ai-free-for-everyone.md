@@ -1,5 +1,5 @@
 ---
-title: "A Nonprofit Is Building the World Wide Web of AI — Free for Everyone"
+title: "Building the World Wide Web of AI — Free for Everyone"
 date: 2026-08-05
 draft: false
 description: "Current AI is building open, public AI infrastructure with $400M in funding — and it's free. Here's what solo builders need to know."
