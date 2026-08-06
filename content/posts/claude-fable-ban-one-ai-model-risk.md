@@ -1,5 +1,5 @@
 ---
-title: "What the Claude Fable Ban Means If You Built Your Business on One AI Model"
+title: "Claude Fable Ban: Surviving AI Model Loss in Your Business"
 date: 2026-06-23
 draft: false
 description: "The White House pulled Claude Fable 5. Here's how to build AI workflows that survive when one model gets taken away."

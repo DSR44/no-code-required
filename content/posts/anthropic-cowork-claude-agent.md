@@ -1,5 +1,5 @@
 ---
-title: "Anthropic Just Revealed Cowork — A Claude Agent That Works in Your Files (No Coding Required)"
+title: "Anthropic's Cowork: A Claude Agent for Your Files"
 date: 2026-06-27
 draft: false
 description: "Anthropic's Cowork lets Claude read, edit, and create files on your computer — no coding, no terminal, no developer skills needed."

@@ -1,5 +1,5 @@
 ---
-title: "How AI Guardrails Are Impeding the Work of Offensive Cybersecurity Researchers"
+title: "AI Guardrails vs Offensive Cybersecurity Researchers"
 date: 2026-08-06
 draft: false
 description: "AI safety guardrails collapse when attackers simply claim permission. What Cisco Talos and AISI found means for solo builders using AI tools."
