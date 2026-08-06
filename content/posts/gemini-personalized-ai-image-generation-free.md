@@ -21,8 +21,10 @@ faqs:
     a: "Google's terms typically allow personal and some commercial use, but you should review their specific content policies. Always check the latest guidelines, as AI image rights can be complex."
   - q: "How does Gemini's image generation compare to other free AI tools?"
     a: "Gemini offers strong personalization and integration with Google's ecosystem, but tools like DALL·E or Midjourney may excel in different styles. It's worth trying multiple platforms to see which fits your creative needs best."
-
+lastmod: 2026-08-06
 ---
+> **Update August 2026: recent developments in gemini may affect the information in this post — see details below.**
+
 {{< audio src="/audio/gemini-personalized-ai-image-generation-free.mp3" >}}
 
 Google just did something that would've sounded like science fiction two years ago: they made AI image generation that knows what you like — and they made it free. Starting this week, every Gemini user in the U.S. can access personalized image generation powered by Nano Banana, no subscription required. If you've been curious about AI images but didn't want to pay $20 a month for the privilege, this changes the math completely.
