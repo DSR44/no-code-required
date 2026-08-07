@@ -1,5 +1,5 @@
 ---
-title: "Meta Is Making Its AI Chatbot More Like an Assistant — A Practical Take for Solo Builders"
+title: "Meta AI Assistant: What Solo Builders Need to Know"
 date: 2026-08-07
 draft: false
 description: "Meta AI now handles calendar briefings, recurring tasks, and research. Here's what that actually means if you run your business solo."
