@@ -1,5 +1,5 @@
 ---
-title: "A $1.2B Startup Just Redefined Endpoint Security — And Solo Builders Should Pay Attention"
+title: "Glow's $1.2B Bet on Endpoint Security: What Solo Builders Need to Know"
 date: 2026-08-09
 draft: false
 description: "Glow raised $180M at a $1.2B valuation to secure AI on endpoints. Here's what solo builders running AI tools need to know."
