@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/goose-free-alternative-claude-code.jpg"
   alt: "Zoe discovering Goose open source coding agent on her laptop"
+faqs:
+  - q: "How does Goose compare to Claude Code for coding tasks?"
+    a: "Goose is a free, open-source alternative that offers similar agentic coding capabilities, including terminal access and multi-file editing. While Claude Code is a polished commercial product, Goose provides comparable functionality without subscription costs, though it may require more setup."
+  - q: "Can I use Goose with different AI models besides Claude?"
+    a: "Yes, Goose is model-agnostic and can connect to various LLM providers including OpenAI, Anthropic, and local models through Ollama. This flexibility lets you choose based on cost, performance, or privacy preferences."
+  - q: "Is Goose difficult to install and configure for beginners?"
+    a: "Installation is straightforward via Homebrew or direct download, but configuring API keys and model connections requires some technical comfort. The documentation provides clear guides, though it's more hands-on than commercial alternatives."
+  - q: "What programming languages and frameworks does Goose support?"
+    a: "Goose works with any language or framework since it operates through your terminal and file system. It can read, edit, and execute code across Python, JavaScript, Rust, and more without language-specific limitations."
+
 ---
 {{< audio src="/audio/goose-free-alternative-claude-code.mp3" >}}
 

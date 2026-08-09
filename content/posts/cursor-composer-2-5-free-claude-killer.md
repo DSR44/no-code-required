@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/cursor-composer-2-5-free-claude-killer.jpg"
   alt: "Zoe at laptop comparing AI coding tools on screen, warm workspace"
+faqs:
+  - q: "How does Cursor's Composer 2.5 compare to Claude Opus in terms of performance?"
+    a: "In head-to-head testing, Composer 2.5 showed comparable performance to Claude Opus on many coding tasks, often matching its accuracy and reasoning capabilities."
+  - q: "Is Cursor's free model actually cheaper than using Claude directly?"
+    a: "Yes, Composer 2.5 is significantly more cost-effective, offering similar performance to Claude Opus at a fraction of the price, making it a strong option for budget-conscious developers."
+  - q: "Can I use Cursor's Composer 2.5 for professional software development?"
+    a: "Absolutely — its performance rivals top-tier models like Claude Opus, making it suitable for real-world coding projects, debugging, and code generation tasks."
+  - q: "Does this mean Claude Opus is no longer worth using?"
+    a: "Not necessarily; while Composer 2.5 is a strong competitor, Claude Opus may still excel in specific areas or for users who prefer its ecosystem and integration options."
+
 ---
 {{< audio src="/audio/cursor-composer-2-5-free-claude-killer.mp3" >}}
 

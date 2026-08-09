@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/what-is-an-llm-no-code-explanation.jpg"
   alt: "Zoe at laptop with AI chatbot interface on screen, warm coffee-shop editorial setting"
+faqs:
+  - q: "How does a large language model actually work?"
+    a: "An LLM reads massive amounts of text and learns to predict the most likely next word in a sequence, over and over again. It doesn't 'understand' language the way humans do — it's pattern recognition at an incredibly large scale."
+  - q: "Are ChatGPT and Claude considered LLMs?"
+    a: "Yes, both ChatGPT and Claude are powered by LLMs — GPT and Claude respectively. They're the engines behind the conversational interface you interact with."
+  - q: "How is an LLM different from a regular chatbot?"
+    a: "Traditional chatbots follow pre-written scripts and can only respond to what they've been explicitly programmed to handle. LLMs generate original responses on the fly by predicting language patterns, making them far more flexible and conversational."
+  - q: "Do I need to know how to code to use an LLM?"
+    a: "Not at all — if you can type a sentence, you can use an LLM. Tools like ChatGPT and Claude are designed to work with plain, everyday language, no technical skills required."
+
 ---
 {{< audio src="/audio/what-is-an-llm-no-code-explanation.mp3" >}}
 

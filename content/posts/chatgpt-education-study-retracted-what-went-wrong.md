@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/chatgpt-education-study-retracted-what-went-wrong.jpg"
   alt: "Zoe looking skeptical at a laptop showing a research paper with a red retraction stamp"
+faqs:
+  - q: "Why was the ChatGPT education study in Nature retracted?"
+    a: "The study was retracted due to significant methodological flaws and data issues that undermined its conclusions. The researchers and journal found problems with the experimental design and analysis that made the claimed learning benefits unreliable."
+  - q: "Did the original study claim ChatGPT improves student learning?"
+    a: "Yes, the original study published in Nature claimed that ChatGPT significantly boosted student learning outcomes and academic performance. However, these findings could not be validated after the methodological problems were identified."
+  - q: "How does this retraction affect the use of AI tools in classrooms?"
+    a: "The retraction doesn't mean AI can't help in education, but it highlights the need for rigorous, well-designed research before making broad claims. Educators should look for replicated studies with solid methodologies rather than relying on single high-profile papers."
+  - q: "Should teachers stop using ChatGPT for learning because of this retraction?"
+    a: "Not necessarily — the retraction points to problems with one specific study, not with AI tools themselves. Teachers can still experiment with ChatGPT in their classrooms while waiting for more robust research on its educational effectiveness."
+
 ---
 {{< audio src="/audio/chatgpt-education-study-retracted-what-went-wrong.mp3" >}}
 

@@ -8,6 +8,16 @@ description: "I spent over $500 testing 10 AI writing tools. Some were amazing. 
 ShowToc: true
 cover:
   image: "/images/posts/i-tested-10-ai-writing-tools.jpg"
+faqs:
+  - q: "Which AI writing tools were the biggest waste of money?"
+    a: "The tools that underperformed were often those with flashy marketing but poor output quality, requiring heavy editing that negated their time-saving promise. I'd recommend skipping any tool that doesn't offer a free trial or clear examples of its output style."
+  - q: "How do I choose the best AI writing tool for my needs?"
+    a: "Focus on your specific use case—like blog posts, marketing copy, or technical writing—and test a few top contenders with a real project. Look for tools that offer a free tier or trial so you can evaluate the output quality and workflow integration before committing."
+  - q: "Are expensive AI writing tools always better than free ones?"
+    a: "Not necessarily. In my testing, some mid-priced tools outperformed premium ones, while a couple of free or freemium options delivered surprisingly strong results for specific tasks like brainstorming or short-form content."
+  - q: "Can AI writing tools actually save time for professional writers?"
+    a: "Yes, but with caveats. The best tools I tested significantly sped up drafting and ideation, but they still require human oversight for fact-checking, tone, and nuance to ensure the final content is polished and accurate."
+
 ---
 
 I've been writing with AI for about a year now. Not as a developer. Not as someone with a CS degree. Just as a regular person who wanted to write faster.

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/meta-muse-spark-1-1-what-solo-builders-need-to-know.jpg"
   alt: "Zoe at her laptop reading about Meta's new AI coding model"
+faqs:
+  - q: "How does Meta Muse Spark 1.1 differ from other no-code tools?"
+    a: "Muse Spark 1.1 is an agentic coding tool that generates functional code from natural language prompts, positioning it as a bridge between traditional no-code platforms and full developer environments. Unlike drag-and-drop builders, it writes actual code that can be customized and deployed."
+  - q: "Can solo builders use Muse Spark without coding experience?"
+    a: "Yes, solo builders can use Muse Spark with minimal technical knowledge by describing their app idea in plain language. However, some basic understanding of code structure helps in refining the generated output."
+  - q: "Is Muse Spark 1.1 free for no-code creators?"
+    a: "Meta has not yet announced full pricing details for Muse Spark 1.1, but early access may be available through their developer programs. No-code creators should watch for updates on potential free tiers or credits."
+  - q: "What types of apps can be built with Muse Spark 1.1?"
+    a: "Muse Spark 1.1 can generate web applications, automation scripts, and simple tools based on text descriptions. It's best suited for prototyping and building MVPs rather than highly complex enterprise systems."
+
 ---
 {{< audio src="/audio/meta-muse-spark-1-1-what-solo-builders-need-to-know.mp3" >}}
 

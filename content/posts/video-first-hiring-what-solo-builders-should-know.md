@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/video-first-hiring-what-solo-builders-should-know.jpg"
   alt: "Zoe at laptop reviewing video interview profiles on screen"
+faqs:
+  - q: "How are video-first hiring platforms changing the recruitment process?"
+    a: "They replace traditional resumes with AI-powered video interviews, allowing candidates to showcase communication skills and personality directly. Platforms like Fika Jobs use algorithms to assess responses, creating a more dynamic and efficient screening process."
+  - q: "Why should solo builders pay attention to the rise of video hiring?"
+    a: "It represents a significant shift in HR tech, creating a clear opportunity to build niche tools, integrations, or services that support this new workflow. Solo builders can capitalize on the growing need for specialized video assessment, scheduling, or candidate management solutions."
+  - q: "Can I build a tool that integrates with video-first hiring platforms?"
+    a: "Absolutely. Many platforms offer APIs, allowing solo builders to create complementary products like advanced analytics dashboards, automated scheduling bots, or candidate feedback systems that enhance the core hiring experience."
+  - q: "What skills are most important for candidates in a video-first interview?"
+    a: "Clear verbal communication, concise storytelling, and comfort on camera are now critical. Candidates must articulate their experience and fit without the traditional crutch of a formatted resume."
+
 ---
 {{< audio src="/audio/video-first-hiring-what-solo-builders-should-know.mp3" >}}
 

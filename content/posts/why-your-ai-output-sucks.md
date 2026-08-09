@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/why-your-ai-output-sucks.jpg"
   alt: "Zoe at laptop reviewing AI draft text on screen, frustrated but focused, warm coffee shop editorial"
+faqs:
+  - q: "Why does AI-generated content sound so generic?"
+    a: "Generic output usually stems from vague prompts that lack specific context, audience details, or a clear desired tone. The AI is working with incomplete instructions, so it defaults to safe, broad statements."
+  - q: "How can I get better results from ChatGPT or other AI tools?"
+    a: "Focus on providing rich context, defining your audience, and specifying the exact format or goal you want. Treat the AI as a collaborator you need to brief thoroughly, not a mind reader."
+  - q: "What's the most common mistake people make when prompting AI?"
+    a: "The biggest mistake is giving a single, open-ended instruction without constraints or examples. Effective prompts include role definitions, step-by-step guidance, and clear success criteria."
+  - q: "Can improving my workflow fix bad AI writing?"
+    a: "Absolutely. A workflow that includes iterative refinement, fact-checking, and human editing transforms raw AI output into polished, valuable content. The AI provides the draft; your process ensures quality."
+
 ---
 
 {{< audio src="/audio/why-your-ai-output-sucks.mp3" >}}

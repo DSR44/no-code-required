@@ -13,6 +13,16 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-codex-micro-physical-ai-pattern.jpg"
   alt: "Zoe at desk with macro pad and AI coding interface, warm editorial style"
+faqs:
+  - q: "How does OpenAI Codex Micro make AI coding more accessible?"
+    a: "Codex Micro follows the pattern of physical interfaces making tools accessible — just like the mouse made computers usable for everyone, Codex Micro provides a tangible, simplified way to interact with AI coding capabilities without needing deep technical expertise."
+  - q: "Why do physical interfaces matter for AI tools?"
+    a: "Every major technology wave — from personal computers to smartphones — became mainstream when a physical or simplified interface lowered the barrier to entry. AI tools are following the same trajectory, moving from complex API calls to intuitive, accessible interfaces."
+  - q: "Which historical technology pattern does Codex Micro follow?"
+    a: "Codex Micro mirrors the pattern where a new technology starts complex and exclusive, then becomes widely adopted once a physical or simplified interface makes it approachable — similar to how the graphical user interface democratized computing in the 1980s."
+  - q: "Can someone with no coding experience benefit from Codex Micro?"
+    a: "Yes. The whole point of Codex Micro aligning with the physical interface pattern is that it lowers the technical barrier, allowing non-developers to leverage AI-powered coding assistance through a more intuitive interaction model."
+
 ---
 {{< audio src="/audio/openai-codex-micro-physical-ai-pattern.mp3" >}}
 

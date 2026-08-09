@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/meta-ai-chatbot-assistant-solo-builders.jpg"
   alt: "Zoe checking her phone with a surprised expression while Meta AI notifications pop up"
+faqs:
+  - q: "How can Meta AI help with my daily schedule as a solo business owner?"
+    a: "Meta AI can now provide calendar briefings, summarizing your upcoming meetings and deadlines so you start your day with a clear overview. It can also help manage recurring tasks, freeing up mental space for more strategic work."
+  - q: "Can Meta AI handle research tasks for my solo business?"
+    a: "Yes, Meta AI is designed to assist with research, which can be a significant time-saver for solo builders. It can help gather information, summarize findings, and potentially draft initial outlines for projects."
+  - q: "Is Meta AI a good alternative to hiring a virtual assistant for calendar management?"
+    a: "For basic calendar briefings and recurring task reminders, Meta AI offers a cost-effective, always-available alternative. However, it may lack the nuanced judgment and complex scheduling negotiation a human VA provides."
+  - q: "What are the limitations of using Meta AI for solo business operations?"
+    a: "While useful for briefings and tasks, Meta AI may struggle with highly context-dependent decisions or managing complex, multi-party communications. Its effectiveness depends on how well its capabilities align with your specific workflow needs."
+
 ---
 
 {{< audio src="/audio/meta-ai-chatbot-assistant-solo-builders.mp3" >}}

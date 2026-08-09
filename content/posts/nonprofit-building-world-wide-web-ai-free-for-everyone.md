@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/nonprofit-building-world-wide-web-ai-free-for-everyone.jpg"
   alt: "Zoe looking excited at a laptop showing open-source AI tools and global connectivity"
+faqs:
+  - q: "How can solo builders access the free AI infrastructure mentioned in the article?"
+    a: "Solo builders can access the free AI infrastructure through Current AI's open platform, which provides tools and resources without cost barriers. The $400M funding ensures these resources remain publicly available for developers of all scales."
+  - q: "Why is Current AI making its AI infrastructure free for everyone?"
+    a: "Current AI aims to democratize AI development by removing financial barriers, fostering innovation from solo builders and small teams. This approach mirrors the open ethos of the early World Wide Web, creating a more inclusive AI ecosystem."
+  - q: "What types of tools or resources does Current AI's free infrastructure include?"
+    a: "The infrastructure includes pre-trained models, development frameworks, and computational resources designed for building AI applications. These tools are optimized for accessibility, allowing solo builders to prototype and deploy projects efficiently."
+  - q: "How does this free AI infrastructure impact solo builders compared to paid alternatives?"
+    a: "It significantly lowers entry costs, enabling solo builders to experiment and scale without upfront investment. This contrasts with paid platforms that often require subscriptions or usage fees, which can limit independent innovation."
+
 ---
 {{< audio src="/audio/nonprofit-building-world-wide-web-ai-free-for-everyone.mp3" >}}
 

@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-layoff-wave-what-it-means-solo-business.jpg"
   alt: "Zoe reading news on her laptop with a thoughtful expression"
+faqs:
+  - q: "How can solo creators benefit from AI replacing corporate jobs?"
+    a: "Large companies are cutting middle-management and repetitive roles, which means more skilled freelancers and contractors are available for hire. Solo creators can now build lean, AI-augmented teams at a fraction of the previous cost, scaling their online businesses without traditional overhead."
+  - q: "Why are big tech companies laying off employees because of AI?"
+    a: "Companies like Meta and Robinhood are restructuring to prioritize AI-driven efficiency, automating tasks previously done by large teams. This isn't necessarily a sign of economic trouble, but a strategic shift toward leaner operations where AI handles routine work."
+  - q: "Should I be worried about AI taking my online business job?"
+    a: "If your business relies on a single, easily automatable skill, yes. However, the real opportunity lies in using AI as a tool to enhance your unique human skills—like creativity, strategy, and community building—making your business more resilient and scalable."
+  - q: "What's the first step to using AI for my solo business after these layoffs?"
+    a: "Start by identifying one repetitive task in your workflow—like customer service emails, social media scheduling, or data entry—and implement a simple AI tool to automate it. This frees up your time to focus on high-value activities that drive growth."
+
 ---
 {{< audio src="/audio/ai-layoff-wave-what-it-means-solo-business.mp3" >}}
 

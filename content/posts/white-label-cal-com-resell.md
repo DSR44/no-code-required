@@ -8,6 +8,16 @@ categories: ["tools"]
 slug: "white-label-cal-com-resell"
 cover:
   image: "/images/white-label-cal-com-resell.jpg"
+faqs:
+  - q: "How do I white-label Cal.com and sell it as my own service?"
+    a: "You can rebrand Cal.com with your own logo, colors, and domain by self-hosting it and modifying the configuration files. Then package it as a premium scheduling solution for niche professionals who won't know it's open-source underneath."
+  - q: "Is it legal to resell an open-source tool like Cal.com?"
+    a: "Yes, Cal.com uses the AGPLv3 license which allows commercial use and modification as long as you comply with the license terms. You're selling your hosting, support, and customization — not the software itself."
+  - q: "Which industries are best for selling white-label scheduling software?"
+    a: "Service-based professionals like dentists, lawyers, therapists, and consultants are ideal because they need appointment booking but lack technical skills. They'll happily pay $200/month for a branded solution that 'just works.'"
+  - q: "How much can I realistically charge for a white-label Cal.com setup?"
+    a: "Most resellers charge between $100-$300/month per client depending on the niche and support level included. At $200/month, you only need 10 clients to generate $2,000 in recurring monthly revenue."
+
 ---
 
 {{< audio src="/audio/white-label-cal-com-resell.mp3" >}}

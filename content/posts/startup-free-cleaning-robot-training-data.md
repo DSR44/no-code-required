@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/startup-free-cleaning-robot-training-data.jpg"
   alt: "Zoe looking at a robot vacuum with a camera while reading about data collection on her laptop"
+faqs:
+  - q: "How does MicroAGI's free home cleaning service work?"
+    a: "MicroAGI sends a robot vacuum to clean your home for free, but the device records video and spatial data of your living space. That data is then used to train their AI models for future robotic systems."
+  - q: "Is it safe to let a company record inside my home for robot training?"
+    a: "There are real privacy concerns — you're giving a startup full visual access to your living space. MicroAGI says faces and sensitive info are blurred, but there's no independent verification of how securely the data is stored or used."
+  - q: "Which cities currently offer MicroAGI's free cleaning program?"
+    a: "As of now, the program is only available in New York City. MicroAGI has indicated plans to expand to other cities but hasn't confirmed a timeline."
+  - q: "Can I delete my home data after participating in the MicroAGI program?"
+    a: "MicroAGI's terms state that participants can request data deletion, but the data may have already been used to train models by that point. Once it's incorporated into training datasets, fully removing its influence is technically difficult."
+
 ---
 {{< audio src="/audio/startup-free-cleaning-robot-training-data.mp3" >}}
 

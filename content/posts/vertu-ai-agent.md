@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/vertu-ai-agent.jpg"
   alt: "Zoe examining a luxury foldable phone with AI agent interface on screen"
+faqs:
+  - q: "How does Vertu's luxury phone use open-source AI technology?"
+    a: "Vertu's $6,880 phone runs an AI agent built on freely available open-source frameworks, meaning the core tech is accessible to anyone, not just luxury buyers."
+  - q: "Can solo builders actually use the same AI agent tech as Vertu?"
+    a: "Yes, the underlying open-source models and tools Vertu uses can be deployed by individual developers today without the luxury hardware or price tag."
+  - q: "Why is Vertu's phone relevant for indie developers and builders?"
+    a: "It validates that sophisticated AI agents are built on accessible, community-driven tech, proving solo builders can create powerful tools without massive budgets."
+  - q: "What open-source frameworks power Vertu's AI agent?"
+    a: "While Vertu doesn't specify exact models, the phone likely leverages popular open-source LLMs and agent frameworks like those from Hugging Face or LangChain."
+
 ---
 {{< audio src="/audio/vertu-ai-agent.mp3" >}}
 

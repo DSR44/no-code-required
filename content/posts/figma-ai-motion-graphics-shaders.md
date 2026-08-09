@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/figma-ai-motion-graphics-shaders.jpg"
   alt: "Zoe at laptop with Figma motion graphics on screen"
+faqs:
+  - q: "How do I use Figma's new AI motion graphics without coding?"
+    a: "You can access the new AI motion tools directly within Figma's interface after the Config 2026 update. Simply select an object, choose a motion preset from the AI panel, and adjust the parameters with sliders—no code needed."
+  - q: "Can Figma's shader effects be applied to existing designs?"
+    a: "Yes, the new shader effects can be applied to any layer or component in your Figma file. You select the element, open the Effects panel, and choose from the new generative shader options like noise, gradient, or procedural patterns."
+  - q: "Where can I find the generative plugins mentioned in the Config 2026 update?"
+    a: "The new generative plugins are available in the Figma Community and integrated into the main plugin menu. Search for 'generative' or 'AI' in the plugins section to install and use them directly in your projects."
+  - q: "Do these new Figma AI tools require a paid subscription?"
+    a: "Most of the core AI motion and shader features are included in Figma's Professional and Organization plans. Some advanced generative plugins from third-party developers may have their own pricing or require a separate license."
+
 ---
 {{< audio src="/audio/figma-ai-motion-graphics-shaders.mp3" >}}
 

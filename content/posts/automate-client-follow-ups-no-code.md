@@ -34,6 +34,16 @@ howto:
       text: "Turn the scenario on, submit your own email through the form, and verify all three messages arrive with correct names."
     - name: "Enable for real leads"
       text: "Reset sleep timers to production delays, turn the scenario on, and every new lead gets automated follow-ups."
+faqs:
+  - q: "How can I automate client follow-ups without knowing how to code?"
+    a: "You can use no-code automation platforms like Make.com to build workflows that automatically send follow-up emails or messages based on triggers like a new client sign-up or a completed project. These platforms use a visual drag-and-drop interface, allowing you to connect your existing apps and schedule communications without writing a single line of code."
+  - q: "Which apps can I connect to Make.com for my follow-up sequence?"
+    a: "Make.com integrates with thousands of popular business applications, including CRMs like HubSpot and Salesforce, email services like Gmail and Outlook, and project management tools like Trello and Asana. This allows you to pull client data from one app to trigger a personalized follow-up in another."
+  - q: "Is it really possible to set up client follow-up automation in just one afternoon?"
+    a: "Yes, for a solo business owner with a clear follow-up process, you can build, test, and launch a basic automation workflow in a few hours. The key is to have your client list and email templates ready beforehand, so you can focus on connecting the steps within the no-code platform."
+  - q: "Do I need a paid Make.com plan to automate my follow-ups?"
+    a: "You can start building and testing your follow-up automations on Make.com's free plan, which includes a generous number of operations per month. A paid plan is typically only necessary once your client base grows and you need to run thousands of automated tasks or require more advanced features."
+
 ---
 {{< audio src="/audio/automate-client-follow-ups-no-code.mp3" >}}
 

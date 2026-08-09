@@ -13,6 +13,16 @@ TocOpen: false
 cover:
   image: "/images/posts/zml-free-inference-tool-ai-chips.jpg"
   alt: "Zoe at laptop discovering AI inference tool running across multiple chips"
+faqs:
+  - q: "How can I run AI models without an NVIDIA GPU?"
+    a: "ZML's free LLMD server lets you run AI models on alternative hardware like AMD, Google TPU, Apple Metal, and Intel Arc. This eliminates the need for expensive NVIDIA GPUs and avoids vendor lock-in."
+  - q: "Is there a free tool to run LLMs on different chips?"
+    a: "Yes, ZML's LLMD server is a free, open-source tool designed to run large language models across multiple chip architectures. It supports NVIDIA, AMD, Google TPU, Apple Metal, and Intel Arc hardware."
+  - q: "Can I use AMD or Intel GPUs for AI model inference?"
+    a: "Absolutely. ZML's LLMD server provides support for AMD and Intel Arc GPUs, allowing you to run AI models on these platforms without being tied to NVIDIA's ecosystem."
+  - q: "What are the benefits of avoiding NVIDIA lock-in for AI?"
+    a: "Avoiding NVIDIA lock-in gives you hardware flexibility, potentially lower costs by using available or cheaper chips, and freedom from vendor-specific constraints. ZML's free LLMD server enables this by supporting multiple chip types."
+
 ---
 {{< audio src="/audio/zml-free-inference-tool-ai-chips.mp3" >}}
 

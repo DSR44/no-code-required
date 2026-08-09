@@ -8,6 +8,16 @@ description: "APIs sound complicated. They're not. Here's how they work explaine
 ShowToc: true
 cover:
   image: "/images/posts/apis-explained-like-youre-5.jpg"
+faqs:
+  - q: "How does the restaurant analogy explain APIs?"
+    a: "In the analogy, you (the user) are at a table, the kitchen is the server with the data, and the waiter is the API. The API takes your specific request to the kitchen and brings back exactly what you asked for, without you needing to know how the kitchen works."
+  - q: "Can you give a real-world example of an API?"
+    a: "When you use a travel app to check flight prices, it uses an API to send your request to multiple airline servers. The API then gathers the flight information and sends it back to the app for you to see."
+  - q: "Why are APIs important for non-technical people to understand?"
+    a: "APIs are the reason different apps and services can work together, like when you log in to a new app using your Google account. Understanding them helps you see how the digital tools you use every day are connected."
+  - q: "Do I need to know how to code to use an API?"
+    a: "No, you don't need to be a coder to use or benefit from APIs, as they work behind the scenes in most apps you already use. However, developers are the ones who write the code to build and connect them."
+
 ---
 
 You use APIs every day. Every time you check the weather on your phone. Every time you log into a website with your Google account. Every time you ask ChatGPT a question.

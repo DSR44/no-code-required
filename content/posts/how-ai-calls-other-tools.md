@@ -8,6 +8,16 @@ description: "Your AI assistant can now check your email, search the web, book f
 ShowToc: true
 cover:
   image: "/images/20260521_012852_A_person_sitting_at_a_desk_with_multiple.jpg"
+faqs:
+  - q: "How does an AI assistant actually use external tools?"
+    a: "The AI model generates a structured request, like a special code, that tells a separate piece of software (a 'wrapper') which tool to use and what information to pass to it. The wrapper then executes the action in the real world, like searching the web or sending an email, and returns the result to the AI."
+  - q: "Is it safe to let an AI access my email and social media?"
+    a: "Reputable AI platforms use secure authorization methods like OAuth, meaning you grant specific permissions and the AI never sees your password. However, you should always review the permissions you grant and use trusted services to maintain control over your accounts."
+  - q: "Can I build my own custom tools for an AI to use?"
+    a: "Yes, many advanced AI platforms and frameworks allow developers to create and integrate their own custom tools. This typically involves writing a small piece of code that defines the tool's function and how the AI should interact with it."
+  - q: "Why is AI tool calling considered such a big deal?"
+    a: "It transforms AI from a simple question-answering system into an active agent that can perform complex, multi-step tasks on your behalf. This bridges the gap between digital conversation and real-world action, automating workflows that previously required a human to manually switch between different apps."
+
 ---
 
 {{< audio src="/audio/how-ai-calls-other-tools.mp3" >}}

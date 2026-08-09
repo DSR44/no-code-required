@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/doordash-cli-agentic-commerce-solo-builders.jpg"
   alt: "Zoe looking excited at a terminal screen showing a food ordering workflow"
+faqs:
+  - q: "How does the DoorDash CLI work for developers?"
+    a: "The DoorDash CLI lets developers interact with DoorDash's platform directly from the terminal, enabling programmatic order placement, tracking, and management. It's designed to support agentic workflows where AI agents or automated scripts can handle commerce tasks on your behalf."
+  - q: "Why does agentic commerce matter for solo builders?"
+    a: "Agentic commerce lets solo builders automate ordering, delivery logistics, and marketplace interactions without building full apps or managing complex integrations. It levels the playing field by giving individual developers access to the same commerce infrastructure that large companies use."
+  - q: "Can I build AI-powered ordering agents with the DoorDash CLI?"
+    a: "Yes, the CLI is built to support exactly that kind of workflow—you can script order flows and integrate them with AI agents that make purchasing decisions autonomously. This opens the door to building smart assistants that handle food delivery or logistics as part of a larger automated system."
+  - q: "How do I get started with the DoorDash CLI as a solo developer?"
+    a: "Sign up for DoorDash's developer program, install the CLI via npm or their official package, and authenticate with your API credentials. Start by exploring the available commands and building small scripts to understand the workflow before scaling up to more complex agentic integrations."
+
 ---
 {{< audio src="/audio/doordash-cli-agentic-commerce-solo-builders.mp3" >}}
 

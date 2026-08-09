@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/claude-sonnet-5-agents-solo-builders.jpg"
   alt: "Person at laptop with AI agent workflow automation on screen, warm coffee shop setting"
+faqs:
+  - q: "How much cheaper is Claude Sonnet 5 compared to Opus for building AI agents?"
+    a: "Claude Sonnet 5 costs 60% less than Opus while delivering near-identical agent performance. This makes it a practical choice for solo builders working with limited budgets."
+  - q: "Can solo builders use Claude Sonnet 5 to build production-ready AI agents?"
+    a: "Yes, Sonnet 5's performance is close enough to Opus for most agent workflows, including tool use and multi-step reasoning. Solo builders can ship production agents without the premium Opus pricing."
+  - q: "Should I migrate my existing agents from Opus to Claude Sonnet 5?"
+    a: "If cost is a concern, migrating to Sonnet 5 is worth testing. Run your current agent benchmarks against Sonnet 5 first to confirm performance holds up for your specific use case."
+  - q: "Does Claude Sonnet 5 support the same tool use and agentic features as Opus?"
+    a: "Yes, Sonnet 5 supports the full suite of agentic capabilities including tool use, extended thinking, and multi-turn workflows. The feature parity is what makes the cost savings so significant for builders."
+
 ---
 {{< audio src="/audio/claude-sonnet-5-agents-solo-builders.mp3" >}}
 

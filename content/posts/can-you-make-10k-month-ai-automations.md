@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/20260602_050751_Zoe_young_woman_dark_brown_shoulder-len.jpg"
   alt: "Zoe looking at AI automation income claims on her laptop with skepticism"
+faqs:
+  - q: "How long does it realistically take to earn $10K/month from AI automations?"
+    a: "Most people need 6-12 months of consistent effort to reach that level, assuming they're building real systems and not just reselling templates. The timeline depends heavily on your existing skills, network, and how much time you can dedicate weekly."
+  - q: "Do I need technical skills to build profitable AI automations?"
+    a: "You don't need to be a developer, but you do need to understand business processes and how to connect tools like Make, Zapier, or n8n. The real skill is identifying which problems are worth solving, not the technical setup itself."
+  - q: "Why do most people fail to make money with AI automations?"
+    a: "They focus on the tools instead of finding clients with real pain points and budgets. Without a clear niche and sales process, even the best automations won't generate income."
+  - q: "Is the $10K/month AI automation income realistic or just hype?"
+    a: "It's achievable but far from guaranteed — it's a business, not a passive income shortcut. The people hitting that number treat it like a consulting practice with real deliverables, client management, and ongoing support."
+
 ---
 {{< audio src="/audio/can-you-make-10k-month-ai-automations.mp3" >}}
 
