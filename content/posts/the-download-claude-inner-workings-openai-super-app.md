@@ -14,6 +14,8 @@ cover:
   alt: "Zoe reading news about AI developments on her laptop with coffee"
 lastmod: 2026-07-22
 ---
+{{< audio src="/audio/the-download-claude-inner-workings-openai-super-app.mp3" >}}
+
 I've been deep in the AI trenches for years, and this week's news isn't just another update—it's a fundamental shift. We got a look inside **Claude's inner life**, discovering a hidden reasoning layer, and OpenAI launched its **super app**, ChatGPT Work, aiming to be your central AI coworker. If you use AI for work, creativity, or just getting things done, this changes the game. These moves signal a transition from simple chatbots to complex, integrated AI systems. Let me break down what happened, what it means for your daily productivity, and the one crucial thing most people are missing.
 
 ## What Anthropic found inside Claude

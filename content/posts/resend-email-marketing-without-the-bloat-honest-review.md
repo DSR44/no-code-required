@@ -15,6 +15,8 @@ cover:
 lastmod: 2026-07-18
 
 ---
+{{< audio src="/audio/resend-email-marketing-without-the-bloat-honest-review.mp3" >}}
+
 I've spent years testing every email tool under the sun — from Mailchimp's bloated dashboards to SendGrid's confusing interfaces. Most of them either overcharge for features you'll never use or require a computer science degree just to send a welcome email. That's why **Resend email marketing** caught my attention. It's not trying to be everything. It's trying to be the best at one thing: actually delivering your emails.
 
 After testing Resend across three different projects, I can tell you it's genuinely different. Not because it's perfect — it's not. But because it solves the core problem most email tools ignore: making email delivery simple, reliable, and affordable for developers and non-developers alike.

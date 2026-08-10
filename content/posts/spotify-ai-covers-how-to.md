@@ -24,6 +24,8 @@ faqs:
     a: "Yes, AI covers created through Spotify's official tools can be distributed and monetized like any other track, provided you comply with their content policies and have the necessary rights to the original material."
 
 ---
+{{< audio src="/audio/spotify-ai-covers-how-to.mp3" >}}
+
 I've been making AI music for months — I even [released an album without knowing theory](/posts/ai-music-i-made-an-album-without-knowing-theory/) — but there was always one problem: you couldn't legally use someone else's song. That just changed.
 
 Spotify and Universal Music Group signed a licensing deal that lets Premium users generate AI covers and remixes of licensed tracks from participating artists. For the first time, you can take a song you love, run it through an AI voice model, and share the result — without getting a takedown notice.

@@ -24,6 +24,8 @@ faqs:
     a: "Detailed safety research can define the capability thresholds that trigger regulatory action; in this case, Anthropic's work may have helped establish the criteria that now applies to their own technology."
 
 ---
+{{< audio src="/audio/how-anthropic-may-have-talked-itself-into-an-ai-export-ban.mp3" >}}
+
 I was in the middle of a Claude session on June 12 when everything went dark. No warning, no error message — just gone. The most powerful AI model I'd been using for weeks simply stopped existing, and for the next 18 days, nobody could tell me if it was coming back.
 
 What happened to Anthropic over the past three weeks is the most dramatic AI story of 2026 so far. The company that spent years telling Washington "our models are safe because we take safety seriously" watched that exact argument get turned against them. The U.S. government effectively said: "You're right, your models are powerful enough to be a national security threat. We're shutting them down." This **AI export ban** didn't come out of nowhere — it came directly from the safety narrative Anthropic itself built.

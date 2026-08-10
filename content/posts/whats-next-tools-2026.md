@@ -21,6 +21,8 @@ faqs:
 
 ---
 
+{{< audio src="/audio/whats-next-tools-2026.mp3" >}}
+
 <div style="margin: 1.5em 0; padding: 1em; background: #1a1a1a; border-radius: 8px;"><p style="font-size: 0.9em; color: #aaa; margin-bottom: 0.5em;">🎧 Prefer to listen?</p><audio controls style="width: 100%; border-radius: 8px;"><source src="/audio/whats-next-tools-2026.mp3" type="audio/mpeg"></audio></div>
 
 Every year, someone publishes a "top AI trends" list that reads like a Silicon Valley press release. Quantum computing. AGI timelines. The singularity.

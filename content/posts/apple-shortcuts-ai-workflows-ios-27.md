@@ -24,6 +24,8 @@ faqs:
 lastmod: 2026-08-08
 
 ---
+{{< audio src="/audio/apple-shortcuts-ai-workflows-ios-27.mp3" >}}
+
 I used to think Apple Shortcuts was for people who dreamed in code. I'd open the app, see the blank canvas of triggers and actions, and immediately feel like I was in over my head. That all changed with iOS 27. Now, I just describe what I want in plain English, and Apple Intelligence builds the workflow for me. If you've been curious about automation but intimidated by the complexity, this is the update that finally makes it accessible. The new **iOS 27 Shortcuts AI actions** are a game-changer.
 
 ## What changed in iOS 27

@@ -24,6 +24,8 @@ faqs:
     a: "Yes, Grok 4.5 occasionally struggled with strict adherence to very specific formatting rules and could be overly verbose. It also showed less consistency in maintaining context over extremely long, multi-step conversations compared to its competitors."
 
 ---
+{{< audio src="/audio/is-grok-worth-it-honest-review.mp3" >}}
+
 **Update July 2026: recent developments in grok may affect the information in this post — see details below.**
 
 I’ve been getting the same question in my DMs all week: **“Is Grok 4.5 actually worth it, or is this just another Elon Musk hype train?”** Fair question. With all the noise—Sam Altman calling OpenAI’s model “the best in the world,” Musk firing back with “scam to a whole new level,” and Apple suing OpenAI—it’s hard to know what’s real. So I decided to cut through the drama and do what I always do: run a blind, practical test. I signed up for SuperGrok, ran it through my daily work tasks alongside ChatGPT and Claude, and my honest Grok 4.5 review came with some genuine surprises. Some good, some not.

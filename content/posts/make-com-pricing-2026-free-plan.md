@@ -24,6 +24,8 @@ faqs:
     a: "No, advanced features like custom error handling, priority execution, and premium app modules require a paid plan. The free tier is best for straightforward, low-volume automations."
 
 ---
+{{< audio src="/audio/make-com-pricing-2026-free-plan.mp3" >}}
+
 I get it — Make.com's pricing page feels like it's hiding something. Everyone asks me "is the free plan *actually* enough?" and honestly, the official page doesn't tell the whole story. I switched from Zapier to Make.com because the pricing was clearer, but it took me months of real-world use to understand the true cost. If you're searching for the **make pricing free plan official** details for 2026, this is the unfiltered guide I wish I'd had. No fluff, just exactly what you get, when you hit the limits, and where your money's best spent.
 
 The free plan is legitimately useful — not a 14-day trial, not a crippled demo. You get 1,000 operations per month, 2 active scenarios, a 15-minute minimum interval between runs, and 512MB of data transfer. For a solo creator automating a few tasks — like syncing form responses to Google Sheets or posting to social media — this is plenty. I ran on it for three months before I needed more. But here's the nuance the official page misses: those 1,000 operations disappear fast if you're using AI tools, which most modern automations now do. A single ChatGPT-4 step in your workflow can consume 3-5 operations instead of one.

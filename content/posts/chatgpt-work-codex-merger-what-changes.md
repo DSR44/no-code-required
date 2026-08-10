@@ -24,6 +24,8 @@ faqs:
 lastmod: 2026-08-08
 
 ---
+{{< audio src="/audio/chatgpt-work-codex-merger-what-changes.mp3" >}}
+
 If you've been using ChatGPT for everyday tasks — drafting emails, brainstorming content, organizing ideas — the latest round of OpenAI changes might feel like someone rearranged your kitchen while you were sleeping. **ChatGPT Work just absorbed Codex**, Atlas is getting the axe, and there's a new model (GPT-5.6) layered on top. If you're not a developer, the immediate question is simple: does any of this matter to me? The answer is yes, but probably not the way the press release suggests. If you've been following the [agent consolidation trend](/posts/openai-agent-consolidation-what-changes/), this is OpenAI's version of "one app to rule them all."
 
 ## What actually changed (no jargon)
