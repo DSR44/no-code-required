@@ -11,6 +11,10 @@ REPO = Path(__file__).resolve().parents[1]
 POSTS = REPO / "content" / "posts"
 STATIC = REPO / "static"
 
+# Narration became a hard publish requirement around mid-May 2026.
+# Legacy posts must remain editable (SEO / Read-next links) without audio.
+AUDIO_REQUIRED_FROM = "2026-05-20"
+
 
 def parse_frontmatter(text: str) -> tuple[dict[str, str], str]:
     match = re.match(r"^---\n(.*?)\n---", text, re.S)
@@ -66,11 +70,15 @@ def validate_slug(slug: str) -> list[str]:
     # Accept the {{< audio >}} shortcode OR a raw <audio> HTML block, then verify the
     # actually-referenced mp3 exists. Older posts predate the slug-named shortcode
     # convention; this checks the real audio file instead of assuming "<slug>.mp3".
+    post_date = (fm.get("date") or "")[:10]
+    require_audio = (not post_date) or post_date >= AUDIO_REQUIRED_FROM
+
     audio_ref = re.search(r'{{<\s*audio\s+src=["\']([^"\']+\.mp3)', text)
     if not audio_ref:
         audio_ref = re.search(r'<source[^>]+src=["\']([^"\']+\.mp3)', text)
     if not audio_ref:
-        errors.append(f'Missing audio: add {{{{< audio src="/audio/{slug}.mp3" >}}}}')
+        if require_audio:
+            errors.append(f'Missing audio: add {{{{< audio src="/audio/{slug}.mp3" >}}}}')
     else:
         audio_path = static_path(audio_ref.group(1))
         if not audio_path.is_file():
@@ -125,7 +133,14 @@ def main() -> int:
         if errors:
             if deploy_gate:
                 # In deploy-gate mode, only HARD failures block the build
-                hard_errors = [e for e in errors if any(k in e.lower() for k in ["missing cover", "missing audio", "cover image missing on disk"])]
+                hard_errors = [
+                    e
+                    for e in errors
+                    if any(
+                        k in e.lower()
+                        for k in ["missing cover", "missing audio", "cover image missing on disk"]
+                    )
+                ]
                 if hard_errors:
                     failed = True
                     print(f"FAIL — {slug} (deploy-gate: HARD failure):")
