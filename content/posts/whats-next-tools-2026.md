@@ -99,6 +99,6 @@ That's what "no code required" really means to me: not just building without cod
 
 ---
 
-*Coming soon: [How I built a social media automation](/posts/my-automation-pipeline/) system that runs locally — no API keys, no subscriptions, just my laptop.*
+*Read next: [How I built a social media automation](/posts/my-automation-pipeline/) system that runs locally — no API keys, no subscriptions, just my laptop.*
 
 *I test and review AI tools every week on No Code Required. No sponsorships. No affiliate links. Just what actually works.*

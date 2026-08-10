@@ -138,7 +138,7 @@ This is the kind of thing I talk about on [@manalbuilds](https://instagram.com/m
 
 ---
 
-*Coming soon: How Coolify replaces Vercel, Railway, and $200/month in hosting fees*
+*Planned: How Coolify replaces Vercel, Railway, and $200/month in hosting fees*
 
 ---
 
