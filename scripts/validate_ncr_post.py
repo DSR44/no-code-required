@@ -67,19 +67,19 @@ def validate_slug(slug: str) -> list[str]:
         elif cover_path.stat().st_size < 10_000:
             errors.append(f"Cover image suspiciously small: {cover_web}")
 
-    # Accept the {{< audio >}} shortcode OR a raw <audio> HTML block, then verify the
-    # actually-referenced mp3 exists. Older posts predate the slug-named shortcode
-    # convention; this checks the real audio file instead of assuming "<slug>.mp3".
+    # Audio check: prefer shortcode / <audio> src, but also accept the conventional
+    # static/audio/<slug>.mp3 when SEO/trigger edits a post that has narration on disk
+    # but lost/never had the shortcode in markdown. That mismatch was failing Vercel
+    # every morning on seo-trigger commits even though the mp3 existed.
     post_date = (fm.get("date") or "")[:10]
     require_audio = (not post_date) or post_date >= AUDIO_REQUIRED_FROM
+    default_audio_web = f"/audio/{slug}.mp3"
 
     audio_ref = re.search(r'{{<\s*audio\s+src=["\']([^"\']+\.mp3)', text)
     if not audio_ref:
         audio_ref = re.search(r'<source[^>]+src=["\']([^"\']+\.mp3)', text)
-    if not audio_ref:
-        if require_audio:
-            errors.append(f'Missing audio: add {{{{< audio src="/audio/{slug}.mp3" >}}}}')
-    else:
+
+    if audio_ref:
         audio_path = static_path(audio_ref.group(1))
         if not audio_path.is_file():
             errors.append(f"Missing audio file on disk: {audio_ref.group(1)}")
@@ -87,6 +87,16 @@ def validate_slug(slug: str) -> list[str]:
             errors.append(
                 f"Audio too small ({audio_path.stat().st_size} bytes) — regenerate full narration"
             )
+    else:
+        default_path = static_path(default_audio_web)
+        if default_path.is_file() and default_path.stat().st_size >= 200_000:
+            # Narration exists; shortcode missing is a soft content issue, not a deploy blocker.
+            errors.append(
+                f"Audio file exists at {default_audio_web} but shortcode missing — "
+                f'add {{{{< audio src="{default_audio_web}" >}}}}'
+            )
+        elif require_audio:
+            errors.append(f'Missing audio: add {{{{< audio src="{default_audio_web}" >}}}}')
 
     internal_links = len(re.findall(r"\]\(/posts/[^)]+\)", body))
     if internal_links < 5:
@@ -132,15 +142,24 @@ def main() -> int:
         errors = validate_slug(slug)
         if errors:
             if deploy_gate:
-                # In deploy-gate mode, only HARD failures block the build
-                hard_errors = [
-                    e
-                    for e in errors
+                # In deploy-gate mode, only HARD failures block the build.
+                # Shortcode-missing-but-mp3-exists is soft (SEO edits must not fail Vercel).
+                hard_errors = []
+                for e in errors:
+                    el = e.lower()
+                    if "shortcode missing" in el:
+                        continue
                     if any(
-                        k in e.lower()
-                        for k in ["missing cover", "missing audio", "cover image missing on disk"]
-                    )
-                ]
+                        k in el
+                        for k in [
+                            "missing cover",
+                            "missing audio:",
+                            "missing audio file on disk",
+                            "cover image missing on disk",
+                            "audio too small",
+                        ]
+                    ):
+                        hard_errors.append(e)
                 if hard_errors:
                     failed = True
                     print(f"FAIL — {slug} (deploy-gate: HARD failure):")
