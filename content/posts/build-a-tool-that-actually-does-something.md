@@ -138,10 +138,10 @@ That's how you go from "playing with AI" to "running tools that work for you."
 
 ---
 
-**Coming soon:**
-- *How much does AI actually cost in 2026?* (coming June 2) — the real numbers, no hype
-- *LLM Tool Calling: how to make AI actually do things for you* (coming June 7) — practical automation
-- *Voice AI: what GPT-5 can actually do now* (coming June 14) — voice agents explained
+**Read next:**
+- [*How much does AI actually cost in 2026?*](/posts/ai-subscription-price-war-what-to-pay-for/) —the real numbers, no hype
+- [*LLM Tool Calling: how to make AI actually do things for you*](/posts/ai-agents-explained-what-tool-calling-actually-means/) —practical automation
+- [*Voice AI: what GPT-5 can actually do now*](/posts/voice-ai-what-gpt5-can-do-now/) —voice agents explained
 
 ---
 

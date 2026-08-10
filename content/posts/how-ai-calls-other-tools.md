@@ -158,7 +158,7 @@ The era of "AI as a chatbot" is over. The era of "AI as an assistant" just start
 
 ---
 
-Coming soon on No Code Required:
+Read next on No Code Required:
 - Postiz: the free open-source replacement for Buffer and Hootsuite
-- AiToEarn: the free scheduling tool that actually pays you to post
-- Google's $100/month AI plan — is it worth it?
+- [*AiToEarn: the free scheduling tool that actually pays you to post*](/posts/aitoearn-free-scheduling-tool-pays-you-to-post/)
+- [*Google's $100/month AI plan*](/posts/google-ai-ultra-plan-100-dollars/) —is it worth it?

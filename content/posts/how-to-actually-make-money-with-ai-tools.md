@@ -136,10 +136,10 @@ The people making money with AI aren't the ones who know the most about AI. They
 
 ---
 
-**Coming soon:**
-- *Voice AI: what GPT-5 can actually do now* (coming June 14) — voice agents explained
-- *The ChatGPT education study that got retracted* (coming June 15) — what went wrong
-- *AI orchestrators: one model controlling all the others* (coming June 16) — the next layer
+**Read next:**
+- [*Voice AI: what GPT-5 can actually do now*](/posts/voice-ai-what-gpt5-can-do-now/) —voice agents explained
+- [*The ChatGPT education study that got retracted*](/posts/chatgpt-education-study-retracted-what-went-wrong/) —what went wrong
+- [*AI orchestrators: one model controlling all the others*](/posts/ai-orchestrators-one-model-controlling-all-the-others/) —the next layer
 
 ---
 

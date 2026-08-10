@@ -104,10 +104,10 @@ Here are three things you can do today:
 
 ---
 
-**Coming soon:**
-- *Build your own AI chatbot in 30 minutes* (coming May 9) — no code required, step by step
-- *How much does AI actually cost in 2026?* (coming June 2) — the real numbers, no hype
-- *LLM Tool Calling: how to make AI actually do things for you* (coming June 7) — practical automation
+**Read next:**
+- [*Build your own AI chatbot in 30 minutes*](/posts/build-your-own-ai-chatbot-in-30-minutes/) —no code required, step by step
+- [*How much does AI actually cost in 2026?*](/posts/ai-subscription-price-war-what-to-pay-for/) —the real numbers, no hype
+- [*LLM Tool Calling: how to make AI actually do things for you*](/posts/ai-agents-explained-what-tool-calling-actually-means/) —practical automation
 
 ---
 
