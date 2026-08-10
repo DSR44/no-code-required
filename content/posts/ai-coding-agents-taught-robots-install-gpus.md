@@ -1,5 +1,5 @@
 ---
-title: "AI Coding Agents Just Taught Robots to Install GPUs — And They Did It Overnight"
+title: "AI Coding Agents Train Robots to Install GPUs Overnight"
 slug: "ai-coding-agents-taught-robots-install-gpus"
 date: 2026-07-02
 draft: false
