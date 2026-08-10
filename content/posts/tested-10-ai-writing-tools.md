@@ -313,10 +313,10 @@ I gave each tool the same task: write a 200-word introduction for a blog post ab
 - [The AI Tools I Actually Use Every Day](/posts/the-tools-i-actually-use-every-day/) — my honest list of what I kept after testing dozens of tools
 - [Best AI Image Generators — Which One to Actually Use](/posts/best-ai-image-generators/) — same approach, different category
 
-## Coming soon
+## Read next
 
-- *How much does AI actually cost in 2026?* (coming May 8) — every tool's real price
-- *AI agents explained: what tool calling actually means* (coming May 9) — no jargon
+- [*How much does AI actually cost in 2026?*](/posts/ai-subscription-price-war-what-to-pay-for/) —every tool's real price
+- [*AI agents explained: what tool calling actually means*](/posts/ai-agents-explained-what-tool-calling-actually-means/) —no jargon
 
 ---
 
