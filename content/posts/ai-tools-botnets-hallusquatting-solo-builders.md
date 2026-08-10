@@ -128,7 +128,7 @@ AI coding tools are genuinely useful—I'm not going back to writing everything 
 
 The fix isn't complicated. Verify packages. Pin dependencies. Run audits. It takes ten minutes per project and prevents your machine from becoming someone else's bot army.
 
-If you're building with AI tools—and [you probably are](/posts/the-tools-i-actually-use-every-day/)—make security part of your workflow, not an afterthought.
+If you're building with AI tools—and [you probably are](/posts/the-tools-i-actually-use-every-day/) — make security part of your workflow, not an afterthought.
 
 ---
 
