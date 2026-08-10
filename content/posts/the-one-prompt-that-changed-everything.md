@@ -145,8 +145,8 @@ See what it asks. Answer honestly. Watch the quality jump.
 ---
 
 **Read next:**
-- [*Build your own AI chatbot in 30 minutes*](/posts/build-your-own-ai-chatbot-in-30-minutes/) —no code required, step by step
-- [*GitHub is not scary*](/posts/github-is-not-scary-5-minute-intro/) —5-minute intro* — what it actually is and why you don't need to be a developer
+- [*Build your own AI chatbot in 30 minutes*](/posts/build-your-own-ai-chatbot-in-30-minutes/) — no code required, step by step
+- [*GitHub is not scary*](/posts/github-is-not-scary-5-minute-intro/) — 5-minute intro* — what it actually is and why you don't need to be a developer
 
 ---
 

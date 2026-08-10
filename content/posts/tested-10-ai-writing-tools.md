@@ -315,8 +315,8 @@ I gave each tool the same task: write a 200-word introduction for a blog post ab
 
 ## Read next
 
-- [*How much does AI actually cost in 2026?*](/posts/ai-subscription-price-war-what-to-pay-for/) —every tool's real price
-- [*AI agents explained: what tool calling actually means*](/posts/ai-agents-explained-what-tool-calling-actually-means/) —no jargon
+- [*How much does AI actually cost in 2026?*](/posts/ai-subscription-price-war-what-to-pay-for/) — every tool's real price
+- [*AI agents explained: what tool calling actually means*](/posts/ai-agents-explained-what-tool-calling-actually-means/) — no jargon
 
 ---
 

@@ -4,7 +4,7 @@ date: 2026-05-21
 draft: false
 tags: ["AI tools", "trends", "open source", "local AI", "automation", "2026"]
 categories: ["tools"]
-description: "Explore the most promising no-code tools emerging in 2026, focused on practical outcomes—automate workflows, build apps, and create without coding."
+description: "Explore the most promising no-code tools emerging in 2026, focused on practical outcomes— automate workflows, build apps, and create without coding."
 ShowToc: true
 cover:
   image: "/images/whats-next-tools-2026.jpg"

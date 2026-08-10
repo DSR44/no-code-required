@@ -10,13 +10,13 @@ cover:
   image: "/images/posts/build-a-tool-that-actually-does-something.jpg"
 faqs:
   - q: "How do I get started building a useful automation tool?"
-    a: "Begin by identifying one specific, repetitive task that wastes your time. Focus on a clear outcome—like fetching data or sending a notification—rather than a general chatbot interface."
+    a: "Begin by identifying one specific, repetitive task that wastes your time. Focus on a clear outcome— like fetching data or sending a notification— rather than a general chatbot interface."
   - q: "Can I build a useful tool without knowing how to code?"
     a: "Yes, many no-code platforms let you create automations and monitors by connecting pre-built blocks and APIs. The key is designing a clear workflow that solves your defined problem."
   - q: "Why do so many projects end up as just another chatbot?"
     a: "It's easy to default to a conversational interface, but building something that works while you sleep means focusing on backend automation and triggers instead. The goal is a system, not a front-end demo."
   - q: "What's the first feature to build for a tool that runs 24/7?"
-    a: "Start with the core automated action—like a scheduled data check or API call—and ensure it runs reliably before adding any user-facing features."
+    a: "Start with the core automated action— like a scheduled data check or API call— and ensure it runs reliably before adding any user-facing features."
 
 ---
 
@@ -139,9 +139,9 @@ That's how you go from "playing with AI" to "running tools that work for you."
 ---
 
 **Read next:**
-- [*How much does AI actually cost in 2026?*](/posts/ai-subscription-price-war-what-to-pay-for/) —the real numbers, no hype
-- [*LLM Tool Calling: how to make AI actually do things for you*](/posts/ai-agents-explained-what-tool-calling-actually-means/) —practical automation
-- [*Voice AI: what GPT-5 can actually do now*](/posts/voice-ai-what-gpt5-can-do-now/) —voice agents explained
+- [*How much does AI actually cost in 2026?*](/posts/ai-subscription-price-war-what-to-pay-for/) — the real numbers, no hype
+- [*LLM Tool Calling: how to make AI actually do things for you*](/posts/ai-agents-explained-what-tool-calling-actually-means/) — practical automation
+- [*Voice AI: what GPT-5 can actually do now*](/posts/voice-ai-what-gpt5-can-do-now/) — voice agents explained
 
 ---
 

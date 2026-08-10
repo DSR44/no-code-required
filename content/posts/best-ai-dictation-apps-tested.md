@@ -216,8 +216,8 @@ But the dictation app matters. A lot. I tested 6 of them with the same voice, sa
 
 ## Read next
 
-- [*I built a blog in 1 hour with AI*](/posts/how-i-built-a-blog-in-1-hour-with-ai/) —the full stack, step by step
-- [*The tools I actually use every day*](/posts/the-tools-i-actually-use-every-day/) —my real workflow, no fluff
+- [*I built a blog in 1 hour with AI*](/posts/how-i-built-a-blog-in-1-hour-with-ai/) — the full stack, step by step
+- [*The tools I actually use every day*](/posts/the-tools-i-actually-use-every-day/) — my real workflow, no fluff
 
 ---
 

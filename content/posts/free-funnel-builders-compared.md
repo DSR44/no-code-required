@@ -138,9 +138,9 @@ The funnel builders charging $97-297/month are selling you features you don't ne
 ---
 
 **Read next:**
-- [*Voice AI: what GPT-5 can actually do now*](/posts/voice-ai-what-gpt5-can-do-now/) —voice agents explained
-- [*The ChatGPT education study that got retracted*](/posts/chatgpt-education-study-retracted-what-went-wrong/) —what went wrong
-- [*AI orchestrators: one model controlling all the others*](/posts/ai-orchestrators-one-model-controlling-all-the-others/) —the next layer
+- [*Voice AI: what GPT-5 can actually do now*](/posts/voice-ai-what-gpt5-can-do-now/) — voice agents explained
+- [*The ChatGPT education study that got retracted*](/posts/chatgpt-education-study-retracted-what-went-wrong/) — what went wrong
+- [*AI orchestrators: one model controlling all the others*](/posts/ai-orchestrators-one-model-controlling-all-the-others/) — the next layer
 
 ---
 

@@ -157,8 +157,8 @@ That's it. You just made music.
 ---
 
 **Read next:**
-- [*How much does AI actually cost in 2026?*](/posts/ai-subscription-price-war-what-to-pay-for/) —the real numbers, no hype
-- [*LLM Tool Calling: how to make AI actually do things for you*](/posts/ai-agents-explained-what-tool-calling-actually-means/) —practical automation
+- [*How much does AI actually cost in 2026?*](/posts/ai-subscription-price-war-what-to-pay-for/) — the real numbers, no hype
+- [*LLM Tool Calling: how to make AI actually do things for you*](/posts/ai-agents-explained-what-tool-calling-actually-means/) — practical automation
 - *Your AI second brain: building a personal knowledge base* (coming June 15) — beyond chatbots
 
 ---

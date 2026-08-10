@@ -109,4 +109,4 @@ The code is open. The tool is free. The AI copilot actually works. There's no re
 Read next on No Code Required:
 - Postiz: the free open-source replacement for Buffer and Hootsuite
 - [*AiToEarn: the free scheduling tool that actually pays you to post*](/posts/aitoearn-free-scheduling-tool-pays-you-to-post/)
-- [*Google's $100/month AI plan*](/posts/google-ai-ultra-plan-100-dollars/) —is it worth it?
+- [*Google's $100/month AI plan*](/posts/google-ai-ultra-plan-100-dollars/) — is it worth it?

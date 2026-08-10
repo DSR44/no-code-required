@@ -26,7 +26,7 @@ howto:
       text: "Click Publish, name your Zap, and turn it on so every matching email logs automatically."
 faqs:
   - q: "How long does it take to build a simple automation for the first time?"
-    a: "You can build your first basic automation in about 15 minutes using a no-code platform. The process involves selecting a trigger, defining the action, and testing it—no programming skills needed."
+    a: "You can build your first basic automation in about 15 minutes using a no-code platform. The process involves selecting a trigger, defining the action, and testing it— no programming skills needed."
   - q: "Can I automate tasks without paying for software?"
     a: "Yes, many no-code automation tools offer free tiers or trials that are perfect for building your first simple workflows. These plans typically cover basic tasks and are sufficient for personal use or small-scale automation."
   - q: "What kind of daily tasks can I automate to save time?"
@@ -159,9 +159,9 @@ The best automations are the ones you forget exist — because they just work.
 ---
 
 **Read next:**
-- [*Voice AI: what GPT-5 can actually do now*](/posts/voice-ai-what-gpt5-can-do-now/) —voice agents explained
-- [*The ChatGPT education study that got retracted*](/posts/chatgpt-education-study-retracted-what-went-wrong/) —what went wrong
-- [*AI orchestrators: one model controlling all the others*](/posts/ai-orchestrators-one-model-controlling-all-the-others/) —the next layer
+- [*Voice AI: what GPT-5 can actually do now*](/posts/voice-ai-what-gpt5-can-do-now/) — voice agents explained
+- [*The ChatGPT education study that got retracted*](/posts/chatgpt-education-study-retracted-what-went-wrong/) — what went wrong
+- [*AI orchestrators: one model controlling all the others*](/posts/ai-orchestrators-one-model-controlling-all-the-others/) — the next layer
 
 ---
 

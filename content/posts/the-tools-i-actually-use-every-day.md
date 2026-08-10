@@ -189,7 +189,7 @@ Don't buy more tools. Use what you have. The tools aren't the bottleneck — the
 - [How I built this blog in 1 hour with AI](/posts/how-i-built-a-blog-in-1-hour-with-ai/)
 - [What is AI actually?](/posts/what-is-ai-actually/)
 - [I didn't plan to learn AI](/posts/i-didnt-plan-to-learn-ai/)
-- [*GitHub tutorial*](/posts/github-is-not-scary-5-minute-intro/) —5-minute intro for complete beginners
+- [*GitHub tutorial*](/posts/github-is-not-scary-5-minute-intro/) — 5-minute intro for complete beginners
 - [*AI images: which tool actually works?*](/posts/ai-images-which-tool-actually-works/)
 
 ---

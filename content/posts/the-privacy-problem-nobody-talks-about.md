@@ -100,5 +100,5 @@ The tool isn't the risk. The intimacy is.
 
 **Read next on No Code Required:**
 - [*How to build an AI agent that runs your entire content calendar*](/posts/i-built-an-entire-content-engine-for-60-month/)
-- [*I tested 5 AI coding assistants*](/posts/goose-free-alternative-claude-code/) —here's which one actually ships
+- [*I tested 5 AI coding assistants*](/posts/goose-free-alternative-claude-code/) — here's which one actually ships
 - [*The no-code stack that replaced my entire SaaS toolkit*](/posts/the-ai-stack-id-use-with-0-if-i-had-to-start-over-today/)
