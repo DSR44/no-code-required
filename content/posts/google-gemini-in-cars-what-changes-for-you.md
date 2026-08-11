@@ -1,5 +1,5 @@
 ---
-title: "Google Gemini Is Coming to Cars — What That Actually Means for the Rest of Us"
+title: "Google Gemini in Cars: What It Means for Regular Drivers"
 date: 2026-07-02
 draft: false
 description: "Google Gemini in cars isn't just a tech demo. Here's what changes for drivers who don't own a Volvo EX60."

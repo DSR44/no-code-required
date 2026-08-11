@@ -1,5 +1,5 @@
 ---
-title: "HeyGen: Make Talking-Head Videos Without Being on Camera"
+title: "HeyGen: Make Talking-Head Videos Without Being on Camera | NCR"
 date: 2026-07-06
 draft: false
 description: "HeyGen turns your script into a professional talking-head video with AI avatars. Here's how to use it without filming anything."

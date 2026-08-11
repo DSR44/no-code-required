@@ -1,5 +1,5 @@
 ---
-title: "AI Regulation Now Shapes Your Model Choices"
+title: "AI Regulation Now Shapes Your Model Choices | NCR"
 date: 2026-07-21
 draft: false
 description: "The AI industry rivalry has shifted. Government regulation now shapes which models you can use — and that changes everything for solopreneurs."

@@ -1,5 +1,5 @@
 ---
-title: "AI music: I made an album without knowing theory | NCR"
+title: "AI Music: How I Made an Album Without Knowing Theory"
 date: 2026-05-10
 draft: false
 description: "I don't play an instrument. I can't read sheet music. I made an album with AI in a weekend. Here's exactly how I did it, which tool I used, and what surprised me."

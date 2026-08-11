@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Filed to Go Public — What That Means for ChatGPT Users"
+title: "OpenAI Filed for an IPO: What It Means for ChatGPT Users"
 date: 2026-07-02
 draft: false
 description: "OpenAI confidentially filed for an IPO. Here's what changes for ChatGPT users when a $852B AI company goes public."
