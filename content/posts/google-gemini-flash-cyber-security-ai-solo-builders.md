@@ -13,6 +13,13 @@ cover:
   image: "/images/posts/google-gemini-flash-cyber-security-ai-solo-builders.jpg"
   alt: "Zoe looking at a laptop screen showing security scan results in a cozy workspace"
 lastmod: 2026-08-12
+faqs:
+  - q: "What Google actually built"
+    a: "On July 21, 2026, Google launched three new models. Two of them — Gemini 3.6 Flash and Gemini 3.5 Flash-Lite — are general-purpose upgrades I covered when discussing how Google is expanding Gemini into everything. The third one is the interesting one: Gemini 3.5 Flash Cyber."
+  - q: "How CodeMender works"
+    a: "The model powers a tool called CodeMender that works in three steps:"
+  - q: "Who's already using it"
+    a: "The early testers include Wiz, Salesforce, Robinhood, and Palo Alto Networks. Robinhood's head of security operations said the tool \"consistently surfaced critical vulnerabilities that our other AI-based tools missed entirely.\""
 ---
 > **Update August 2025: Google's Gemini has surged past 1 billion users, making it the company's fastest-growing product ever, while Google has also announced it will retire the classic Google Assistant on phones starting September 4. More details below.**
 

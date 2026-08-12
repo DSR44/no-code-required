@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/enterprise-ai-agents-chatbot-wrappers-solo-builders.jpg"
   alt: "Person reviewing AI workflow automation on a laptop in a cozy workspace"
+faqs:
+  - q: "What the enterprise survey actually found"
+    a: "VentureBeat Pulse Research surveyed 101 enterprises with 100+ employees in June 2026. The results are fascinating — and a little uncomfortable for anyone selling \"agentic AI.\""
+  - q: "Why this matters if you're not an enterprise"
+    a: "You might think, \"Cool survey, but I'm not running a 10,000-person company. Why should I care?\" Because the same confusion is happening in the tools you use every day."
+  - q: "How to spot a real agent from a chatbot wrapper"
+    a: "After reading this survey and testing dozens of tools, I've figured out a simple way to tell the difference:"
 ---
 {{< audio src="/audio/enterprise-ai-agents-chatbot-wrappers-solo-builders.mp3" >}}
 

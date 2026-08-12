@@ -13,6 +13,11 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-tools-botnets-hallusquatting-solo-builders.jpg"
   alt: "Zoe looking concerned at her laptop with security alerts on screen"
+faqs:
+  - q: "What you can do today (5 practical steps)"
+    a: "You don't need to stop using AI coding tools. That would be like abandoning email because of phishing. But you do need to change how you use them."
+  - q: "What the AI companies are doing"
+    a: "To their credit, some of the companies behind these tools are aware of the problem. Anthropic recently disclosed that its Claude Mythos model can find and exploit security vulnerabilities \"better than all but the most skilled humans\"—and chose to restrict it to defensive use first through Project Glasswing. OpenAI launched GPT-5.5-Cyber through a \"Trusted Access for Cyber\" program for vetted secur"
 ---
 {{< audio src="/audio/ai-tools-botnets-hallusquatting-solo-builders.mp3" >}}
 

@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/anthropic-claude-j-space-hidden-reasoning-solo-builders.jpg"
   alt: "Person at laptop reviewing AI agent output with verification checklist on screen"
+faqs:
+  - q: "What Anthropic actually found"
+    a: "Anthropic's interpretability team developed a new mathematical technique called the \"Jacobian lens\" — J-lens for short — and used it to peer inside Claude's neural network. What they discovered is a zone of internal activity they call \"J-Space.\""
+  - q: "Why this matters if you run AI agents"
+    a: "If you're using Claude for one-off tasks — drafting an email, summarizing an article, brainstorming ideas — J-Space is interesting but not urgent. The model gives you an answer, you read it, you move on."
+  - q: "What to actually do about it"
+    a: "So should you stop using AI agents? No. But you should change how you use them. Here's what I'd recommend:"
 ---
 {{< audio src="/audio/anthropic-claude-j-space-hidden-reasoning-solo-builders.mp3" >}}
 

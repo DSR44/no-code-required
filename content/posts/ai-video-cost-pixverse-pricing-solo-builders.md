@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-video-cost-pixverse-pricing-solo-builders.jpg"
   alt: "Zoe at laptop comparing AI video generation pricing on screen"
+faqs:
+  - q: "Why PixVerse can charge less"
+    a: "The economics are straightforward. PixVerse has 150 million registered users and 15 million monthly actives. That scale lets them spread infrastructure costs across a massive user base. They're also vertically integrated — their labeling technology (which the founders built at ByteDance for TikTok's recommendation system) lets them train models more efficiently than competitors starting from scrat"
+  - q: "What you actually get at each price point"
+    a: "Let me break down what $4.80/minute actually buys you, because not all \"minutes\" are equal."
+  - q: "What the $439M raise actually signals for you"
+    a: "PixVerse's massive funding round isn't just about one company. It signals that the market believes AI video generation will be a commodity within 2–3 years. When multiple players are raising hundreds of millions to compete on the same capability, the winner is always the consumer."
 ---
 {{< audio src="/audio/ai-video-cost-pixverse-pricing-solo-builders.mp3" >}}
 

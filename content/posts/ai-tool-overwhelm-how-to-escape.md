@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-tool-overwhelm-how-to-escape.jpg"
   alt: "Person overwhelmed at laptop with too many AI tool tabs open"
+faqs:
+  - q: "Why your brain can't handle forty tools"
+    a: "This isn't a willpower problem. It's a cognitive architecture problem. Your brain can hold about four things in working memory at once. When you're evaluating twelve AI tools simultaneously, you're not being thorough — you're guaranteeing you'll learn none of them well enough to get real value."
+  - q: "When you actually need a new tool"
+    a: "I'm not saying never try new tools. I'm saying have a test for it first. Before signing up for anything new, I ask myself three questions:"
 ---
 {{< audio src="/audio/ai-tool-overwhelm-how-to-escape.mp3" >}}
 

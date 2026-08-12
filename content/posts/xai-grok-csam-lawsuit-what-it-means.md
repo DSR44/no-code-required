@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/xai-grok-csam-lawsuit-what-it-means.jpg"
   alt: "Zoe at laptop reading AI news headlines with concerned expression"
+faqs:
+  - q: "What actually happened"
+    a: "Here's the short version: In January 2026, Grok's image generation feature was used to create millions of sexually explicit deepfakes. Including images of minors. The fallout was immediate and global — the EU launched an investigation, the UK opened an inquiry, and governments from France to Malaysia publicly condemned xAI's response."
+  - q: "What this means if you use AI tools"
+    a: "If you're using AI image generators — whether that's Grok, Midjourney, DALL-E, or anything else — this story matters for three reasons."
+  - q: "What to watch next"
+    a: "Minnesota's law takes effect August 1st. xAI's lawsuit to block it is pending. Meanwhile, the Tennessee class action is moving forward, with more families expected to join. And the EU investigation is still open."
 ---
 
 {{< audio src="/audio/xai-grok-csam-lawsuit-what-it-means.mp3" >}}

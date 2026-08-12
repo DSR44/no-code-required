@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-researcher-ai-drug-discovery-solo-builders.jpg"
   alt: "Zoe reading about AI drug discovery startup news on her laptop"
+faqs:
+  - q: "What Wang is actually building"
+    a: "The startup plans to use transformer architectures — the same fundamental technology that powers ChatGPT, Claude, and every other large language model — to identify new applications for existing drugs. Instead of spending $2.6 billion and a decade developing drugs from scratch, Wang's approach focuses on repurposing compounds that already passed safety testing."
+  - q: "Why this matters beyond biotech"
+    a: "The AI drug discovery sector has attracted over $15 billion in venture capital since 2024. Isomorphic Labs raised $2.1 billion. Xaira Therapeutics pulled in $1 billion. Chai Discovery closed $400 million. The pattern is clear: investors believe AI can fundamentally reshape how drugs get made."
+  - q: "What solo builders should actually do with this information"
+    a: "Don't try to build an AI drug discovery platform. That's not the takeaway. The takeaway is this:"
 ---
 {{< audio src="/audio/openai-researcher-ai-drug-discovery-solo-builders.mp3" >}}
 

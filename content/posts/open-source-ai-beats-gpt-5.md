@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/open-source-ai-beats-gpt-5.jpg"
   alt: "Zoe discovering an open source AI tool on her laptop"
+faqs:
+  - q: "What GLM-5.2 actually is"
+    a: "GLM stands for General Language Model. It's built by Z.ai (formerly Zhipu AI), a Beijing-based company spun out of Tsinghua University. The \"5.2\" means it's the third iteration in their GLM-5 family — each one trained specifically for agentic coding, which means writing code, fixing bugs, and working through multi-step tasks without hand-holding."
+  - q: "Why this matters if you're not a developer"
+    a: "You might be thinking: \"Coding benchmarks? I don't write code.\" Fair. But here's why this changes things for everyone."
+  - q: "What it can't do (yet)"
+    a: "I'm not going to pretend GLM-5.2 is perfect. On reasoning benchmarks like HLE, it trails Claude Opus 4.8 significantly (40.5 vs 49.8). On pure math competitions, it's strong but not dominant. And the effort-level system — where you choose between \"high\" and \"max\" compute — means you're manually trading speed for quality, which isn't intuitive for most users."
+  - q: "How to actually use this"
+    a: "If you're not a developer, your interaction with GLM-5.2 will mostly be indirect — through tools that adopt it. But here's what you can do right now:"
 ---
 {{< audio src="/audio/open-source-ai-beats-gpt-5.mp3" >}}
 

@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/pixverse-439m-raise-solo-builders.jpg"
   alt: "Zoe at laptop discovering PixVerse AI video tool"
+faqs:
+  - q: "What PixVerse actually is (and why 150 million people use it)"
+    a: "PixVerse is an AI video generation platform. You type a prompt, upload a photo or clip, and it produces cinematic-quality video without a production pipeline. No editing software. No camera. No experience required."
+  - q: "How PixVerse compares to what you're already using"
+    a: "If you're already using AI video tools, here's where PixVerse sits in the landscape:"
+  - q: "What to watch next"
+    a: "PixVerse is expanding into territories that haven't been tested yet. Real-time interactive entertainment. AI game creation. Shared virtual worlds. These are bold bets backed by serious money. Whether they work for solo builders depends on execution, not funding."
 ---
 {{< audio src="/audio/pixverse-439m-raise-solo-builders.mp3" >}}
 

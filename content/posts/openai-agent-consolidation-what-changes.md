@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-agent-consolidation-what-changes.jpg"
   alt: "Person at desk with multiple screens showing workflow automation, warm editorial lighting"
+faqs:
+  - q: "What ChatGPT Work actually does (for non-coders)"
+    a: "I've been testing ChatGPT Work since launch, and the difference from regular ChatGPT is not subtle. You give it a goal — \"analyze my Q2 budget, find the three biggest spending categories, and draft a summary email to my team\" — and it handles the entire chain. It connects to Google Drive to pull the spreadsheet, runs the analysis, writes the email, and waits for you to review before sending."
+  - q: "What the Atlas death tells you"
+    a: "The fact that OpenAI killed Atlas — its dedicated web browser — in less than nine months tells you everything about their strategy. The browser was always a stepping stone. The real goal was an AI that works inside whatever you're already using, not a separate app you have to open and manage."
+  - q: "What to do right now"
+    a: "If you're on a ChatGPT Plus or Pro plan, open the Work view and try something small. Don't start with a complex multi-hour project. Start with something you do every week — a report, a summary, a comparison — and see how the agent handles it."
 ---
 {{< audio src="/audio/openai-agent-consolidation-what-changes.mp3" >}}
 

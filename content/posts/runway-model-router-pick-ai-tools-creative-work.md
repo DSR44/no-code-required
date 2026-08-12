@@ -12,6 +12,17 @@ TocOpen: false
 cover:
   image: "/images/posts/runway-model-router-pick-ai-tools-creative-work.jpg"
   alt: "Person at laptop with multiple AI tool options on screen"
+faqs:
+  - q: "What a model router actually does"
+    a: "If you've used OpenRouter for language models, you already get the concept. Instead of you manually choosing between GPT-4, Claude, Gemini, and a dozen others, a router analyzes your request and sends it to the model most likely to give you the best result."
+  - q: "Why Runway is building this"
+    a: "Runway has been pivoting hard from being \"the AI video company\" to becoming infrastructure for generative media. Their Runway Dev platform gives developers API access to third-party models alongside Runway's own. The router sits on top of all of it."
+  - q: "What this means if you're not a developer"
+    a: "Right now, the Media Router is aimed at developers through Runway's API. But the implications go further. If you're a solo creator, marketer, or small business owner using AI tools for content, this kind of routing is coming to the tools you already use."
+  - q: "How to think about this trend"
+    a: "Model routing is becoming the default layer between you and AI. Cursor is building one for code. Salesforce is building one for enterprise AI. Meta is reportedly building one. Even Not Diamond, which works with SAP, is automating model selection for large enterprises."
+  - q: "What to do right now"
+    a: "You don't need to wait for Runway's router to go mainstream. Here's how to apply this thinking today:"
 ---
 {{< audio src="/audio/runway-model-router-pick-ai-tools-creative-work.mp3" >}}
 

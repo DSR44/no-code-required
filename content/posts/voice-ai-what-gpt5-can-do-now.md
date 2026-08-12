@@ -12,6 +12,17 @@ TocOpen: false
 cover:
   image: "/images/posts/voice-ai-what-gpt5-can-do-now.jpg"
   alt: "Zoe talking into earbuds with AI voice waveform visualization"
+faqs:
+  - q: "What changed with GPT-5's voice"
+    a: "The big shift isn't just \"better speech recognition.\" GPT-5 brought multimodal reasoning into real-time voice conversations. The model doesn't just hear your words — it processes audio, text, images, and video within the same conversational context. That means you can show it something on your screen while talking, and it connects what it sees with what you're saying."
+  - q: "What you can actually use today"
+    a: "Real-time voice conversations with ChatGPT. If you're on ChatGPT Plus or Pro, you already have access to the improved voice mode. Tap the voice icon and start talking. The difference from six months ago is noticeable — it handles interruptions, understands context across longer conversations, and responds with appropriate emotion and pacing."
+  - q: "What's still not great"
+    a: "Background noise. Voice AI still struggles in noisy environments. If you're in a coffee shop or have music playing, the transcription quality drops significantly. Earbuds with good microphones help, but it's not solved."
+  - q: "How this compares to the competition"
+    a: "Google's Gemini Spark is building a different kind of voice integration — one that's connected to your entire Google ecosystem. Instead of a general-purpose voice assistant, it's a voice agent that can access your email, calendar, and documents. The approach is complementary, not competing."
+  - q: "What this means for non-technical users"
+    a: "You don't need to build anything to benefit from this. The improved voice capabilities are already in the ChatGPT app. Here's what I'd recommend:"
 ---
 {{< audio src="/audio/voice-ai-what-gpt5-can-do-now.mp3" >}}
 

@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/anthropic-ai-discovery-vs-pr-what-to-trust.jpg"
   alt: "Person at laptop comparing AI research claims with practical results on screen"
+faqs:
+  - q: "Why this matters for your solo builder stack"
+    a: "You might think this is a media criticism problem — something for journalists to sort out. But it directly affects how you build your business."
+  - q: "What I actually changed in my workflows"
+    a: "After tracking this pattern for six months, here's what shifted for me:"
 ---
 
 {{< audio src="/audio/anthropic-ai-discovery-vs-pr-what-to-trust.mp3" >}}
