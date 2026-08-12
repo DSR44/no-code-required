@@ -12,7 +12,10 @@ TocOpen: false
 cover:
   image: "/images/posts/google-gemini-flash-cyber-security-ai-solo-builders.jpg"
   alt: "Zoe looking at a laptop screen showing security scan results in a cozy workspace"
+lastmod: 2026-08-12
 ---
+> **Update August 2025: Google's Gemini has surged past 1 billion users, making it the company's fastest-growing product ever, while Google has also announced it will retire the classic Google Assistant on phones starting September 4. More details below.**
+
 {{< audio src="/audio/google-gemini-flash-cyber-security-ai-solo-builders.mp3" >}}
 
 If you've been watching the AI security space, you already know the problem: the best cybersecurity AI models cost a fortune, and solo builders get priced out of protecting their own projects. Google just changed that equation.
