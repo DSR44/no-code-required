@@ -8,6 +8,7 @@ description: "Your AI assistant can now check your email, search the web, book f
 ShowToc: true
 cover:
   image: "/images/20260521_012852_A_person_sitting_at_a_desk_with_multiple.jpg"
+  alt: "Your AI assistant can now check your email, search the web, book flights, and post to social media — all in one conversa"
 faqs:
   - q: "How does an AI assistant actually use external tools?"
     a: "The AI model generates a structured request, like a special code, that tells a separate piece of software (a 'wrapper') which tool to use and what information to pass to it. The wrapper then executes the action in the real world, like searching the web or sending an email, and returns the result to the AI."
@@ -17,7 +18,6 @@ faqs:
     a: "Yes, many advanced AI platforms and frameworks allow developers to create and integrate their own custom tools. This typically involves writing a small piece of code that defines the tool's function and how the AI should interact with it."
   - q: "Why is AI tool calling considered such a big deal?"
     a: "It transforms AI from a simple question-answering system into an active agent that can perform complex, multi-step tasks on your behalf. This bridges the gap between digital conversation and real-world action, automating workflows that previously required a human to manually switch between different apps."
-  alt: "Your AI assistant can now check your email, search the web, book flights, and post to social media — all in one conversa"
 ---
 
 {{< audio src="/audio/how-ai-calls-other-tools.mp3" >}}

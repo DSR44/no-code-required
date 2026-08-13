@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "build-a-tool-that-actually-does-something"
 cover:
   image: "/images/posts/build-a-tool-that-actually-does-something.jpg"
+  alt: "Everyone&#39;s building chatbots. Here&#39;s how to build something that actually solves a problem — an automation, a mo"
 faqs:
   - q: "How do I get started building a useful automation tool?"
     a: "Begin by identifying one specific, repetitive task that wastes your time. Focus on a clear outcome— like fetching data or sending a notification— rather than a general chatbot interface."
@@ -17,7 +18,6 @@ faqs:
     a: "It's easy to default to a conversational interface, but building something that works while you sleep means focusing on backend automation and triggers instead. The goal is a system, not a front-end demo."
   - q: "What's the first feature to build for a tool that runs 24/7?"
     a: "Start with the core automated action— like a scheduled data check or API call— and ensure it runs reliably before adding any user-facing features."
-  alt: "Everyone&#39;s building chatbots. Here&#39;s how to build something that actually solves a problem — an automation, a mo"
 ---
 
 ## Build a tool that actually does something

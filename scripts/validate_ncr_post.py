@@ -149,16 +149,27 @@ def main() -> int:
                     el = e.lower()
                     if "shortcode missing" in el:
                         continue
+                    # SEO rewrites of older posts must not hard-fail for missing
+                    # narration — only brand-new dated-today posts block deploy.
+                    post_date = ""
+                    try:
+                        raw = (POSTS / f"{slug}.md").read_text(encoding="utf-8")[:400]
+                        dm = re.search(r"^date:\s*['\"]?(\d{4}-\d{2}-\d{2})", raw, re.M)
+                        post_date = dm.group(1) if dm else ""
+                    except OSError:
+                        pass
+                    from datetime import date as _date
+                    today = _date.today().isoformat()
+                    audio_hard = "missing audio:" in el and (not post_date or post_date >= today)
                     if any(
                         k in el
                         for k in [
                             "missing cover",
-                            "missing audio:",
                             "missing audio file on disk",
                             "cover image missing on disk",
                             "audio too small",
                         ]
-                    ):
+                    ) or audio_hard:
                         hard_errors.append(e)
                 if hard_errors:
                     failed = True

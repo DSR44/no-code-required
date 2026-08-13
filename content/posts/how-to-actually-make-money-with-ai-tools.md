@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "how-to-actually-make-money-with-ai-tools"
 cover:
   image: "/images/posts/how-to-actually-make-money-with-ai-tools.jpg"
+  alt: "Not &#39;sell AI art on Etsy&#39; advice. Real ways people are making money with AI tools right now — with specific tool"
 faqs:
   - q: "How can I start using AI tools to make money without knowing how to code?"
     a: "Focus on no-code platforms like Make.com or Zapier to automate workflows, and use AI writing or design tools for client services like content creation or graphic design."
@@ -17,7 +18,6 @@ faqs:
     a: "For writing, try ChatGPT or Jasper; for design, Midjourney or Canva Magic Studio; and for automation, explore Zapier or Make.com to connect apps and save time."
   - q: "Can I realistically make a full-time income using only AI tools?"
     a: "Yes, many freelancers and entrepreneurs do by scaling services or productized solutions, with some earning $500-$5000/month initially, but it requires focused effort on marketing and client acquisition."
-  alt: "Not &#39;sell AI art on Etsy&#39; advice. Real ways people are making money with AI tools right now — with specific tool"
 ---
 
 ## How to actually make money with AI tools

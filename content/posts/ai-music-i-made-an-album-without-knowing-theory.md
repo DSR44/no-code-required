@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "ai-music-i-made-an-album-without-knowing-theory"
 cover:
   image: "/images/posts/ai-music-i-made-an-album-without-knowing-theory.jpg"
+  alt: "I don&#39;t play an instrument. I can&#39;t read sheet music. I made an album with AI in a weekend. Here&#39;s exactly h"
 faqs:
   - q: "Can I make music with AI if I don't know music theory?"
     a: "Yes, absolutely. The author created an entire album using AI tools without any knowledge of music theory or instrument skills, proving it's entirely possible for complete beginners."
@@ -17,7 +18,6 @@ faqs:
     a: "The blog post details the specific tool the author used, which is designed for people with no musical background to generate full tracks from simple inputs."
   - q: "What are the limitations of making music with AI?"
     a: "The author noted some surprises, including that while AI handles composition well, you may still need to make creative decisions about arrangement and final touches."
-  alt: "I don&#39;t play an instrument. I can&#39;t read sheet music. I made an album with AI in a weekend. Here&#39;s exactly h"
 ---
 
 ## AI music: I made an album without knowing theory

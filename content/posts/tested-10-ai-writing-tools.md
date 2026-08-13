@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "tested-10-ai-writing-tools"
 cover:
   image: "/images/posts/tested-10-ai-writing-tools.jpg"
+  alt: "I gave 10 AI writing tools the same task. Some sounded robotic. Some sounded human. Here&#39;s the honest comparison — w"
 faqs:
   - q: "Which AI writing tool sounds most human for blog posts?"
     a: "Claude — best prose quality and tone control in side-by-side testing with the same prompt."
@@ -42,7 +43,6 @@ reviews:
     url: "https://copy.ai"
     rating: 3.5
     summary: "Strong for short sales copy and conversion-focused snippets — less useful for long-form blog content."
-  alt: "I gave 10 AI writing tools the same task. Some sounded robotic. Some sounded human. Here&#39;s the honest comparison — w"
 ---
 
 ## I tested 10 AI writing tools so you don't have to
