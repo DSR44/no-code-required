@@ -17,7 +17,7 @@ faqs:
     a: "Not necessarily. In my testing, some mid-priced tools outperformed premium ones, while a couple of free or freemium options delivered surprisingly strong results for specific tasks like brainstorming or short-form content."
   - q: "Can AI writing tools actually save time for professional writers?"
     a: "Yes, but with caveats. The best tools I tested significantly sped up drafting and ideation, but they still require human oversight for fact-checking, tone, and nuance to ensure the final content is polished and accurate."
-
+  alt: "I spent over $500 testing 10 AI writing tools. Some were amazing. Some were a waste of money. Here&#39;s what actually w"
 ---
 
 I've been writing with AI for about a year now. Not as a developer. Not as someone with a CS degree. Just as a regular person who wanted to write faster.

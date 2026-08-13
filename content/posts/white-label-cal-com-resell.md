@@ -17,7 +17,7 @@ faqs:
     a: "Service-based professionals like dentists, lawyers, therapists, and consultants are ideal because they need appointment booking but lack technical skills. They'll happily pay $200/month for a branded solution that 'just works.'"
   - q: "How much can I realistically charge for a white-label Cal.com setup?"
     a: "Most resellers charge between $100-$300/month per client depending on the niche and support level included. At $200/month, you only need 10 clients to generate $2,000 in recurring monthly revenue."
-
+  alt: "Cal.com is an open-source scheduling tool that does everything Calendly does — for free. But here&#39;s the real play: w"
 ---
 
 {{< audio src="/audio/white-label-cal-com-resell.mp3" >}}

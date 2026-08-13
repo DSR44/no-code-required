@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "the-tools-i-actually-use-every-day"
 cover:
   image: "/images/posts/the-tools-i-actually-use-every-day.jpg"
+  alt: "I tested every AI tool so you don&#39;t have to waste money on the ones that don&#39;t work. Here&#39;s what I actually "
 ---
 
 ## The AI Tools I Actually Use Every Day (Honest Review)

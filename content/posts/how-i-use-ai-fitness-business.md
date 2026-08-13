@@ -8,6 +8,7 @@ description: "I run a fitness business and AI handles half my workload. Not the 
 ShowToc: true
 cover:
   image: "/images/posts/how-i-use-ai-fitness-business.jpg"
+  alt: "I run a fitness business and AI handles half my workload. Not the flashy stuff — the boring, repetitive tasks that used "
 ---
 
 I run a fitness business. I'm not a developer. I don't code. But I use AI every single day to handle the stuff that used to take me hours.

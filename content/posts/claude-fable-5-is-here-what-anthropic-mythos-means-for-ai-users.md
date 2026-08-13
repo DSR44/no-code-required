@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/claude-fable-5-is-here-what-anthropic-mythos-means-for-ai-users.jpg"
   alt: "AI safety concept with digital lock and neural network visualization"
+faqs:
+  - q: "What actually happened"
+    a: "Claude Fable 5 launched on June 9. Three days later, the government shut it down. The reason? Security researchers found vulnerabilities that allowed people to bypass Fable 5's safety classifiers — the systems designed to prevent it from helping with cyberattacks, biological weapons research, and other high-risk tasks."
+  - q: "Fable 5 vs. Mythos 5 — what's the difference?"
+    a: "Most people will only ever use Fable 5. It's the general-purpose model with safety guardrails — the one you access through Claude.ai, the API, and Claude Cowork. It's extremely capable: Anthropic says it migrated a 50-million-line codebase in a single day, a task that would take a team of engineers two months."
+  - q: "What this means if you're using Claude"
+    a: "If you're on a Pro, Max, or Team plan, you get Fable 5 included for up to 50% of your weekly usage limits through July 7. After that, it moves to the usage credits system."
 ---
 
 {{< audio src="/audio/claude-fable-5-is-here-what-anthropic-mythos-means-for-ai-users.mp3" >}}

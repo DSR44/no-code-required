@@ -17,7 +17,7 @@ faqs:
     a: "Yes, you can configure your automation to send notifications to email lists, Slack channels, or Discord servers whenever a post goes live. This ensures your audience is alerted immediately without you having to send a single message."
   - q: "How do I ensure my automated pipeline runs reliably?"
     a: "Start by testing each connection in your workflow individually before linking them together. Use built-in logging and error notifications in your automation platform to monitor runs and quickly fix any failures."
-
+  alt: "I built an automated content pipeline that runs itself. Blog posts get written, published, distributed, and announced — "
 ---
 
 I used to publish content like this: write the post, log into WordPress, paste it in, format it, add images, publish, then manually share it on five different platforms. Each post took 30 minutes just to distribute.

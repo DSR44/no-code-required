@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/spatial-ai-agents-what-to-build-now.jpg"
   alt: "Zoe at laptop with spatial AI visualization and agent workflow on screen"
+faqs:
+  - q: "What \"spatial AI\" actually means for builders"
+    a: "Today's AI agents — the ones powering automated workflows and tool-calling systems — operate in text space. They read data, process instructions, and output text or API calls. They're powerful but blind. They can't see a screen, navigate an interface, or understand physical context."
+  - q: "What I'd build first"
+    a: "If I were starting today, I'd build a visual browser agent for a specific niche — not a general-purpose tool. Pick one industry (e-commerce, real estate, healthcare admin) and build an agent that can navigate their specific interfaces."
 ---
 {{< audio src="/audio/spatial-ai-agents-what-to-build-now.mp3" >}}
 

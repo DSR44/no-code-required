@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/coherent-ai-data-center-texas-nvidia.jpg"
   alt: "Zoe looking at AI infrastructure investment dashboard on laptop"
+faqs:
+  - q: "What Coherent Actually Does (In Plain English)"
+    a: "You know how your Wi-Fi slows down when too many devices are connected? Imagine that problem, but across a data center with thousands of AI chips all trying to talk to each other at the same time. Copper cables — the ones most data centers still use — physically can't carry data fast enough when you're linking hundreds of GPUs across multiple racks."
+  - q: "Why Jensen Huang Showed Up in Person"
+    a: "The timing isn't random. NVIDIA just announced its Vera Rubin Ultra NVL576 system — a beast that links 576 GPUs across eight racks, operating as a single system. At that scale, copper is dead. You need optics, and you need them manufactured at a volume that doesn't exist yet."
+  - q: "Can You Actually Invest?"
+    a: "Yes. Coherent trades on the NYSE under the ticker COHR. As of today, it's trading around $414 — up roughly 65% year-to-date after jumping 8.2% on the groundbreaking news. The stock is near its 52-week high, so this isn't a \"buy the dip\" situation. It's a \"the market is starting to understand what this company actually is\" situation."
+  - q: "Why This Matters If You Use AI Tools"
+    a: "If you've ever used ChatGPT, Claude, or any AI image generator, you've benefited from the infrastructure layer that companies like Coherent build. Every time you send a prompt, that data travels through optical networks — lasers, transceivers, fiber optic cables — to reach the GPU clusters that process your request, then travels back."
 ---
 {{< audio src="/audio/coherent-ai-data-center-texas-nvidia.mp3" >}}
 

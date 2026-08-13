@@ -8,6 +8,18 @@ categories: ["tools"]
 slug: "the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of"
 cover:
   image: "/images/posts/the-ai-tools-with-the-highest-satisfaction-rates-youve-never-heard-of.jpg"
+faqs:
+  - q: "Why aren't the AI tools with the highest satisfaction rates on popular 'best AI tools' lists?"
+    a: "Most 'best AI tools' content is written by people earning affiliate commissions. They recommend tools that pay the highest commission, not those that work best. The best tools often have no affiliate program, so nobody talks about them despite high user satisfaction."
+  - q: "What does ResearchRabbit do and why do researchers love it?"
+    a: "ResearchRabbit maps citation networks, finds related papers, and visualizes topic connections. Researchers love it because it replaces hours of manual searching, connects to Zotero, accesses over 270 million papers, and turns literature review from a chore into exploration. It's completely free."
+  - q: "How does Cleanup.pictures achieve over 95% user satisfaction?"
+    a: "Cleanup.pictures removes objects from photos instantly by filling in the background. It achieves high satisfaction because it does one thing perfectly, works better than Photoshop's content-aware fill, has no learning curve, requires no signup, and is completely free to use."
+  - q: "What makes Consensus different from other AI tools for research?"
+    a: "Consensus searches over 200 million scientific papers and gives direct answers to yes/no questions by summarizing actual study findings. Unlike other AI tools, it doesn't hallucinate—it cites real studies. Students, researchers, and health enthusiasts use it daily, and its free tier is generous."
+  - q: "Why do users love TinyWow despite being free with no login required?"
+    a: "Users love TinyWow because it offers 50+ AI tools including PDF editing, image background removal, AI writing, and file conversion—all free with no signup. There are no freemium upsells or account creation requirements, making it genuinely accessible and hassle-free."
+  alt: "Not the ones with 10 million users. The ones where 95% of users stay forever and never talk about them. These are the hi"
 ---
 
 ## The AI tools with the highest satisfaction rates you've never heard of

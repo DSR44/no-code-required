@@ -17,7 +17,7 @@ faqs:
     a: "Common issues include an incorrect URL, the receiving server being offline, or the sending app not being configured to trigger the webhook. Always check the webhook logs in both apps for error messages."
   - q: "Are webhooks secure for sending sensitive data?"
     a: "They can be, if you use HTTPS and verify the incoming request with a secret signature or token. This ensures the data is encrypted in transit and that it's actually coming from the expected source."
-
+  alt: "Webhooks are how apps notify each other when something happens. Here&#39;s how they work explained simply — and why they"
 ---
 
 Last time I explained APIs — the restaurant waiter that carries your order to the kitchen. But APIs have a problem: you have to keep asking.

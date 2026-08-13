@@ -32,6 +32,7 @@ reviews:
     url: "https://convertkit.com"
     rating: 3.5
     summary: "Best for creators and bloggers — visual automations on free tier but funnel features are lighter than all-in-one tools."
+  alt: "You don&#39;t need to pay $300/month for a funnel. Here are the free funnel builders that actually work — with real limi"
 ---
 
 ## Free funnel builders compared: which one actually works?

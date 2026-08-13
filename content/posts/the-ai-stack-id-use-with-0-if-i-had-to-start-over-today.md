@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/the-ai-stack-id-use-with-0-if-i-had-to-start-over-today.jpg"
   alt: "Zoe at laptop surrounded by free AI tool logos on screen"
+faqs:
+  - q: "What is the foundation of the recommended free AI stack for solopreneurs?"
+    a: "ChatGPT's free tier is the foundation, providing access to GPT-4o mini. It handles 90% of solopreneur needs like drafting emails, brainstorming content, writing product descriptions, summarizing research, and explaining concepts. It also teaches you how to write clear prompts, a skill that makes every other tool more useful."
+  - q: "How does Claude differ from ChatGPT for solopreneurs?"
+    a: "Claude's free tier offers Claude 3.5 Sonnet, which excels at long-form writing with more nuanced reasoning. The author uses ChatGPT for brainstorming, outlining, and quick tasks, while Claude handles blog posts, newsletters, scripts, and proposals that need to sound more naturally human-written."
+  - q: "What does Canva's free tier offer solopreneurs?"
+    a: "Canva's free tier provides thousands of templates, a drag-and-drop editor, and AI features including background remover, magic resize, and text-to-image generation. It handles about 80% of what a solo business needs for social posts, presentations, lead magnets, and blog graphics without requiring design skills."
+  - q: "Are the recommended tools truly free or just free trials?"
+    a: "Every tool in the stack has a genuinely usable free tier, not a bait-and-switch free trial. The author specifically tested dozens of tools over a year and selected only those that do real work, integrate well together, and don't charge for basic functionality."
 ---
 {{< audio src="/audio/the-ai-stack-id-use-with-0-if-i-had-to-start-over-today.mp3" >}}
 

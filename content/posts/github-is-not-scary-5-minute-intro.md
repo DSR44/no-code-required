@@ -8,6 +8,7 @@ categories: ["basics"]
 slug: "github-is-not-scary-5-minute-intro"
 cover:
   image: "/images/posts/github-is-not-scary-5-minute-intro.jpg"
+  alt: "You don&#39;t need to be a developer to use GitHub. Here&#39;s what it actually is, why non-coders use it, and how to ge"
 ---
 
 ## GitHub is not scary — 5-minute intro

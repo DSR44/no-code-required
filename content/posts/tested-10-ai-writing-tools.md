@@ -42,6 +42,7 @@ reviews:
     url: "https://copy.ai"
     rating: 3.5
     summary: "Strong for short sales copy and conversion-focused snippets — less useful for long-form blog content."
+  alt: "I gave 10 AI writing tools the same task. Some sounded robotic. Some sounded human. Here&#39;s the honest comparison — w"
 ---
 
 ## I tested 10 AI writing tools so you don't have to
