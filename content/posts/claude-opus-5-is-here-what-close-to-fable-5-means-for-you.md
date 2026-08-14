@@ -1,5 +1,5 @@
 ---
-title: "Claude Opus 5 Is Here — And It Might Be the Only AI Model You Need"
+title: "Claude Opus 5: The Only AI Model You Need"
 date: 2026-08-14
 draft: false
 description: "I tested Claude Opus 5 for a week and honestly? It's wild. Here's what it can actually do better than other models and how to get started."
@@ -22,7 +22,6 @@ faqs:
   - q: "What is the Claude effort toggle?"
     a: "The effort toggle lets you set low, medium, or high reasoning effort per request. Low is faster and cheaper for simple tasks. High lets the model think longer for complex problems."
 lastmod: 2026-08-14
-
 ---
 {{< audio src="/audio/claude-opus-5-is-here-what-close-to-fable-5-means-for-you.mp3" >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "AiToEarn: The Free Scheduling Tool That Actually Pays You to Post"
+title: "AiToEarn: Free Scheduler That Pays You to Post | No Code"
 date: 2026-06-06
 draft: false
 description: "AiToEarn is a free open-source social media scheduler with a built-in monetization marketplace. Post content, earn money from brand tasks."
@@ -12,6 +12,17 @@ TocOpen: false
 cover:
   image: "/images/posts/aitoearn-free-scheduling-tool-pays-you-to-post.jpg"
   alt: "Creator at laptop with social media platform icons and dollar signs on screen"
+faqs:
+  - q: "What AiToEarn Actually Is"
+    a: "AiToEarn is an open-source, AI-powered platform that handles the entire content lifecycle: creation, distribution, engagement, and monetization. It supports 14+ platforms including TikTok, YouTube, Instagram, X (Twitter), Facebook, Pinterest, LinkedIn, and several Chinese platforms like Douyin and Xiaohongshu."
+  - q: "How the Scheduling Works"
+    a: "The scheduling itself is straightforward. You connect your social accounts, create posts in a calendar view, and schedule them across all platforms at once. One post, 14 platforms, one click."
+  - q: "How to Get Started (3 Options)"
+    a: "AiToEarn gives you five ways to use it, but here are the three most relevant for no-code users:"
+  - q: "What I Like"
+    a: "It's actually free. Not \"free trial\" free. Not \"free for 10 posts\" free. The core scheduling and marketplace features are genuinely free. They take a cut from brand tasks, not from your pocket."
+  - q: "What I Don't Like"
+    a: "The UI is... functional. It's not as polished as Buffer or Later. The design feels like a tool built by engineers, not designers. You'll get used to it, but don't expect a beautiful onboarding experience."
 ---
 {{< audio src="/audio/aitoearn-free-scheduling-tool-pays-you-to-post.mp3" >}}
 

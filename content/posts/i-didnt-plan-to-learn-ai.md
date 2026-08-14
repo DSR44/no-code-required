@@ -7,6 +7,11 @@ categories: ["basics"]
 description: "A bodybuilder with a major injury, zero coding experience, and a lot of stubbornness — here's how I ended up building AI tools."
 url: /posts/i-didnt-plan-to-learn-ai/
 ShowToc: false
+faqs:
+  - q: "When everything changed"
+    a: "After the injury, I was stuck at home with time and curiosity. That's a dangerous combination."
+  - q: "What I want you to know"
+    a: "You don't need a CS degree. You don't need to be \"good at computers.\" You don't need to understand math or algorithms or any of the scary-sounding stuff."
 ---
 
 I didn't plan to learn AI. Life kind of forced me into it.

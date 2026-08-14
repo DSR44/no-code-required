@@ -1,5 +1,5 @@
 ---
-title: "How to Build Your First AI Workflow for Your Online Business (No Code, No Prior Experience)"
+title: "Build Your First AI Workflow: No Code Needed"
 date: 2026-05-24
 draft: false
 description: "Build your first AI automation workflow for your online business. Step-by-step, no coding needed. Tools, prompts, and real examples included."
@@ -26,6 +26,15 @@ howto:
       text: "Add a Gmail Create Draft action, map the AI response to the email body, and set a subject line that includes the customer name or topic."
     - name: "Test with real data and turn it on"
       text: "Submit a real test through your form, review the draft quality, adjust the prompt if needed, then enable the Zap."
+faqs:
+  - q: "What an \"AI workflow\" actually is"
+    a: "Forget the buzzwords. An AI workflow is just: something happens → AI does something with it → the result goes somewhere."
+  - q: "What to automate next"
+    a: "Once your first workflow is running, you'll start seeing automation opportunities everywhere. Here are the highest-impact ones for online businesses:"
+  - q: "What this actually costs"
+    a: "Let's do the math: - Zapier free plan: 100 tasks/month (enough for ~30 customer replies) - ChatGPT API: ~$0.002 per reply (GPT-3.5) or ~$0.03 per reply (GPT-4) - Total for 100 replies/month: free + $0.20-$3.00"
+  - q: "What to read next"
+    a: "- Zapier vs Make vs n8n: Which One Should You Pick? — full comparison of the three automation tools - Build Your First Automation in 15 Minutes — the beginner's guide to getting started - How I Automated My Client Follow-Ups — a real workflow I built step by step - My Full Automation Pipeline — the actual stack I use daily - Webhooks Explained — how tools communicate under the hood"
 ---
 {{< audio src="/audio/how-to-build-first-ai-workflow-online-business.mp3" >}}
 

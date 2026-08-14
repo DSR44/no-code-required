@@ -1,5 +1,5 @@
 ---
-title: "Spatial AI Agents Are Coming: What Solo Builders Should Build Right Now"
+title: "What Solo Builders Should Build With Spatial AI Now"
 date: 2026-07-07
 draft: false
 description: "General Intuition raised $2.3B to train AI agents on video game data. What spatial AI means for solo builders and the tools you should start building today."

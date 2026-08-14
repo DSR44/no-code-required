@@ -1,5 +1,5 @@
 ---
-title: "Best AI Dictation Apps: Tested and Ranked for Speed & Accuracy"
+title: "Best AI Dictation Apps: Tested for Speed & Accuracy"
 date: 2026-05-09
 draft: false
 description: "I tested 6 AI dictation apps for speed, accuracy, and privacy. Superwhisper, Wispr Flow, Otter, VoiceInk, Whisper, and MacWhisper — honest ranking."
@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "best-ai-dictation-apps-tested"
 cover:
   image: "/images/posts/best-ai-dictation-apps-tested.jpg"
+  alt: "I tested 6 AI dictation apps for speed, accuracy, and privacy. Superwhisper, Wispr Flow, Otter, VoiceInk, Whisper, and M"
 faqs:
   - q: "What is the best AI dictation app for Mac daily writing?"
     a: "Superwhisper — fast, accurate, learns your vocabulary, and works system-wide in any text field with optional offline mode."

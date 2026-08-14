@@ -1,5 +1,5 @@
 ---
-title: "White-label this open-source tool and sell it for $200/month"
+title: "White-Label Cal.com and Sell It for $200/Month"
 date: 2026-05-22
 draft: false
 description: "Cal.com is an open-source scheduling tool that does everything Calendly does — for free. But here's the real play: white-label it and sell it to professionals who don't know it exists. Dentists, lawyers, therapists. $200/month each. Here's how."

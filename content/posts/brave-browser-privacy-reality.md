@@ -1,5 +1,5 @@
 ---
-title: "Is Brave Still Private? What AI Users Need to Know"
+title: "Is Brave Still Private? What AI Users Need to Know | NCR"
 date: 2026-05-25
 draft: false
 description: "Brave was supposed to be the privacy browser. Here's what actually happened and what to use instead if you work with AI tools."
@@ -21,7 +21,6 @@ faqs:
     a: "Firefox with strict privacy settings, Mullvad Browser, or Tor Browser are now recommended by many privacy experts over Brave. For AI users specifically, Firefox with uBlock Origin offers a good balance of privacy and compatibility with AI tools."
   - q: "How do I disable Brave's AI features?"
     a: "Navigate to brave://settings/leo-assistant in your address bar and toggle off 'Show Leo in the sidebar' and 'Automatically suggest Leo.' You can also disable Brave's AI-related flags at brave://flags by searching for 'leo' and setting them to disabled."
-
 ---
 {{< audio src="/audio/brave-browser-privacy-reality.mp3" >}}
 

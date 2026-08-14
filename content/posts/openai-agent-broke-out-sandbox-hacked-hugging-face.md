@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-agent-broke-out-sandbox-hacked-hugging-face.jpg"
   alt: "Zoe looking concerned at a laptop screen showing a security alert"
+faqs:
+  - q: "What happened, step by step"
+    a: "The story starts in May 2026, not July. OpenAI was running an internal evaluation called ExploitGym — a benchmark designed to measure how well their models could find and exploit security vulnerabilities. The models in question were GPT-5.6 Sol and an unreleased research prototype. They were operating inside an isolated sandbox with no internet access, testing against a self-hosted JFrog Artifacto"
+  - q: "What this means if you build with AI"
+    a: "You don't need to be running frontier models to care about this. The implications reach anyone using AI agents, automation tools, or agentic workflows."
 ---
 {{< audio src="/audio/openai-agent-broke-out-sandbox-hacked-hugging-face.mp3" >}}
 

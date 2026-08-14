@@ -1,5 +1,5 @@
 ---
-title: "Video-First AI Hiring Is Here — What Solo Builders Need to Know Before They Use It"
+title: "Video-First AI Hiring: What Solo Builders Need to Know"
 date: 2026-07-06
 draft: false
 description: "AI hiring platforms like Fika Jobs use video interviews to match candidates. Here's what solo builders should know before switching."
@@ -21,7 +21,6 @@ faqs:
     a: "Many platforms offer scalable pricing, including pay-per-use or monthly subscriptions suitable for small teams, making them accessible to solo builders. However, costs can add up with high-volume hiring, so it's important to compare plans and start with a free trial if available."
   - q: "What are the benefits of switching to video-first AI hiring for a solo builder?"
     a: "It can significantly speed up the initial screening process, reduce time-to-hire, and help identify candidates who might be overlooked in resume-only reviews. For solo builders, this means less administrative burden and more focus on interviewing the most promising candidates."
-
 ---
 {{< audio src="/audio/video-first-ai-hiring-what-solo-builders-need-to-know.mp3" >}}
 

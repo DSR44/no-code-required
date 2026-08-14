@@ -1,5 +1,5 @@
 ---
-title: "Zapier vs Make 2026: What Happened When I Switched"
+title: "Zapier vs Make 2026: My Switch Review | NCR"
 date: 2026-07-14
 draft: false
 description: "Zapier vs Make in 2026 — real comparison after switching both tools. Pricing, features, and which automation platform actually fits your workflow."
@@ -12,70 +12,79 @@ TocOpen: false
 cover:
   image: "/images/posts/zapier-vs-make-2026-switched-what-happened.jpg"
   alt: "Zoe at her laptop comparing Zapier and Make automation workflows side by side"
+lastmod: 2026-08-14
+faqs:
+  - q: "What changed in Zapier vs Make pricing for 2026?"
+    a: "Make pulled significantly ahead on cost. Zapier charges per task — every action in a zap adds to your count. A 5-step zap run 100 times burns 500 tasks. Make charges per operation too, but the tiers are far more generous at every price point. My actual billing:"
+  - q: "When should you choose Zapier over Make?"
+    a: "Zapier still makes sense for beginners and people with simple automations. Its interface is genuinely easier — you can build a working zap in about five minutes without reading any docs. Make's visual scenario builder is more powerful, but I won't pretend the initial learning curve is trivial. It took me a couple hours to feel comfortable."
+  - q: "Why switch to Make?"
+    a: "The visual canvas. Make displays your entire automation as a flowchart — every branch, every filter, every error handler visible at once. Zapier's linear step layout breaks down once you add conditional logic. You end up scrolling through a long list trying to remember what step 9 does."
+  - q: "How hard is it to switch from Zapier to Make?"
+    a: "It took me a weekend. The actual movement isn't complicated, but it's not zero-effort either."
+  - q: "Is n8n a better option than Zapier or Make?"
+    a: "For technical users, maybe. N8n is open-source and self-hostable — no per-operation pricing at all. You pay for server costs and your own time managing infrastructure. The long-term price is the lowest of the three tools by a wide margin."
 ---
+
 {{< audio src="/audio/zapier-vs-make-2026-switched-what-happened.mp3" >}}
 
-I've been a Zapier user for three years. Last month, I moved my entire automation stack to Make. Not because Zapier broke anything — it still works fine — but because the pricing math stopped making sense for what I actually needed. If you're trying to decide between these two in 2026, here's what I learned from running both.
+I switched from Zapier to Make last month after three years on Zapier's platform. Here's the short version: Zapier's Starter plan costs $29.99/month for 750 tasks. Make's Core plan costs $10.59/month for 10,000 operations. Running the same 15 automations, I used roughly 3,000 Make operations per month versus blowing through Zapier's 750-task cap in two weeks. The per-task pricing model is where Zapier bleeds you.
 
-## The pricing reality
+## What changed in Zapier vs Make pricing for 2026?
 
-Let's start with the thing nobody wants to talk about: cost per task. Zapier charges per "task" — every action in a zap counts. A 5-step zap that runs 100 times costs 500 tasks. Make charges per "operation," but their pricing tiers are more generous at every level.
+Make pulled significantly ahead on cost. Zapier charges per task — every action in a zap adds to your count. A 5-step zap run 100 times burns 500 tasks. Make charges per operation too, but the tiers are far more generous at every price point. My actual billing:
 
-Here's what my actual usage looked like:
+- **Zapier Starter** ($29.99/month): 750 tasks. Fifteen zaps, running 20-30 times daily, chewed through the limit in roughly two weeks. I spent real time monitoring usage and pausing zaps.
+- **Make Core** ($10.59/month): 10,000 operations. Identical workflows, same frequency, and I barely touched 3,000 operations monthly.
 
-- **Zapier Starter** ($29.99/month): 750 tasks. My 15 zaps, running maybe 20-30 times per day, burned through that in about two weeks. I was constantly monitoring usage and pausing zaps to stay under the limit.
-- **Make Core** ($10.59/month): 10,000 operations. Same workflows, same frequency, and I was using maybe 3,000 operations per month. The math wasn't even close.
+If you run [client automations](/posts/automate-client-follow-ups-no-code/) or manage workflows across multiple projects, this gap only gets worse with Zapier. Make's scenario-based pricing rewards efficient workflow design instead of punishing you for every small step.
 
-The gap widens as you scale. If you're running [client automations](/posts/automate-client-follow-ups-no-code/) or managing multiple workflows, Zapier's per-task model gets expensive fast. Make's scenario-based pricing rewards efficiency.
+I covered the [broader automation pricing picture in 2026](/posts/ai-subscription-price-war-what-to-pay-for/) if you want context beyond these two tools.
 
-I wrote a full breakdown of [automation pricing in 2026](/posts/ai-subscription-price-war-what-to-pay-for/) if you want the broader picture.
+## When should you choose Zapier over Make?
 
-## Where Zapier still wins
+Zapier still makes sense for beginners and people with simple automations. Its interface is genuinely easier — you can build a working zap in about five minutes without reading any docs. Make's visual scenario builder is more powerful, but I won't pretend the initial learning curve is trivial. It took me a couple hours to feel comfortable.
 
-I don't want to make this a hit piece on Zapier. There are things it does better:
+App coverage is another real distinction. Zapier lists over 7,000 integrations. Make has around 2,000. During my switch, I hit two integrations that only worked in Zapier natively. One required a webhook workaround in Make; the other needed an API call I built manually using [what I know about APIs](/posts/apis-explained-like-youre-5/).
 
-**Ease of setup.** Zapier's interface is genuinely simpler. If you've never built an automation before, you'll get your first zap running in 5 minutes. Make has a steeper learning curve — the visual scenario builder is powerful but initially confusing.
+Zapier's documentation is also more polished. Make's docs have gotten better, but I still found gaps when troubleshooting edge cases. If you want the lowest-friction experience and your workflows are straightforward — [a handful of automations](/posts/build-your-first-automation-in-15-minutes/), no complex branching — Zapier's simplicity justifies paying more.
 
-**App integrations.** Zapier has over 7,000 integrations. Make has around 2,000. If you're using niche or legacy tools, Zapier is more likely to have a native connector. I hit this wall twice during my switch — one integration required a webhook workaround in Make that was automatic in Zapier.
+## Why switch to Make?
 
-**Support and documentation.** Zapier's help docs are more comprehensive, and their support team responds faster. Make's documentation has improved but still has gaps for edge cases.
+The visual canvas. Make displays your entire automation as a flowchart — every branch, every filter, every error handler visible at once. Zapier's linear step layout breaks down once you add conditional logic. You end up scrolling through a long list trying to remember what step 9 does.
 
-If you're a solo user with simple workflows — [a few automations](/posts/build-your-first-automation-in-15-minutes/), no complex branching — Zapier's simplicity might be worth the premium. The time you save not learning Make's interface has value.
+Error handling is the other big reason. Make lets you build error handlers directly into scenarios: retry on failure, route errors to a different path, log what broke. Zapier requires workarounds for anything beyond basic failure notifications. One of my workflows had been silently failing on specific edge cases for weeks before I noticed in Make's error logs.
 
-## Where Make pulls ahead
+Data transformation tools come built in — JSON parsing, text manipulation, formatting — things Zapier either lacks or gates behind premium plans. If you touch structured data or APIs regularly, you'll feel this difference immediately.
 
-**Visual workflow builder.** Make's scenario canvas shows your entire automation as a flowchart. You can see every branch, every filter, every error handler at a glance. Zapier's linear step-by-step layout works for simple zaps but gets unwieldy when you add branching logic.
+Scheduling flexibility is better too. Make supports custom intervals, webhook triggers, and polling schedules you define. Zapier locks more granular scheduling behind higher tiers.
 
-**Error handling.** Make lets you build error handlers directly into scenarios — retry on failure, route to a different path, log the error. Zapier's error handling is more limited and requires workarounds for complex flows.
+I wrote about [building your first automation](/posts/build-your-first-automation-in-15-minutes/) before — Make's visual builder actually made that process more intuitive once I got past the first day.
 
-**Data transformation.** Make has built-in tools for JSON parsing, text manipulation, and data formatting that Zapier either doesn't have or requires a premium plan to access. If you're working with [APIs](/posts/apis-explained-like-youre-5/) or structured data, this matters.
+## How hard is it to switch from Zapier to Make?
 
-**Scheduling flexibility.** Make can run scenarios on custom schedules, trigger webhooks, and poll at intervals you define. Zapier's scheduling is more rigid unless you're on a higher tier.
+It took me a weekend. The actual movement isn't complicated, but it's not zero-effort either.
 
-I covered [building your first automation](/posts/build-your-first-automation-in-15-minutes/) in a previous post — Make's visual builder actually made that process more intuitive once I got past the initial learning curve.
+Make can import Zapier zaps, but the conversion misses details on complex workflows. My multi-step automations with branching logic needed manual rebuilding. I found three edge cases during testing that would have failed silently in production — bugs you only catch by running each scenario with real data.
 
-## The switching cost
+If your team uses Zapier, budget a few hours for onboarding. The concepts transfer, but muscle memory from Zapier's interface takes a day or two to overwrite.
 
-Moving from Zapier to Make took me about a weekend. Not because the tools are incompatible, but because:
+The honest part: switching costs time. But the [savings from Make's pricing](/posts/can-you-make-10k-month-ai-automations/) covered that cost before my second month's billing cycle ended.
 
-1. **Recreating workflows takes time.** Even though Make can import Zapier zaps, the conversion isn't perfect. Complex multi-step zaps needed manual rebuilding.
+## Is n8n a better option than Zapier or Make?
 
-2. **Testing is mandatory.** Every scenario needs to run successfully before you can trust it. I found three edge cases during testing that would have silently failed in production.
+For technical users, maybe. [N8n](/posts/n8n-vs-zapier-2026-honest-comparison/) is open-source and self-hostable — no per-operation pricing at all. You pay for server costs and your own time managing infrastructure. The long-term price is the lowest of the three tools by a wide margin.
 
-3. **Team training.** If you have team members using Zapier, they'll need to learn Make's interface. Budget a few hours for onboarding.
+I didn't go that route because I don't want to manage servers. But if you're comfortable with DevOps work, n8n eliminates the pricing problem entirely.
 
-The honest answer: switching isn't free. But the [cost savings](/posts/can-you-make-10k-month-ai-automations/) paid for the switching time within the first month.
+## Which tool should you pick in 2026?
 
-## N8n: the third option nobody talks about
+Running simple automations where you value speed over cost? Zapier. Scaling workflows with branching logic and tight budgets? Make. The pricing gap has gotten large enough that the switching time pays for itself for most people I talk to.
 
-If you're technically inclined, [n8n](/posts/n8n-vs-zapier-2026-honest-comparison/) is worth considering. It's open-source, self-hostable, and has no per-operation pricing at all — you pay for server costs. The trade-off is that you need to manage your own infrastructure, which isn't for everyone.
+My suggestion: build one of your existing Zapier workflows on [Make's free tier](https://www.make.com/) and compare. If the visual builder clicks after an hour, switch. If it frustrates you, stay with Zapier — you'll get more done with a tool you actually enjoy using.
 
-I didn't switch to n8n because I don't want to manage servers. But if you're comfortable with that, it's the most cost-effective option long-term.
+Not sure which direction makes sense for your setup? The [AI Tool Advisor](/ai-tool-advisor.html) factors in your specific workflow complexity and budget. If you're brand new to automation, [start here](/start-here/).
 
-## The bottom line
+---
 
-If you're running simple automations and value ease of use, Zapier is still the better choice. If you're scaling workflows, need complex branching, or care about cost per operation, Make wins in 2026. The pricing gap has widened enough that it's worth the switching cost for most users.
-
-My recommendation: start with [Make's free tier](https://www.make.com/) and build one of your existing Zapier workflows there. Compare the experience side by side. If the visual builder clicks for you, the switch is worth it. If it doesn't, stay with Zapier — the best automation tool is the one you'll actually use.
-
-Not sure which tool fits your needs? Check out the [AI Tool Advisor](/ai-tool-advisor.html) for personalized recommendations. And if you're just getting started with automation, [start here](/start-here/).
+**Affiliate disclosure:** Some links above are affiliate links. If you sign up through them, I may earn a commission at no extra cost to you. I only recommend tools I've used personally and tested in real workflows.
