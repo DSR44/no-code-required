@@ -1,5 +1,5 @@
 ---
-title: "What is an LLM? A no-code explanation that actually makes sense"
+title: "What Is an LLM? A No-Code Explanation That Makes Sense"
 date: 2026-05-30
 draft: false
 description: "LLMs power ChatGPT, Claude, and every AI tool you use. Here's what they actually are — explained like you've never written a line of code."
@@ -21,7 +21,6 @@ faqs:
     a: "Traditional chatbots follow pre-written scripts and can only respond to what they've been explicitly programmed to handle. LLMs generate original responses on the fly by predicting language patterns, making them far more flexible and conversational."
   - q: "Do I need to know how to code to use an LLM?"
     a: "Not at all — if you can type a sentence, you can use an LLM. Tools like ChatGPT and Claude are designed to work with plain, everyday language, no technical skills required."
-
 ---
 {{< audio src="/audio/what-is-an-llm-no-code-explanation.mp3" >}}
 

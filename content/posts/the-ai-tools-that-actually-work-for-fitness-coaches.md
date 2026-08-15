@@ -1,5 +1,5 @@
 ---
-title: "AI Fitness Coaching Tools That Actually Work"
+title: "AI Fitness Coaching Tools That Actually Work | No Code"
 date: 2026-05-30
 draft: false
 description: "I tested AI tools specifically for fitness coaching — client management, scheduling, progress tracking, and content. Here's what actually works and what's hype."
@@ -21,7 +21,6 @@ faqs:
     a: "Yes, platforms like Fitbod and Freeletics offer free tiers with AI-generated workout plans that adapt to your feedback and available equipment, though advanced features usually require a subscription."
   - q: "How accurate are AI tools for tracking fitness progress over time?"
     a: "They are quite accurate for quantitative data like weight, reps, and heart rate when synced with wearables. For qualitative progress like form or recovery, they provide useful trends but still benefit from a coach's expert eye."
-
 ---
 {{< audio src="/audio/the-ai-tools-that-actually-work-for-fitness-coaches.mp3" >}}
 

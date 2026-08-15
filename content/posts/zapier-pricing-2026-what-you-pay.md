@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/zapier-pricing-2026-what-you-pay.jpg"
   alt: "Zoe comparing Zapier pricing plans on laptop with calculator"
+faqs:
+  - q: "What Zapier actually costs in 2026"
+    a: "Zapier simplified its pricing model this year. Everything — automation workflows, AI steps, code, and SDK — now uses the same task-based pricing. One task equals one action in a workflow. Here's what each tier looks like:"
+  - q: "What I'd actually recommend"
+    a: "If you're just starting: Use Zapier's free plan to learn the concepts. Then switch to Make's free plan (1,000 operations) once you need multi-step workflows. You'll get5x the capacity for free."
 ---
 
 {{< audio src="/audio/zapier-pricing-2026-what-you-pay.mp3" >}}

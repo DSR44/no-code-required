@@ -1,5 +1,5 @@
 ---
-title: "AI Agents Now Run Job Interviews: What Solo Builders Need to Know"
+title: "AI Agents Run Job Interviews: What Solo Builders Need to Know"
 date: 2026-07-06
 draft: false
 description: "AI agents now conduct job interviews, reshaping hiring for solo builders. Learn what this shift means for your no-code business and how to adapt."
@@ -21,7 +21,6 @@ faqs:
     a: "AI interviewers save solo builders significant time by automating scheduling, conducting interviews, and providing instant analytics. They ensure consistent evaluation criteria across all candidates and can operate 24/7, accelerating the hiring process. This allows builders to focus on core business tasks while maintaining a professional hiring workflow."
   - q: "How can solo builders adapt to AI-driven hiring processes?"
     a: "Start by integrating AI interview tools with your existing no-code platforms to streamline candidate screening. Train the AI on your specific job requirements and company values to ensure relevant evaluations. Always review AI recommendations and maintain personal engagement with top candidates to balance efficiency with human connection."
-
 ---
 {{< audio src="/audio/fika-jobs-ai-video-hiring-solo-builders.mp3" >}}
 

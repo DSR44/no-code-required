@@ -1,5 +1,5 @@
 ---
-title: "Who Decides When AI Is Too Dangerous? The Anthropic Ban Changed Everything"
+title: "Anthropic AI Ban: What It Means for AI Users"
 slug: "who-decides-when-ai-is-too-dangerous"
 date: 2026-07-02
 draft: false
@@ -22,7 +22,6 @@ faqs:
     a: "Yes, this sets a precedent where any AI model deemed too dangerous by regulators could be restricted or banned, regardless of the company. The focus is on the model's capabilities and risks rather than the developer's reputation."
   - q: "What should developers do to prepare for stricter AI regulations?"
     a: "Developers should implement robust safety testing, maintain transparency about their models' capabilities, and stay informed about evolving regulatory frameworks. Building modular systems that can adapt to new restrictions will also help mitigate disruption."
-
 ---
 {{< audio src="/audio/who-decides-when-ai-is-too-dangerous.mp3" >}}
 

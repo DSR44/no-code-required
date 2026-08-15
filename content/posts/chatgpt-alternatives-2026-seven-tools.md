@@ -28,7 +28,7 @@ faqs:
 ---
 {{< audio src="/audio/chatgpt-alternatives-2026-seven-tools.mp3" >}}
 
-# 7 ChatGPT Alternatives Worth Switching To in 2026
+## 7 ChatGPT Alternatives Worth Switching To in 2026
 
 **Update July 2026: recent developments in OpenAI may affect the information in this post — see details below.**
 

@@ -1,5 +1,5 @@
 ---
-title: "Free AI Stack for Solopreneurs in 2026: Start From $0"
+title: "Free AI Stack for Solopreneurs 2026: Start From $0"
 date: 2026-06-01
 draft: false
 description: "The free AI tools & stack I'd build from scratch today as a solopreneur. Never pay full price for an AI toolkit again with this step-by-step blueprint."

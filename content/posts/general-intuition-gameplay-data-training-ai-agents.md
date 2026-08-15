@@ -1,5 +1,5 @@
 ---
-title: "General Intuition's $2.3B Bet: Video Game Data for AI Agents"
+title: "General Intuition's $2.3B Bet on Video Game Data for AI"
 date: 2026-07-07
 draft: false
 description: "General Intuition raised $2.3B training AI on gameplay data. Here's why action labels beat raw video for spatial AI."
@@ -21,7 +21,6 @@ faqs:
     a: "The $2.3 billion funding validates the massive potential of using video game environments as scalable, rich data sources for training advanced AI agents. It signals strong investor confidence in this synthetic data approach for developing spatial intelligence."
   - q: "Can this gameplay-trained AI be applied outside of gaming?"
     a: "Yes, the core spatial reasoning and planning skills learned from gameplay are highly transferable. This AI could be applied to robotics, autonomous systems, and any task requiring navigation and interaction in complex 3D environments."
-
 ---
 {{< audio src="/audio/general-intuition-gameplay-data-training-ai-agents.mp3" >}}
 

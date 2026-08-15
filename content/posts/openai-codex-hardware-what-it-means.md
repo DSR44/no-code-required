@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's Codex Hardware: A Game-Changer for Non-Coders"
+title: "OpenAI Codex Hardware: A Game-Changer for Non-Coders"
 slug: "openai-codex-hardware-what-it-means"
 date: 2026-07-11
 draft: false

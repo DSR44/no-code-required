@@ -21,7 +21,6 @@ faqs:
     a: "Absolutely — its performance rivals top-tier models like Claude Opus, making it suitable for real-world coding projects, debugging, and code generation tasks."
   - q: "Does this mean Claude Opus is no longer worth using?"
     a: "Not necessarily; while Composer 2.5 is a strong competitor, Claude Opus may still excel in specific areas or for users who prefer its ecosystem and integration options."
-
 ---
 {{< audio src="/audio/cursor-composer-2-5-free-claude-killer.mp3" >}}
 

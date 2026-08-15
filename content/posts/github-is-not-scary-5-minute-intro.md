@@ -9,6 +9,17 @@ slug: "github-is-not-scary-5-minute-intro"
 cover:
   image: "/images/posts/github-is-not-scary-5-minute-intro.jpg"
   alt: "You don&#39;t need to be a developer to use GitHub. Here&#39;s what it actually is, why non-coders use it, and how to ge"
+faqs:
+  - q: "What is GitHub in simple terms?"
+    a: "GitHub is like Google Drive for your projects. You create folders called repositories, upload files, and it automatically saves every version. You can share projects with anyone and go back to previous versions if something breaks."
+  - q: "Do I need to know how to code to use GitHub?"
+    a: "No, you don't need to code. Writers use it for manuscript version control, designers store and share files, researchers organize data, and small business owners manage documentation. Anyone can use it to store and track project files."
+  - q: "What does 'commit' mean in GitHub?"
+    a: "A commit is simply a saved version of your files with a short note describing what changed. When you upload or modify a file and click 'Commit changes,' GitHub records that version so you can view or restore it later."
+  - q: "How do I share my GitHub repository with others?"
+    a: "Go to your repository's Settings, click 'Collaborators,' and add someone's GitHub username. They'll then be able to see and edit your files. This allows multiple people to work on the same project without overwriting each other's work."
+  - q: "Why should non-developers connect GitHub to AI tools?"
+    a: "Most AI coding tools like Cursor, Bolt, and v0 save projects directly to GitHub. Connecting your account ensures your AI-generated files are backed up with version history, making it easy to track changes and collaborate."
 ---
 
 ## GitHub is not scary — 5-minute intro
