@@ -91,7 +91,6 @@ I research tools against primary sources — official docs and established insti
 - **[MIT OpenCourseWare — Artificial Intelligence](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/)** — foundational AI concepts explained academically, no hype
 - **[GitHub Docs — Getting Started](https://docs.github.com/en/get-started)** — the official guide I follow when explaining Git and deployment to beginners
 - **[MDN Web Docs — HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)** — Mozilla's reference for how the web actually works (APIs, webhooks, browsers)
-- **[CDC — Physical Activity Basics](https://www.cdc.gov/physical-activity-basics/about/index.html)** — evidence-based fitness guidance from the U.S. Centers for Disease Control
 
 ---
 
