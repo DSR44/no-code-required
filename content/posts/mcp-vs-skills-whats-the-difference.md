@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/mcp-vs-skills-whats-the-difference.jpg"
   alt: "Zoe comparing two AI tool architectures on whiteboard"
+faqs:
+  - q: "How do MCP and Skills differ in AI agent development?"
+    a: "MCP (Model Context Protocol) is a standardized protocol for connecting AI models to external tools and data sources, while Skills are pre-built, reusable capabilities that an agent can perform. Think of MCP as the universal plug, and Skills as the specific appliances you plug into it."
+  - q: "When should I use MCP instead of Skills for my agent?"
+    a: "Use MCP when you need to connect your agent to a new, external service or data source that isn't already integrated. Use Skills when you want to leverage a pre-packaged, tested capability like 'send email' or 'query database' without building the connection from scratch."
+  - q: "Can an AI agent use both MCP and Skills together?"
+    a: "Yes, they are complementary. An agent might use a Skill to handle a complex task, and that Skill itself might use MCP under the hood to connect to the necessary external tools or APIs."
+  - q: "Is MCP more flexible than Skills for custom integrations?"
+    a: "Yes, MCP is designed for flexibility and custom integrations, allowing you to define how your agent interacts with any external system. Skills offer convenience and reliability for common, well-defined tasks but are less customizable out of the box."
+
 ---
 {{< audio src="/audio/mcp-vs-skills-whats-the-difference.mp3" >}}
 

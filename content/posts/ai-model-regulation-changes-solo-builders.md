@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-model-regulation-changes-solo-builders.jpg"
   alt: "Zoe reading AI regulation news on her laptop at a coffee shop"
+faqs:
+  - q: "How will the new AI model approval process affect solo builders?"
+    a: "Solo builders will need to submit their AI models for government review before launching, which could delay product timelines by weeks or months. The process requires detailed documentation of training data, safety measures, and intended use cases."
+  - q: "Can I still use older AI models like GPT-4 while new ones are in review?"
+    a: "Yes, previously approved models remain available for use during the review period. However, you should check if your specific use case falls under any new compliance requirements even with older models."
+  - q: "What documentation do I need to prepare for AI model approval?"
+    a: "You'll need training data sources, bias mitigation strategies, safety testing results, and a clear description of your model's intended applications. The exact requirements vary by jurisdiction but focus on transparency and risk assessment."
+  - q: "Are there penalties for launching an AI model without approval?"
+    a: "Yes, non-compliance can result in fines, forced model takedowns, and potential legal liability. The penalties are designed to be significant enough to ensure developers follow the approval process."
+
 ---
 
 {{< audio src="/audio/ai-model-regulation-changes-solo-builders.mp3" >}}

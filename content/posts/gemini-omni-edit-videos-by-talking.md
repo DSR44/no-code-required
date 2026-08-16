@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/gemini-omni-edit-videos-by-talking.jpg"
   alt: "Zoe at laptop with conversational video editing on screen, warm workspace"
+faqs:
+  - q: "How can I edit a video using just my voice or text prompts?"
+    a: "Google's Gemini Omni lets you describe changes in plain language, like 'make this clip brighter' or 'add a transition here,' and the AI applies them automatically. No timeline, no software — just conversation."
+  - q: "Do I need video editing experience to use Google's Gemini Omni?"
+    a: "No experience is required. Gemini Omni is designed so anyone can edit videos by simply chatting with the AI, removing the need to learn complex editing tools."
+  - q: "Which AI tool from Google lets you edit videos through conversation?"
+    a: "Google's Gemini Omni is the tool that enables conversational video editing. You interact with it through natural language prompts instead of traditional editing software."
+  - q: "Can Gemini Omni replace traditional video editing software?"
+    a: "For many common edits — trimming, color adjustments, transitions, and effects — Gemini Omni can handle tasks that would normally require dedicated software. However, highly specialized professional workflows may still benefit from traditional editors."
+
 ---
 {{< audio src="/audio/gemini-omni-edit-videos-by-talking.mp3" >}}
 

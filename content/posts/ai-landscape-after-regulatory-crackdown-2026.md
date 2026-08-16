@@ -13,6 +13,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-landscape-after-regulatory-crackdown-2026.jpg"
   alt: "Zoe at laptop reviewing AI industry news with multiple model interfaces on screen"
+faqs:
+  - q: "Why are Anthropic and OpenAI facing government review right now?"
+    a: "Both companies are under increased regulatory scrutiny as governments worldwide develop frameworks to oversee AI safety, data privacy, and potential societal impacts. This review is part of a broader effort to ensure AI development aligns with emerging legal and ethical standards."
+  - q: "How might the AI regulatory crackdown affect the tools I use daily?"
+    a: "You could see slower feature rollouts, temporary service pauses, or stricter usage policies as companies adjust to comply with new rules. However, the goal is to make these tools safer and more reliable in the long run."
+  - q: "Are there any immediate changes I should prepare for with my AI tools?"
+    a: "Stay updated on announcements from your tool providers, as they may introduce new terms of service, usage limits, or compliance checks. It's also wise to back up any critical workflows that depend heavily on these AI services."
+  - q: "Could this regulatory crackdown lead to better AI tools in the future?"
+    a: "Yes, regulations often drive innovation by setting clear safety and transparency benchmarks, which can build user trust and encourage more responsible development. Over time, this could result in more robust, ethical, and user-friendly AI tools."
+
 ---
 
 {{< audio src="/audio/ai-landscape-after-regulatory-crackdown-2026.mp3" >}}

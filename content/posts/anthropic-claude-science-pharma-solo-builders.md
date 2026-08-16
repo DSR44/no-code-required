@@ -13,6 +13,16 @@ cover:
   image: "/images/posts/anthropic-claude-science-pharma-solo-builders.jpg"
   alt: "Zoe at a laptop reviewing AI science tools in a warm workspace"
 lastmod: 2026-07-17
+faqs:
+  - q: "How does Claude Science differ from Anthropic's general-purpose AI?"
+    a: "Claude Science is a specialized version of Claude fine-tuned for pharmaceutical research, trained on scientific literature and drug development data. Unlike the general model, it's optimized for tasks like molecular analysis, clinical trial design, and regulatory compliance in the pharma space."
+  - q: "Why is Anthropic moving into drug development with Claude?"
+    a: "Anthropic sees pharma as a high-value vertical where AI can dramatically accelerate research timelines and reduce costs. This move also diversifies their revenue beyond consumer and enterprise AI, positioning Claude as a domain-specific tool rather than just a general assistant."
+  - q: "Can indie AI builders compete with Anthropic's specialized models like Claude Science?"
+    a: "Indie builders can still thrive by targeting niche use cases or underserved therapeutic areas that Anthropic's broad approach might miss. The key is leveraging open-source tools, domain expertise, and agility to build focused solutions that larger players can't replicate as quickly."
+  - q: "What signals does Claude Science send about the future of vertical AI development?"
+    a: "It signals that the AI industry is shifting from horizontal, one-size-fits-all models toward deep vertical specialization in high-stakes industries. Builders should expect more domain-specific fine-tuning opportunities and consider building complementary tools rather than competing head-on with foundation model companies."
+
 ---
 > **Update July 2026: recent developments in anthropic may affect the information in this post — see details below.**
 

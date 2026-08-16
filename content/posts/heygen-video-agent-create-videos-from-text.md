@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/heygen-video-agent-create-videos-from-text.jpg"
   alt: "Person at laptop with AI video timeline on screen, cozy workspace"
+faqs:
+  - q: "How does HeyGen's Video Agent create videos from text prompts?"
+    a: "You simply type a text prompt describing your video idea, and the AI agent generates a complete video including script, visuals, avatar, and voiceover automatically. It handles the entire production pipeline without requiring any video editing skills or technical knowledge."
+  - q: "Is HeyGen's Video Agent worth the credits it costs?"
+    a: "It depends on your use case — for quick social media content, training videos, or marketing clips, it can save significant time compared to manual creation. However, credit costs add up, so it's best suited for users who need frequent video output and value speed over granular creative control."
+  - q: "Can I customize the output from HeyGen's Video Agent?"
+    a: "Yes, you can refine your prompt to adjust the script tone, avatar selection, and visual style before finalizing the video. The agent also lets you edit the generated result after creation if you want to tweak specific elements."
+  - q: "Do I need any video editing experience to use HeyGen's Video Agent?"
+    a: "No prior video editing experience is required — the entire process is driven by a simple text prompt interface. The AI handles scripting, scene composition, avatar animation, and voice generation so beginners can produce polished videos on their first try."
+
 ---
 
 {{< audio src="/audio/heygen-video-agent-create-videos-from-text.mp3" >}}

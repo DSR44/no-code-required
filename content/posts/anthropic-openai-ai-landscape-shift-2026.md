@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/anthropic-openai-ai-landscape-shift-2026.jpg"
   alt: "Zoe at laptop looking at news about AI regulation changes"
+faqs:
+  - q: "How does AI regulation affect which models solopreneurs can use?"
+    a: "Government rules now determine model availability, compliance requirements, and data handling standards, directly limiting or enabling your choices based on your location and business type."
+  - q: "Which AI regulations should solopreneurs watch out for?"
+    a: "Key regulations include the EU AI Act, U.S. state-level laws, and China's AI governance rules, each setting different requirements for transparency, safety, and data usage."
+  - q: "Can I still use open-source AI models if regulations tighten?"
+    a: "Yes, but you may face new compliance duties around documentation, bias testing, and usage disclosures depending on how regulators classify the model and your application."
+  - q: "Why is AI regulation changing the competitive landscape for startups?"
+    a: "Regulation raises compliance costs and favors larger companies with legal resources, while also creating opportunities for startups that build tools to help others meet these new requirements."
+
 ---
 {{< audio src="/audio/anthropic-openai-ai-landscape-shift-2026.mp3" >}}
 

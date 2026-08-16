@@ -14,6 +14,16 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-codex-hardware-what-it-means.jpg"
   alt: "Zoe looking at an OpenAI Codex hardware teaser on her laptop with curiosity"
+faqs:
+  - q: "How does the OpenAI Codex macro pad work for non-coders?"
+    a: "The physical macro pad provides dedicated buttons to trigger common Codex actions, like generating code or explaining it, without needing to type commands. It's designed to make interacting with the AI feel more intuitive and accessible for beginners."
+  - q: "Why is OpenAI releasing a hardware device for Codex?"
+    a: "The hardware aims to lower the barrier to entry by offering a tangible, simplified interface for AI-assisted coding. It's part of a broader push to make powerful development tools more approachable for people without technical backgrounds."
+  - q: "Can I use the Codex macro pad if I have no programming experience?"
+    a: "Yes, absolutely. The device is specifically designed for non-coders, with pre-set functions that let you leverage Codex's capabilities through simple button presses instead of writing code."
+  - q: "Where can I buy the OpenAI Codex hardware and how much does it cost?"
+    a: "The macro pad is a collaboration with Work Louder and will be available through their website. Pricing details are expected to be announced closer to the launch date."
+
 ---
 {{< audio src="/audio/openai-codex-hardware-what-it-means.mp3" >}}
 

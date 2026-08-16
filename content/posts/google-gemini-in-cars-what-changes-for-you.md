@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/google-gemini-in-cars-what-changes-for-you.jpg"
   alt: "Woman in modern car interior with AI assistant visualization on dashboard screen"
+faqs:
+  - q: "How will Google Gemini change my daily commute?"
+    a: "Gemini can handle complex, multi-step requests like finding a coffee shop near your route that has a drive-through and is open now, then adding it to your navigation. It aims to reduce the time you spend fiddling with screens while driving."
+  - q: "Do I need a new car to use Google Gemini?"
+    a: "Not necessarily. While it's launching in new models like the Volvo EX60, Google plans to bring Gemini to existing Android Automotive OS vehicles via software updates. The exact availability will depend on your car's hardware and manufacturer."
+  - q: "Is Google Gemini in cars safe to use while driving?"
+    a: "Google designs it for hands-free, voice-first interaction to minimize distraction. However, drivers should always prioritize road safety and use the system responsibly, just like any other in-car technology."
+  - q: "Can Gemini control my car's features like the AC or music?"
+    a: "Yes, it's designed to integrate deeply with your vehicle. You can use natural language to adjust climate settings, change radio stations, or find a specific podcast without taking your eyes off the road."
+
 ---
 {{< audio src="/audio/google-gemini-in-cars-what-changes-for-you.mp3" >}}
 

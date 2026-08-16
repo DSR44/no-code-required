@@ -9,6 +9,16 @@ ShowToc: true
 cover:
   image: "/images/20260521_012553_A_person_editing_video_on_a_laptop_scree.jpg"
   alt: "CapCut sold your data. Kimu won&#39;t. Here&#39;s a free, open-source video editor with an AI copilot that actually work"
+faqs:
+  - q: "How does Kimu compare to CapCut in terms of privacy?"
+    a: "Unlike CapCut, which has faced criticism for data collection, Kimu is open-source and runs locally on your machine, meaning your videos and data never leave your device."
+  - q: "Can I use Kimu's AI features without an internet connection?"
+    a: "Yes, Kimu's AI copilot is designed to run locally, so you can use its smart editing tools offline without relying on cloud servers."
+  - q: "Is Kimu really free, or are there hidden costs?"
+    a: "Kimu is completely free and open-source under a permissive license, with no subscriptions, watermarks, or premium tiers."
+  - q: "What are the system requirements for running Kimu?"
+    a: "Kimu is optimized for modern machines and runs on Windows, macOS, and Linux, though a dedicated GPU is recommended for the best AI performance."
+
 ---
 
 I used CapCut for months. Then I read the privacy policy. Then I stopped.

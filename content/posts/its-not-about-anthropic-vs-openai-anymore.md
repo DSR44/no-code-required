@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/its-not-about-anthropic-vs-openai-anymore.jpg"
   alt: "Zoe at laptop comparing AI tools on screen with multiple chat windows open"
+faqs:
+  - q: "How do I decide between Anthropic and OpenAI for my project?"
+    a: "Consider your specific needs: OpenAI's models like GPT-4 are often strong for general-purpose tasks and creative generation, while Anthropic's Claude models are frequently chosen for their focus on safety, nuanced instruction following, and handling longer contexts. The best choice depends on your application's requirements for cost, speed, and specific capabilities."
+  - q: "Are there other AI model providers besides Anthropic and OpenAI I should consider?"
+    a: "Yes, the market has expanded significantly with strong options from Google (Gemini), Meta (Llama), Mistral, and others. Many developers now use multiple providers or specialized models for different parts of their application, so it's worth evaluating the full landscape."
+  - q: "Which AI model is better for building a customer support chatbot?"
+    a: "For customer support, Anthropic's Claude models are often preferred for their ability to follow complex guidelines and maintain a consistent, helpful tone. However, OpenAI's models can also be effective, especially if you need strong multilingual support or integration with a broader ecosystem."
+  - q: "How has the AI model selection process changed recently?"
+    a: "The choice is no longer just between two major players; it's now a multi-vendor decision based on specific use cases. Factors like model specialization, pricing tiers, open-source availability, and fine-tuning options have become critical in selecting the right tool for the job."
+
 ---
 {{< audio src="/audio/its-not-about-anthropic-vs-openai-anymore.mp3" >}}
 

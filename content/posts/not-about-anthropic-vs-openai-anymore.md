@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/not-about-anthropic-vs-openai-anymore.jpg"
   alt: "Zoe looking at split screen showing AI model dashboards with government approval notice"
+faqs:
+  - q: "How do US government AI model approvals affect solo builders?"
+    a: "Government approvals now determine which AI models are legally usable in commercial products, meaning solo builders must verify their chosen tools are compliant before launching. Using unapproved models could result in legal issues or forced product changes down the line."
+  - q: "Which AI models currently have US government approval for commercial use?"
+    a: "The approved list is evolving, but major providers like Anthropic and OpenAI have models on it. Always check the latest NIST or Commerce Department publications, as approvals can change with new regulations."
+  - q: "Can I still use free or open-source AI models in my projects?"
+    a: "Open-source models may not require government approval if they fall below certain capability thresholds, but this depends on current rules. Review the specific use case and model size against the latest guidelines to stay compliant."
+  - q: "What steps should I take to ensure my AI tool usage is compliant?"
+    a: "Start by checking if your AI provider's models are on the approved list, and document your compliance checks. Consider consulting legal resources or communities focused on AI regulation to stay updated on changes."
+
 ---
 {{< audio src="/audio/not-about-anthropic-vs-openai-anymore.mp3" >}}
 

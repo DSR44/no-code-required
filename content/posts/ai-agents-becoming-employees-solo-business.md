@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-agents-becoming-employees-solo-business.jpg"
   alt: "Zoe at her desk with an AI agent assistant on screen"
+faqs:
+  - q: "How can AI agents be given employee identities?"
+    a: "Companies like NewCore are creating systems where AI agents are onboarded, assigned roles, and integrated into workflows just like human employees, complete with their own credentials and responsibilities."
+  - q: "Why would a solo business owner consider hiring an AI agent?"
+    a: "AI agents can handle repetitive tasks, scale operations without human hiring delays, and work 24/7, allowing solo owners to focus on strategy and growth."
+  - q: "Are competitors already using AI agents as employees?"
+    a: "Yes, many businesses are actively deploying AI agents for customer service, data analysis, and administrative tasks, gaining efficiency and cost advantages."
+  - q: "What does NewCore's $66M funding mean for the AI agent space?"
+    a: "It signals strong investor confidence in the 'AI as employee' model, accelerating development and adoption of tools that make AI agents more accessible to smaller businesses."
+
 ---
 {{< audio src="/audio/ai-agents-becoming-employees-solo-business.mp3" >}}
 

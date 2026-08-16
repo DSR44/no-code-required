@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/nouscoder-14b-atropos-framework-reproducible-ai.jpg"
   alt: "Zoe reviewing an open-source AI training pipeline on her laptop"
+faqs:
+  - q: "How does NousCoder-14B differ from other open-source AI coding models?"
+    a: "Unlike most open-source models that only release weights, NousCoder-14B includes the entire training pipeline, data recipes, and framework code. This means researchers can fully reproduce, audit, and modify the model from scratch, not just fine-tune a black box."
+  - q: "Why is the Atropos framework important for reproducible AI?"
+    a: "Atropos is the open-source training framework that made NousCoder's full reproducibility possible. It standardizes the entire training process so anyone can replicate the exact conditions that produced the model, which is critical for scientific validation and trust."
+  - q: "Can I use NousCoder-14B for commercial projects?"
+    a: "Yes, NousCoder-14B is released under the Apache 2.0 license, which permits commercial use. However, always verify the license terms of any third-party data or components included in the training pipeline."
+  - q: "Where can I find the training code and data for NousCoder-14B?"
+    a: "All training code, data processing scripts, and the Atropos framework are available on Nous Research's GitHub repository. The model weights are hosted on Hugging Face for easy access."
+
 ---
 {{< audio src="/audio/nouscoder-14b-atropos-framework-reproducible-ai.mp3" >}}
 

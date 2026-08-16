@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-memory-chip-crunch-india-smartphone-solo-builders.jpg"
   alt: "Zoe looking concerned at a laptop showing rising cloud costs and supply chain alerts"
+faqs:
+  - q: "How does the AI memory chip shortage affect cloud computing prices?"
+    a: "The shortage drives up DRAM and NAND prices, which increases the cost of server hardware for cloud providers. These costs are typically passed on to users through higher subscription fees for cloud services and AI APIs."
+  - q: "Why are AI data centers causing a smartphone memory crunch in India?"
+    a: "AI data centers are consuming a massive share of global memory chip production to power large language models and training clusters. This diverts supply away from consumer electronics like smartphones, causing shortages and price hikes in markets like India."
+  - q: "Can no-code builders avoid rising cloud costs from the chip shortage?"
+    a: "You can minimize impact by optimizing your app's data usage, choosing providers with fixed pricing, or using free-tier services where possible. Monitoring your usage closely helps avoid surprise bills as providers adjust to higher hardware costs."
+  - q: "Will the AI chip shortage slow down new AI tools for solo developers?"
+    a: "It may lead to slower rollouts or higher prices for AI-powered features in no-code platforms, as providers face increased infrastructure costs. However, competition and efficiency improvements could help keep many tools accessible."
+
 ---
 
 {{< audio src="/audio/ai-memory-chip-crunch-india-smartphone-solo-builders.mp3" >}}

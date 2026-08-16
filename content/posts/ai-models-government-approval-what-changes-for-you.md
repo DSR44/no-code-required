@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-models-government-approval-what-changes-for-you.jpg"
   alt: "Zoe looking concerned at a laptop showing news about AI model restrictions"
+faqs:
+  - q: "Why are GPT5.6 and Anthropic's Mythos stuck in government review?"
+    a: "These models are undergoing a new federal safety review process designed to evaluate high-capability AI systems before they can be released to the public. This \"model border hold\" ensures they meet specific security and safety benchmarks."
+  - q: "How will the new AI approval process affect the tools I use?"
+    a: "It may cause delays in accessing the latest AI features and models integrated into your software. However, it also aims to ensure that the tools you eventually use are safer and more reliable."
+  - q: "Which government agency is responsible for approving these AI models?"
+    a: "The review is being conducted by a newly formed interagency task force, with oversight from the Department of Commerce and input from national security agencies. This reflects a coordinated federal approach to AI governance."
+  - q: "Can developers still use older versions of these models during the hold?"
+    a: "Yes, previously approved versions like GPT-5.5 and Anthropic's current models remain available for use and integration. The hold only applies to the new, unreleased versions under review."
+
 ---
 {{< audio src="/audio/ai-models-government-approval-what-changes-for-you.mp3" >}}
 

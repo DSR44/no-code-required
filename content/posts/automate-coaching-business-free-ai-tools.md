@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/automate-coaching-business-free-ai-tools.jpg"
   alt: "Zoe at laptop with coaching automation dashboard on screen, warm editorial setting"
+faqs:
+  - q: "How can I automate my coaching business without spending money?"
+    a: "You can use a combination of free tools like Zapier's starter plan, ChatGPT, Google Sheets, and n8n to create automated workflows for client intake, scheduling, and follow-ups. The blog post provides a step-by-step guide to building this exact no-cost system."
+  - q: "Which free AI tools work best for coaching automation?"
+    a: "The recommended stack includes ChatGPT for generating content and responses, Zapier or n8n for connecting apps and creating triggers, and Google Sheets as a free database for client information. These tools have generous free tiers that are sufficient for most solo coaches."
+  - q: "Can I set up these automations without any technical background?"
+    a: "Yes, the workflow is designed for non-technical users and uses visual, no-code interfaces like Zapier's drag-and-drop editor and n8n's node-based canvas. The guide walks you through each step, from connecting your accounts to activating your first automation."
+  - q: "What specific coaching tasks can be automated with this free AI workflow?"
+    a: "Key automations include sending personalized welcome emails to new leads, scheduling discovery calls, generating session summaries, and sending follow-up resources. This saves hours of administrative work each week."
+
 ---
 {{< audio src="/audio/automate-coaching-business-free-ai-tools.mp3" >}}
 

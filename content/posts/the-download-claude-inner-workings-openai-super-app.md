@@ -13,6 +13,16 @@ cover:
   image: "/images/posts/the-download-claude-inner-workings-openai-super-app.jpg"
   alt: "Zoe reading news about AI developments on her laptop with coffee"
 lastmod: 2026-07-22
+faqs:
+  - q: "How does Claude's new memory feature actually work?"
+    a: "Claude can now remember key details from your past conversations, like your preferences or project context, so you don't have to repeat yourself. It's like having a personal assistant who gets to know your working style over time."
+  - q: "Can I control what Claude remembers about me?"
+    a: "Yes, you have full control. You can view, edit, or delete any memories Claude has stored, and you can turn the feature off entirely in your settings if you prefer a fresh start each time."
+  - q: "What is OpenAI planning with its 'super app'?"
+    a: "OpenAI is building a unified platform that combines its AI tools, like ChatGPT, with third-party apps and services. The goal is to create a single hub where you can get work done without switching between different applications."
+  - q: "How can I use these new AI features to be more productive right now?"
+    a: "Start by using Claude's memory for ongoing projects—it can recall your goals and past decisions. For OpenAI's tools, explore the plugin ecosystem to automate tasks like data analysis or scheduling directly within your chat."
+
 ---
 {{< audio src="/audio/the-download-claude-inner-workings-openai-super-app.mp3" >}}
 

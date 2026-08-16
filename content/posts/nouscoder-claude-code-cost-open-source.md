@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/nouscoder-claude-code-cost-open-source.jpg"
   alt: "Zoe comparing AI coding tool costs on a split-screen laptop"
+faqs:
+  - q: "How much money can I save by switching from Claude Code to open source AI?"
+    a: "You can save the entire $200/month Claude Code subscription cost by using free open source alternatives like NousCoder-14B. The only ongoing expense is the electricity to run the model on your own hardware."
+  - q: "Is NousCoder-14B good enough for real coding tasks?"
+    a: "Yes, it scored 67.87% on LiveCodeBench, a rigorous benchmark for code generation. This performance makes it a capable tool for many everyday programming and debugging tasks."
+  - q: "Do I need to be a programmer to set up open source AI for coding?"
+    a: "No, modern tools and one-click installers have made setup accessible to non-programmers. You can often run these models with a simple download and a few clicks, with no code required."
+  - q: "Where can I download NousCoder-14B to replace Claude Code?"
+    a: "You can download it directly from its official repository on Hugging Face. The model card there provides all the necessary files and instructions for getting started."
+
 ---
 {{< audio src="/audio/nouscoder-claude-code-cost-open-source.mp3" >}}
 

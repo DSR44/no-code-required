@@ -9,6 +9,16 @@ ShowToc: true
 cover:
   image: "/images/posts/how-i-use-ai-fitness-business.jpg"
   alt: "I run a fitness business and AI handles half my workload. Not the flashy stuff — the boring, repetitive tasks that used "
+faqs:
+  - q: "Which AI tools are best for automating fitness business admin tasks?"
+    a: "For scheduling and client management, tools like Calendly with AI features or Acuity are great. For email and social media, platforms like Mailchimp's AI assistant or Later can automate much of the repetitive work."
+  - q: "How can I use AI to handle client communication in my gym?"
+    a: "You can set up AI chatbots on your website or social media to answer common questions about hours, pricing, and class schedules 24/7. This frees you up to focus on in-person training and complex client issues."
+  - q: "Are there affordable AI solutions for a small fitness studio?"
+    a: "Yes, many tools offer free or low-cost tiers perfect for small businesses. Start with integrated features in software you already use, like the AI writing assistants in Canva for social posts or the automation in Google Workspace."
+  - q: "What repetitive tasks in a fitness business can AI actually take over?"
+    a: "AI excels at scheduling appointments, sending payment reminders, drafting routine emails, and generating social media content calendars. It can also help with basic bookkeeping and data entry from client intake forms."
+
 ---
 
 I run a fitness business. I'm not a developer. I don't code. But I use AI every single day to handle the stuff that used to take me hours.

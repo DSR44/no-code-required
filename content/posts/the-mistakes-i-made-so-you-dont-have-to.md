@@ -8,6 +8,16 @@ description: "I wasted months and money on AI tools that didn't work. Here are t
 ShowToc: true
 cover:
   image: "/images/posts/the-mistakes-i-made-so-you-dont-have-to.jpg"
+faqs:
+  - q: "How can I avoid wasting money on AI tools that don't deliver?"
+    a: "Start by clearly defining your specific use case and testing free tiers or trials before committing to paid plans. Research real user reviews and avoid tools that overpromise without proven results for your exact needs."
+  - q: "Which common AI tool mistakes should beginners watch out for?"
+    a: "Beginners often pick tools based on hype rather than fit, ignore integration with existing workflows, and underestimate the learning curve. Focus on tools that solve your immediate problem and offer good support."
+  - q: "Are there affordable AI tools that actually work for small projects?"
+    a: "Yes, many AI tools offer generous free plans or low-cost tiers suitable for small projects, such as Canva for design, ChatGPT for writing, or Zapier for automation. Always test with a small task first to ensure they meet your needs."
+  - q: "How do I choose the right AI tool without getting overwhelmed?"
+    a: "Identify one key task you want to automate or improve, then shortlist 2-3 tools with strong reviews in that area. Use free trials to compare ease of use and results before making a decision."
+
 ---
 
 I've been using AI tools for about a year now. Not as a developer. Not as someone with a CS degree. Just as a regular person who wanted to get things done faster.
