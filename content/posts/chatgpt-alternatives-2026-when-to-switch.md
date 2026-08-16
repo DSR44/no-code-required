@@ -1,5 +1,5 @@
 ---
-title: "When to Stop Using ChatGPT: A 2026 Switching Guide"
+title: "When to Stop Using ChatGPT: A 2026 Switching Guide | NCR"
 slug: "chatgpt-alternatives-2026-when-to-switch"
 date: 2026-07-28
 draft: false

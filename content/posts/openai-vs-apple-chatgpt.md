@@ -1,5 +1,5 @@
 ---
-title: "OpenAI vs Apple: What Happened and What It Means"
+title: "OpenAI vs Apple: What Happened and What It Means | NCR"
 date: 2026-05-23
 draft: false
 description: "OpenAI is reportedly considering suing Apple over how badly they integrated ChatGPT into Siri. Here's what actually happened, why it matters, and what it means for the tools you use every day."
@@ -19,7 +19,6 @@ faqs:
     a: "It highlights growing tensions between AI developers and hardware makers, which could affect how seamlessly AI assistants like Siri and ChatGPT work together on your phone or computer."
   - q: "Could this legal dispute change how Apple partners with AI companies?"
     a: "Yes, Apple may become more cautious about future AI integrations or renegotiate partnership terms to avoid similar conflicts, potentially slowing down new feature rollouts."
-
 ---
 
 {{< audio src="/audio/openai-vs-apple-chatgpt.mp3" >}}

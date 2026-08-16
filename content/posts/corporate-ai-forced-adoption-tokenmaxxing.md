@@ -1,5 +1,5 @@
 ---
-title: "Exposed: Your Boss Wants You to Use AI — Does It Help?"
+title: "Amazon's AI Mandate: Tokenmaxxing vs Real Work"
 date: 2026-05-27
 draft: false
 description: "Amazon employees are 'tokenmaxxing' — gaming AI usage quotas instead of doing real work. Here's what forced AI adoption looks like inside big companies."
@@ -21,7 +21,6 @@ faqs:
     a: "Yes, when employees focus on meeting quotas rather than solving real problems, it can create busywork and distract from core tasks. The pressure to show AI usage often leads to superficial implementation rather than meaningful integration."
   - q: "What are the signs of performative AI adoption in the workplace?"
     a: "Look for employees generating unnecessary prompts, using AI for tasks it's not suited for, or prioritizing usage metrics over actual outcomes. These behaviors indicate a compliance-driven culture rather than genuine technological adoption."
-
 ---
 {{< audio src="/audio/corporate-ai-forced-adoption-tokenmaxxing.mp3" >}}
 

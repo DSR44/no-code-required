@@ -21,7 +21,6 @@ faqs:
     a: "It integrates with common productivity apps like browsers, office suites, and file managers. However, it may have limited support for highly specialized or legacy software without standard interfaces."
   - q: "How is IrisGo different from other automation tools like AutoHotkey?"
     a: "Unlike rule-based tools, IrisGo uses AI to learn from your behavior without requiring you to write scripts. It adapts to your habits over time, making it more intuitive for non-technical users."
-
 ---
 {{< audio src="/audio/irisgo-ai-desktop-companion-honest-first-look.mp3" >}}
 

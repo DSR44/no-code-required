@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Codex Micro and the Pattern Every AI Tool Follows"
+title: "OpenAI Codex Micro: The Pattern Every AI Tool Follows"
 date: 2026-08-11
 draft: false
 description: "OpenAI's Codex Micro follows a pattern every major technology has repeated — physical interfaces make tools accessible. Here's what that means for you."
@@ -22,7 +22,6 @@ faqs:
     a: "Codex Micro mirrors the pattern where a new technology starts complex and exclusive, then becomes widely adopted once a physical or simplified interface makes it approachable — similar to how the graphical user interface democratized computing in the 1980s."
   - q: "Can someone with no coding experience benefit from Codex Micro?"
     a: "Yes. The whole point of Codex Micro aligning with the physical interface pattern is that it lowers the technical barrier, allowing non-developers to leverage AI-powered coding assistance through a more intuitive interaction model."
-
 ---
 {{< audio src="/audio/openai-codex-micro-physical-ai-pattern.mp3" >}}
 

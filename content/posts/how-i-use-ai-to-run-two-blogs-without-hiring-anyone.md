@@ -1,5 +1,5 @@
 ---
-title: "How I Use AI to Run Two Blogs Without Hiring Anyone | NCR"
+title: "How I Run Two Blogs Solo With AI — No Team, No Code"
 date: 2026-06-03
 draft: false
 description: "Discover the exact AI automation workflow that lets one person publish on two blogs solo — no team, no VA, no code required. Save 15+ hours weekly."
@@ -21,7 +21,6 @@ faqs:
     a: "By automating repetitive tasks like drafting and formatting, you can save over 15 hours per week. This frees up time for strategy, promotion, and other high-value activities."
   - q: "Is it possible to run two blogs without any coding knowledge?"
     a: "Yes, modern no-code AI tools and platforms are designed for users without technical skills. The entire workflow described relies on visual interfaces and pre-built integrations."
-
 ---
 {{< audio src="/audio/how-i-use-ai-to-run-two-blogs-without-hiring-anyone.mp3" >}}
 

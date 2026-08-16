@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "build-your-own-ai-chatbot-in-30-minutes"
 cover:
   image: "/images/posts/build-your-own-ai-chatbot-in-30-minutes.jpg"
+  alt: "You don&#39;t need to code to build an AI chatbot. Here are three ways to do it — one takes 5 minutes, one takes 15, and"
 howto:
   totalTime: "PT5M"
   estimatedCost:

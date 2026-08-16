@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-handle-customer-messages-solopreneur.jpg"
   alt: "Zoe at laptop with AI chat interface open, responding to customer messages in a cozy workspace"
+faqs:
+  - q: "What I actually set up"
+    a: "I tested three approaches over a month, going from simplest to most involved."
+  - q: "What I'd recommend if you're starting today"
+    a: "If you're a solopreneur getting less than 50 customer messages per week:"
 ---
 {{< audio src="/audio/ai-handle-customer-messages-solopreneur.mp3" >}}
 
