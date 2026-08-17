@@ -1,5 +1,5 @@
 ---
-title: "Claude Sonnet 5 Just Made AI Agents Affordable for Solo Builders"
+title: "Claude Sonnet 5: Affordable AI Agents for Solo Builders"
 date: 2026-07-04
 draft: false
 description: "Claude Sonnet 5 delivers near-Opus agent performance at 60% lower cost. Here's what solo builders need to know before migrating."
@@ -21,7 +21,6 @@ faqs:
     a: "If cost is a concern, migrating to Sonnet 5 is worth testing. Run your current agent benchmarks against Sonnet 5 first to confirm performance holds up for your specific use case."
   - q: "Does Claude Sonnet 5 support the same tool use and agentic features as Opus?"
     a: "Yes, Sonnet 5 supports the full suite of agentic capabilities including tool use, extended thinking, and multi-turn workflows. The feature parity is what makes the cost savings so significant for builders."
-
 ---
 {{< audio src="/audio/claude-sonnet-5-agents-solo-builders.mp3" >}}
 

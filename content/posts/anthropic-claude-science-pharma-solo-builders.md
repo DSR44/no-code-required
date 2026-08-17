@@ -22,7 +22,6 @@ faqs:
     a: "Indie builders can still thrive by targeting niche use cases or underserved therapeutic areas that Anthropic's broad approach might miss. The key is leveraging open-source tools, domain expertise, and agility to build focused solutions that larger players can't replicate as quickly."
   - q: "What signals does Claude Science send about the future of vertical AI development?"
     a: "It signals that the AI industry is shifting from horizontal, one-size-fits-all models toward deep vertical specialization in high-stakes industries. Builders should expect more domain-specific fine-tuning opportunities and consider building complementary tools rather than competing head-on with foundation model companies."
-
 ---
 > **Update July 2026: recent developments in anthropic may affect the information in this post — see details below.**
 

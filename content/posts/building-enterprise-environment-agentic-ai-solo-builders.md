@@ -1,5 +1,5 @@
 ---
-title: "Building the Enterprise Environment for Agentic AI: A Practical Take for Solo Builders"
+title: "Agentic AI for Solo Builders: What to Borrow From Enterprise"
 slug: "building-enterprise-environment-agentic-ai-solo-builders"
 date: 2026-08-17
 draft: false

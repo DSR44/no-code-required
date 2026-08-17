@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/salesforce-slackbot-ai-agent-guide.jpg"
   alt: "Zoe exploring Slackbot AI features on her laptop"
+faqs:
+  - q: "What changed with Slackbot"
+    a: "Old Slackbot set reminders and responded to a handful of preset commands. That's it. New Slackbot is a different product entirely."
+  - q: "What it can't do (yet)"
+    a: "Slackbot is an assistant, not a coworker. Here's where it has limits:"
+  - q: "How to set it up"
+    a: "If your Slack workspace is on Business+ or Enterprise, Slackbot AI is already built in. No installation needed. Here's how to start using it:"
+  - q: "How this compares to other options"
+    a: "Slackbot isn't the only AI in Slack anymore. Anthropic just launched Claude Tag (June 2026), which replaces the old Claude app and turns the AI into more of a teammate — it can run multi-step tasks, stay on a project for hours, and even speak up on its own in \"ambient\" mode. Viktor, a startup that raised $75 million in May, offers a similar agentic coworker concept."
 ---
 {{< audio src="/audio/salesforce-slackbot-ai-agent-guide.mp3" >}}
 

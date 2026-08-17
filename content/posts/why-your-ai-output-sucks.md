@@ -12,17 +12,21 @@ TocOpen: false
 cover:
   image: "/images/posts/why-your-ai-output-sucks.jpg"
   alt: "Zoe at laptop reviewing AI draft text on screen, frustrated but focused, warm coffee shop editorial"
-faqs:
-  - q: "Why does AI-generated content sound so generic?"
-    a: "Generic output usually stems from vague prompts that lack specific context, audience details, or a clear desired tone. The AI is working with incomplete instructions, so it defaults to safe, broad statements."
-  - q: "How can I get better results from ChatGPT or other AI tools?"
-    a: "Focus on providing rich context, defining your audience, and specifying the exact format or goal you want. Treat the AI as a collaborator you need to brief thoroughly, not a mind reader."
-  - q: "What's the most common mistake people make when prompting AI?"
-    a: "The biggest mistake is giving a single, open-ended instruction without constraints or examples. Effective prompts include role definitions, step-by-step guidance, and clear success criteria."
-  - q: "Can improving my workflow fix bad AI writing?"
-    a: "Absolutely. A workflow that includes iterative refinement, fact-checking, and human editing transforms raw AI output into polished, valuable content. The AI provides the draft; your process ensures quality."
 
+lastmod: 2026-08-17
+faqs:
+  - q: "Why does AI give me generic, vague output?"
+    a: "Because you gave it a generic, vague prompt. \"Write a blog post about AI tools\" will always produce mush. The model has seen ten million blog posts that start with \"In today's fast-paced digital landscape.\" You're asking it to average everything together."
+  - q: "How do I make AI write in my voice instead of corporate default?"
+    a: "Out of the box, every model writes like a polite intern. If you want your voice, you have to feed it examples."
+  - q: "Should I ask AI to write my whole draft in one prompt?"
+    a: "One-shot prompts work for small tasks: subject lines, tweet variants, a single paragraph. They fail for anything over 800 words."
+  - q: "What context does AI actually need before it can write well?"
+    a: "Models can't see your Notion, your past emails, or your brand guidelines unless you paste them in."
+  - q: "What should I edit in AI output before publishing it?"
+    a: "The first draft is raw material. Treat it like a junior writer's submission — useful, not publishable."
 ---
+
 
 {{< audio src="/audio/why-your-ai-output-sucks.mp3" >}}
 
@@ -32,9 +36,9 @@ It's probably not the model. It's the input.
 
 I've burned through ChatGPT, Claude, Gemini, and Cursor on real work — blog posts, client emails, automation scripts, reel scripts. When the output is bad, it's almost always because I skipped a step I already know works. Here's the checklist I run now before I blame the AI.
 
-## Generic output starts with generic prompts
+## Why does AI give me generic, vague output?
 
-"Write a blog post about AI tools" will always produce mush. The model has seen ten million blog posts that start with "In today's fast-paced digital landscape." You're asking it to average everything together.
+Because you gave it a generic, vague prompt. "Write a blog post about AI tools" will always produce mush. The model has seen ten million blog posts that start with "In today's fast-paced digital landscape." You're asking it to average everything together.
 
 Specific prompts produce specific output. Not longer prompts — *structured* ones:
 
@@ -54,7 +58,7 @@ vs.
 
 The second prompt isn't magic. It just gives the model something to anchor to besides the internet's median blog post. I use the same framing in [How to Build Your First AI Workflow for Your Online Business](/posts/how-to-build-first-ai-workflow-online-business/) — start with the pain, not the tool.
 
-## You're not giving it your voice
+## How do I make AI write in my voice instead of corporate default?
 
 Out of the box, every model writes like a polite intern. If you want *your* voice, you have to feed it examples.
 
@@ -64,7 +68,7 @@ Claude is best at this. ChatGPT catches up if you give it 2–3 samples. Without
 
 If you're switching models, read [ChatGPT Alternatives in 2026](/posts/chatgpt-alternatives-2026-actually-worth-switching/) — different tools have different default personalities, but none of them read your mind.
 
-## You're asking for a final draft in one shot
+## Should I ask AI to write my whole draft in one prompt?
 
 One-shot prompts work for small tasks: subject lines, tweet variants, a single paragraph. They fail for anything over 800 words.
 
@@ -79,7 +83,7 @@ Skipping step 1 is why you get wall-of-text fluff. The model tries to fill space
 
 For automation-heavy workflows, the same principle applies — chain small steps instead of one giant prompt. That's the whole idea behind [AI orchestrators](/posts/ai-orchestrators-one-model-controlling-all-the-others/) routing tasks to the right model instead of one chat doing everything badly.
 
-## Your context window is empty (or polluted)
+## What context does AI actually need before it can write well?
 
 Models can't see your Notion, your past emails, or your brand guidelines unless you paste them in.
 
@@ -93,7 +97,7 @@ If the output still drifts, I paste the worst paragraph back and say: "Rewrite t
 
 Context also means **knowing when not to use chat**. Factual research? [Perplexity-style sourced search](/posts/chatgpt-alternatives-2026-actually-worth-switching/) beats asking ChatGPT to invent citations. Coding? Cursor beats a generic chat window. Match the tool to the job — see [The Tools I Actually Use Every Day](/posts/the-tools-i-actually-use-every-day/).
 
-## You're accepting the first response
+## What should I edit in AI output before publishing it?
 
 The first draft is raw material. Treat it like a junior writer's submission — useful, not publishable.
 
@@ -106,7 +110,7 @@ My edit checklist:
 
 I learned this the hard way publishing early NCR posts before I had a system. [The Mistakes I Made So You Don't Have To](/posts/the-mistakes-i-made-so-you-dont-have-to/) is literally about skipping the edit pass on AI drafts.
 
-## When the model actually is the problem
+## When is the AI model itself the problem?
 
 Sometimes it's not you. Small context windows, old model versions, or tasks outside training (niche medical, local law) will fail no matter how good your prompt is.
 
@@ -118,10 +122,22 @@ Signs it's the model:
 
 Fix: switch models for that task, or break the task smaller. I moved long coding sessions to [Cursor Composer 2.5](/posts/cursor-composer-2-5-free-claude-killer/) and kept Claude for prose. Same person, different tools for different jobs.
 
-## The bottom line
-
 Bad AI output is usually a workflow problem dressed up as a technology problem. Sharpen the prompt, split the task, feed it your voice, edit like a human, and use the right model for the job.
 
 If you're still stuck after that, the tool might be wrong for the task — not "AI doesn't work."
 
 Start with one workflow fix this week: outline before draft, one section at a time. Then grab the right tool from the [AI Tool Advisor](/ai-tool-advisor.html) if you're not sure which model fits what you're building.
+
+---
+
+**How do I stop getting generic AI output?**
+Use structured prompts that specify your audience, tone, format, and what to avoid. Instead of "write about AI for business," describe your exact situation, word count, tone, and one thing you want included. The model needs constraints to produce something specific.
+
+**Why does AI write in a corporate, bland voice by default?**
+Every model defaults to the most common writing pattern it trained on — which is corporate blog prose. You override it by feeding 2–3 samples of your actual writing and telling the model to match that tone and sentence style.
+
+**Should I write my whole article in one AI prompt?**
+No. Anything over 800 words needs to be built in stages: outline first, expand section by section, then edit. One-shot long prompts produce filler because the model tries to fill space rather than build a focused argument.
+
+**What context should I give AI before asking it to write?**
+Paste your target keyword or title, 3 bullet points of what you want covered, and explicit anti-examples of phrases or patterns to avoid. The model can't access your notes, brand voice, or past work unless you provide them directly.

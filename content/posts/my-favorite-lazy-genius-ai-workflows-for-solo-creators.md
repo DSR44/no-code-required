@@ -21,7 +21,6 @@ faqs:
     a: "No, most modern AI tools are designed for non-technical users with drag-and-drop interfaces and step-by-step guides. You can start with simple copy-paste workflows and scale as you get comfortable."
   - q: "Can AI workflows help with content creation for solo entrepreneurs?"
     a: "Absolutely—AI can generate first drafts, suggest headlines, or even repurpose existing content into new formats like newsletters or scripts. This lets you focus on refining ideas rather than starting from scratch."
-
 ---
 
 {{< audio src="/audio/my-favorite-lazy-genius-ai-workflows-for-solo-creators.mp3" >}}

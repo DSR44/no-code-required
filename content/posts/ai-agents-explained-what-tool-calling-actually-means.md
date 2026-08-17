@@ -1,5 +1,5 @@
 ---
-title: "AI Agents Explained: What Tool Calling Means for You"
+title: "AI Agents & Tool Calling Explained | NCR"
 date: 2026-06-08
 draft: false
 description: "AI agents aren't just chatbots. They use tools, make decisions, and get things done. Here's what tool calling actually means in plain English."
@@ -21,7 +21,6 @@ faqs:
     a: "A regular chatbot can only generate text based on its training data, while an agent with tool calling can take real-world actions—like sending an email, updating a spreadsheet, or querying a live database—to actually solve your problem."
   - q: "Do I need to know how to code to use AI agents with tools?"
     a: "Not necessarily. Many modern agent platforms offer no-code or low-code interfaces where you can connect tools and define workflows visually, making it accessible even if you're not a developer."
-
 ---
 
 {{< audio src="/audio/ai-agents-explained-what-tool-calling-actually-means.mp3" >}}

@@ -1,5 +1,5 @@
 ---
-title: "I tested 10 AI writing tools so you don't have to"
+title: "I Tested 10 AI Writing Tools So You Don't Have To"
 date: 2026-05-05
 draft: false
 description: "I gave 10 AI writing tools the same task. Some sounded robotic. Some sounded human. Here's the honest comparison — with real output samples."
