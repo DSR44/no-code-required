@@ -2,7 +2,7 @@
 title: "Replacing My $500/Month VA With 3 AI Tools: The Cost Breakdown"
 date: 2026-07-03
 draft: false
-description: "How I replaced a virtual assistant with ChatGPT, Make.com, and Claude — real tasks, real savings, no coding required."
+description: "Discover how I replaced my $500/month VA with ChatGPT, Make.com, and Claude. This cost breakdown shows real tasks, real savings, and zero coding required."
 tags: ["AI tools", "automation", "solopreneur", "virtual assistant", "cost savings"]
 categories: ["tools"]
 slug: "replace-va-with-ai-tools"

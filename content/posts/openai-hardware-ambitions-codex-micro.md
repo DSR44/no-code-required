@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's Hardware Push: What It Means for AI Tool Users"
+title: "OpenAI's Hardware Push: What It Means for AI Users"
 date: 2026-08-18
 draft: false
 description: "OpenAI is launching physical hardware while Apple sues over stolen trade secrets. Here's what it means for AI tool users."
@@ -22,7 +22,6 @@ faqs:
     a: "For now, most users won't see immediate changes, but it's worth watching how this competition influences product innovation and pricing. Increased rivalry could ultimately lead to better, more affordable AI tools for consumers."
   - q: "Will OpenAI hardware work with existing AI tools and platforms?"
     a: "OpenAI has not yet detailed compatibility, but historically, new hardware launches aim to support popular AI tools and APIs. Users can likely expect some level of integration with existing ecosystems, though specifics will depend on the final product design."
-
 ---
 {{< audio src="/audio/openai-hardware-ambitions-codex-micro.mp3" >}}
 

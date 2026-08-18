@@ -21,7 +21,6 @@ faqs:
     a: "You'll need training data sources, bias mitigation strategies, safety testing results, and a clear description of your model's intended applications. The exact requirements vary by jurisdiction but focus on transparency and risk assessment."
   - q: "Are there penalties for launching an AI model without approval?"
     a: "Yes, non-compliance can result in fines, forced model takedowns, and potential legal liability. The penalties are designed to be significant enough to ensure developers follow the approval process."
-
 ---
 
 {{< audio src="/audio/ai-model-regulation-changes-solo-builders.mp3" >}}

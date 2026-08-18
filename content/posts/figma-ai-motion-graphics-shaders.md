@@ -1,5 +1,5 @@
 ---
-title: "Figma AI Motion Graphics & Shaders: A No-Code Guide"
+title: "Figma AI Motion Graphics & Shaders: No-Code Guide"
 date: 2026-07-08
 draft: false
 description: "Figma's Config 2026 added AI motion graphics, shader effects, and generative plugins. Here's what these tools mean for no-code creators."
@@ -21,7 +21,6 @@ faqs:
     a: "The new generative plugins are available in the Figma Community and integrated into the main plugin menu. Search for 'generative' or 'AI' in the plugins section to install and use them directly in your projects."
   - q: "Do these new Figma AI tools require a paid subscription?"
     a: "Most of the core AI motion and shader features are included in Figma's Professional and Organization plans. Some advanced generative plugins from third-party developers may have their own pricing or require a separate license."
-
 ---
 {{< audio src="/audio/figma-ai-motion-graphics-shaders.mp3" >}}
 

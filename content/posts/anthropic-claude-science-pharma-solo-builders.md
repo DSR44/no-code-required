@@ -2,7 +2,7 @@
 title: "Claude Science: What Anthropic's Pharma Play Means for AI Builders"
 date: 2026-07-17
 draft: false
-description: "Anthropic enters drug development with Claude Science. Discover what this strategic move signals for AI builders"
+description: "Anthropic's Claude Science enters pharma drug discovery. Learn what this AI-first strategy means for builders, the no-code future, and healthcare innovation."
 tags: ["Anthropic", "Claude", "AI tools", "solo builders", "AI agents"]
 categories: ["tools"]
 slug: "anthropic-claude-science-pharma-solo-builders"
