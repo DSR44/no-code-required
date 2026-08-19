@@ -21,7 +21,6 @@ faqs:
     a: "Absolutely. Platforms like Zapier, Make, and specialized AI workflow builders offer visual interfaces to connect and automate tasks across models like Claude, GPT, and Gemini without writing code."
   - q: "What are the main benefits of using an AI orchestrator for my projects?"
     a: "Key benefits include optimizing cost by using cheaper models for simple tasks, improving output quality by leveraging each model's strengths, and saving time by automating complex, multi-step AI workflows."
-
 ---
 {{< audio src="/audio/ai-orchestrators-one-model-controlling-all-the-others.mp3" >}}
 
