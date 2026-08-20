@@ -1,5 +1,5 @@
 ---
-title: "AI's Memory Chip Crunch: What It Means for Cloud Costs"
+title: "AI's Memory Chip Crunch: Impact on Cloud Costs"
 date: 2026-07-19
 draft: false
 description: "AI data centers are starving smartphones of memory chips. Here's what the India smartphone crunch means for solo builders and no-code users."
@@ -21,7 +21,6 @@ faqs:
     a: "You can minimize impact by optimizing your app's data usage, choosing providers with fixed pricing, or using free-tier services where possible. Monitoring your usage closely helps avoid surprise bills as providers adjust to higher hardware costs."
   - q: "Will the AI chip shortage slow down new AI tools for solo developers?"
     a: "It may lead to slower rollouts or higher prices for AI-powered features in no-code platforms, as providers face increased infrastructure costs. However, competition and efficiency improvements could help keep many tools accessible."
-
 ---
 
 {{< audio src="/audio/ai-memory-chip-crunch-india-smartphone-solo-builders.mp3" >}}

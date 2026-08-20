@@ -1,5 +1,5 @@
 ---
-title: "Is Microsoft Copilot Worth $30/Month? Honest Review"
+title: "Microsoft Copilot Review: Is It Worth $30/Month?"
 date: 2026-06-18
 draft: false
 description: "Microsoft says 20 million people pay for Copilot. Is it worth $30/month for beginners? An honest review after real daily use."
@@ -21,7 +21,6 @@ faqs:
     a: "Yes, beginners can use it, but the learning curve is steeper than simpler chatbots. Its real power comes from learning specific prompts for tasks like summarizing documents in Word or creating formulas in Excel, which requires some experimentation."
   - q: "What are the main limitations of the Copilot Pro subscription?"
     a: "The subscription does not include access to all Microsoft 365 desktop apps; you still need a separate Microsoft 365 Personal or Family plan. Additionally, its performance can be inconsistent, and it may not always save significant time on simple, one-off tasks."
-
 ---
 {{< audio src="/audio/20-million-people-pay-microsoft-copilot-should-you.mp3" >}}
 

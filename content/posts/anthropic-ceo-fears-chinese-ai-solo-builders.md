@@ -1,5 +1,5 @@
 ---
-title: "Anthropic CEO Fears Chinese AI — What That Means for Your Tools"
+title: "Anthropic CEO's Chinese AI Warning: What Builders Need to Know"
 date: 2026-08-20
 draft: false
 description: "Dario Amodei warns about Chinese AI distillation and open-weight risks. Here's what solo builders should actually take from it."
@@ -22,7 +22,6 @@ faqs:
   - q: "What does Anthropic's stance mean for AI model pricing?"
     a: "If chip bans tighten and distillation crackdowns succeed, US model prices could stay high due to less competition. But open-source alternatives keep improving, which puts downward pressure on pricing regardless."
 lastmod: 2026-08-20
-
 ---
 {{< audio src="/audio/anthropic-ceo-fears-chinese-ai-solo-builders.mp3" >}}
 

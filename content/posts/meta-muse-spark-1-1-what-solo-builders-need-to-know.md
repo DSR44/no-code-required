@@ -1,5 +1,5 @@
 ---
-title: "Meta Muse Spark 1.1: What It Means for No-Code Builders"
+title: "Meta Muse Spark 1.1: A Guide for No-Code Builders"
 date: 2026-07-12
 draft: false
 description: "Meta launched Muse Spark 1.1 for agentic coding. Here is what solo builders and no-code creators need to know about this new option."
@@ -21,7 +21,6 @@ faqs:
     a: "Meta has not yet announced full pricing details for Muse Spark 1.1, but early access may be available through their developer programs. No-code creators should watch for updates on potential free tiers or credits."
   - q: "What types of apps can be built with Muse Spark 1.1?"
     a: "Muse Spark 1.1 can generate web applications, automation scripts, and simple tools based on text descriptions. It's best suited for prototyping and building MVPs rather than highly complex enterprise systems."
-
 ---
 {{< audio src="/audio/meta-muse-spark-1-1-what-solo-builders-need-to-know.mp3" >}}
 

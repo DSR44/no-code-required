@@ -1,5 +1,5 @@
 ---
-title: "I Spent $500 Testing 10 AI Writing Tools — Here's What Works"
+title: "Testing 10 AI Writing Tools: What Actually Works"
 date: 2026-05-18
 draft: false
 tags: ["AI tools", "AI writing", "Jasper", "ChatGPT", "Claude", "no-code", "beginner", "review"]

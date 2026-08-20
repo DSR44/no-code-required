@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Finally Built Teen Safety Into ChatGPT — What Solo Builders Should Copy"
+title: "What Solo Builders Can Copy From ChatGPT Teen Safety"
 date: 2026-08-19
 draft: false
 description: "OpenAI added teen safety to ChatGPT. Here's what solo builders can learn and copy — practical steps to protect young users in your own AI products."
@@ -22,7 +22,6 @@ faqs:
   - q: "Does ChatGPT Study Mode actually prevent cheating?"
     a: "Study Mode gives guiding questions instead of direct answers and shows homework reminders when it detects cheating attempts. But teens are historically good at working around parental controls, so the real effectiveness is still untested."
 lastmod: 2026-08-20
-
 ---
 {{< audio src="/audio/openai-chatgpt-teen-safety-solo-builders.mp3" >}}
 

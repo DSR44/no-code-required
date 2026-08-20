@@ -16,7 +16,9 @@ faqs:
     a: "AI already shapes your daily life — from the recommendations Netflix gives you to the spam filter in your email. Understanding the basics helps you make smarter decisions about the tools and services you use."
   - q: "Is AI the same thing as machine learning?"
     a: "Not exactly. AI is the broad goal of making machines smart, while machine learning is one specific method for achieving that goal by letting computers learn from data. It's like how squares are rectangles, but not all rectangles are squares."
-
+cover:
+  image: "/images/posts/what-is-ai-actually.jpg"
+  alt: "AI didn&#39;t start with ChatGPT. Here&#39;s what it actually is, where it came from, and why you should care — explaine"
 ---
 
 I'm going to explain AI the way I wish someone had explained it to me.

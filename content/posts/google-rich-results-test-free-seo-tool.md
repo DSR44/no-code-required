@@ -1,5 +1,5 @@
 ---
-title: "Google Rich Results Test: The Free SEO Tool Your Blog Is Missing"
+title: "Google Rich Results Test: Free SEO Tool for Your Blog"
 date: 2026-07-04
 draft: false
 description: "Google Rich Results Test is free and shows exactly what's wrong with your site's SEO. Here's how to use it and fix the issues it finds."
@@ -21,7 +21,6 @@ faqs:
     a: "Absolutely, it's a completely free tool provided by Google. You can test any public URL without any cost or usage limits."
   - q: "What kind of errors does Google Rich Results Test show?"
     a: "It shows specific validation errors for structured data like missing required properties, incorrect formatting, or unsupported types. The report provides clear guidance on what to fix and where."
-
 ---
 {{< audio src="/audio/google-rich-results-test-free-seo-tool.mp3" >}}
 

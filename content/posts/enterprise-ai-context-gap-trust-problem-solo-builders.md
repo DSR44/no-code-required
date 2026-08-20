@@ -1,5 +1,5 @@
 ---
-title: "57% of Enterprises Caught AI Lying: Lessons for Solo Builders"
+title: "57% of Enterprises Caught AI Lying: Lessons for No-Code Builders"
 date: 2026-07-20
 draft: false
 description: "Enterprise AI has a trust problem, not a retrieval problem. Here's what the context gap means for no-code builders and solo operators."
@@ -21,7 +21,6 @@ faqs:
     a: "The primary risk is damaging user trust through confidently stated but inaccurate information, which can erode credibility quickly. Implementing a human-in-the-loop review for critical responses is a practical safeguard."
   - q: "How do you test for AI reliability before launching a no-code product?"
     a: "Create a diverse set of test queries that cover edge cases and ambiguous scenarios your users might encounter. Systematically compare the AI's responses against your expected answers to identify patterns of unreliability."
-
 ---
 
 {{< audio src="/audio/enterprise-ai-context-gap-trust-problem-solo-builders.mp3" >}}

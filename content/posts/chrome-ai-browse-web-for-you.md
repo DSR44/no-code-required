@@ -1,5 +1,5 @@
 ---
-title: "Chrome Can Now Browse the Web for You — Should You Let It?"
+title: "Chrome Can Now Browse the Web for You — Should You Let It? | NCR"
 date: 2026-05-31
 draft: false
 description: "Google just turned Chrome into an AI agent that shops, books, and researches for you. Here's what's free, what's paid, and what's actually useful."
@@ -21,7 +21,6 @@ faqs:
     a: "The agent requires your explicit permission before taking most actions, like filling payment details, and operates within the browser environment to maintain security."
   - q: "How does this Chrome feature compare to other AI browsing tools?"
     a: "Unlike standalone AI tools, it's integrated directly into your Chrome browser and Google account, allowing it to seamlessly interact with websites you already use."
-
 ---
 {{< audio src="/audio/chrome-ai-browse-web-for-you.mp3" >}}
 
