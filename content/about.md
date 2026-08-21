@@ -3,98 +3,58 @@ title: "About NCR — Honest Reviews of No Code AI Tools"
 date: 2026-04-30
 draft: false
 ShowToc: false
-description: "Manal built No Code Required after learning AI from zero — no dev background, no jargon. Honest tool reviews and tutorials for non-technical people."
+description: "No Code Required tests AI and no-code tools in plain English — built by someone who started from zero, not a developer talking down to you."
 ---
 
-## Hey, I'm Manal.
+## About No Code Required
 
-I didn't plan to learn AI. Life kind of forced me into it.
+**I test AI and no-code tools so you don't waste money on the ones that don't work.**
 
-👉 **[Read my full story: "I didn't plan to learn AI"](/posts/i-didnt-plan-to-learn-ai/)**
+Every review is based on real use. Every guide is written for people who don't code. If I recommend something, I use it. If it sucks, I say so.
 
-I'm a bodybuilder. I trained athletes. I ran programs for people who needed discipline, structure, and results. I knew how to push through pain and build something from nothing.
+No affiliate-first rankings. No jargon. No "just run this command."
 
-**But code? Terminals? APIs?** I had no idea what any of that was.
+## Who writes this
 
-When AI started getting real, I didn't understand the concepts. Not the tools. Not the language. Everyone was talking about "machine learning" and "neural networks" like it was obvious — and I was sitting there thinking *what is a terminal and why is everyone acting like I should know?*
+I'm Manal — a bodybuilder and coach who learned AI with no CS degree, no bootcamp, and zero developer background.
 
-**So I started anyway.**
+I started from "what is a terminal?" and built real products with AI and no-code tools. That path is the whole point of this site: show non-technical people what actually works.
 
-Not with a CS degree. Not with a bootcamp. Just curiosity, a laptop, and enough stubbornness to figure it out.
-
-## What this blog is
-
-**I test AI tools so you don't waste money on the ones that don't work.**
-
-Every tool on this blog — I've used it. Every review — based on real experience. Every recommendation — something I actually pay for or use daily.
-
-This isn't a blog that reads product specs and calls it a review. This is a blog where someone who doesn't code tries every tool, breaks things, fixes them, and tells you exactly what happened.
-
-**The format:**
-- 🔍 **Honest reviews** — I test, I break, I report back
-- 🛠️ **Step-by-step guides** — no assumptions, no "just run this"
-- 📊 **Comparisons** — I test 5 tools and tell you which one actually works
-- 💡 **What I'd do differently** — lessons from building this blog with AI
-
-**The promise:** If I recommend something, I use it. If it sucks, I'll say so. If there's a better option, I'll tell you.
-
-No affiliate-first recommendations. No "this tool is amazing!" when it's not. Just honest testing from someone who started from zero.
-
-## What I learned
-
-You don't need to "learn to code" to build with AI. You need to learn **how machines think** — how tools connect, how automation works, how to ask the right questions.
-
-That's what this blog is. **The stuff I wish someone had shown me on day one.**
-
-No jargon. No gatekeeping. No "just run this command" without explaining what it does.
-
-## What I've built
-
-This isn't theory. I actually built all of this:
-
-**AI & Math Tools:**
-- **[The Infinity Engine](https://constellationcompiler.art)** — a mathematical tool suite built on SHA-256 hashing. Pure deterministic math, no AI, no cloud. Generates infinite non-derivative outputs.
-- **[Resonance Engine](https://resonanceengine.art)** — finds trending topics via math + social media
-- **[Password Engine](https://password-engine.art)** — deterministic passwords with zero storage. Brain Wallet 2.0.
-- **[Infinity Shield](https://constellationcompiler.art/shield)** — browser privacy through mathematical abundance
-- **[Creation Language Generator](https://huggingface.co/spaces/FutureHAi/creation-language-generator)** — the original tool that started it all
-
-**Fitness Data Tools:**
-- **[CoachMetrics](https://coachmetrics.app)** — AI-powered SaaS that predicts client churn for fitness coaches
-- **[Code Collab](https://codecollab.net)** — the fitness industry's own network. Like GitHub for fitness — connect, collaborate, and actually reach your real audience instead of renting it from Instagram.
-
-All built by me. A bodybuilder who never opened a terminal before AI.
-
-## Where else to find me
-
-- **YouTube:** [from no one](https://www.youtube.com/@from_no_one) — ambient dub techno, algorithm experiments
-- **YouTube:** [PRMVL](https://www.youtube.com/@PRMVL) — sacred geometry meets dark techno
+Full origin story → [I didn't plan to learn AI](/posts/i-didnt-plan-to-learn-ai/)
 
 ## What you'll find here
 
-- **Tool reviews** — things I actually use, tested honestly
-- **Tutorials** — step-by-step, with screenshots, for people who've never done this before
-- **Automation workflows** — from "what is a webhook" to "my blog publishes itself"
-- **Honest takes** — what works, what's hype, what I wish I'd known
+- **Tool reviews** — tested hands-on, not from the marketing page
+- **Step-by-step tutorials** — written for beginners, with no assumed knowledge
+- **Comparisons** — which tool wins for a specific job
+- **Automation workflows** — from first webhook to full content systems
 
-## The tools I cover
+Topics: AI writing, image generation, no-code automation, APIs, GitHub, webhooks, content systems, and video tools.
 
-AI writing, image generation, no-code automation, APIs, GitHub, webhooks, content scheduling, video creation, and more.
+## Proof I've built things
 
-**I'm not an expert.** I'm someone who started from zero and figured it out — and I'm bringing you along for the ride.
+This isn't theory. I've shipped:
 
-## Sources & references
+- **[CoachMetrics](https://coachmetrics.app)** — AI SaaS that predicts client churn for fitness coaches
+- **[Code Collab](https://codecollab.net)** — a network for fitness professionals
+- **[The Infinity Engine](https://constellationcompiler.art)** — deterministic math tools (SHA-256)
+- **[Password Engine](https://password-engine.art)** — zero-storage deterministic passwords
+- **[Resonance Engine](https://resonanceengine.art)** — trend discovery via math + social signals
 
-I research tools against primary sources — official docs and established institutions — not random Reddit threads. A few references I use regularly when writing and testing:
+## How I research
 
-- **[NIST — Artificial Intelligence](https://www.nist.gov/artificial-intelligence)** — U.S. federal guidance on AI trustworthiness, risk, and standards
-- **[MIT OpenCourseWare — Artificial Intelligence](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/)** — foundational AI concepts explained academically, no hype
-- **[GitHub Docs — Getting Started](https://docs.github.com/en/get-started)** — the official guide I follow when explaining Git and deployment to beginners
-- **[MDN Web Docs — HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)** — Mozilla's reference for how the web actually works (APIs, webhooks, browsers)
+I check tools against primary sources — official docs and established references — not random Reddit threads:
+
+- [NIST — Artificial Intelligence](https://www.nist.gov/artificial-intelligence)
+- [MIT OpenCourseWare — AI](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/)
+- [GitHub Docs](https://docs.github.com/en/get-started)
+- [MDN Web Docs — HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 
 ---
 
 *Built with AI. Written by a human. Tested in the real world.*
+
+New here? Start at **[Start Here](/start-here/)**.
 
 <script>
 (function() {
