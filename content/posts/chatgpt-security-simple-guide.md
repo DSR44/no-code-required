@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/chatgpt-security-simple-guide.jpg"
   alt: "Zoe at laptop with security settings on screen, warm workspace"
+faqs:
+  - q: "What OpenAI actually launched"
+    a: "Advanced Account Security is an opt-in program that adds phishing-resistant login protection to your ChatGPT account. Instead of relying on passwords alone (or even SMS two-factor authentication, which CISA warned against in December 2024), you use a physical security key or a passkey to verify it's really you."
+  - q: "Why your ChatGPT account specifically is a target"
+    a: "Think about what's inside your ChatGPT conversations. Business strategies you haven't shared with anyone. Draft emails to clients. Code snippets with API keys. Research notes. Personal questions you'd never Google publicly."
+  - q: "What this means for businesses and teams"
+    a: "If you're on OpenAI's Trusted Access for Cyber program, Advanced Account Security becomes mandatory starting June 1, 2026. Your organization can opt out only if it already uses phishing-resistant single sign-on."
 ---
 {{< audio src="/audio/chatgpt-security-simple-guide.mp3" >}}
 

@@ -21,7 +21,6 @@ faqs:
     a: "Begin by explicitly asking the AI to 'think step-by-step' or 'show your reasoning' before providing a final answer. For more complex tasks, outline the key stages or considerations you want the AI to address in sequence."
   - q: "Does J-Space discovery mean I need to rewrite all my existing AI prompts?"
     a: "Not necessarily. Review your most critical or complex workflows first. If they require nuanced reasoning, consider restructuring them to include a clear, multi-step reasoning phase to leverage this discovery for better performance."
-
 ---
 
 {{< audio src="/audio/what-anthropics-claude-discovery-actually-means-solo-builders.mp3" >}}

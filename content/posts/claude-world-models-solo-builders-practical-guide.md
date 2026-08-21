@@ -21,7 +21,6 @@ faqs:
     a: "World models mean AI will soon understand cause-and-effect relationships, not just pattern match text. This could unlock entirely new no-code automation possibilities where AI makes decisions based on understanding, not just keywords."
   - q: "When will Claude's hidden reasoning features be available to developers?"
     a: "Anthropic hasn't announced a timeline for exposing J-Space features through their API. For now, focus on building robust workflows that can take advantage of these capabilities when they become accessible."
-
 ---
 {{< audio src="/audio/claude-world-models-solo-builders-practical-guide.mp3" >}}
 

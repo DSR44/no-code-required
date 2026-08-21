@@ -22,7 +22,6 @@ faqs:
     a: "Consider upgrading when you consistently hit the 1,000-operation limit or need more than two active scenarios. The Core plan at $10.59/month unlocks 10,000 operations and is ideal for small businesses scaling their automations."
   - q: "Does Make.com's free plan support advanced features like error handling?"
     a: "No, advanced features like custom error handling, priority execution, and premium app modules require a paid plan. The free tier is best for straightforward, low-volume automations."
-
 ---
 {{< audio src="/audio/make-com-pricing-2026-free-plan.mp3" >}}
 

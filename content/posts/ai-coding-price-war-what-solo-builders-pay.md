@@ -1,5 +1,5 @@
 ---
-title: "AI Coding Price War 2026: What Solo Builders Pay"
+title: "AI Coding Price War 2026: What Solo Builders Actually Pay"
 slug: "ai-coding-price-war-what-solo-builders-pay"
 date: 2026-07-13
 draft: false
@@ -21,7 +21,6 @@ faqs:
     a: "Yes, all three major providers offer free tiers with limited usage, and open-source models like Meta's Code Llama can be run locally at no cost. These free options are often sufficient for small projects or learning purposes."
   - q: "How do I choose between Meta, Anthropic, and OpenAI for coding?"
     a: "Consider your budget, the specific programming languages you use, and whether you prefer cloud-based or local solutions. For most solo builders, starting with free tiers from each provider is the best way to evaluate which works best for your workflow."
-
 ---
 {{< audio src="/audio/ai-coding-price-war-what-solo-builders-pay.mp3" >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Cloudflare Built a Browser Just for AI Agents — Here's Why It Matters for Solo Builders"
+title: "Cloudflare Kitesurf: AI Browser for Solo Builders"
 date: 2026-08-21
 draft: false
 description: "Cloudflare Kitesurf is a browser built for AI agents, not humans. Here's what solo builders need to know about this new headless browser."
@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/cloudflare-kitesurf-browser-ai-agents.jpg"
   alt: "Zoe at her laptop with a browser interface showing AI agent automation on screen"
+faqs:
+  - q: "What Cloudflare actually built"
+    a: "Kitesurf is Cloudflare's answer to this problem. It's not a wrapper around Chromium. It's not a fork of Firefox. It's an entirely new browser engine built from scratch in Rust and WebAssembly, designed to run inside Cloudflare Workers — their serverless platform that spins up isolated V8 environments on demand."
+  - q: "What this means if you're building with AI agents"
+    a: "If you're a solo builder using AI agents for web automation, data extraction, or agentic workflows, here's what changes:"
+  - q: "How to try it"
+    a: "Kitesurf is available now in Browser Run, Cloudflare's existing headless browser API. If you're already using Browser Run with Chromium, switching is literally one parameter change. If you're not, Browser Run has a free tier that's enough to test with."
 ---
 {{< audio src="/audio/cloudflare-kitesurf-browser-ai-agents.mp3" >}}
 

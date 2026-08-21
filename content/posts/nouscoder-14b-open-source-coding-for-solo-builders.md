@@ -21,7 +21,6 @@ faqs:
     a: "While it may not match the largest proprietary models on every benchmark, it offers strong performance for its size and is completely free. For solo builders and small projects, it provides a powerful, cost-effective alternative."
   - q: "Can I fine-tune NousCoder-14B for my specific project needs?"
     a: "Absolutely. Being open-source, you can fine-tune it on your own data to better understand your project's context, terminology, or coding style. This customization is a key advantage over many closed-source models."
-
 ---
 {{< audio src="/audio/nouscoder-14b-open-source-coding-for-solo-builders.mp3" >}}
 
