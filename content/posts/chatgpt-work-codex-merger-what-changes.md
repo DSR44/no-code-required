@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Work Absorbs Codex: What Non-Coders Need to Know"
+title: "ChatGPT Work Absorbs Codex: What Non-Coders Need to Know | NCR"
 date: 2026-07-23
 draft: false
 description: "I tested ChatGPT's new coding tool, Codex, to see if it's actually useful for non-coders. Here's what happened and how you can use it too."
@@ -22,7 +22,6 @@ faqs:
   - q: "What should non-coders do to adapt to the new ChatGPT Work setup?"
     a: "Start by exploring ChatGPT Work's integrated features for coding assistance, such as asking for code explanations or simple automation scripts. Familiarize yourself with prompt-based interactions to leverage the merged capabilities effectively."
 lastmod: 2026-08-08
-
 ---
 {{< audio src="/audio/chatgpt-work-codex-merger-what-changes.mp3" >}}
 

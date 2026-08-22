@@ -8,6 +8,7 @@ description: "OpenAI just launched personal finance in ChatGPT. You can connect 
 ShowToc: true
 cover:
   image: "/images/posts/chatgpt-bank-account.jpg"
+  alt: "OpenAI just launched personal finance in ChatGPT. You can connect your bank accounts and ask questions about your money."
 faqs:
   - q: "Can ChatGPT actually access my bank account data safely?"
     a: "ChatGPT connects through Plaid, a widely-used financial data aggregator that also powers Venmo and Robinhood. Your credentials are encrypted and you can revoke access anytime in your ChatGPT settings."
@@ -17,7 +18,6 @@ faqs:
     a: "Yes, transaction data gets pulled into your ChatGPT conversation context when you ask financial questions. However, OpenAI states this data isn't used to train their models."
   - q: "Should I be worried about connecting financial accounts to AI chatbots?"
     a: "The main trade-off is convenience versus privacy—you get easy financial analysis but OpenAI gains visibility into your spending patterns. If you're uncomfortable with that, traditional banking apps offer similar insights without the data-sharing concerns."
-
 ---
 
 OpenAI just added something to ChatGPT that makes it way more useful — and way more concerning at the same time.

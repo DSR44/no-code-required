@@ -1,5 +1,5 @@
 ---
-title: "Local LLMs in 2026: When Running Models on Your Laptop Actually Makes Sense"
+title: "Local LLMs in 2026: When Laptop AI Makes Sense"
 date: 2026-08-22
 draft: false
 description: "Running AI models on your own laptop isn't just for developers anymore. Here's when local LLMs make practical sense in 2026."
@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/local-llms-on-your-laptop-2026.jpg"
   alt: "Zoe at her laptop running a local AI model with terminal output on screen"
+faqs:
+  - q: "What changed in 2026"
+    a: "Running LLMs locally isn't new. What changed is the gap between local and cloud models getting much smaller for practical tasks."
+  - q: "When local actually makes sense"
+    a: "Not every use case benefits from running locally. Here's where I've found local models genuinely useful:"
+  - q: "When it doesn't make sense"
+    a: "You need the best possible output. GPT-4o, Claude Opus, and Gemini Ultra still outperform any local model on complex reasoning, nuanced writing, and multi-step analysis. If the quality of your AI output directly impacts your revenue — client deliverables, published content, critical business decisions — cloud models are still worth the cost."
 ---
 {{< audio src="/audio/local-llms-on-your-laptop-2026.mp3" >}}
 

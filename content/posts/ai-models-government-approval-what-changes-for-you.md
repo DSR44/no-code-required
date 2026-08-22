@@ -21,7 +21,6 @@ faqs:
     a: "The review is being conducted by a newly formed interagency task force, with oversight from the Department of Commerce and input from national security agencies. This reflects a coordinated federal approach to AI governance."
   - q: "Can developers still use older versions of these models during the hold?"
     a: "Yes, previously approved versions like GPT-5.5 and Anthropic's current models remain available for use and integration. The hold only applies to the new, unreleased versions under review."
-
 ---
 {{< audio src="/audio/ai-models-government-approval-what-changes-for-you.mp3" >}}
 

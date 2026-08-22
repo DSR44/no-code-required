@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Work: 3 Costly Mistakes Before Your First Workflow | NCR"
+title: "ChatGPT Work: 3 Costly Mistakes Before Your First Workflow"
 date: 2026-07-23
 draft: false
 description: "ChatGPT Work launched July 9. Before you burn credits on your first workflow, here's what it actually costs and 3 setup mistakes to avoid."
@@ -21,7 +21,6 @@ faqs:
     a: "Common failures stem from incorrect API permissions, vague task instructions, or missing data connections. Double-check that all integrated services are properly authorized and that your workflow steps have clear, specific prompts."
   - q: "How do I set up ChatGPT Work without wasting credits?"
     a: "Start by testing your workflow with a single, simple task to verify each step works as expected. Avoid chaining multiple complex actions in your first attempt, and use the preview or dry-run feature if available to catch errors before execution."
-
 ---
 {{< audio src="/audio/chatgpt-work-setup-guide-credits-mistakes.mp3" >}}
 

@@ -21,7 +21,6 @@ faqs:
     a: "Llama's open-source heritage provides a powerful, community-vetted base that ensures flexibility and avoids vendor lock-in. Developers can modify and deploy the model according to their specific project needs."
   - q: "Is Muse Spark suitable for building full applications?"
     a: "It's designed to assist with coding tasks and generate functional code snippets, making it a strong tool for prototyping and development. However, for complex, production-grade applications, it works best as part of a broader development workflow."
-
 ---
 {{< audio src="/audio/meta-open-source-ai-coding-what-changes.mp3" >}}
 

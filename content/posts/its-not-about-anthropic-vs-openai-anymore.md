@@ -12,26 +12,30 @@ TocOpen: false
 cover:
   image: "/images/posts/its-not-about-anthropic-vs-openai-anymore.jpg"
   alt: "Zoe at laptop comparing AI tools on screen with multiple chat windows open"
-faqs:
-  - q: "How do I decide between Anthropic and OpenAI for my project?"
-    a: "Consider your specific needs: OpenAI's models like GPT-4 are often strong for general-purpose tasks and creative generation, while Anthropic's Claude models are frequently chosen for their focus on safety, nuanced instruction following, and handling longer contexts. The best choice depends on your application's requirements for cost, speed, and specific capabilities."
-  - q: "Are there other AI model providers besides Anthropic and OpenAI I should consider?"
-    a: "Yes, the market has expanded significantly with strong options from Google (Gemini), Meta (Llama), Mistral, and others. Many developers now use multiple providers or specialized models for different parts of their application, so it's worth evaluating the full landscape."
-  - q: "Which AI model is better for building a customer support chatbot?"
-    a: "For customer support, Anthropic's Claude models are often preferred for their ability to follow complex guidelines and maintain a consistent, helpful tone. However, OpenAI's models can also be effective, especially if you need strong multilingual support or integration with a broader ecosystem."
-  - q: "How has the AI model selection process changed recently?"
-    a: "The choice is no longer just between two major players; it's now a multi-vendor decision based on specific use cases. Factors like model specialization, pricing tiers, open-source availability, and fine-tuning options have become critical in selecting the right tool for the job."
 
+lastmod: 2026-08-22
+faqs:
+  - q: "What's the difference between Anthropic and OpenAI in 2026?"
+    a: "A few weeks ago, Decagon CEO Jesse Zhang published something that reframed how I think about this. His argument: frontier models (the expensive, cutting-edge ones like Claude Opus and GPT-5) and open source models (like DeepSeek and Llama) aren't competing with each other. They're two phases of the same lifecycle."
+  - q: "Which AI model is actually cheaper?"
+    a: "The data backs this up. Looking at Vercel's AI gateway dashboard from this past week, DeepSeek has surged into the lead for raw token volume — processing over a third of all tokens passing through the platform. Z.ai's GLM-5.2 model jumped into fourth place."
+  - q: "Which AI should I use for my specific workflow?"
+    a: "If you're reading this and thinking \"I just want to know which chatbot to use\" — I get it. Here's the practical version:"
+  - q: "What tools let me switch between AI models easily?"
+    a: "One of the best developments this year is that choosing a model has become less permanent. Tools like:"
+  - q: "What's the real takeaway for choosing an AI model?"
+    a: "The Anthropic-vs-OpenAI framing made sense in 2024. It doesn't anymore. The market matured into layers — frontier models for discovery, open source for production, specialized tools for specific tasks — and the winners are the people who understand those layers instead of pledging loyalty to one provider."
 ---
+
 {{< audio src="/audio/its-not-about-anthropic-vs-openai-anymore.mp3" >}}
 
 Six months ago, picking an AI tool felt like choosing sides in a rap beef. Anthropic or OpenAI? Claude or ChatGPT? Every thread on X was people arguing about which one was "better" like there was a single answer. I spent way too much time reading those threads instead of actually building things.
 
-Here's what I've learned since: that framing is dead. Not because one side won — because the game changed entirely. The AI landscape in mid-2026 doesn't look like a two-player race anymore. It looks more like a layered ecosystem, and understanding those layers is the difference between overpaying for the wrong tool and finding exactly what you need.
+Here's what I've learned since: that framing is dead. Not because one side won — because the game changed entirely. The AI market in mid-2026 doesn't look like a two-player race anymore. It looks more like a layered ecosystem, and understanding those layers is the difference between overpaying for the wrong tool and finding exactly what you need.
 
 I've been testing this across [my daily workflows](/posts/the-tools-i-actually-use-every-day/) — from [automating client follow-ups](/posts/automate-client-follow-ups-no-code/) to [building content pipelines](/posts/automate-coaching-business-free-ai-tools/) — and the pattern is clear. The question isn't "which AI is best?" It's "which AI is best for this specific thing?"
 
-## The two-tier model nobody told you about
+## What's the difference between Anthropic and OpenAI in 2026?
 
 A few weeks ago, Decagon CEO Jesse Zhang published something that reframed how I think about this. His argument: frontier models (the expensive, cutting-edge ones like Claude Opus and GPT-5) and open source models (like DeepSeek and Llama) aren't competing with each other. They're two phases of the same lifecycle.
 
@@ -41,7 +45,7 @@ Zhang calls it "discovery vs. production." Frontier labs own discovery. Open sou
 
 This matches what I've seen building [AI-powered automations](/posts/build-your-first-automation-in-15-minutes/). When I'm experimenting — trying to figure out if something is even possible — I want the smartest model available. Once I've locked in the workflow and it runs the same way every day, I don't need Opus-level reasoning. I need something reliable and cheap.
 
-## What the numbers actually say
+## Which AI model is actually cheaper?
 
 The data backs this up. Looking at Vercel's AI gateway dashboard from this past week, DeepSeek has surged into the lead for raw token volume — processing over a third of all tokens passing through the platform. Z.ai's GLM-5.2 model jumped into fourth place.
 
@@ -51,7 +55,7 @@ People are using cheaper models for high-volume routine work. They're still payi
 
 And now Meta just jumped into the market with its own AI coding models, with their AI chief calling the pricing "very aggressive" compared to Anthropic and OpenAI. The field keeps expanding, not consolidating.
 
-## What this means if you're not a developer
+## Which AI should I use for my specific workflow?
 
 If you're reading this and thinking "I just want to know which chatbot to use" — I get it. Here's the practical version:
 
@@ -59,11 +63,11 @@ If you're reading this and thinking "I just want to know which chatbot to use" �
 
 **For building automations** — if you're using [Make](https://www.make.com/), [Zapier](https://zapier.com/), or [n8n](https://n8n.io/) — the model choice matters more. This is where the two-tier model applies. Start with a powerful model to design your workflow, then switch to a cheaper one once it's proven. Most automation platforms now let you [swap models easily](/posts/ai-subscription-price-war-what-to-pay-for/).
 
-**For coding and technical work** — this is where the landscape shifted most. Claude's coding capabilities have made it the default for [AI coding agents](/posts/ai-coding-agents-taught-robots-install-gpus/), but DeepSeek and Meta's new models are closing the gap fast. If you're using [AI for development](/posts/anthropic-cowork-claude-agent/), the model you pick today might not be the best choice in three months.
+**For coding and technical work** — this is where the market shifted most. Claude's coding capabilities have made it the default for [AI coding agents](/posts/ai-coding-agents-taught-robots-install-gpus/), but DeepSeek and Meta's new models are closing the gap fast. If you're using [AI for development](/posts/anthropic-cowork-claude-agent/), the model you pick today might not be the best choice in three months.
 
 **For content creation** — [image generation](/posts/ai-images-which-tool-actually-works/), [music](/posts/ai-music-i-made-an-album-without-knowing-theory/), video — the model matters less than the tool's interface and features. Midjourney, DALL-E, and Ideogram each have different strengths regardless of which company's language model you prefer.
 
-## The real question to ask
+## How do I stop overthinking and start building?
 
 Instead of "which AI company is winning?" ask:
 
@@ -72,7 +76,7 @@ Instead of "which AI company is winning?" ask:
 3. **How often does this task repeat?** One-time tasks justify premium models. Daily workflows justify switching to cheaper alternatives.
 4. **What does my existing stack support?** If you're already in [the Make ecosystem](/posts/build-your-first-automation-in-15-minutes/), the models available there matter more than theoretical comparisons.
 
-## The tools that make switching easy
+## What tools let me switch between AI models easily?
 
 One of the best developments this year is that choosing a model has become less permanent. Tools like:
 
@@ -82,7 +86,7 @@ One of the best developments this year is that choosing a model has become less 
 
 These tools mean you're not locked in. You can [test different models](/posts/ai-tool-overwhelm-how-to-escape/) for different tasks without rebuilding everything from scratch.
 
-## The bottom line
+## What's the real takeaway for choosing an AI model?
 
 The Anthropic-vs-OpenAI framing made sense in 2024. It doesn't anymore. The market matured into layers — frontier models for discovery, open source for production, specialized tools for specific tasks — and the winners are the people who understand those layers instead of pledging loyalty to one provider.
 
