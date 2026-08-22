@@ -21,8 +21,10 @@ faqs:
     a: "For basic calendar briefings and recurring task reminders, Meta AI offers a cost-effective, always-available alternative. However, it may lack the nuanced judgment and complex scheduling negotiation a human VA provides."
   - q: "What are the limitations of using Meta AI for solo business operations?"
     a: "While useful for briefings and tasks, Meta AI may struggle with highly context-dependent decisions or managing complex, multi-party communications. Its effectiveness depends on how well its capabilities align with your specific workflow needs."
-
+lastmod: 2026-08-22
 ---
+> **Update August 2026: recent developments in meta ai may affect the information in this post — see details below.**
+
 
 {{< audio src="/audio/meta-ai-chatbot-assistant-solo-builders.mp3" >}}
 
