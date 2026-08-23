@@ -1,5 +1,5 @@
 ---
-title: "Anthropic Found Where Claude Thinks: AI Safety Implications"
+title: "How Claude Thinks: Anthropic's J-Lens Reveals AI's Hidden Mind"
 date: 2026-07-11
 draft: false
 description: "Anthropic's new J-Lens tool reveals Claude has an internal 'J-Space' where it thinks in words it never says. Here's what that means for AI users."
@@ -21,7 +21,6 @@ faqs:
     a: "Yes, tools like J-Lens could become crucial for 'AI interpretability,' allowing developers to directly inspect and understand a model's internal reasoning, which is a key step toward verifying its safety and aligning it with human intentions."
   - q: "Where can I find more details about Anthropic's research on Claude's internal thinking?"
     a: "Full technical details on the J-Lens tool and findings about Claude's 'J-Space' are available in Anthropic's official research publication on their blog or in the linked scientific paper."
-
 ---
 
 {{< audio src="/audio/claude-hidden-inner-monologue-j-space.mp3" >}}

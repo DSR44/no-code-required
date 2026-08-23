@@ -1,5 +1,5 @@
 ---
-title: "Perplexity's Personal Computer Turns Your Windows PC Into an AI Agent — Here's What That Actually Means"
+title: "Perplexity's AI Agent App for Windows: What It Actually Does"
 date: 2026-08-23
 draft: false
 description: "Perplexity's Personal Computer app lets an AI agent control your files, apps, and workflows on Windows. Here's a practical look at what it does."
@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/perplexity-personal-computer-windows-ai-agent.jpg"
   alt: "Zoe at her Windows laptop with Perplexity AI agent interface on screen"
+faqs:
+  - q: "What Personal Computer actually does"
+    a: "If you've used ChatGPT's desktop app or Claude's computer use, you have a rough idea — but Perplexity's approach is different in a few important ways."
+  - q: "How it works under the hood"
+    a: "Personal Computer uses a hybrid architecture — some processing happens locally on your machine, and some offloads to Perplexity's cloud infrastructure when more computing power is needed. This means it doesn't require a high-end GPU to run, unlike local LLMs that need significant hardware."
+  - q: "Who this is actually for"
+    a: "Solo builders drowning in administrative work. If you spend hours each week on document formatting, data entry, file organization, and research compilation, Personal Computer could reclaim significant time. The automation potential is real for repetitive office tasks."
+  - q: "How it compares to the competition"
+    a: "Perplexity isn't alone in this space. Microsoft is embedding AI agents throughout Windows via Copilot. Google has Gemini integrated into Chrome and Workspace. Apple is adding AI capabilities to macOS."
 ---
 {{< audio src="/audio/perplexity-personal-computer-windows-ai-agent.mp3" >}}
 

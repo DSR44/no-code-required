@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Killed Its Browser: What It Means for No-Code Workers"
+title: "OpenAI's Browser Shutdown: Impact on No-Code Workers"
 date: 2026-07-23
 draft: false
 description: "OpenAI sunset Atlas, merged Codex, and hit 10M agent users. What the product shake-up means for non-coders using AI to get work done."

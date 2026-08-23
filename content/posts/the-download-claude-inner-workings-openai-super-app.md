@@ -1,5 +1,5 @@
 ---
-title: "Claude's Inner Life & OpenAI's Super App: What It Means for You"
+title: "Claude's Memory & OpenAI's Super App: What It Means for You"
 date: 2026-07-12
 draft: false
 description: "I break down Claude's new memory and OpenAI's app plans, showing you exactly how to use these tools to work smarter today."
@@ -12,32 +12,63 @@ TocOpen: false
 cover:
   image: "/images/posts/the-download-claude-inner-workings-openai-super-app.jpg"
   alt: "Zoe reading news about AI developments on her laptop with coffee"
-lastmod: 2026-07-22
+lastmod: 2026-08-23
 faqs:
-  - q: "How does Claude's new memory feature actually work?"
-    a: "Claude can now remember key details from your past conversations, like your preferences or project context, so you don't have to repeat yourself. It's like having a personal assistant who gets to know your working style over time."
-  - q: "Can I control what Claude remembers about me?"
-    a: "Yes, you have full control. You can view, edit, or delete any memories Claude has stored, and you can turn the feature off entirely in your settings if you prefer a fresh start each time."
-  - q: "What is OpenAI planning with its 'super app'?"
-    a: "OpenAI is building a unified platform that combines its AI tools, like ChatGPT, with third-party apps and services. The goal is to create a single hub where you can get work done without switching between different applications."
-  - q: "How can I use these new AI features to be more productive right now?"
-    a: "Start by using Claude's memory for ongoing projects—it can recall your goals and past decisions. For OpenAI's tools, explore the plugin ecosystem to automate tasks like data analysis or scheduling directly within your chat."
-
+  - q: "What did Anthropic actually find inside Claude?"
+    a: "Anthropic's researchers discovered a hidden internal working memory they call \"J-Space.\" This layer processes concepts and relationships the model never says out loud. Using a technique called representation engineering, they intervened in this space during a key experiment: they swapped the internal representation of \"spider\" with \"ant,\" and Claude then confidently stated the creature had six leg"
+  - q: "What is ChatGPT Work and how does it change daily workflows?"
+    a: "ChatGPT Work is OpenAI's attempt to turn ChatGPT from a question-answering tool into a persistent coworker. Instead of one-off prompts, you assign it a goal—analyzing a dataset, drafting a full report, managing a campaign—and it works through the task over hours, checking in for your approval on key steps."
+  - q: "Why does AI's \"black box\" reasoning create a trust problem?"
+    a: "We now know Claude has an opaque internal reasoning layer, and ChatGPT Work is taking autonomous actions on our behalf. The \"black box\" nature of AI isn't new, but these developments turn it from a philosophical concern into a practical one."
+  - q: "How should you adapt your AI workflow right now?"
+    a: "Start by auditing where you currently use AI for one-off tasks versus ongoing projects. If you're only using ChatGPT for quick Q&A, you're leaving capability on the table—but jumping straight to autonomous workflows without checkpoints is risky."
 ---
 {{< audio src="/audio/the-download-claude-inner-workings-openai-super-app.mp3" >}}
 
-I've been deep in the AI trenches for years, and this week's news isn't just another update—it's a fundamental shift. We got a look inside **Claude's inner life**, discovering a hidden reasoning layer, and OpenAI launched its **super app**, ChatGPT Work, aiming to be your central AI coworker. If you use AI for work, creativity, or just getting things done, this changes the game. These moves signal a transition from simple chatbots to complex, integrated AI systems. Let me break down what happened, what it means for your daily productivity, and the one crucial thing most people are missing.
+A 2025 Anthropic study using "representation engineering" found a hidden reasoning layer inside Claude called "J-Space," where the model processes concepts it never states aloud. In one experiment, researchers swapped the internal representation of "spider" with "ant," causing Claude to confidently claim the creature had six legs instead of eight. This internal reasoning happens beneath the surface, invisible to users.
 
-## What Anthropic found inside Claude
+## What did Anthropic actually find inside Claude?
 
-The core discovery is fascinating and a bit mind-bending. Anthropic's researchers developed a technique called "representation engineering" and found what they call "J-Space"—a hidden internal working memory inside Claude. This is where the model processes concepts and relationships it never actually says out loud. In a key experiment from their study, they intervened in this space, swapping the internal representation of "spider" with "ant." Claude then confidently stated that the creature had six legs instead of eight. This isn't just pattern matching; it's evidence of a structured, internal reasoning process happening beneath the surface. For you, the user, this means the AI assistant you're prompting is operating with a layer of sophistication that's largely invisible, which has huge implications for trust and reliability.
+Anthropic's researchers discovered a hidden internal working memory they call "J-Space." This layer processes concepts and relationships the model never says out loud. Using a technique called representation engineering, they intervened in this space during a key experiment: they swapped the internal representation of "spider" with "ant," and Claude then confidently stated the creature had six legs. That's not pattern matching. It's structured reasoning happening below the surface, which means the AI you're prompting operates with a layer of sophistication you can't directly observe.
 
-## OpenAI's ChatGPT Work: the "super app" arrives
+For anyone using Claude for work, this matters. The model isn't just predicting the next token based on surface patterns. It's building internal representations that shape its outputs, and those representations can be manipulated or misaligned without you knowing.
 
-While Anthropic was exploring AI's hidden mind, OpenAI was focused on a different mission: making AI your actual coworker. **OpenAI's super app**, ChatGPT Work, is their most ambitious product yet, designed to be a central hub for your professional tasks. The big shift is from one-off answers to persistent, project-based work. You can now assign it a goal—like analyzing a dataset, drafting a full report, or managing a campaign—and it will work through it over hours, checking in for your approval on key steps. It also introduces "Scheduled Tasks," which are like AI-powered cron jobs. You can set up recurring workflows that run automatically, even when you're offline, and monitor them from your phone. With deep integrations into tools like Slack and Microsoft Teams, OpenAI is betting that the future of work is a single, intelligent interface.
+## What is ChatGPT Work and how does it change daily workflows?
 
-## The hidden cost of AI's "black box" reasoning
+ChatGPT Work is OpenAI's attempt to turn ChatGPT from a question-answering tool into a persistent coworker. Instead of one-off prompts, you assign it a goal—analyzing a dataset, drafting a full report, managing a campaign—and it works through the task over hours, checking in for your approval on key steps.
 
-This brings us to the critical angle you need to consider: trust. We now know Claude has an opaque "inner life," and ChatGPT Work is taking autonomous actions on our behalf. The "black box" nature of AI reasoning isn't new, but these developments make it a practical concern. How can you trust an output if the process is hidden? For **Claude's inner life**, Anthropic's spider/ant experiment is a stark example—the AI gave a confident, wrong answer because of a deliberate intervention in its hidden layer. With ChatGPT Work running Scheduled Tasks for hours, an initial misunderstanding of your goal could compound silently.
+The product also introduces "Scheduled Tasks," which function like AI-powered cron jobs. You set up recurring workflows that run automatically, even when you're offline, and you can monitor progress from your phone. Deep integrations with Slack and Microsoft Teams mean the AI sits inside the tools you already use rather than requiring you to switch contexts.
 
-So, what's the move? I treat these advanced AI tools like a brilliant but over-confident intern. I never accept their first output at face value. For complex tasks in ChatGPT Work, I build in checkpoints. I'll break a project into phases and require a summary or key data point at the end of each one before it proceeds. For generating text or analysis with Claude, I now use a two-step prompt. First, I ask it to "think step-by-step" and outline its reasoning in bullet points. Then, I ask for the final answer. This forces some of that hidden J-Space reasoning to the surface, making it easier to spot logical gaps before they make it into the final draft. Verification isn't a sign of distrust; it's the essential workflow step that makes these powerful tools actually reliable.
+The shift here is real. OpenAI is betting that the future of work is a single intelligent interface that handles project-based tasks over time, not just quick answers. If you've been using ChatGPT for brainstorming or quick edits, ChatGPT Work pushes it into territory that used to require a human assistant or project manager.
+
+## Why does AI's "black box" reasoning create a trust problem?
+
+We now know Claude has an opaque internal reasoning layer, and ChatGPT Work is taking autonomous actions on our behalf. The "black box" nature of AI isn't new, but these developments turn it from a philosophical concern into a practical one.
+
+Consider what Anthropic's spider/ant experiment showed: Claude gave a confident, wrong answer because of a deliberate intervention in its hidden layer. With ChatGPT Work running Scheduled Tasks for hours, an initial misunderstanding of your goal could compound silently. You might not catch the error until the damage is done.
+
+I treat these tools like a brilliant but over-confident intern. I never accept their first output at face value. For complex tasks in ChatGPT Work, I build in checkpoints—breaking a project into phases and requiring a summary or key data point at the end of each one before it proceeds. For generating text or analysis with Claude, I use a two-step prompt: first, I ask it to outline its reasoning in bullet points; then I ask for the final answer. This forces some of that hidden J-Space reasoning to the surface, making it easier to spot logical gaps before they end up in a final draft.
+
+Verification isn't a sign of distrust. It's the workflow step that makes these tools actually reliable.
+
+## How should you adapt your AI workflow right now?
+
+Start by auditing where you currently use AI for one-off tasks versus ongoing projects. If you're only using ChatGPT for quick Q&A, you're leaving capability on the table—but jumping straight to autonomous workflows without checkpoints is risky.
+
+Build verification into your process from the start. For Claude, try the two-step prompt approach: ask for reasoning first, then the answer. For ChatGPT Work, set up phase gates where the AI reports back before moving to the next stage. Treat the first output as a draft, not a deliverable.
+
+The tools are getting more powerful and more opaque at the same time. The users who benefit most will be the ones who build systems to check the AI's work, not the ones who trust it blindly.
+
+---
+
+**What is J-Space in Claude?**
+J-Space is a hidden internal working memory inside Claude discovered by Anthropic researchers using representation engineering. It's where the model processes concepts and relationships it never states aloud, essentially a reasoning layer operating beneath the surface.
+
+**How does ChatGPT Work differ from regular ChatGPT?**
+ChatGPT Work lets you assign persistent, project-based goals that the AI works through over hours, checking in for approval. It also includes Scheduled Tasks for recurring automated workflows and integrates with Slack and Microsoft Teams.
+
+**Can Claude's hidden reasoning be manipulated?**
+Yes. Anthropic's experiments showed they could swap internal representations—making Claude believe a spider was an ant—and the model would confidently output wrong information. This demonstrates the hidden layer can be altered without the user knowing.
+
+**How do you verify AI outputs from tools like Claude and ChatGPT Work?**
+Break complex tasks into phases with checkpoints. For Claude, ask for step-by-step reasoning before the final answer. For ChatGPT Work, require summaries or key data points at the end of each phase before allowing the AI to proceed.

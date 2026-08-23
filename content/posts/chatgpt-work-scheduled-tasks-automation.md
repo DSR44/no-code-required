@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Scheduled Tasks: Automate Recurring Workflows Without Code"
+title: "ChatGPT Scheduled Tasks: Automate Workflows Without Code"
 date: 2026-07-23
 draft: false
 description: "ChatGPT Work Scheduled Tasks lets you automate recurring jobs like email summaries and reports — no coding needed. Here's how to set it up."
@@ -21,7 +21,6 @@ faqs:
     a: "The number of tasks you can create may depend on your ChatGPT subscription plan. Free users typically have a lower limit, while Plus or Team plans allow for more concurrent scheduled automations."
   - q: "Do I need any coding skills to use ChatGPT's task scheduler?"
     a: "No, the feature is designed for no-code automation. You simply describe what you want in plain language, set the schedule, and ChatGPT handles the execution without requiring any programming knowledge."
-
 ---
 {{< audio src="/audio/chatgpt-work-scheduled-tasks-automation.mp3" >}}
 

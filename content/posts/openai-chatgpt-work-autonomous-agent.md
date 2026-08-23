@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Work: OpenAI's AI That Runs Tasks While You're Away"
+title: "ChatGPT Work: OpenAI Automation While You Sleep"
 date: 2026-07-23
 draft: false
 description: "I'll show you how to use OpenAI automation to build ChatGPT workflows that run tasks while you're away. Step-by-step setup inside."
