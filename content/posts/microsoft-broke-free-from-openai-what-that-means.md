@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/microsoft-broke-free-from-openai-what-that-means.jpg"
   alt: "Zoe at laptop reading news about Microsoft AI independence on screen"
+faqs:
+  - q: "How does the Microsoft and OpenAI split affect current Copilot users?"
+    a: "Current Copilot users can expect minimal disruption in the short term as Microsoft transitions to its own models, but future updates and features will rely exclusively on Microsoft's proprietary AI, like the new MAI models."
+  - q: "Will prices for Microsoft AI tools change after this split?"
+    a: "While Microsoft has not announced specific price hikes, the shift to in-house models could eventually lead to new pricing tiers or increased costs for developers, especially those using heavy compute features."
+  - q: "Does this mean Microsoft is abandoning OpenAI completely?"
+    a: "No, they will continue to offer OpenAI models through Azure, but the partnership has shifted from a high-dependency collaboration to a more standard supplier-customer relationship."
+  - q: "Why did Microsoft decide to go fully independent with its AI strategy?"
+    a: "Microsoft aims to reduce reliance on external vendors to better control its roadmap and costs, allowing for tighter integration of proprietary models across Windows and Office ecosystems."
+
 ---
 {{< audio src="/audio/microsoft-broke-free-from-openai-what-that-means.mp3" >}}
 

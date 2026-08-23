@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-groupthink-problem-solo-builders.jpg"
   alt: "Zoe at her laptop noticing multiple AI chat windows producing identical outputs"
+faqs:
+  - q: "How does AI groupthink affect solo builders?"
+    a: "AI groupthink causes LLMs to generate similar, generic outputs, making it harder for solo builders to create unique content or solutions. This can lead to a lack of differentiation in their projects and marketing materials."
+  - q: "Why do LLMs produce similar outputs?"
+    a: "LLMs are trained on vast, overlapping datasets and optimized for common patterns, leading to convergence on similar phrasing and ideas. This inherent homogeneity is a core driver of AI groupthink."
+  - q: "Can you give examples of generic AI-generated content?"
+    a: "Examples include blog posts with identical structures, marketing copy using the same buzzwords, and code snippets with predictable patterns. These outputs often lack a distinct voice or innovative approach."
+  - q: "How can I avoid AI groupthink in my solo projects?"
+    a: "Use AI as a starting point, then heavily edit and inject your unique perspective, data, and style. Combine AI suggestions with your own research and creative direction to ensure originality."
+
 ---
 {{< audio src="/audio/ai-groupthink-problem-solo-builders.mp3" >}}
 

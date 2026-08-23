@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/claude-hidden-inner-monologue-j-space.jpg"
   alt: "Zoe reading about AI research with neural network visualization on her laptop screen"
+faqs:
+  - q: "How does Anthropic's J-Lens tool work to analyze Claude's internal thoughts?"
+    a: "J-Lens is a technique that lets researchers map and interpret the hidden internal representations in Claude's model, revealing what it's 'thinking' in its own abstract 'J-Space' language before it generates a response."
+  - q: "Why is it significant that Claude thinks in words it doesn't say?"
+    a: "Finding a hidden internal language suggests Claude may be reasoning and representing concepts in ways not fully transparent from its output alone, raising important questions about AI alignment and the potential for hidden, uncontrolled internal processes."
+  - q: "Could this discovery lead to new methods for making AI systems safer?"
+    a: "Yes, tools like J-Lens could become crucial for 'AI interpretability,' allowing developers to directly inspect and understand a model's internal reasoning, which is a key step toward verifying its safety and aligning it with human intentions."
+  - q: "Where can I find more details about Anthropic's research on Claude's internal thinking?"
+    a: "Full technical details on the J-Lens tool and findings about Claude's 'J-Space' are available in Anthropic's official research publication on their blog or in the linked scientific paper."
+
 ---
 
 {{< audio src="/audio/claude-hidden-inner-monologue-j-space.mp3" >}}

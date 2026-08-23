@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-influencers-real-numbers-behind-the-hype.jpg"
   alt: "Woman at laptop reviewing AI influencer analytics dashboard with earnings data on screen"
+faqs:
+  - q: "How much money do AI influencers actually make?"
+    a: "Most AI influencers make $0. The author invested over $500 and revealed that the real earnings data shows the vast majority never turn a profit due to high creation costs and platform restrictions."
+  - q: "Can social media platforms ban AI-generated influencer accounts?"
+    a: "Yes, many platforms actively ban AI influencer accounts for violating terms of service, especially around transparency and authenticity, which poses a major risk to creators."
+  - q: "Is it worth the investment to create an AI influencer?"
+    a: "For most people, no. The upfront costs for generation, training, and promotion often exceed $500, and with low engagement and high ban risk, the return on investment is typically negative."
+  - q: "Why do most AI influencers fail to generate income?"
+    a: "They fail because audiences increasingly recognize and disengage from AI content, platform algorithms suppress non-human accounts, and monetization strategies often violate platform policies."
+
 ---
 {{< audio src="/audio/ai-influencers-real-numbers-behind-the-hype.mp3" >}}
 
