@@ -1,5 +1,5 @@
 ---
-title: "Build a Tool That Actually Works | No Code Required"
+title: "Build a Tool That Works While You Sleep — No Code Required"
 date: 2026-05-11
 draft: false
 description: "Everyone's building chatbots. Here's how to build something that actually solves a problem — an automation, a monitor, a system that works while you sleep."
@@ -21,7 +21,8 @@ faqs:
     a: "Yes, and it’s simpler than you think. The goal is to check a product page periodically and alert you when the price drops below your target. Here’s the process:"
   - q: "What’s the fastest way to generate content ideas automatically?"
     a: "Set up a workflow that monitors trends and feeds them to an AI for idea generation. This takes about 15 minutes:"
----{{< audio src="/audio/build-a-tool-that-actually-does-something.mp3" >}}
+---
+{{< audio src="/audio/build-a-tool-that-actually-does-something.mp3" >}}
 
 
 

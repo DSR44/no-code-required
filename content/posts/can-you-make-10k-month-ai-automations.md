@@ -1,5 +1,5 @@
 ---
-title: "Can You Really Make $10K/Month With AI Automations?"
+title: "Make $10K/Month With AI Automations? What's Realistic"
 date: 2026-06-02
 draft: false
 description: "Everyone's selling the dream of $10K/month with AI automations. Here's what's actually realistic — and what it takes to get there."
@@ -21,7 +21,6 @@ faqs:
     a: "They focus on the tools instead of finding clients with real pain points and budgets. Without a clear niche and sales process, even the best automations won't generate income."
   - q: "Is the $10K/month AI automation income realistic or just hype?"
     a: "It's achievable but far from guaranteed — it's a business, not a passive income shortcut. The people hitting that number treat it like a consulting practice with real deliverables, client management, and ongoing support."
-
 ---
 {{< audio src="/audio/can-you-make-10k-month-ai-automations.mp3" >}}
 

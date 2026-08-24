@@ -1,5 +1,5 @@
 ---
-title: "AI Tools' HalluSquatting Flaw: Protect Your Solo Builds"
+title: "AI HalluSquatting Flaw: Protect Your Solo Builds"
 slug: "ai-tools-botnets-hallusquatting-solo-builders"
 date: 2026-07-25
 draft: false

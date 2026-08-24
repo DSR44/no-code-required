@@ -1,5 +1,5 @@
 ---
-title: "A $1B Bet That AI Agents Need Their Own Security — What Solo Builders Should Learn From the Cyera-Oasis Deal"
+title: "What Solo Builders Should Learn From the $1B Cyera-Oasis Deal"
 date: 2026-08-24
 draft: false
 description: "Cyera is buying Oasis Security for $1B to secure AI agents. Here's what that means for solo builders running agents today."
@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/cyera-oasis-ai-agent-security-solo-builders.jpg"
   alt: "Zoe at her laptop reviewing AI agent permissions and access controls"
+faqs:
+  - q: "What this deal actually means"
+    a: "The numbers tell the story. Cyera recently raised $600 million and has surpassed $150 million in annual recurring revenue. Oasis Security raised about $195 million to focus on one specific problem: non-human identities. When a company spends a billion dollars to acquire a startup in a niche most people haven't heard of, something big is happening underneath."
+  - q: "What you should actually do about it"
+    a: "You don't need to spend a billion dollars on security software. But here are five practical steps that address the same problem the Cyera-Oasis deal is highlighting:"
 ---
 {{< audio src="/audio/cyera-oasis-ai-agent-security-solo-builders.mp3" >}}
 
