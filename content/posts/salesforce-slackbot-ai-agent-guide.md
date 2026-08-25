@@ -22,7 +22,6 @@ faqs:
   - q: "How this compares to other options"
     a: "Slackbot isn't the only AI in Slack anymore. Anthropic just launched Claude Tag (June 2026), which replaces the old Claude app and turns the AI into more of a teammate — it can run multi-step tasks, stay on a project for hours, and even speak up on its own in \"ambient\" mode. Viktor, a startup that raised $75 million in May, offers a similar agentic coworker concept."
 lastmod: 2026-08-22
-
 ---
 I spent last Tuesday morning watching a coworker spend 40 minutes scrolling through Slack to find a single client quote from three weeks ago. When I told him Slackbot could have found it in ten seconds, he didn't believe me. That's when I realized most people in our workspace had no idea what Slackbot became after Salesforce's 2026 rebuild.
 

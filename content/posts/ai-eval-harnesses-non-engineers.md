@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-eval-harnesses-non-engineers.jpg"
   alt: "Person at laptop with AI workflow diagram on screen"
+faqs:
+  - q: "What is an AI harness?"
+    a: "If you've used ChatGPT, Claude, or any AI tool this year, you've interacted with a harness — you just didn't know it. A harness is the software layer that sits between you and the AI model. It handles everything the model can't do on its own: remembering your conversation, deciding which tools to use, enforcing safety rules, and managing the back-and-forth loop of \"think, act, check, repeat.\""
+  - q: "Why should non-engineers care?"
+    a: "Here's the thing that blew my mind: the same model scores 46% on a coding benchmark inside one harness and 55% inside another. That's not a small difference — that's the gap between \"useless\" and \"actually helpful.\" And that gap comes from the harness, not the model."
+  - q: "What this means for your daily workflow"
+    a: "If you're running a solo operation or building automations, the harness is the difference between an AI that occasionally helps and one that actually runs parts of your business."
+  - q: "How to evaluate a harness (without reading code)"
+    a: "You don't need to understand the engineering to pick a good harness. Here's what to look for:"
 ---
 {{< audio src="/audio/ai-eval-harnesses-non-engineers.mp3" >}}
 

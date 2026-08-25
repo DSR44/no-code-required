@@ -1,5 +1,5 @@
 ---
-title: "AI Talent Floods Regulated Industries: A Signal for Builders"
+title: "AI Talent Shifts to Regulated Industries: What Builders Should Know"
 date: 2026-07-26
 draft: false
 description: "OpenAI and Anthropic researchers are flooding into pharma, healthcare, and finance. Here's what that talent migration means for solo builders."
@@ -21,7 +21,6 @@ faqs:
     a: "Focus on a narrow, high-value problem where you can develop deep domain expertise and build trust, rather than competing with large tech talent on broad platforms."
   - q: "Is the trend of AI experts moving to healthcare and finance temporary or permanent?"
     a: "It appears to be a structural shift, as the fundamental value of AI in optimizing these massive, data-rich industries makes the demand for talent likely to be sustained."
-
 ---
 {{< audio src="/audio/ai-eating-regulated-industries-solo-builders-signal.mp3" >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Google I/O 2026: Free AI Tools for Non-Developers"
+title: "Google I/O 2026: Free AI Tools for Non-Developers | NCR"
 date: 2026-05-31
 draft: false
 description: "Google dropped 100 announcements at I/O 2026. Here are the free AI tools that actually matter if you're not a developer."
@@ -21,7 +21,6 @@ faqs:
     a: "Yes, the core AI features announced are free for personal Google account holders. Some advanced capabilities or higher usage limits may require a Google Workspace subscription for business use."
   - q: "Can I use Google's AI to create presentations or documents automatically?"
     a: "Absolutely. Google's new 'Help me create' feature in Slides can generate entire presentation drafts from a simple prompt, while Docs can now draft, summarize, and rewrite content based on your instructions."
-
 ---
 
 {{< audio src="/audio/google-io-2026-free-ai-tools-for-beginners.mp3" >}}

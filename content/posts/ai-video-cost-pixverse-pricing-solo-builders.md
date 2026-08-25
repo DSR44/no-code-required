@@ -1,5 +1,5 @@
 ---
-title: "PixVerse's $4.80/Minute AI Video: What It Means for Solo Builders"
+title: "PixVerse's $4.80/Min AI Video: Impact on Solo Builders"
 date: 2026-07-24
 draft: false
 description: "PixVerse charges $4.80 per minute of AI video. Here's how that pricing compares to alternatives and what it means for solo creators."
