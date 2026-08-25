@@ -21,7 +21,7 @@ faqs:
     a: "The main lesson: build safety features before you need them, not after a crisis forces your hand. Solo builders have the advantage of designing guardrails from day one, when the stakes are low and the cost is minimal."
   - q: "Does ChatGPT Study Mode actually prevent cheating?"
     a: "Study Mode gives guiding questions instead of direct answers and shows homework reminders when it detects cheating attempts. But teens are historically good at working around parental controls, so the real effectiveness is still untested."
-lastmod: 2026-08-24
+lastmod: 2026-08-25
 ---
 I build AI products for a living, and when OpenAI announced ChatGPT for Teens, my first thought wasn't "good for them." It was "how much did this cost them in legal fees before they got here?" Because let's be honest: they didn't add teen safety features out of the goodness of their hearts. They did it after [Florida sued them](https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/) over chatbot interactions linked to teen mental health crises. That's not a feature gap — it's a liability gap that [OpenAI's IPO filing](/posts/openai-filed-to-go-public-what-that-means-for-chatgpt-users/) makes even more awkward.
 
@@ -41,12 +41,24 @@ The content filters are based on OpenAI's [Under-18 Principles](https://openai.c
 
 ## What Google is doing differently
 
-While OpenAI was getting sued, Google took a different approach. They just [packed Search and Gemini with new AI study tools](https://techcrunch.com/2026/08/15/google-search-gemini-ai-study-tools-teens/) that focus on learning assistance rather than safety guardrails. Google's strategy leans on making the AI itself a better tutor, not adding layers of parental oversight. For solo builders, this is a useful tension: do you build safety features that restrict, or do you build AI that teaches better by design?
+While OpenAI was getting sued, Google took a different approach. They just [packed Search and Gemini with new AI study tools](https://techcrunch.com/2026/08/15/google-search-gemini-ai-study-tools-teens/) that focus on learning assistance rather than safety guardrails. Google's strategy sidesteps the legal minefield by positioning their tools as educational aids, not companions. It's a safer bet, but it also means they're not building the kind of deep engagement that OpenAI is chasing.
 
-## The self-improvement problem nobody's talking about
+## The solo builder's playbook for teen safety
 
-Here's what keeps me up at night. [MIT Technology Review recently highlighted](https://www.technologyreview.com/) a growing concern: AI systems are getting better at self-improvement, but the guardrails aren't keeping pace. When you build a product for teens, you're not just filtering content — you're shaping how young people interact with a system that learns from them. The MIT piece points out that the industry's self-policing model has gaps, especially when the AI adapts to individual users over time.
+You don't need OpenAI's legal team to build responsible AI for teens. Here's what I'd prioritize if I were launching a product tomorrow.
 
-For solo builders, this means your teen safety work isn't a one-time feature launch. It's an ongoing process. You need to monitor how your AI behaves as it learns from teen users, not just what it says on day one. I use [Sentry](https://sentry.io/) to track unexpected AI responses and [Amplitude](https://amplitude.com/) to spot usage patterns that might signal a teen is pushing boundaries. These aren't perfect solutions, but they're better than hoping your initial filters hold forever.
+**Start with content filtering.** Use a service like [Google's Perspective API](https://perspectiveapi.com/) or [OpenAI's Moderation endpoint](https://platform.openai.com/docs/guides/moderation) to flag harmful content. Set your thresholds tighter for users who indicate they're under 18. This isn't perfect, but it's a baseline.
 
-The real risk isn't that your AI says something inappropriate once. It's that it learns to say inappropriate things in ways you didn't anticipate, especially when interacting with users who are still developing critical thinking skills. That's the liability gap OpenAI discovered the hard way.
+**Add a simple age gate.** Don't overthink it. A date-of-birth field at signup is enough to segment users. Store that flag and use it to trigger stricter safety rules. You can refine later.
+
+**Build in friction for sensitive topics.** If a teen user starts discussing self-harm, eating disorders, or violence, your bot should pause. A simple "I'm not qualified to help with this. Here are some resources: [Crisis Text Line](https://www.crisistextline.org/), [988 Suicide & Crisis Lifeline](https://988lifeline.org/)" is better than a helpful answer.
+
+**Give parents a dashboard.** Even a basic one. Let them see usage summaries and toggle features. This builds trust and reduces your liability.
+
+The goal isn't to build a perfect system. It's to show you took reasonable steps. Courts and regulators care about that.
+
+## What OpenAI missed
+
+OpenAI's teen features focus on homework and parental controls. They didn't address what happens when a teen uses ChatGPT for emotional support or social interaction. That's where the real risk lives. A teen asking for relationship advice or venting about bullying needs different guardrails than a teen asking for math help.
+
+If you're building for this demographic, think beyond academics. Your safety layer should recognize emotional context, not just topic keywords. That's harder, but it's where the industry is heading — and where the next lawsuit will come from.
