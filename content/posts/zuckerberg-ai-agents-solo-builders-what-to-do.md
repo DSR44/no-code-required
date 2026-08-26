@@ -1,5 +1,5 @@
 ---
-title: "Zuckerberg Says Billions Will Have AI Agents. What Solo Builders Should Do Right Now"
+title: "Zuckerberg's AI Agents: What Solo Builders Should Do Now"
 date: 2026-08-26
 draft: false
 description: "Zuckerberg predicts personal AI agents for everyone in 5 years. Here's what that actually means for solo builders — and what to build today."
@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/zuckerberg-ai-agents-solo-builders-what-to-do.jpg"
   alt: "Zoe at a desk reviewing an AI agent workflow on a laptop screen"
+faqs:
+  - q: "What Zuckerberg Actually Said (And What He Didn't)"
+    a: "The TechCrunch coverage focuses on Meta's stock dropping 10% after earnings, the $88 billion Reality Labs hole, and the free cash flow collapse from $8.55 billion to $784 million. Fair. Those numbers are brutal. But buried in the earnings call was something more interesting than any balance sheet: Zuckerberg laid out a specific vision of personal agents that \"understand your goals\" and work across"
+  - q: "What I'd Do This Week (Not Next Year)"
+    a: "If this prediction is even half right, the builders who start now win. Not the ones who wait for the tools to get perfect."
 ---
 {{< audio src="/audio/zuckerberg-ai-agents-solo-builders-what-to-do.mp3" >}}
 

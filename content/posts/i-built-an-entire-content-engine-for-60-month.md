@@ -21,7 +21,6 @@ faqs:
     a: "Yes, by using a content batching system and scheduling tools, you can create content in advance and automate its distribution. This lets one person maintain a consistent presence across several platforms without daily manual work."
   - q: "What's the most cost-effective way to start content automation?"
     a: "Begin with free tiers of AI writers for drafting and free scheduling tools for social media. As you grow, you can upgrade to paid plans for more features, but the core engine can run for under $60 a month."
-
 ---
 {{< audio src="/audio/i-built-an-entire-content-engine-for-60-month.mp3" >}}
 

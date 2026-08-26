@@ -1,5 +1,5 @@
 ---
-title: "Anthropic Cut 80% of Claude's System Prompt — What It Means for You"
+title: "Anthropic Cut 80% of Claude's System Prompt — What It Means"
 date: 2026-07-27
 draft: false
 description: "Anthropic cut 80% of Claude Code's system prompt with zero performance loss. Here's what solo builders should change about their AI setup today."
@@ -21,7 +21,6 @@ faqs:
     a: "Yes, it's worth auditing your prompts for redundancy and vague instructions. Focus on clear, specific directives that directly influence the output you want, and test whether removing less critical lines changes the results."
   - q: "How can solo builders optimize their AI setup after this change?"
     a: "Start by reviewing your system prompts line by line to identify what's truly essential. Replace lengthy explanations with concise rules, and use iterative testing to ensure performance stays consistent as you trim."
-
 ---
 {{< audio src="/audio/anthropic-deleted-80-percent-system-prompt-what-it-means.mp3" >}}
 

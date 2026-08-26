@@ -12,25 +12,25 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-coding-price-war-what-solo-builders-pay.jpg"
   alt: "Zoe comparing pricing pages of AI coding tools on her laptop"
+lastmod: 2026-08-26
 faqs:
-  - q: "How much does AI coding assistance cost in 2026?"
-    a: "Prices have dropped significantly due to competition between Meta, Anthropic, and OpenAI. Solo builders can now access powerful coding models for as little as $10-$30 per month, with many offering generous free tiers."
-  - q: "Which AI coding tool offers the best value for indie developers?"
-    a: "The best value depends on your specific needs, but Meta's Code Llama and Anthropic's Claude often provide the most cost-effective solutions for solo builders. OpenAI's offerings remain competitive but tend to be slightly more expensive for comparable performance."
-  - q: "Are there free AI coding options available for solo builders?"
-    a: "Yes, all three major providers offer free tiers with limited usage, and open-source models like Meta's Code Llama can be run locally at no cost. These free options are often sufficient for small projects or learning purposes."
-  - q: "How do I choose between Meta, Anthropic, and OpenAI for coding?"
-    a: "Consider your budget, the specific programming languages you use, and whether you prefer cloud-based or local solutions. For most solo builders, starting with free tiers from each provider is the best way to evaluate which works best for your workflow."
+  - q: "What the three main players charge"
+    a: "Here is the current breakdown for agentic coding models as of July 2026:"
+  - q: "How to pick the right model for your budget"
+    a: "If you are just starting out: Use the free tiers. All three providers offer free access for light usage. Build your first automation or chatbot without paying anything. Upgrade only when you hit the limits."
+  - q: "What to watch next"
+    a: "Meta has signaled that Spark 1.1 is just the beginning. If they follow the Llama playbook — releasing increasingly capable open-source models that drive down market prices — the entire coding AI market gets cheaper within 6–12 months."
 ---
+
 {{< audio src="/audio/ai-coding-price-war-what-solo-builders-pay.mp3" >}}
 
-Three major AI companies now offer agentic coding models within striking distance of each other on price. Meta's Muse Spark 1.1 launched at $1.25 per million input tokens. Anthropic's Claude Haiku 4.5 and OpenAI's GPT-5.6 Luna are in the same ballpark. For the first time since [AI coding tools went mainstream](/posts/vibe-coding-built-my-app-tried-to-fix-it/), you have real pricing competition — and that changes the math for solo builders.
+Three major AI companies now offer agentic coding models within striking distance of each other on price. Meta's Muse Spark 1.1 launched at $1.25 per million input tokens. Anthropic's Claude Haiku 4.5 and OpenAI's GPT-5.6 Luna are in the same ballpark. For the first time since [AI coding tools went mainstream](/posts/vibe-coding-built-my-app-tried-to-fix/), you have real pricing competition — and that changes the math for solo builders.
 
 I track my AI tool spending like any other business expense, and the shift over the past six months has been dramatic. What used to cost $50–100/month in API calls for a single project is now approaching $15–30. The question is not whether prices are dropping — they are. The question is whether the cheapest option is actually good enough for what you need.
 
 ## What the three main players charge
 
-Here is the current landscape for agentic coding models as of July 2026:
+Here is the current breakdown for agentic coding models as of July 2026:
 
 **Meta Muse Spark 1.1:** $1.25/M input, $4.25/M output. Meta's first serious entry into coding AI. Designed for multi-step agentic workflows — the kind of work where you tell the AI to plan, execute, and debug across multiple files or systems.
 
@@ -56,7 +56,7 @@ At heavy usage, choosing Spark over a more expensive model saves $30–50/month.
 
 Token price is the visible cost. The hidden cost is output quality. A cheaper model that produces buggy code costs you hours of debugging. A model that misunderstands your intent and generates the wrong architecture costs you days of rework.
 
-I learned this the hard way with [my first vibe coding project](/posts/vibe-coding-built-my-app-tried-to-fix-it/). The initial generation was fast and cheap. The debugging was neither. The real cost of an AI coding tool is not the token price — it is the total time from prompt to working result.
+I learned this the hard way with [my first vibe coding project](/posts/vibe-coding-built-my-app-tried-to-fix/). The initial generation was fast and cheap. The debugging was neither. The real cost of an AI coding tool is not the token price — it is the total time from prompt to working result.
 
 This is why I recommend testing any new model on a low-stakes project before trusting it with anything important. Muse Spark 1.1 might be cheaper, but if it takes 3 attempts to get what Claude gets in 1, you have not saved anything.
 

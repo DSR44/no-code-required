@@ -21,7 +21,6 @@ faqs:
     a: "With HeyGen's batch workflow, you can create a full week of social content in approximately 30 minutes. This includes scripting, generating, and exporting all videos in one efficient session."
   - q: "Can solo creators use HeyGen for batch video production?"
     a: "Yes, HeyGen's batch workflow is designed specifically for solo creators who want to streamline video production. It eliminates the need for a production team, letting you handle everything from script to final video alone."
-
 ---
 {{< audio src="/audio/heygen-batch-video-content-workflow.mp3" >}}
 
