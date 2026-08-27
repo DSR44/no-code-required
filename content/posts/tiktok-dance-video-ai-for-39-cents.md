@@ -1,5 +1,5 @@
 ---
-title: "I Made a TikTok Dance Video for $0.39 With AI — Here's How"
+title: "How I Made a TikTok Dance Video for $0.39 With AI"
 date: 2026-05-22
 draft: false
 description: "No dancer. No camera. No studio. I used GPT Image 2.0 to generate a 9-panel storyboard, then fed it into PixVerse to create a 10-second dance video. Total cost: $0.39. Here's the exact prompt and JSON I used — copy it, change the style, make it yours."
@@ -8,6 +8,7 @@ categories: ["tools"]
 slug: "tiktok-dance-video-ai-for-39-cents"
 cover:
   image: "/images/tiktok-dance-video-ai-for-39-cents.jpg"
+  alt: "No dancer. No camera. No studio. I used GPT Image 2.0 to generate a 9-panel storyboard, then fed it into PixVerse to cre"
 faqs:
   - q: "How much does it cost to make an AI dance video?"
     a: "The total cost was $0.39, using GPT Image 2.0 to generate a 9-panel storyboard and PixVerse to create the final 10-second video. You don't need a dancer, camera, or studio — just the right prompts and tools."
@@ -17,7 +18,6 @@ faqs:
     a: "PixVerse is used in this workflow to animate a sequence of AI-generated images into a smooth 10-second dance video. The images themselves were created with GPT Image 2.0 from a detailed prompt."
   - q: "Where can I find the exact prompt for generating an AI dance storyboard?"
     a: "The blog post includes the full prompt and JSON structure used to generate the 9-panel storyboard with GPT Image 2.0. You can copy it directly and swap in your own dance style or character details."
-
 ---
 
 {{< audio src="/audio/tiktok-dance-video-ai-for-39-cents.mp3" >}}

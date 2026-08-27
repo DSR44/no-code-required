@@ -1,5 +1,5 @@
 ---
-title: "HeyGen Video Translation: Reach Global Audiences Without Languages"
+title: "HeyGen Video Translation: Reach Global Audiences Fast"
 date: 2026-07-07
 draft: false
 description: "I break down the full HeyGen language list and show you exactly how to use HeyGen Translate to reach global audiences fast."
@@ -22,7 +22,6 @@ faqs:
   - q: "How many languages does HeyGen support for video translation?"
     a: "HeyGen supports translation into over 175 languages, giving you extensive reach to diverse markets around the world."
 lastmod: 2026-07-25
-
 ---
 {{< audio src="/audio/heygen-video-translation-global-audiences.mp3" >}}
 
