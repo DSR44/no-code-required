@@ -12,24 +12,28 @@ TocOpen: false
 cover:
   image: "/images/posts/why-cognition-bought-poke-ai-personality-competitive-advantage.jpg"
   alt: "AI assistant chat interface with personality-driven conversation"
-faqs:
-  - q: "How does Cognition's acquisition of Poke affect solo builders in 2026?"
-    a: "It signals a shift toward more specialized, personality-driven AI assistants, giving solo builders access to tools designed for nuanced tasks and companionship, not just productivity."
-  - q: "Is Poke different from standard AI coding assistants?"
-    a: "Yes, Poke is an AI assistant with a distinct personality, acquired by Cognition to complement its Devin AI, focusing on interaction and support beyond pure code generation."
-  - q: "What practical benefits does an AI like Poke offer to someone building alone?"
-    a: "It can provide brainstorming support, reduce isolation by acting as a conversational partner, and handle a variety of non-coding tasks, making the solo development process less solitary and more efficient."
-  - q: "Should solo builders consider personality in their AI tools?"
-    a: "Yes, as AI evolves, tools with personality can improve user experience, maintain engagement, and better understand the builder's style and preferences over time."
 
+lastmod: 2026-08-28
+faqs:
+  - q: "What does Poke actually do?"
+    a: "Poke isn't another ChatGPT wrapper. It's an AI agent that lives in your messaging app — iMessage, SMS, Telegram, or WhatsApp — and talks to you like a friend would. Not in a creepy, \"I'm your bestie\" way. In a practical way. It responds with personality, uses casual language, and handles tasks like scheduling, email management, reminders, and research without feeling like you're issuing commands t"
+  - q: "Why did Cognition buy Poke?"
+    a: "Cognition's main product is Devin, an AI coding assistant that handles software engineering tasks. It can write code, submit pull requests, and debug issues. Technically impressive. But Devin does one pull request at a time. It doesn't remember what you asked it yesterday. It doesn't have a personality."
+  - q: "Is personality a real feature or just marketing?"
+    a: "This acquisition highlights something I've noticed while comparing AI tools: most of them are technically capable but emotionally flat. They give you the right answer in the most generic way possible."
+  - q: "What should solo builders look for in AI tools now?"
+    a: "If you're a solo builder choosing AI tools, this acquisition signals a shift in what to look for. Here's what I'd pay attention to:"
+  - q: "Is the business model sustainable?"
+    a: "Here's the part of the Poke story that didn't make headlines: it was expensive to run. Poke's founder admitted the product was difficult to turn a profit on, despite hundreds of thousands of users. That's a familiar pattern in AI — technically impressive, financially unsustainable."
 ---
+
 {{< audio src="/audio/why-cognition-bought-poke-ai-personality-competitive-advantage.mp3" >}}
 
-Last week, Cognition — the company behind the AI coding assistant Devin — acquired Poke, an AI agent you text like a friend. The deal valued Poke in the "low nine figures." That's a lot of money for an AI that uses slang and makes jokes. But it tells you something important about where AI tools are heading: personality is becoming a feature, not a decoration.
+Last week, Cognition — the company behind the AI coding assistant Devin — acquired Poke, an AI agent you text like a friend. The deal valued Poke in the "low nine figures," which is a lot of money for an AI that uses slang and makes jokes. But it tells you something about where AI tools are heading: personality is becoming a feature, not a decoration.
 
 I've been [testing AI tools](/posts/the-tools-i-actually-use-every-day/) for over a year now, and the ones I keep coming back to aren't necessarily the smartest. They're the ones that feel right. That's not a soft metric — it's a competitive advantage. And Cognition just paid nine figures to prove it.
 
-## What Poke actually does
+## What does Poke actually do?
 
 Poke isn't another ChatGPT wrapper. It's an AI agent that lives in your messaging app — iMessage, SMS, Telegram, or WhatsApp — and talks to you like a friend would. Not in a creepy, "I'm your bestie" way. In a practical way. It responds with personality, uses casual language, and handles tasks like scheduling, email management, reminders, and research without feeling like you're issuing commands to a machine.
 
@@ -37,15 +41,15 @@ Over the past three months, Poke users exchanged more than 100 million messages 
 
 That's the part that matters for solo builders. You don't need an AI that can write poetry. You need one that can handle your inbox without making you feel like you're talking to a customer service bot.
 
-## Why Cognition cares about personality
+## Why did Cognition buy Poke?
 
-Cognition's main product is Devin, an AI coding assistant that handles software engineering tasks. It can write code, submit pull requests, and debug issues. Technically impressive. But here's the thing — Devin does one pull request at a time. It doesn't remember what you asked it yesterday. It doesn't have a personality.
+Cognition's main product is Devin, an AI coding assistant that handles software engineering tasks. It can write code, submit pull requests, and debug issues. Technically impressive. But Devin does one pull request at a time. It doesn't remember what you asked it yesterday. It doesn't have a personality.
 
 The Poke acquisition changes that. Cognition wants Devin to feel less like software and more like a colleague. As Cognition co-founder Scott Wu put it: "The Interaction team has built an agent that people love: it's proactive, it knows you, and it's fun to talk to. That's exactly how working with Devin should feel."
 
 Think about what that means in practice. Right now, if you use an AI coding tool, you're basically issuing instructions to a very smart search engine. There's no continuity. No rapport. No sense that the tool understands your preferences over time. Poke's interaction model could change that — making Devin remember your coding style, your project context, your communication preferences.
 
-## The personality gap in AI tools
+## Is personality a real feature or just marketing?
 
 This acquisition highlights something I've noticed while [comparing AI tools](/posts/ai-images-which-tool-actually-works/): most of them are technically capable but emotionally flat. They give you the right answer in the most generic way possible.
 
@@ -55,7 +59,7 @@ When every AI assistant sounds the same, the one that sounds different wins. Not
 
 Poke figured this out early. Instead of building a more capable tool, they built a more likable one. The capability came later. That's backwards from how most AI companies think, and it's why Cognition paid nine figures to acquire them.
 
-## What this means for your tool stack
+## What should solo builders look for in AI tools now?
 
 If you're a solo builder choosing AI tools, this acquisition signals a shift in what to look for. Here's what I'd pay attention to:
 
@@ -65,7 +69,7 @@ If you're a solo builder choosing AI tools, this acquisition signals a shift in 
 
 **The "AI colleague" model is coming.** Right now, most AI tools are search engines with better interfaces. The Poke acquisition points toward something different: AI that works alongside you, remembers your preferences, and improves over time. That's closer to [hiring an employee](/posts/ai-agents-are-becoming-employees/) than using a tool.
 
-## The pricing question nobody's asking
+## Is the business model sustainable?
 
 Here's the part of the Poke story that didn't make headlines: it was expensive to run. Poke's founder admitted the product was difficult to turn a profit on, despite hundreds of thousands of users. That's a familiar pattern in AI — technically impressive, financially unsustainable.
 
@@ -73,7 +77,7 @@ Cognition can absorb those costs because they're selling Devin to enterprises at
 
 I've been [testing pricing across AI tools](/posts/how-to-actually-make-money-with-ai-tools/) for months, and the pattern is clear: the tools with personality and memory features tend to cost more to run. That cost gets passed to you eventually. When you're choosing between a $20/month AI assistant and a $200/month one, the difference often isn't intelligence — it's the interaction layer.
 
-## The bottom line
+## What does this mean for the future of AI tools?
 
 Cognition's acquisition of Poke isn't just another AI M&A deal. It's a signal that the companies building AI tools are starting to care about how those tools feel, not just what they can do. For solo builders, that means the next wave of AI tools will be more personal, more contextual, and more expensive. Choose tools that remember you and that you actually enjoy using — because the technical capability gap between AI tools is shrinking, but the personality gap is about to become the deciding factor.
 

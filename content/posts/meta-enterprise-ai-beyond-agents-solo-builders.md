@@ -1,5 +1,5 @@
 ---
-title: "Meta Is Selling Its Internal AI Tools — Here's What That Means for Solo Builders"
+title: "Meta's AI Tools for Solo Builders: What You Need to Know"
 date: 2026-08-28
 draft: false
 description: "Meta is expanding beyond agents into enterprise AI APIs and compute. Here's what solo builders should know about the opportunity."
@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/meta-enterprise-ai-beyond-agents-solo-builders.jpg"
   alt: "Person at laptop reviewing Meta AI business tools dashboard"
+faqs:
+  - q: "What Zuckerberg actually said"
+    a: "Meta entered the enterprise AI market in June 2026 with business agents designed for customer service and daily operations. On the earnings call, Zuckerberg laid out a much broader vision: \"We see a large enterprise opportunity to sell to businesses, including APIs, business agents, potentially selling compute directly, and other services that we're building for large customers.\""
+  - q: "Why this matters more than the consumer agent hype"
+    a: "Consumer AI agents get the headlines. Enterprise AI pays the bills. And Meta's approach is different from what Anthropic, OpenAI, and Google are doing in a few important ways."
+  - q: "What to watch for"
+    a: "Meta's API rollout. The company hasn't released detailed pricing or documentation for its enterprise AI APIs yet. When it does, test them immediately. If Meta's APIs are cheaper or easier than OpenAI's or Anthropic's for certain use cases — particularly messaging-based interactions — that changes the cost equation for every AI agent you build."
+  - q: "What I'd do this week"
+    a: "Get familiar with Meta Business Suite. If you're not already using it, set up a test business page and explore the current AI features. Understanding the baseline makes you ready when the new tools drop."
 ---
 {{< audio src="/audio/meta-enterprise-ai-beyond-agents-solo-builders.mp3" >}}
 

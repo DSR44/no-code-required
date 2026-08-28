@@ -22,7 +22,6 @@ faqs:
     a: "Yes, both avatars are designed for similar use cases like marketing videos, training materials, and social media content. The main difference is the visual quality and the associated cost."
   - q: "Which avatar is better for creating quick, budget-friendly videos?"
     a: "Avatar 3 is the better choice for quick, budget-friendly videos. It delivers good quality at a lower price point, making it ideal for projects where top-tier realism isn't critical."
-
 ---
 {{< audio src="/audio/heygen-avatar-v-vs-avatar-3.mp3" >}}
 

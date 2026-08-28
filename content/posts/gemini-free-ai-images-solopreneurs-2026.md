@@ -21,7 +21,6 @@ faqs:
     a: "Yes, you can use images generated with Gemini for your business, including commercial use. However, you should review Google's terms of service for any specific restrictions or attribution requirements."
   - q: "How does Gemini's image quality compare to paid services like Midjourney?"
     a: "Gemini produces high-quality, photorealistic images suitable for many business needs, though specialized paid tools may offer more advanced stylistic control. For most solopreneur use cases, Gemini's free output is a powerful and sufficient alternative."
-
 ---
 {{< audio src="/audio/gemini-free-ai-images-solopreneurs-2026.mp3" >}}
 

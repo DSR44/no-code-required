@@ -21,7 +21,6 @@ faqs:
     a: "The plan includes access to Gemini Advanced, higher usage limits, early access to new AI tools, and integration with Google Workspace apps like Docs and Sheets."
   - q: "Are there any limitations or things not included in Google AI Ultra?"
     a: "Yes, it doesn't include unlimited access to all models, and some features like certain third-party plugin integrations or enterprise-level support may require additional plans."
-
 ---
 {{< audio src="/audio/google-ai-ultra-plan-100-dollars.mp3" >}}
 

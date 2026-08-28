@@ -21,7 +21,6 @@ faqs:
     a: "The retraction doesn't mean AI can't help in education, but it highlights the need for rigorous, well-designed research before making broad claims. Educators should look for replicated studies with solid methodologies rather than relying on single high-profile papers."
   - q: "Should teachers stop using ChatGPT for learning because of this retraction?"
     a: "Not necessarily — the retraction points to problems with one specific study, not with AI tools themselves. Teachers can still experiment with ChatGPT in their classrooms while waiting for more robust research on its educational effectiveness."
-
 ---
 {{< audio src="/audio/chatgpt-education-study-retracted-what-went-wrong.mp3" >}}
 

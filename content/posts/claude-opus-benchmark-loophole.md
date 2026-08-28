@@ -1,5 +1,5 @@
 ---
-title: "Can You Trust AI Leaderboards? Benchmark Loopholes Exposed"
+title: "AI Leaderboards Exposed: Benchmark Loopholes Revealed"
 date: 2026-06-22
 draft: false
 description: "AI benchmark scores are how most of us pick tools. But new data shows Claude Opus and GPT-5 tank when tested on code they've never seen. Here's what that means."
@@ -21,7 +21,6 @@ faqs:
     a: "Models can sometimes memorize solutions from their training data, which includes popular benchmark problems. When faced with genuinely new code, they lack that memorized shortcut and must rely on their actual reasoning, often revealing a performance gap."
   - q: "How can I evaluate an AI coding tool beyond its benchmark claims?"
     a: "Test it yourself with your own unique projects or problems that are unlikely to be in its training data. Look for reviews from developers who have used it in real-world scenarios, not just on standardized tests."
-
 ---
 {{< audio src="/audio/claude-opus-benchmark-loophole.mp3" >}}
 

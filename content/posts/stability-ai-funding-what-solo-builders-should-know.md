@@ -1,5 +1,5 @@
 ---
-title: "Stability AI Just Raised $76 Million — Here's What Solo Builders Should Actually Pay Attention To"
+title: "Stability AI's $76M Round: What Solo Builders Should Know"
 date: 2026-08-27
 draft: false
 description: "Stability AI raised $76M from music labels and EA. Here's what that funding round means for solo builders using AI image and video tools."
@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/stability-ai-funding-what-solo-builders-should-know.jpg"
   alt: "Person at laptop reviewing AI-generated images with funding news on screen"
+faqs:
+  - q: "What the $76 million actually buys"
+    a: "Stability AI has raised $232 million total. The new round brings in strategic partners — not just cash, but distribution deals. Universal Music, EA, and Warner Music aren't writing checks out of generosity. They're co-developing AI tools with Stability for music production, game development, and content creation."
+  - q: "What this means for your AI image workflow"
+    a: "If you're using Stable Diffusion through platforms like ComfyUI or Automatic1111, nothing changes immediately. The open-source models are still available. But Stability's focus will likely shift toward their commercial products — the ones that entertainment companies are paying for."
+  - q: "What I'd watch next"
+    a: "Three things to keep an eye on if you're building with AI images or video:"
 ---
 {{< audio src="/audio/stability-ai-funding-what-solo-builders-should-know.mp3" >}}
 
