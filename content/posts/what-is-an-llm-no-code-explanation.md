@@ -12,31 +12,39 @@ TocOpen: false
 cover:
   image: "/images/posts/what-is-an-llm-no-code-explanation.jpg"
   alt: "Zoe at laptop with AI chatbot interface on screen, warm coffee-shop editorial setting"
+lastmod: 2026-08-29
 faqs:
-  - q: "How does a large language model actually work?"
-    a: "An LLM reads massive amounts of text and learns to predict the most likely next word in a sequence, over and over again. It doesn't 'understand' language the way humans do — it's pattern recognition at an incredibly large scale."
-  - q: "Are ChatGPT and Claude considered LLMs?"
-    a: "Yes, both ChatGPT and Claude are powered by LLMs — GPT and Claude respectively. They're the engines behind the conversational interface you interact with."
-  - q: "How is an LLM different from a regular chatbot?"
-    a: "Traditional chatbots follow pre-written scripts and can only respond to what they've been explicitly programmed to handle. LLMs generate original responses on the fly by predicting language patterns, making them far more flexible and conversational."
-  - q: "Do I need to know how to code to use an LLM?"
-    a: "Not at all — if you can type a sentence, you can use an LLM. Tools like ChatGPT and Claude are designed to work with plain, everyday language, no technical skills required."
+  - q: "What does LLM actually stand for?"
+    a: "\"Large\" means it was trained on a massive amount of text — basically the entire internet. Books, articles, conversations, code, Reddit threads, Wikipedia, scientific papers. Billions of pages of human writing."
+  - q: "How is an LLM different from a search engine?"
+    a: "Google matches keywords. You type \"best Italian restaurant Chicago\" and it finds pages that contain those words."
+  - q: "What does \"training\" actually involve?"
+    a: "When people say an LLM was \"trained on data,\" here's what happened:"
+  - q: "What are parameters, tokens, and context windows?"
+    a: "You'll see LLMs described with numbers like \"GPT-4 has 1.8 trillion parameters.\" Here's what that means without the math:"
+  - q: "Why are there so many different LLMs?"
+    a: "Different companies trained their own LLMs on different data with different priorities:"
 ---
+
 {{< audio src="/audio/what-is-an-llm-no-code-explanation.mp3" >}}
+
+# What Is an LLM? A No-Code Explanation That Makes Sense
 
 Every AI tool you've heard of — ChatGPT, Claude, Gemini, Copilot — runs on something called an LLM. If you've seen the term and nodded along without actually knowing what it means, you're not alone. Most explanations either oversimplify to the point of being wrong or dive into neural network architecture like you're studying for a CS degree.
 
 I'm going to explain what an LLM actually is, how it works, and why it matters for the tools you use every day. No code. No jargon. Just the mental model you need to use AI tools better.
 
-## LLM stands for Large Language Model
+**A large language model (LLM) is a prediction engine trained on billions of pages of text — books, articles, code, Reddit threads, Wikipedia, scientific papers.** GPT-4, for example, was trained on roughly 13 trillion tokens of text data. The model doesn't store that text; it learned the statistical patterns underneath it, then uses those patterns to predict what word should come next in any sequence you give it.
+
+## What does LLM actually stand for?
 
 "Large" means it was trained on a massive amount of text — basically the entire internet. Books, articles, conversations, code, Reddit threads, Wikipedia, scientific papers. Billions of pages of human writing.
 
-"Language model" means it's a system that predicts what comes next in a sequence of words. That's it. At its core, an LLM is a prediction engine. You give it some text, and it predicts the most likely next word. Then the next. Then the next.
+"Language model" means it's a system that predicts what comes next in a sequence of words. That's it. An LLM is a prediction engine. You give it some text, and it predicts the most likely next word. Then the next. Then the next.
 
 When you type "What's the best restaurant in—" an LLM doesn't "know" restaurants. It's predicting, based on everything it's ever read, what word is most likely to come next in a sentence that starts that way. The prediction might be "Chicago" or "Paris" or "Tokyo" — depending on context it's gathered from the rest of your conversation.
 
-## How it's different from search
+## How is an LLM different from a search engine?
 
 Google matches keywords. You type "best Italian restaurant Chicago" and it finds pages that contain those words.
 
@@ -46,7 +54,7 @@ This is also why it sometimes makes things up. If the patterns it learned lead t
 
 I covered this in [why your AI output sucks](/posts/why-your-ai-output-sucks/) — understanding that LLMs predict rather than retrieve explains a lot about when they fail and how to prompt them better.
 
-## What "training" actually means
+## What does "training" actually involve?
 
 When people say an LLM was "trained on data," here's what happened:
 
@@ -56,15 +64,15 @@ When people say an LLM was "trained on data," here's what happened:
 4. It adjusted its internal parameters to get closer next time
 5. Repeat billions of times
 
-After this process, the LLM has built an incredibly detailed statistical model of how human language works — grammar, facts, reasoning patterns, writing styles, even humor. It didn't memorize specific sentences. It learned the patterns underneath them.
+After this process, the LLM has built a detailed statistical model of how human language works — grammar, facts, reasoning patterns, writing styles, even humor. It didn't memorize specific sentences. It learned the patterns underneath them.
 
 Think of it like this: you've read thousands of recipes in your life. You've never memorized any single recipe word for word. But if I asked you to make a chocolate cake, you could improvise one from the patterns you've absorbed. You know cakes need flour, eggs, sugar. You know chocolate goes in the batter. You know it goes in the oven. You're generating a recipe from learned patterns, not retrieving one from memory. That's what an LLM does with language.
 
-## Parameters, tokens, and context windows
+## What are parameters, tokens, and context windows?
 
 You'll see LLMs described with numbers like "GPT-4 has 1.8 trillion parameters." Here's what that means without the math:
 
-**Parameters** are the internal knobs and dials the model learned during training. More parameters generally means the model captured more nuance in language. Think of it like resolution — a 100-megapixel camera captures more detail than a 12-megapixel one, but both take photos.
+**Parameters** are the internal knobs and dials the model learned during training. More parameters generally means the model captured more detail in language. Think of it like resolution — a 100-megapixel camera captures more detail than a 12-megapixel one, but both take photos.
 
 **Tokens** are chunks of text. A token is roughly 3/4 of a word in English. "Unbelievable" is one token. "Chat GPT" is two tokens. When a tool says "4,000 token limit," it means roughly 3,000 words of input/output combined.
 
@@ -72,12 +80,12 @@ You'll see LLMs described with numbers like "GPT-4 has 1.8 trillion parameters."
 
 I covered the practical implications in [the one prompt that changed everything](/posts/the-one-prompt-that-changed-everything/) — understanding context windows helps you write better prompts.
 
-## Why there are different LLMs
+## Why are there so many different LLMs?
 
 Different companies trained their own LLMs on different data with different priorities:
 
 - **GPT-4 (OpenAI)** — the most well-known. Strong general knowledge, good at following instructions. Powers ChatGPT.
-- **Claude (Anthropic)** — prioritizes safety and nuanced writing. Better at long documents and complex reasoning. Less likely to make things up.
+- **Claude (Anthropic)** — prioritizes safety and careful writing. Better at long documents and complex reasoning. Less likely to make things up.
 - **Gemini (Google)** — integrated with Google's ecosystem. Strong at tasks involving search and real-time information.
 - **Llama (Meta)** — open-source. Anyone can download and run it. Good for building custom tools.
 - **Mistral** — European open-source model. Efficient, good for specialized applications.
@@ -86,7 +94,7 @@ They're all LLMs. They all predict the next word. But they differ in training da
 
 I compared writing quality across models in [I tested 10 AI writing tools](/posts/i-tested-10-ai-writing-tools/) — the LLM underneath matters more than the app wrapping it.
 
-## What LLMs can and can't do
+## What can LLMs actually do well — and where do they fail?
 
 **They're good at:**
 - Writing, rewriting, and editing text
@@ -109,7 +117,7 @@ I compared writing quality across models in [I tested 10 AI writing tools](/post
 - Remember previous conversations (unless the app stores and feeds them back)
 - Feel, intend, or understand in the human sense (they process patterns)
 
-## Why this matters for you
+## Why should you care about any of this?
 
 When you understand that an LLM predicts text rather than "thinking," three things become clear:
 
@@ -117,11 +125,9 @@ When you understand that an LLM predicts text rather than "thinking," three thin
 
 2. **Fact-checking isn't optional.** LLMs are confident guessers. For anything factual — dates, statistics, quotes — verify before you publish or share.
 
-3. **Different models for different tasks.** Claude for long-form writing and nuanced analysis. ChatGPT for general tasks and coding. Gemini for Google-integrated workflows. You wouldn't use a hammer for every job.
+3. **Different models for different tasks.** Claude for long-form writing and careful analysis. ChatGPT for general tasks and coding. Gemini for Google-integrated workflows. You wouldn't use a hammer for every job.
 
 I walk through building your first AI-powered workflow in [build your first automation in 15 minutes](/posts/build-your-first-automation-in-15-minutes/) — understanding LLMs makes these tools less intimidating because you see they're just very good text predictors, not magic.
-
-## The bottom line
 
 An LLM is a prediction engine trained on most of the written human knowledge available online. It predicts what words should come next based on patterns it learned. That prediction capability is what makes ChatGPT, Claude, and every other AI tool work. It's powerful, it's useful, and it's not going away — but it's not thinking, it's not sentient, and it's not always right.
 
@@ -130,3 +136,20 @@ Now you know what's actually happening when you type a prompt.
 If you want to see what these models can actually do for free right now, check out [Google I/O 2026: every free AI tool they just launched](/posts/google-io-2026-free-ai-tools-for-beginners/) — a practical breakdown of what's worth your time.
 
 If you're just getting started with AI tools, [start here](/start-here/) — I put together a path that doesn't assume any technical background.
+
+---
+
+**How does an LLM actually work?**
+An LLM predicts the next word in a sequence based on patterns learned from billions of text examples during training. You give it input text, and it generates a response word by word, choosing each token based on statistical probability — not by retrieving pre-written answers from a database.
+
+**What's the difference between an LLM and a search engine?**
+Search engines like Google match your keywords to existing web pages. An LLM generates new text that has never existed before, constructing sentences word by word from learned patterns. This is why LLMs can answer novel questions but also sometimes produce confident-sounding errors called hallucinations.
+
+**Why do different LLMs give different answers?**
+Each LLM was trained on different data, with different safety tuning and different priorities. GPT-4 focuses on general knowledge and instruction-following. Claude emphasizes careful reasoning and long-document handling. Gemini integrates with Google's ecosystem. They're all prediction engines, but their training shaped different strengths.
+
+**What are parameters, tokens, and context windows?**
+Parameters are the model's learned internal settings — more parameters generally capture more language detail. Tokens are text chunks, roughly 3/4 of a word each. Context window is how much text the model can process at once — Claude's 200K-token window handles long documents far better than smaller windows.
+
+**Can LLMs access the internet or remember past conversations?**
+Not on their own. An LLM can only access the internet or recall previous chats if the application it's running inside provides those features. The model itself has no memory between separate conversations and no built-in web access.
