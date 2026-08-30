@@ -1,5 +1,5 @@
 ---
-title: "Your Next Employee Is an AI Agent — Here's How to Hire One"
+title: "Hiring an AI Agent as Your Next Employee"
 date: 2026-06-29
 draft: false
 description: "AI agents aren't just tools anymore — they're taking on employee-level roles. Here's what that means for solo creators and small businesses."
@@ -21,7 +21,6 @@ faqs:
     a: "Unlike static software that follows predefined rules, an AI agent can learn, make decisions, and perform multi-step tasks autonomously to achieve a given goal."
   - q: "What are some practical tasks an AI agent can handle for a small business?"
     a: "An AI agent can manage customer support inquiries, schedule appointments, generate reports, draft emails, and even handle basic data entry or analysis tasks."
-
 ---
 {{< audio src="/audio/ai-agents-are-becoming-employees.mp3" >}}
 

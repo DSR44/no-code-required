@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's Hardware Pivot — Devices for People Who Don't Code"
+title: "OpenAI's Hardware Pivot: Devices for Non-Coders"
 slug: "openai-hardware-pivot-devices-non-coders"
 date: 2026-08-30
 draft: false
@@ -14,6 +14,11 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-hardware-pivot-devices-non-coders.jpg"
   alt: "Zoe looking at AI hardware concept on laptop screen"
+faqs:
+  - q: "What this means for solo builders"
+    a: "If you're running a solo business with AI tools, three things change:"
+  - q: "What to watch"
+    a: "OpenAI's IPO filing in June 2026 signaled that the company needs to show revenue beyond API access and ChatGPT subscriptions. Hardware is the path to a new revenue category — and a new user category. The people who buy an OpenAI device won't be developers. They'll be teachers, coaches, small business owners, and parents who want AI to help with everyday tasks without learning how to use it."
 ---
 {{< audio src="/audio/openai-hardware-pivot-devices-non-coders.mp3" >}}
 
