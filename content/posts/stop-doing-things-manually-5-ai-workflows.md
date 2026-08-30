@@ -12,6 +12,16 @@ TocOpen: false
 cover:
   image: "/images/posts/stop-doing-things-manually-5-ai-workflows.jpg"
   alt: "Zoe at her laptop with automation workflow diagrams on screen, looking relieved"
+faqs:
+  - q: "How can I automate repetitive tasks without coding experience?"
+    a: "You can use no-code AI tools like Zapier, Make, or built-in features in apps like Notion and Google Workspace to create automated workflows. These platforms offer visual interfaces where you connect triggers and actions, saving you hours of manual work each week."
+  - q: "Which AI tools are best for saving time on weekly tasks?"
+    a: "Top tools for no-code automation include Zapier for connecting apps, ChatGPT for drafting and summarizing, and Otter.ai for transcribing meetings. Each specializes in different workflows, from data entry to content creation, and can be set up in minutes."
+  - q: "Can I set up AI workflows without hiring a developer?"
+    a: "Absolutely—most modern AI automation tools are designed for non-technical users with drag-and-drop builders and pre-built templates. You can start with simple workflows like auto-saving email attachments to cloud storage and scale up as you get comfortable."
+  - q: "How much time can AI automation realistically save each week?"
+    a: "Depending on the tasks, AI workflows can save anywhere from 2 to 10+ hours per week by handling repetitive actions like data entry, scheduling, and report generation. The key is starting with one high-impact workflow and expanding from there."
+
 ---
 {{< audio src="/audio/stop-doing-things-manually-5-ai-workflows.mp3" >}}
 
