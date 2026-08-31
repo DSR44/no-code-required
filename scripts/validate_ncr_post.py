@@ -127,11 +127,11 @@ def changed_slugs() -> list[str]:
 
 
 def going_live_slugs() -> list[str]:
-    """draft:false posts dated today.
+    """draft:false posts dated today or later.
 
-    Hugo publishes these on this build even if the commit did not touch them.
-    That is how a leftover future-dated markdown-only post can go live broken
-    when an unrelated ncrpush (or seo-fix) rebuilds the site.
+    Hugo will publish them on this build (today) or a later rebuild (future).
+    A leftover markdown-only post must fail the deploy *when it is committed*,
+    not only on the morning its date arrives.
     """
     from datetime import date as _date
 
@@ -149,7 +149,7 @@ def going_live_slugs() -> list[str]:
         if re.search(r"^draft:\s*true\b", text, re.M | re.I):
             continue
         dm = re.search(r"^date:\s*['\"]?(\d{4}-\d{2}-\d{2})", text, re.M)
-        if dm and dm.group(1) == today:
+        if dm and dm.group(1) >= today:
             slugs.append(path.stem)
     return slugs
 
