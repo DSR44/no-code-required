@@ -1,5 +1,5 @@
 ---
-title: "Encore AI Raised $30M to Train AI Agents on Your Best Customer Calls — Here's What Solo Builders Can Learn"
+title: "Encore AI's $30M Raise: Lessons for Solo Builders Using AI"
 slug: "encore-ai-training-agents-customer-calls"
 date: 2026-08-31
 draft: false
@@ -14,6 +14,11 @@ TocOpen: false
 cover:
   image: "/images/posts/encore-ai-training-agents-customer-calls.jpg"
   alt: "Zoe at a laptop reviewing AI agent training data from customer calls"
+faqs:
+  - q: "What Encore AI actually does"
+    a: "Encore AI, formerly known as Insait IO, announced its $30 million Series A in July 2026, led by Team8 with participation from Planven and The Garage. The pitch is simple: most AI customer service tools are designed to reduce the number of customers who ever reach a human. Encore flips that — it's built to increase revenue from every interaction."
+  - q: "Why this matters beyond enterprise"
+    a: "The \"AI as revenue engine\" framing is what makes this interesting. Most AI agent platforms sell cost reduction: fewer support tickets, shorter handle times, lower headcount. Encore is selling the opposite: more conversions, higher customer lifetime value, better close rates."
 ---
 {{< audio src="/audio/encore-ai-training-agents-customer-calls.mp3" >}}
 

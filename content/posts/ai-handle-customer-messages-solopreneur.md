@@ -1,5 +1,5 @@
 ---
-title: "I Let AI Handle My Customer Messages for a Month — Here's What Happened"
+title: "I Let AI Handle My Customer Messages for a Month"
 date: 2026-05-28
 draft: false
 description: "Running a business alone means customer messages pile up fast. I tested AI tools to handle them — here's what actually worked."

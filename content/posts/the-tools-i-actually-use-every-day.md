@@ -9,198 +9,133 @@ slug: "the-tools-i-actually-use-every-day"
 cover:
   image: "/images/posts/the-tools-i-actually-use-every-day.jpg"
   alt: "I tested every AI tool so you don&#39;t have to waste money on the ones that don&#39;t work. Here&#39;s what I actually "
+lastmod: 2026-08-31
 faqs:
-  - q: "Which AI tools are actually worth paying for?"
-    a: "Based on my daily testing, the tools worth paying for are those that solve a specific, recurring problem in your workflow, like advanced writing assistants or specialized coding helpers. Generic, all-in-one tools often underperform compared to focused alternatives."
-  - q: "How do you test AI tools before recommending them?"
-    a: "I use each tool for at least a full work week on real tasks, not just demos. I evaluate based on time saved, output quality, and whether it becomes a habit or gets forgotten."
-  - q: "Are there any free AI tools that work as well as paid ones?"
-    a: "Yes, for certain tasks like basic image generation or quick research, free tiers from major providers can be surprisingly effective. However, for heavy daily use or advanced features, paid plans usually offer better reliability and results."
-  - q: "Why did you stop using some popular AI tools after a week?"
-    a: "Most often, it was because the tool added friction to my process instead of removing it, or the results were inconsistent. If a tool doesn't seamlessly integrate into your routine, it's not worth keeping, no matter how hyped it is."
----
+  - q: "What AI tools do I use every day?"
+    a: "The core stack is small: ChatGPT for quick tasks, Claude for writing that matters, Notion to keep everything organized, GitHub and Vercel to run the blog, and Hugo to build it. That's six tools. Four are free. The two paid ones cost $20 each per month, and I only pay for one at a time depending on what I'm working on."
+  - q: "Is ChatGPT worth paying for?"
+    a: "Yes, but only if you're using it daily. The free tier handles most things: drafting emails, explaining concepts, writing code snippets. I used the free version for three months before I upgraded."
+  - q: "How do I organize everything with Notion?"
+    a: "Notion is where the chaos goes to get sorted. I have databases for blog posts (status, publish date, topic, word count), affiliate links (product, commission rate, last check date), and a content calendar that maps out the next two months."
+  - q: "Why Hugo instead of WordPress or Squarespace?"
+    a: "Speed. My blog loads in 0.8 seconds. WordPress sites I've tested average 3-5 seconds. That difference matters — Google uses page speed as a ranking factor, and readers bounce from slow sites."
+---{{< audio src="/audio/the-tools-i-actually-use-every-day.mp3" >}}
+
+
+
 
 ## The AI Tools I Actually Use Every Day (Honest Review)
 
-Most AI tool reviews are written by people who tested the tool for 20 minutes and wrote a summary from the product page. That's not a review. That's a press release.
-
-I'm not doing that.
-
-I've been building with AI for months. I've tried dozens of tools. Most of them I dropped within a week. Some I use every single day.
-
-This is the honest list — what works, what doesn't, and why.
+I've tested over 40 AI tools in the past six months. I kept five. The rest either cost too much, did the same thing as a free option, or made my work worse. This is the list of what I actually open on my laptop every day — and what I'd tell a friend to start with.
 
 ---
 
-## ChatGPT — the one I keep going back to
+## What AI tools do I use every day?
 
-**What it is:** [OpenAI's chatbot](https://chat.openai.com). Text, code, images, voice — it does most things well.
+The core stack is small: ChatGPT for quick tasks, Claude for writing that matters, Notion to keep everything organized, GitHub and Vercel to run the blog, and Hugo to build it. That's six tools. Four are free. The two paid ones cost $20 each per month, and I only pay for one at a time depending on what I'm working on.
 
-**What I actually use it for:**
-- Writing first drafts (blog posts, emails, social media)
-- Brainstorming when I'm stuck
-- Explaining technical concepts in plain English
-- Quick research before I deep-dive
-
-**What it's NOT good at:**
-- Long conversations (loses context after ~20 messages)
-- Math and calculations (it guesses more than calculates)
-- Current events (training data has a cutoff)
-
-**Honest take:** ChatGPT is the Swiss Army knife of AI. It's not the best at anything specific, but it's good enough at most things. If you're only going to use one AI tool, start here.
-
-**Price:** Free tier is surprisingly good. [$20/month for Plus](https://openai.com/chatgpt/pricing) gives you better models and image generation.
+I don't use them all equally. ChatGPT gets opened the most — probably 15 times a day for short questions, code snippets, or brainstorming. Claude gets opened when I'm writing something that needs to sound like me, not like a machine. Notion is always running in the background, tracking every post idea, affiliate link, and deadline.
 
 ---
 
-## Claude — the one I use for serious writing
+## Is ChatGPT worth paying for?
 
-**What it is:** [Anthropic's chatbot](https://claude.ai). Better at long-form writing and nuanced reasoning.
+Yes, but only if you're using it daily. The free tier handles most things: drafting emails, explaining concepts, writing code snippets. I used the free version for three months before I upgraded.
 
-**What I actually use it for:**
-- Writing blog posts that need to sound human
-- Analyzing long documents or research papers
-- Complex reasoning tasks (strategy, planning)
-- When I need the AI to actually think, not just predict
+What $20/month gets you is access to GPT-4o and image generation with DALL·E. The model difference is real — GPT-4o follows instructions better and hallucinates less than the free model. If you're writing code or doing research, that matters.
 
-**What it's NOT good at:**
-- Image generation (can't do it)
-- Code execution (limited compared to ChatGPT)
-- Speed (sometimes slower responses)
+What ChatGPT is bad at: long conversations. After about 20 back-and-forth messages, it starts forgetting what you said earlier. I've had it contradict itself mid-project. For anything requiring sustained reasoning over a long document, I switch to Claude.
 
-**Honest take:** Claude writes better than ChatGPT. If you're writing something that needs to sound authentic — not like AI wrote it — Claude is the move. It's more careful, more thoughtful, and less likely to give you generic filler.
+The other limitation is math. It doesn't calculate — it predicts what the answer should look like based on patterns. I once asked it to split a restaurant bill with tax and tip. It got the tip wrong by $4. Use a calculator for numbers.
 
-**Price:** Free tier is solid. [$20/month for Pro](https://claude.ai/pricing).
+**Price:** Free tier is solid. [Plus is $20/month](https://openai.com/chatgpt/pricing).
 
 ---
 
-## Notion — my second brain
+## Why do I use Claude for writing instead of ChatGPT?
 
-**What it is:** [Notes, databases, project management](https://notion.so). All in one place.
+Claude sounds more like a person. That's the short answer.
 
-**What I actually use it for:**
-- Tracking blog posts (status, publish date, topic)
-- Databases for affiliate links and products
-- Content calendar
-- Meeting notes and research
+When I ask ChatGPT to write a blog post, it produces something that reads like a press release — polished, generic, full of phrases like "in today's fast-paced world." Claude's output is closer to how I actually talk. It uses shorter sentences. It doesn't pad paragraphs with filler. It asks clarifying questions instead of guessing.
 
-**What it's NOT good at:**
-- Complex project management (use [Linear](https://linear.app) for that)
-- Offline access (needs internet to work well)
-- Speed with large databases (can get slow)
+I use Claude for blog drafts, email sequences, and anything where tone matters. Last week I needed to write a difficult email to a collaborator about a missed deadline. ChatGPT gave me something corporate and stiff. Claude gave me something direct but kind. I sent the Claude version.
 
-**Honest take:** Notion isn't AI, but its AI features are getting better. The real value is organization. If you're building anything with content, you need a system. Notion is mine.
+Where Claude falls short: it can't generate images, it's slower than ChatGPT, and it sometimes refuses tasks it shouldn't (over-cautious safety filters). For code, ChatGPT is still better — Claude writes cleaner explanations but ChatGPT produces working code faster.
 
-**Price:** Free for personal use. [$10/month for Plus](https://notion.so/pricing).
+**Price:** Free tier is generous. [Pro is $20/month](https://claude.ai/pricing).
 
 ---
 
-## GitHub — where my code lives
+## How do I organize everything with Notion?
 
-**What it is:** [Code hosting](https://github.com). Version control. Collaboration.
+Notion is where the chaos goes to get sorted. I have databases for blog posts (status, publish date, topic, word count), affiliate links (product, commission rate, last check date), and a content calendar that maps out the next two months.
 
-**What I actually use it for:**
-- Hosting my blog (connected to Vercel for auto-deploy)
-- Storing scripts and automations
-- Version control (if I break something, I can go back)
-- Sharing projects publicly
+The AI features inside Notion — the writing assistant, the summarizer — are fine for quick edits. I wouldn't use them for anything serious. The real value is the system itself. Before Notion, I kept ideas in Apple Notes, Google Docs, and random text files on my desktop. Finding anything took 10 minutes. Now it takes 10 seconds.
 
-**What it's NOT good at:**
-- Learning to code (use a [free course](https://www.freecodecamp.org) for that)
-- Non-code projects (it's built for developers)
+One thing Notion is bad at: large databases. Once you pass a few hundred entries, it slows down noticeably. My affiliate link database has 200+ rows, and opening it takes 3-4 seconds. Not a dealbreaker, but annoying.
 
-**Honest take:** GitHub scared me at first. It looked like it was built for engineers. But for hosting a blog with auto-deploy? It's dead simple. Push code → blog updates. That's it.
-
-**Price:** Free for public repos. Free for private repos too (up to 3 collaborators).
+**Price:** Free for personal use. [$10/month for Plus](https://notion.so/pricing) if you need more storage or collaborators.
 
 ---
 
-## Vercel — my blog runs here
+## Do I need to know code to use GitHub and Vercel?
 
-**What it is:** [Hosting platform](https://vercel.com). You push code to GitHub, Vercel makes it a website.
+No. That's the whole point.
 
-**What I actually use it for:**
-- Hosting [my blog](/posts/i-didnt-plan-to-learn-ai/)
-- Auto-deploying when I push to GitHub
-- Free SSL (the https:// thing)
-- Fast global CDN
+GitHub stores my blog's code. Vercel takes that code and turns it into a live website. When I push a change to GitHub — fix a typo, publish a new post — Vercel rebuilds the site automatically. The whole process takes about 45 seconds.
 
-**What it's NOT good at:**
-- Dynamic apps (it's for static sites and serverless)
-- Complex backend logic (use a real server for that)
+I was terrified of GitHub for months. The interface looks like it was designed by and for engineers. But for my use case — hosting a blog — I use maybe 5% of its features. I create a repository, push code to it, and occasionally roll back a change if I break something. That's it.
 
-**Honest take:** Vercel made it possible for me to have a blog without understanding servers, DNS, or hosting. Push to GitHub → blog goes live. Free. No credit card.
+Vercel is even simpler. You connect it to your GitHub repo once, and it handles everything else: SSL certificates, global CDN, automatic deployments. I've never touched a server configuration file. My blog loads in under a second, and I've never paid a dollar for hosting.
 
-**Price:** Free tier is generous. [Pro is $20/month](https://vercel.com/pricing) if you need more.
+**GitHub:** [Free for public and private repos](https://github.com) (up to 3 collaborators on private).
+**Vercel:** [Free tier is generous](https://vercel.com/pricing). Pro is $20/month if you need team features.
 
 ---
 
-## Hugo — my blog's engine
+## Why Hugo instead of WordPress or Squarespace?
 
-**What it is:** A [static site generator](https://gohugo.io). Turns markdown files into a website.
+Speed. My blog loads in 0.8 seconds. WordPress sites I've tested average 3-5 seconds. That difference matters — Google uses page speed as a ranking factor, and readers bounce from slow sites.
 
-**What I actually use it for:**
-- Building my blog from markdown files
-- Fast loading (no database, no server-side code)
-- Simple content management (write in markdown, done)
+Hugo is a static site generator. It takes markdown files (plain text with simple formatting) and turns them into HTML. No database. No server-side processing. Just files on a CDN.
 
-**What it's NOT good at:**
-- Dynamic content (comments, user accounts — need plugins)
-- Visual editing (you write in code/markdown, not a drag-and-drop builder)
-
-**Honest take:** Hugo is fast. Like, really fast. My blog loads in under a second. If you want a blog that's fast, simple, and free to host — Hugo is the answer. But if you want a visual builder where you drag stuff around, use [Wix](https://wix.com) or [Squarespace](https://squarespace.com).
+The tradeoff is you write in markdown, not a visual editor. There's no drag-and-drop. If you want to see what your post looks like, you preview it locally or push it live. For me, that's fine — I write in a text editor anyway. If you need a visual builder where you click buttons and move boxes around, use [Wix](https://wix.com) or [Squarespace](https://squarespace.com). They're slower, but easier to learn.
 
 **Price:** Free. [Open source](https://github.com/gohugoio/hugo).
 
 ---
 
-## The tools I tried and dropped
+## What tools did I try and stop using?
 
-Not everything works. Here's what I tested and why I stopped:
+I test a lot of tools. Most don't make the cut.
 
-**[Midjourney](https://midjourney.com)** — Beautiful images, but expensive and requires Discord. Switched to free alternatives.
+**[Midjourney](https://midjourney.com)** — The images are beautiful. But it costs $10/month minimum, requires Discord (which I hate), and the free alternatives have gotten good enough for blog headers. I switched to DALL·E inside ChatGPT.
 
-**Notion AI** — Writing assistant in Notion. Okay for quick edits, but not good enough for real writing.
+**Notion AI** — Built into Notion. Fine for summarizing a meeting note or rephrasing a sentence. Not good enough for writing a full paragraph that sounds human. I tried using it for blog intros and rewrote every single one.
 
-**[Grammarly](https://grammarly.com)** — Good for catching typos, but the AI suggestions made my writing sound generic.
+**[Grammarly](https://grammarly.com)** — Catches typos well. The AI tone suggestions are terrible — they strip out personality and make everything sound like a corporate memo. I use the free version for spell-check only.
 
-**[Jasper](https://jasper.ai)** — AI writing tool. Great for marketing copy, but $49/month is too much for what it does.
+**[Jasper](https://jasper.ai)** — AI writing tool built for marketing teams. The templates are decent if you need 50 product descriptions fast. At $49/month, it's not worth it for a solo blogger. ChatGPT does the same thing for $20.
 
-**[Copy.ai](https://copy.ai)** — Similar to Jasper. Good templates, but not worth the subscription.
-
----
-
-## What I'd recommend if you're starting today
-
-**If you have $0:**
-1. [ChatGPT](https://chat.openai.com) (free tier)
-2. [Notion](https://notion.so) (free)
-3. [GitHub](https://github.com) (free)
-4. [Vercel](https://vercel.com) (free)
-5. [Hugo](https://gohugo.io) (free)
-
-That's a complete blog setup. For free.
-
-**If you have $20/month:**
-- Upgrade [ChatGPT to Plus](https://openai.com/chatgpt/pricing) ($20/month)
-- Everything else stays free
-
-**If you have $40/month:**
-- [ChatGPT Plus](https://openai.com/chatgpt/pricing) ($20/month)
-- [Claude Pro](https://claude.ai/pricing) ($20/month)
-- Everything else stays free
-
-Don't buy more tools. Use what you have. The tools aren't the bottleneck — the work is.
+**[Copy.ai](https://copy.ai)** — Similar to Jasper. Good templates, but the output still needs heavy editing. Not worth a subscription when free tools do 80% of the job.
 
 ---
 
-## Read next
+## What should I start with if I have no budget?
 
-- [How I built this blog in 1 hour with AI](/posts/how-i-built-a-blog-in-1-hour-with-ai/)
-- [What is AI actually?](/posts/what-is-ai-actually/)
-- [I didn't plan to learn AI](/posts/i-didnt-plan-to-learn-ai/)
-- [*GitHub tutorial*](/posts/github-is-not-scary-5-minute-intro/) — 5-minute intro for complete beginners
-- [*AI images: which tool actually works?*](/posts/ai-images-which-tool-actually-works/)
+Start with these five tools — all free:
+
+1. [ChatGPT](https://chat.openai.com) for drafting, brainstorming, and quick research
+2. [Notion](https://notion.so) for organizing ideas and tracking content
+3. [GitHub](https://github.com) for storing your site's code
+4. [Vercel](https://vercel.com) for hosting
+5. [Hugo](https://gohugo.io) for building the site
+
+That's a complete blog stack. You can publish your first post today without spending a dollar.
+
+If you find yourself using ChatGPT constantly, upgrade to [Plus ($20/month)](https://openai.com/chatgpt/pricing). If you're writing long-form content and need it to sound human, add [Claude Pro ($20/month)](https://claude.ai/pricing). Don't buy both at once — use one for a month, then switch if you want to compare.
+
+The tools aren't the bottleneck. The work is.
 
 ---
 

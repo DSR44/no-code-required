@@ -1,5 +1,5 @@
 ---
-title: "I Built an SEO Brain That Fixes My Blog for Free — Here's the Full Stack"
+title: "Free SEO Stack: Auto-Fix Your Blog With Python"
 date: 2026-08-31
 draft: false
 description: "Stop paying $200/month for SEO tools. Here's the exact Python stack that scans, diagnoses, and auto-fixes every blog post — including AI slop detection."
@@ -21,7 +21,6 @@ faqs:
     a: "The Python stack includes an AI slop detection module that analyzes writing patterns, sentence structure, and repetitive phrasing common in low-quality AI content. It flags sections that sound unnatural or generic, helping you edit them for better readability and SEO."
   - q: "What's the full tech stack for an automated SEO blog fixer?"
     a: "The stack uses Python with libraries like BeautifulSoup for scraping, spaCy for NLP analysis, and custom scripts for SEO checks and auto-fixes. It integrates with your blog's CMS or markdown files to scan, diagnose, and update posts in one workflow."
-
 ---
 {{< audio src="/audio/free-seo-brain-anti-slop-stack.mp3" >}}
 
