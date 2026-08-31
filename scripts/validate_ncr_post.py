@@ -126,6 +126,34 @@ def changed_slugs() -> list[str]:
     return slugs
 
 
+def going_live_slugs() -> list[str]:
+    """draft:false posts dated today.
+
+    Hugo publishes these on this build even if the commit did not touch them.
+    That is how a leftover future-dated markdown-only post can go live broken
+    when an unrelated ncrpush (or seo-fix) rebuilds the site.
+    """
+    from datetime import date as _date
+
+    today = _date.today().isoformat()
+    slugs: list[str] = []
+    if not POSTS.is_dir():
+        return slugs
+    for path in sorted(POSTS.glob("*.md")):
+        if path.name.startswith("_"):
+            continue
+        try:
+            text = path.read_text(encoding="utf-8")[:800]
+        except OSError:
+            continue
+        if re.search(r"^draft:\s*true\b", text, re.M | re.I):
+            continue
+        dm = re.search(r"^date:\s*['\"]?(\d{4}-\d{2}-\d{2})", text, re.M)
+        if dm and dm.group(1) == today:
+            slugs.append(path.stem)
+    return slugs
+
+
 def main() -> int:
     args = sys.argv[1:]
     deploy_gate = "--deploy-gate" in args
@@ -133,9 +161,15 @@ def main() -> int:
 
     if not slugs:
         slugs = changed_slugs()
-        if not slugs:
-            print("No post slugs to validate (pass slug args or push post changes).")
-            return 0
+
+    if deploy_gate:
+        for extra in going_live_slugs():
+            if extra not in slugs:
+                slugs.append(extra)
+
+    if not slugs:
+        print("No post slugs to validate (pass slug args or push post changes).")
+        return 0
 
     failed = False
     for slug in slugs:

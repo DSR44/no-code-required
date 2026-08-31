@@ -22,6 +22,7 @@ faqs:
   - q: "What's the full tech stack for an automated SEO blog fixer?"
     a: "The stack uses Python with libraries like BeautifulSoup for scraping, spaCy for NLP analysis, and custom scripts for SEO checks and auto-fixes. It integrates with your blog's CMS or markdown files to scan, diagnose, and update posts in one workflow."
 ---
+
 {{< audio src="/audio/free-seo-brain-anti-slop-stack.mp3" >}}
 
 I was paying $99 a month for an SEO tool that told me my score was "72 out of 100" and offered zero explanation of what that meant. So I built my own. It cost me nothing, runs on a schedule, and actually fixes the problems it finds.
@@ -46,11 +47,11 @@ Each piece handles one job. Here's how data flows through the system:
 
 **Notion** — the calendar. Tracks what's scheduled, what's drafted, what's published. The system reads it every 30 minutes to check if anything is due. You get one Telegram message when posts are ready — not a stream of notifications.
 
-**Git + Hugo + Vercel** — the delivery pipeline. Hugo builds your static site from markdown files. Git tracks every change. Vercel hosts it globally with zero config. One push and the post is live. If something breaks, you roll back with one command.
+**Git + Hugo + Vercel** — the delivery pipeline. Hugo builds your static site from markdown files. Git tracks every change. Vercel hosts it globally with zero config. One push and the post is live — same pipeline I use to [run two blogs without hiring anyone](/posts/how-i-use-ai-to-run-two-blogs-without-hiring-anyone). If something breaks, you roll back with one command.
 
 **GSC API** — the feedback loop. Google Search Console tells you which posts are ranking, which are slipping from page 1 to page 2, and which keywords are gaining traction. This data feeds back into the system — posts dropping in rank get flagged for on-page fixes.
 
-**Telegram** — the notification layer. You get alerts when a scan completes, when a post is flagged for slop, when something needs attention. No dashboard to check. The system comes to you.
+**Telegram** — the notification layer. You get alerts when a scan completes, when a post is flagged for slop, when something needs attention. No dashboard to check. The system comes to you — same idea as the [tools I actually use every day](/posts/the-tools-i-actually-use-every-day).
 
 ## The Loop
 
