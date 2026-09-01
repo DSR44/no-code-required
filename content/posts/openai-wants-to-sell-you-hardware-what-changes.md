@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Wants to Sell You Hardware — Here's What That Changes"
+title: "OpenAI's Hardware Push: What Builders Need to Know"
 slug: "openai-wants-to-sell-you-hardware-what-changes"
 date: 2026-09-01
 draft: false
@@ -13,6 +13,15 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-wants-to-sell-you-hardware-what-changes.jpg"
   alt: "Zoe looking at OpenAI hardware news on her laptop"
+faqs:
+  - q: "What OpenAI is actually building"
+    a: "The Jalapeño chip, announced in August, is OpenAI's first custom inference silicon. Built with Broadcom on a 3nm process, it outperforms the commercial alternatives on throughput per kilowatt. That's not a research project — it's a cost-cutting move. OpenAI spends billions on inference, and every dollar they save on hardware is a dollar they can either pocket or pass to users as cheaper API pricin"
+  - q: "Why this matters if you don't write code"
+    a: "Here's the thing most tech coverage is missing: OpenAI's hardware strategy is about controlling the interface, not just the model."
+  - q: "What to do about it"
+    a: "Diversify your AI stack now, not later. If every automation you've built runs on OpenAI's API, you're one pricing change away from a crisis. I wrote about this in the tools I actually use — your stack should include at least two model providers. Claude, Gemini, and open-source models are all viable alternatives. Make and Zapier both support multiple AI providers, so your automations don't have to "
+  - q: "What to watch"
+    a: "OpenAI's IPO filing in June 2026 means the company needs to show hardware revenue eventually. The advertising business is already at $1B annualized run rate, and outcome-based pricing is in testing. Hardware is the next revenue category."
 ---
 {{< audio src="/audio/openai-wants-to-sell-you-hardware-what-changes.mp3" >}}
 
