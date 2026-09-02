@@ -1,5 +1,5 @@
 ---
-title: "54% of Enterprises Had AI Agent Incidents: What Solo Builders Need to Know"
+title: "54% of Enterprises Had AI Agent Incidents: Solo Builder Lessons"
 date: 2026-08-01
 draft: false
 description: "Enterprise AI agents are getting hacked. Here's what solo builders using ChatGPT, Claude, and automation tools need to know about agent security."
@@ -21,7 +21,6 @@ faqs:
     a: "The biggest mistakes are granting overly broad permissions, failing to validate inputs and outputs, and not monitoring the agent's activity. Many also underestimate the risk of prompt injection or indirect attacks through connected tools."
   - q: "Can a simple automation agent really pose a security risk to my business?"
     a: "Absolutely. Even a simple agent that can send emails, update databases, or access APIs can be exploited to leak data, spread misinformation, or cause financial damage if compromised."
-
 ---
 {{< audio src="/audio/the-agent-security-gap-what-solo-builders-need-to-know.mp3" >}}
 

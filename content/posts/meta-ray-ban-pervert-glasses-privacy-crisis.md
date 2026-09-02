@@ -1,5 +1,5 @@
 ---
-title: "Meta's Ray-Ban Glasses Are Called 'Pervert Glasses' Now — And Meta Knows It"
+title: "Meta's Ray-Ban Glasses Now Called 'Pervert Glasses' — Meta Knows"
 slug: "meta-ray-ban-pervert-glasses-privacy-crisis"
 date: 2026-09-01
 draft: false
@@ -14,6 +14,13 @@ TocOpen: false
 cover:
   image: "/images/posts/meta-ray-ban-pervert-glasses-privacy-crisis.jpg"
   alt: "Zoe looking concerned at smart glasses news on her laptop"
+faqs:
+  - q: "What happened"
+    a: "The Ray-Ban Meta smart glasses look like ordinary Ray-Bans. That's the point — and the problem. They have a built-in camera, speakers, and Meta AI. The only indicator that someone is recording is a small LED light on the front. Users discovered they could cover the LED with a sticker and keep recording. Meta pushed a software fix that shuts down the camera if the LED is tampered with. Users then f"
+  - q: "What this means for solo builders"
+    a: "If you're building anything that touches wearables, cameras, or AI-powered recording, this story has three practical takeaways:"
+  - q: "What to watch"
+    a: "The Australian import ban bill could come to a vote in weeks. If it passes, other countries will follow. Meta's kill switch patent could become a product feature — or it could stay a patent. The Ray-Ban Gen 3, reportedly launching September 30 at $799, will test whether Meta can sell hardware while the \"pervert glasses\" label is still trending."
 ---
 {{< audio src="/audio/meta-ray-ban-pervert-glasses-privacy-crisis.mp3" >}}
 

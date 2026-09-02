@@ -1,5 +1,5 @@
 ---
-title: "Resend review — email marketing without the bloat"
+title: "Resend review: email marketing without the bloat | No Code Required"
 date: 2026-06-08
 draft: false
 description: "I tested Resend for email marketing and loved how clean it is. Here's how to set it up, use AI credits wisely, and ditch bloated tools for good."
@@ -22,7 +22,6 @@ faqs:
     a: "Absolutely—Resend's no-code setup lets you create and send emails through an intuitive dashboard. The blog post walks you through the simple steps to get started quickly."
   - q: "Why should I switch from a bloated email tool to Resend?"
     a: "Resend eliminates unnecessary features and complex pricing, letting you focus on core email marketing with better deliverability. It's a lightweight alternative that saves time and reduces overhead."
-
 ---
 {{< audio src="/audio/resend-email-marketing-without-the-bloat-honest-review.mp3" >}}
 

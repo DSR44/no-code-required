@@ -1,5 +1,5 @@
 ---
-title: "Your Blog Posts Are a Content Goldmine You're Ignoring"
+title: "Your Blog Posts Are a Content Goldmine You're Ignoring | NCR"
 slug: "blog-posts-content-goldmine-youre-ignoring"
 date: 2026-09-01
 draft: false
@@ -14,6 +14,11 @@ TocOpen: false
 cover:
   image: "/images/posts/blog-posts-content-goldmine-youre-ignoring.jpg"
   alt: "Zoe looking at content repurposing workflow on laptop with multiple screens"
+faqs:
+  - q: "How one blog post becomes 15+ pieces"
+    a: "Let me walk through a real example. Say you published a 1,200-word post about building your first automation. Here's what's hiding inside it:"
+  - q: "Why this works for solo builders"
+    a: "If you're running a solo business, content creation is probably your biggest time sink. You know you should be posting daily on social media, sending weekly emails, and publishing videos — but you also know you have a business to run."
 ---
 {{< audio src="/audio/blog-posts-content-goldmine-youre-ignoring.mp3" >}}
 

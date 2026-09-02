@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's President Just Spent $25 Million Influencing Elections"
+title: "OpenAI's President Spent $25M Influencing Elections"
 slug: "openai-president-spent-25-million-influencing-elections"
 date: 2026-09-02
 draft: false
@@ -13,6 +13,15 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-president-spent-25-million-influencing-elections.jpg"
   alt: "Zoe reading news about OpenAI politics on her laptop"
+faqs:
+  - q: "What LTF is actually doing"
+    a: "The Verge's Hayden Field reported on how Brockman has consolidated power inside OpenAI as Altman's second-in-command. That same consolidation is happening outside the company. Brockman isn't just running engineering — he's personally funding a political operation that shapes AI regulation."
+  - q: "Why OpenAI distanced itself (sort of)"
+    a: "In June 2026, OpenAI published a blog post acknowledging LTF and drawing a line between the company and the super PAC. \"OpenAI does not direct the activities of LTF, or have visibility into their operations,\" the post said. It also condemned \"astroturfing\" — making paid campaigns look like grassroots support."
+  - q: "What this means for your business"
+    a: "If you run a solo business that uses AI tools, the midterm results affect you directly. Three things to watch:"
+  - q: "What to do about it"
+    a: "Stay informed, not alarmed. Political spending by tech companies isn't new. What's new is the scale and the speed. The AI industry is trying to lock in favorable regulation before the public fully understands what's being regulated. That's not inherently good or bad — it's just what's happening."
 ---
 {{< audio src="/audio/openai-president-spent-25-million-influencing-elections.mp3" >}}
 

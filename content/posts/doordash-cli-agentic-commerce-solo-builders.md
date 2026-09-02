@@ -21,7 +21,6 @@ faqs:
     a: "Yes, the CLI is built to support exactly that kind of workflow—you can script order flows and integrate them with AI agents that make purchasing decisions autonomously. This opens the door to building smart assistants that handle food delivery or logistics as part of a larger automated system."
   - q: "How do I get started with the DoorDash CLI as a solo developer?"
     a: "Sign up for DoorDash's developer program, install the CLI via npm or their official package, and authenticate with your API credentials. Start by exploring the available commands and building small scripts to understand the workflow before scaling up to more complex agentic integrations."
-
 ---
 {{< audio src="/audio/doordash-cli-agentic-commerce-solo-builders.mp3" >}}
 
