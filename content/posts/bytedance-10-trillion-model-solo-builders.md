@@ -1,5 +1,5 @@
 ---
-title: "ByteDance trains massive AI model in bid to rival Anthropic: A Practical Take for Solo Builders"
+title: "ByteDance's Massive AI Model vs Anthropic: What Solo Builders Need"
 date: 2026-09-03
 draft: false
 description: "ByteDance is training a 10-trillion-parameter AI model to rival Anthropic. What that race means for your stack, your costs, and your fallbacks."

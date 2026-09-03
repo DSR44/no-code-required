@@ -1,5 +1,5 @@
 ---
-title: "Vertu's $6,880 AI Agent Runs Free Open-Source Tech"
+title: "Vertu's $6,880 AI Agent Runs Free Open-Source Tech — No Code"
 date: 2026-08-02
 draft: false
 description: "Vertu's luxury phone runs an AI agent on open-source tech you can deploy today. Here's what the $6,880 price tag actually teaches solo builders."
@@ -21,7 +21,6 @@ faqs:
     a: "It validates that sophisticated AI agents are built on accessible, community-driven tech, proving solo builders can create powerful tools without massive budgets."
   - q: "What open-source frameworks power Vertu's AI agent?"
     a: "While Vertu doesn't specify exact models, the phone likely leverages popular open-source LLMs and agent frameworks like those from Hugging Face or LangChain."
-
 ---
 {{< audio src="/audio/vertu-ai-agent.mp3" >}}
 

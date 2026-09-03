@@ -1,5 +1,5 @@
 ---
-title: "Startup Trains AI Agents With Video Game Data, Raises $300M"
+title: "Startup Trains AI Agents on Video Game Data, Raises $300M"
 slug: "general-intuition-ai-agents-video-game-data"
 date: 2026-07-01
 draft: false
@@ -22,7 +22,6 @@ faqs:
     a: "Yes, video games provide diverse, high-quality data with clear cause-and-effect scenarios, which helps AI learn decision-making, planning, and interaction skills. This data is particularly useful for training agents that need to operate in dynamic, unpredictable environments."
   - q: "What does this mean for the future of AI development?"
     a: "This approach could shift how AI is trained, moving beyond static datasets to dynamic, interactive simulations. It may lead to more robust AI agents that can generalize across tasks, benefiting industries like gaming, robotics, and virtual assistants."
-
 ---
 {{< audio src="/audio/general-intuition-ai-agents-video-game-data.mp3" >}}
 
