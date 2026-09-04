@@ -1,5 +1,5 @@
 ---
-title: "From Prompting to Graphs: How AI Workflows Actually Evolved"
+title: "From Prompting to Graphs: How AI Workflows Evolved, No Code Required"
 date: 2026-09-04
 draft: false
 description: "AI workflows evolved from single prompts to chains, agent loops, and orchestration graphs. Here's why prompt-only systems hit a wall — and what to use instead."
@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/from-prompting-to-graphs-how-ai-workflows-evolved.jpg"
   alt: "Zoe sketching a workflow diagram with connected nodes on paper beside her laptop in a coffee shop"
+faqs:
+  - q: "Why builders actually hit the wall"
+    a: "Let me name the exact moment the wall appears, because it's the same for everyone:"
+  - q: "What this means for your next workflow"
+    a: "You don't need to abandon anything. The stages stack; they don't replace."
 ---
 
 {{< audio src="/audio/from-prompting-to-graphs-how-ai-workflows-evolved.mp3" >}}
