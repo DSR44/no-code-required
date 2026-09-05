@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Built an AI Hacker to Attack Its Own Models — What Solo Builders Should Steal From It"
+title: "OpenAI's AI Hacker Attacks Its Own Models: Lessons for Solo Builders"
 date: 2026-09-05
 draft: false
 description: "OpenAI's GPT-Red red-teams its models with automated attacks. Here's what prompt injection and AI red-teaming mean for your solo-built automations."
@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-gpt-red-solo-builders-automated-red-teaming.jpg"
   alt: "Zoe reviewing an AI security checklist on her laptop with a coffee-shop workflow diagram on screen"
+faqs:
+  - q: "What GPT-Red actually is"
+    a: "Red-teaming is an old security idea: pay people to attack your system, patch what they break, release. It's slow, expensive, and — according to OpenAI — no longer sufficient. As LLMs become agents that browse the web, read email, and edit code, OpenAI's researchers describe the problem bluntly: the risk surface grows and the blast radius grows with it."
+  - q: "Why this matters for your automations, not just OpenAI's"
+    a: "Here's the uncomfortable translation exercise. GPT-Red attacks frontier models inside a hardened dojo. Your automations live in a much softer world: a Zapier or Make scenario reading emails, an agent browsing websites, a chatbot ingesting whatever a customer pastes into it. Every one of those inputs is a potential prompt injection carrier."
 ---
 
 {{< audio src="/audio/openai-gpt-red-solo-builders-automated-red-teaming.mp3" >}}

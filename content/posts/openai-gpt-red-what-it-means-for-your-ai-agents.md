@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Built an AI Super-Hacker: What GPT-Red Means for Your AI Agents"
+title: "OpenAI's GPT-Red: The AI Super-Hacker and What It Means for Your Agents"
 date: 2026-09-05
 draft: false
 description: "OpenAI's GPT-Red is an LLM trained to hack other LLMs — and it found attacks humans missed. Here's what the AI security arms race means for your automations."
@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-gpt-red-what-it-means-for-your-ai-agents.jpg"
   alt: "Zoe reading a security research article on her laptop with a notebook of workflow diagrams beside her coffee cup"
+faqs:
+  - q: "What GPT-Red actually is"
+    a: "GPT-Red automates red-teaming — the security practice where professional testers try everything to break a system before attackers do. Instead of a human team, OpenAI set up a self-play loop: one LLM attacks, other models defend, and both get better over thousands of rounds inside a simulated \"dojo\" of real-world scenarios — browsing the web, reading emails and calendars, editing code. That's not "
+  - q: "Why this lands on your desk, not just OpenAI's"
+    a: "Here's the part most coverage skips: GPT-Red proved it could hack a real deployed agent, not just chatbots in a sandbox. It compromised Vendy — an actual vending-machine agent built for evaluating agents in real tasks — and changed the item prices and canceled a customer's order. A model that can talk an agent into repricing products can talk your automation into forwarding your inbox, deleting re"
+  - q: "What to actually do about it"
+    a: "You don't need GPT-Red's power budget to defend against this era. You need the boring discipline the attacks exploit:"
 ---
 
 {{< audio src="/audio/openai-gpt-red-what-it-means-for-your-ai-agents.mp3" >}}

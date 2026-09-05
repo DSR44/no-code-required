@@ -1,5 +1,5 @@
 ---
-title: "AI Guardrails vs Offensive Cybersecurity Researchers"
+title: "AI Guardrails vs Offensive Security Researchers — No Code Needed"
 date: 2026-08-06
 draft: false
 description: "AI safety guardrails collapse when attackers simply claim permission. What Cisco Talos and AISI found means for solo builders using AI tools."
@@ -21,7 +21,6 @@ faqs:
     a: "Yes, studies from Cisco Talos and AISI demonstrate that AI systems can be manipulated into assisting with malicious activities if requests are framed as legitimate security research. This highlights the need for more robust, context-aware guardrails."
   - q: "What steps can developers take to mitigate AI guardrail bypass risks?"
     a: "Developers should layer multiple security measures, such as input validation and human oversight, rather than depending only on AI guardrails. Staying informed about the latest bypass techniques and regularly updating tools can also reduce vulnerabilities."
-
 ---
 {{< audio src="/audio/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers.mp3" >}}
 
