@@ -1,5 +1,5 @@
 ---
-title: "Meta AI Assistant: What Solo Builders Need to Know"
+title: "Meta AI for Solo Builders: What You Need to Know — No Code Required"
 date: 2026-08-07
 draft: false
 description: "Meta AI now handles calendar briefings, recurring tasks, and research. Here's what that actually means if you run your business solo."

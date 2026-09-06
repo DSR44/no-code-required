@@ -1,5 +1,5 @@
 ---
-title: "When Your AI Agent Acts on Its Own, Governance Has to Live in the Data Layer"
+title: "AI Agent Governance Belongs in the Data Layer, Not the Prompt"
 date: 2026-09-06
 draft: false
 description: "Enterprise architects say agent governance belongs at the data layer, not in prompts. Here's what that means when you're a solo builder with no IT department."
@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-agent-governance-data-layer-solo-builders.jpg"
   alt: "Zoe reviewing an automation setup at her laptop, with a notebook of access-permission notes beside her coffee"
+faqs:
+  - q: "Why instructions can't be the control"
+    a: "Here's the structural problem with governing agents through prompts and policies: an agent's output is probabilistic. It follows instructions the way a very eager intern follows instructions — mostly, usually, until an edge case or a cleverly-worded message convinces it otherwise. We've already seen what that means in practice: OpenAI's red-teaming work showed attacks that trick models using forge"
+  - q: "What this buys you"
+    a: "The most counterintuitive claim in the EDB piece is also the one I've found true at small scale: governance speeds you up. The argument is that enterprises can move aggressively on agents because the enforcement underneath is real, not wishful thinking — security teams stop blocking what they can bound. Solo-builder version: when you know a workflow physically cannot touch anything except its one "
 ---
 
 {{< audio src="/audio/ai-agent-governance-data-layer-solo-builders.mp3" >}}
