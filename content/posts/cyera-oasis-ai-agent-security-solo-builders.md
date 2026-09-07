@@ -12,43 +12,49 @@ TocOpen: false
 cover:
   image: "/images/posts/cyera-oasis-ai-agent-security-solo-builders.jpg"
   alt: "Zoe at her laptop reviewing AI agent permissions and access controls"
+lastmod: 2026-09-07
 faqs:
-  - q: "What this deal actually means"
-    a: "The numbers tell the story. Cyera recently raised $600 million and has surpassed $150 million in annual recurring revenue. Oasis Security raised about $195 million to focus on one specific problem: non-human identities. When a company spends a billion dollars to acquire a startup in a niche most people haven't heard of, something big is happening underneath."
-  - q: "What you should actually do about it"
-    a: "You don't need to spend a billion dollars on security software. But here are five practical steps that address the same problem the Cyera-Oasis deal is highlighting:"
+  - q: "What does the Cyera-Oasis deal actually mean?"
+    a: "Cyera is paying a billion dollars for a startup in a niche most people haven't heard of, and the numbers explain why. Cyera recently raised $600 million and surpassed $150 million in annual recurring revenue. Oasis Security raised about $195 million to focus on one thing: non-human identities, or NHIs — the API keys, service accounts, tokens, and permissions that let software talk to other softwar"
+  - q: "Why should solo builders care about non-human identities?"
+    a: "If you run agents through Make or Zapier, use Claude with MCP integrations, or build autonomous workflows, you're already dealing with non-human identities. You just might not be thinking of them as security problems."
+  - q: "What should you actually do about it?"
+    a: "You don't need to spend a billion dollars on security software. Five practical steps cover the same ground."
+  - q: "How big is the non-human identity security market?"
+    a: "The market for non-human identity security is projected to grow from $12.4 billion in 2026 to $27.3 billion by 2033. That's a recognition that the identity layer of the internet is changing, and fast."
 ---
+
 {{< audio src="/audio/cyera-oasis-ai-agent-security-solo-builders.mp3" >}}
 
-Cyera — a data security company valued at $12 billion — just signed a letter of intent to acquire Oasis Security for roughly $1 billion. The reason? AI agents. Specifically, the problem of giving agents access to systems without those agents having proper identities, permissions, or oversight. If you're running [AI agents](/posts/ai-agents-explained-what-tool-calling-actually-means/) in your own business — even as a solo builder — this deal is a signal worth paying attention to.
+Cyera, a data security company valued at $12 billion, signed a letter of intent to acquire Oasis Security for roughly $1 billion. The target: non-human identities — the API keys, tokens, and service accounts that AI agents use to act on a company's behalf. Cyera raised $600 million recently and has passed $150 million in annual recurring revenue; Oasis raised about $195 million to chase this one problem. If you run [AI agents](/posts/ai-agents-explained-what-tool-calling-actually-means/) in your own business, even as a solo builder, this deal is a signal worth reading.
 
-## What this deal actually means
+## What does the Cyera-Oasis deal actually mean?
 
-The numbers tell the story. Cyera recently raised $600 million and has surpassed $150 million in annual recurring revenue. Oasis Security raised about $195 million to focus on one specific problem: non-human identities. When a company spends a billion dollars to acquire a startup in a niche most people haven't heard of, something big is happening underneath.
+Cyera is paying a billion dollars for a startup in a niche most people haven't heard of, and the numbers explain why. Cyera recently raised $600 million and surpassed $150 million in annual recurring revenue. Oasis Security raised about $195 million to focus on one thing: non-human identities, or NHIs — the API keys, service accounts, tokens, and permissions that let software talk to other software.
 
-Non-human identities — or NHIs — are the API keys, service accounts, tokens, and permissions that let software talk to other software. Traditionally, these were things a developer set up once and forgot about: a Slack bot with a webhook URL, a Zapier connection with an OAuth token, a CI/CD pipeline with a deploy key.
+Traditionally, these were set-and-forget items. A Slack bot with a webhook URL. A Zapier connection with an OAuth token. A CI/CD pipeline with a deploy key. A developer set them up once and moved on.
 
-AI agents changed the equation. When you give an agent the ability to browse the web, send emails, access databases, and call APIs, you're not just granting a single permission — you're handing over a set of credentials the agent can chain together in ways you might not predict. And unlike a human employee, agents operate at machine speed. They don't pause to think "should I really be doing this?"
+AI agents changed the equation. When you give an agent the ability to browse the web, send emails, access databases, and call APIs, you're handing over a set of credentials it can chain together in ways you might not predict. And unlike a human employee, agents operate at machine speed. They don't pause to ask "should I really be doing this?"
 
-That's why Cyera paid a billion dollars. They're betting that the biggest security gap in the AI era isn't the models themselves — it's the identities and permissions wrapping around them.
+So Cyera is betting that the biggest security gap in the AI era isn't the models themselves; it's the identities and permissions wrapped around them.
 
-## The problem for solo builders
+## Why should solo builders care about non-human identities?
 
-If you're running agents through [Make or Zapier](/posts/zapier-vs-make-vs-n8n-which-automation-tool/), or using tools like [Claude with MCP integrations](/posts/anthropic-cowork-claude-agent/), or building [autonomous workflows](/posts/can-you-make-10k-month-ai-automations/), you're already dealing with non-human identities. You just might not be thinking about them as security problems.
+If you run agents through [Make or Zapier](/posts/zapier-vs-make-vs-n8n-which-automation-tool/), use [Claude with MCP integrations](/posts/anthropic-cowork-claude-agent/), or build [autonomous workflows](/posts/can-you-make-10k-month-ai-automations/), you're already dealing with non-human identities. You just might not be thinking of them as security problems.
 
-Here's what that looks like in practice:
+Three things go wrong in practice.
 
-**Your agent has your API keys.** If you're using an AI agent to interact with your email, calendar, or project management tools, the agent is operating with your credentials. Every action it takes looks like it came from you. There's no audit trail that says "the AI did this, not the human."
+**Your agent has your API keys.** If an AI agent interacts with your email, calendar, or project management tools, it operates with your credentials. Every action looks like it came from you. There's no audit trail that says "the AI did this, not the human."
 
-**Access is all-or-nothing.** Most of the tools solo builders use grant broad permissions. Zapier gets "read and write all your Google Drive files," not "read this one specific folder." Your agent might only need to read a spreadsheet, but it has the keys to delete your entire Drive.
+**Access is all-or-nothing.** Most tools solo builders use grant broad permissions. Zapier gets "read and write all your Google Drive files," not "read this one folder." Your agent might only need to read a spreadsheet, but it holds the keys to delete your entire Drive.
 
-**Nobody is watching the agent.** In an enterprise, there are security teams monitoring for anomalous behavior. In a solo operation, you're the security team. If your agent misbehaves — sending an email to the wrong person, deleting files it shouldn't, calling an API that charges money — you find out after the fact.
+**Nobody is watching the agent.** Enterprises have security teams monitoring for anomalous behavior. In a solo operation, you're the security team. If your agent misbehaves — sending an email to the wrong person, deleting files, calling an API that charges money — you find out after the fact.
 
-This is the gap that Cyera and Oasis are building products to fill at enterprise scale. But the underlying problem is already here, and it affects solo builders just as much.
+That's the gap Cyera and Oasis are filling at enterprise scale. The underlying problem is already here, and it hits solo builders just as hard.
 
-## What you should actually do about it
+## What should you actually do about it?
 
-You don't need to spend a billion dollars on security software. But here are five practical steps that address the same problem the Cyera-Oasis deal is highlighting:
+You don't need to spend a billion dollars on security software. Five practical steps cover the same ground.
 
 ### 1. Audit your agent permissions
 
@@ -58,36 +64,48 @@ Most services offer more granular permissions than the defaults. Google, for exa
 
 ### 2. Use separate keys for agent access
 
-Don't give your AI agent the same API key you use for your own work. Create dedicated credentials for each agent or workflow. That way, if something goes wrong, you can revoke the agent's access without disrupting your own tools.
+Don't give your AI agent the same API key you use for your own work. Create dedicated credentials for each agent or workflow. If something goes wrong, you revoke the agent's access without disrupting your own tools.
 
-This is the principle behind [OAuth scopes](https://blog.cloudflare.com/task-based-oauth-consent/) — Cloudflare just shipped task-based OAuth consent, which lets you grant apps only the permissions they need for a specific task, not blanket access.
+This is the principle behind [OAuth scopes](https://blog.cloudflare.com/task-based-oauth-consent/) — Cloudflare just shipped task-based OAuth consent, which lets you grant apps only the permissions a specific task needs, not blanket access.
 
 ### 3. Add logging you'll actually check
 
-You don't need a SIEM dashboard. But you do need some visibility into what your agents are doing. [Simple automation](/posts/build-your-first-automation-in-15-minutes/) can help: a Google Sheet that logs every action your agent takes, a Slack notification when the agent accesses a new system, a weekly digest of API calls.
+You don't need a SIEM dashboard, but you do need visibility into what your agents are doing. [Simple automation](/posts/build-your-first-automation-in-15-minutes/) helps: a Google Sheet that logs every agent action, a Slack notification when the agent touches a new system, a weekly digest of API calls.
 
-The goal isn't to catch a sophisticated attack — it's to notice when something unexpected happens. If your agent suddenly starts making 10x more API calls than usual, or accessing endpoints it's never touched before, that's worth knowing.
+The goal isn't to catch a sophisticated attack. It's to notice when something unexpected happens. If your agent suddenly makes 10x more API calls than usual, or hits endpoints it's never touched, that's worth knowing.
 
 ### 4. Scope your agents narrowly
 
-The [best agent frameworks](/posts/which-ai-agent-framework-should-you-use-2026/) let you define what tools and capabilities each agent has. Don't give every agent access to everything. If an agent's job is to summarize emails, it doesn't need access to your database. If it's [scraping web data](/posts/why-ai-browser-agents-keep-getting-stuck-and-what-solo-builders-can-use-instead/), it doesn't need your email credentials.
+The [best agent frameworks](/posts/which-ai-agent-framework-should-you-use-2026/) let you define what tools and capabilities each agent has. Don't give every agent access to everything. If an agent's job is to summarize emails, it doesn't need your database. If it's [scraping web data](/posts/why-ai-browser-agents-keep-getting-stuck-and-what-solo-builders-can-use-instead/), it doesn't need your email credentials.
 
-This is the principle of least privilege, and it applies to agents exactly the way it applies to human employees — except agents need it more, because they act faster and don't stop to ask questions.
+This is least privilege, and it applies to agents the way it applies to human employees — except agents need it more, because they act faster and don't stop to ask questions.
 
 ### 5. Plan for key rotation
 
-If you haven't changed your API keys in six months, they're stale. Set a reminder to rotate credentials quarterly. When you rotate, check that nothing breaks — if it does, that's a sign your agent has dependencies you didn't know about, which is exactly the kind of visibility gap that leads to security incidents.
+If you haven't changed your API keys in six months, they're stale. Set a reminder to rotate credentials quarterly. When you rotate, check that nothing breaks — if it does, your agent has dependencies you didn't know about, and that's exactly the visibility gap that leads to security incidents.
 
-## The bigger picture
+## How big is the non-human identity security market?
 
-The Cyera-Oasis deal is part of a broader trend: the market for non-human identity security is projected to grow from $12.4 billion in 2026 to $27.3 billion by 2033. That's not a niche — it's a recognition that the identity layer of the internet is fundamentally changing.
+The market for non-human identity security is projected to grow from $12.4 billion in 2026 to $27.3 billion by 2033. That's a recognition that the identity layer of the internet is changing, and fast.
 
-For years, security was about protecting human accounts: passwords, two-factor authentication, phishing awareness. The [agent security gap](/posts/the-agent-security-gap-what-solo-builders-need-to-know/) is about a new category of user that doesn't sleep, doesn't get tired, doesn't second-guess itself, and operates with credentials that look exactly like a human's.
+For years, security meant protecting human accounts: passwords, two-factor authentication, phishing awareness. The [agent security gap](/posts/the-agent-security-gap-what-solo-builders-need-to-know/) is about a new category of user that doesn't sleep, doesn't get tired, doesn't second-guess itself, and operates with credentials that look exactly like a human's.
 
-If you're building with AI agents today, you're already in this world. The question isn't whether you need to think about agent security — it's how much risk you're comfortable with while you figure it out.
+If you're building with AI agents today, you're already in this world. The question isn't whether you need to think about agent security; it's how much risk you're comfortable carrying while you figure it out.
 
-## The bottom line
+A billion-dollar acquisition tells you the industry is taking AI agent security seriously. Solo builders don't need enterprise tools, but ignoring the problem because you're small is a mistake. Your agents have your keys, they act at machine speed, and nobody is watching them but you. Start with an audit, scope permissions narrowly, add even basic logging. Getting this wrong costs a lot more than the 30 minutes it takes to get it right.
 
-A billion-dollar acquisition is a clear signal: the industry is pivoting to take AI agent security seriously. Solo builders don't need enterprise security tools, but ignoring the problem because you're small is a mistake. Your agents have your keys, they act at machine speed, and nobody is watching them but you. Start with an audit, scope permissions narrowly, and add even basic logging. The cost of getting this wrong is a lot higher than the 30 minutes it takes to get it right.
+Want to go deeper? Read [the agent security gap every solo builder should know about](/posts/the-agent-security-gap-what-solo-builders-need-to-know/) or explore [how AI agents actually work under the hood](/posts/ai-agents-explained-what-tool-calling-actually-means/).
 
-Want to go deeper on agent security? Read [the agent security gap every solo builder should know about](/posts/the-agent-security-gap-what-solo-builders-need-to-know/) or explore [how AI agents actually work under the hood](/posts/ai-agents-explained-what-tool-calling-actually-means/).
+## FAQ
+
+**What is a non-human identity (NHI)?**
+A non-human identity is any credential software uses to access other software: API keys, service accounts, OAuth tokens, deploy keys, and bot permissions. AI agents make NHIs riskier because they chain credentials together at machine speed, act with your identity, and don't pause to question their own actions the way a human employee would.
+
+**Why did Cyera acquire Oasis Security for $1 billion?**
+Cyera, valued at $12 billion with over $150 million in annual recurring revenue, is betting the biggest security gap in the AI era is the identities and permissions around AI models, not the models themselves. Oasis raised about $195 million to build products for non-human identity security, the category AI agents have made urgent.
+
+**How can a solo builder secure AI agents without enterprise tools?**
+Audit every API key and OAuth connection your agents use, create dedicated credentials for each agent, add simple logging like a Google Sheet of agent actions, scope each agent to only the tools its job requires, and rotate API keys quarterly. These steps take roughly 30 minutes to set up and address the same risks enterprise NHI products target.
+
+**How often should I rotate API keys used by AI agents?**
+Rotate them quarterly. If a key hasn't changed in six months, it's stale. When you rotate, verify nothing breaks — a breakage means your agent has hidden dependencies on that credential, which is itself a visibility gap worth fixing before it causes a security incident.

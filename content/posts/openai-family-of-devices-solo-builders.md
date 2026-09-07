@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Is Building a Family of Devices: A Practical Take for Solo Builders"
+title: "OpenAI's Family of Devices: A Practical Take for Solo Builders"
 date: 2026-09-07
 draft: false
 description: "OpenAI's president confirmed a 'family of devices' for its AI chatbots — and a voice-first future. Here's what solo builders should actually do about it now."
@@ -12,6 +12,17 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-family-of-devices-solo-builders.jpg"
   alt: "Zoe at her laptop in a warm coffee shop sketching ideas for voice-first AI workflows in a notebook"
+faqs:
+  - q: "What did OpenAI actually announce about new hardware?"
+    a: "Greg Brockman confirmed OpenAI is building a \"family of devices\" for its AI chatbots. He gave no specs, no names, and no dates beyond saying you can expect them soon. The rumored smart speaker and Jony Ive wearable were not confirmed."
+  - q: "Did Brockman confirm the rumored smart speaker or Jony Ive wearable?"
+    a: "No. He wouldn't confirm the rumored smart speaker reportedly targeted for 2027, nor the long-speculated Jony Ive-designed wearable. Asked whether Apple's trade-secrets suit affects the Ive collaboration, he deflected, saying OpenAI is focused on its own development and technology."
+  - q: "Why does voice-first matter for solo builders' workflows?"
+    a: "Because most automations assume keyboard-shaped interaction. If talking becomes the cheapest input, AI stops being a destination you visit and becomes a layer you talk through while doing other things. Voice notes can already trigger scheduled automations today, with no new hardware needed."
+  - q: "How is this hardware attempt different from Humane's AI pin or Rabbit's r1?"
+    a: "Those earlier AI gadgets shipped as expensive answers to questions nobody asked, lacking a killer model. OpenAI already owns the brain — the model those devices lacked. A model looking for the right hardware is a different proposition from hardware without one."
+  - q: "What did OpenAI say about privacy?"
+    a: "OpenAI says it's building \"verifiable, auditable guarantees\" that only the AI can review your private data. The post frames this as a trust concession — an acknowledgment that privacy doubt has become a product problem the company must address."
 ---
 
 {{< audio src="/audio/openai-family-of-devices-solo-builders.mp3" >}}
