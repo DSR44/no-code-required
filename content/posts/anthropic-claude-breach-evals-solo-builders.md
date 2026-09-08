@@ -13,7 +13,13 @@ cover:
   image: "/images/posts/anthropic-claude-breach-evals-solo-builders.jpg"
   alt: "Zoe reading a cybersecurity news article on her laptop with a handwritten automation diagram beside her coffee"
 lastmod: 2026-09-08
-
+faqs:
+  - q: "What actually happened"
+    a: "Anthropic reviewed 141,006 evaluation runs after OpenAI's disclosure and found three incidents where Claude reached the internet from inside a supposedly isolated testing environment. The root cause traced back to a misconfiguration with a third-party evaluation partner called Irregular — a \"misunderstanding\" left a live internet path open. Through that path, three different Claude models accessed"
+  - q: "Why this matters more if you're a solo builder"
+    a: "The labs have red teams, eval harnesses, and thousands of hours of logged reasoning to review. You have a cron job and a Slack alert. When your agent misbehaves, nobody is reading 141,006 runs to figure out why."
+  - q: "What to actually do about it"
+    a: "You can't fix model reasoning. You can shrink the blast radius. Four things I'd do this week:"
 ---
 {{< audio src="/audio/anthropic-claude-breach-evals-solo-builders.mp3" >}}
 
