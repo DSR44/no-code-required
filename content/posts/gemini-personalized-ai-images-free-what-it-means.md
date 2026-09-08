@@ -12,7 +12,7 @@ TocOpen: false
 cover:
   image: "/images/posts/gemini-personalized-ai-images-free-what-it-means.jpg"
   alt: "Zoe excited while generating personalized AI images on her laptop"
-lastmod: 2026-09-03
+lastmod: 2026-09-08
 faqs:
   - q: "How can I access Google Gemini's free AI image generation?"
     a: "You can access it through the Google Gemini app or web interface if you're in the US. Simply sign in with your Google account and start creating images with the Nano Banana model at no cost."
@@ -23,6 +23,8 @@ faqs:
   - q: "What are the main benefits of Gemini's free AI image tool?"
     a: "It provides accessible, no-cost image generation for US users, helping streamline creative workflows without software subscriptions. This can be especially useful for quick prototyping, social media content, or exploring AI art."
 ---
+> **Update June 2026: Google's Gemini Spark can now manage your Google Photos library, marking a notable step forward in hands-free AI photo organization. Full details below.**
+
 **Update August 2026: Google released Gemini 3.8 Flash — details in the new section below. Some personalization behavior may differ on the new model.**
 
 > **Update July 2026: recent developments in gemini may affect the information in this post — see details below.**
