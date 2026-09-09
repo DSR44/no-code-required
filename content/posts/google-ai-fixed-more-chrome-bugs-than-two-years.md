@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/google-ai-fixed-more-chrome-bugs-than-two-years.jpg"
   alt: "Zoe reading a browser security update on her laptop with a checklist notebook and coffee on her desk"
+faqs:
+  - q: "What Google actually did"
+    a: "Google's Chrome security team laid out the whole system in a rare transparent breakdown, and the numbers are striking:"
+  - q: "Why this is actually good news"
+    a: "It's easy to read \"AI found 1,072 bugs\" as \"software is scarier now.\" The inverse is closer to the truth: those bugs existed all along. AI didn't create them — it exposed them, and increasingly it fixes them at a pace no human team could match. Google estimates its automated triage alone saves hundreds of developer hours monthly, and its CI pipeline blocked over 20 vulnerabilities from ever reachi"
 ---
 
 {{< audio src="/audio/google-ai-fixed-more-chrome-bugs-than-two-years.mp3" >}}

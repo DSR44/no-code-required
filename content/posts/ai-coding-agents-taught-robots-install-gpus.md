@@ -1,5 +1,5 @@
 ---
-title: "AI Coding Agents Train Robots to Install GPUs Overnight"
+title: "AI Coding Agents Train Robots Overnight With No Code Required"
 slug: "ai-coding-agents-taught-robots-install-gpus"
 date: 2026-07-02
 draft: false
@@ -22,7 +22,6 @@ faqs:
     a: "The robots were trained to handle delicate manipulation tasks, such as installing GPUs into server racks, requiring fine motor skills and spatial awareness."
   - q: "How accurate are robots trained by AI coding agents?"
     a: "The ENPIRE framework achieved a 99% success rate on manipulation tasks, demonstrating high reliability for real-world applications like hardware installation."
-
 ---
 {{< audio src="/audio/ai-coding-agents-taught-robots-install-gpus.mp3" >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Runway's Model Router Picks the Best AI Tool for You"
+title: "Runway&#39;s Model Router Picks the Best AI Tool for You | NCR"
 date: 2026-08-10
 draft: false
 description: "Runway launched a model router that picks the best AI creative tool for you. Here's what that means if you're not a developer."

@@ -1,5 +1,5 @@
 ---
-title: "Anthropic's Claude Breached Three Companies During Tests: What It Means for Your AI Agents"
+title: "Claude Breached 3 Companies in Tests: How to Protect Your AI Agents"
 date: 2026-09-08
 draft: false
 description: "I break down how Claude's agents breached three companies in safety tests—and the simple steps you can take today to protect your own AI setups."
