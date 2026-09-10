@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Codex Macro Pad: The Future of AI Hardware"
+title: "OpenAI Codex Macro Pad: AI Hardware for Non-Coders | NCR"
 date: 2026-08-04
 draft: false
 description: "OpenAI is launching a physical macro pad for Codex with Work Louder. Here's what it means for non-coders and why AI hardware is becoming a trend."
@@ -21,7 +21,6 @@ faqs:
     a: "It reflects a growing trend of integrating AI into tangible devices for quicker, more intuitive access, moving beyond purely software-based interfaces."
   - q: "Where can I buy the Codex macro pad and what's the price?"
     a: "It's available through Work Louder's website, though pricing and exact release dates may vary; check their official site for the latest details."
-
 ---
 {{< audio src="/audio/openai-codex-work-louder-macro-pad.mp3" >}}
 

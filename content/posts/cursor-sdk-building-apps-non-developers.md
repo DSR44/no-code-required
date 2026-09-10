@@ -1,5 +1,5 @@
 ---
-title: "Cursor's AI SDK Makes App Building Easier for Non-Developers"
+title: "Cursor's AI SDK Makes App Building Easy for Non-Developers"
 date: 2026-05-25
 draft: false
 description: "Cursor's new SDK lets AI agents build and fix your code automatically. Here's what that means if you've never coded before."
@@ -21,7 +21,6 @@ faqs:
     a: "You can build a wide range of applications, from simple internal tools and dashboards to more complex web apps and automations. The SDK is designed to handle common software patterns and integrations."
   - q: "Is there a cost to use Cursor's AI-powered app building features?"
     a: "Cursor offers a free tier with limited AI interactions, while more extensive usage requires a paid subscription. The exact cost depends on your usage level and the complexity of the apps you're building."
-
 ---
 {{< audio src="/audio/cursor-sdk-building-apps-non-developers.mp3" >}}
 

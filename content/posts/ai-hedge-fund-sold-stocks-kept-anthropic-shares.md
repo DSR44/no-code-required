@@ -1,5 +1,5 @@
 ---
-title: "An AI Hedge Fund Sold Its Stocks but Kept Its Anthropic Shares — Here's Why That Matters"
+title: "AI Hedge Fund Sold Its Stocks but Kept Its Anthropic Stake — Why It Matters"
 date: 2026-09-10
 draft: false
 description: "AI hedge fund Situational Awareness dumped its public portfolio to Citadel — but kept its $5B Anthropic stake. What that signal means for solo builders."
@@ -13,7 +13,13 @@ cover:
   image: "/images/posts/ai-hedge-fund-sold-stocks-kept-anthropic-shares.jpg"
   alt: "Zoe reading financial news on her laptop with a notepad of AI industry notes beside her coffee"
 lastmod: 2026-09-10
-
+faqs:
+  - q: "What actually happened"
+    a: "Situational Awareness was the hottest AI fund of the year: 439% returns through June, assets that reportedly swelled to $45 billion at peak. Aschenbrenner — Columbia valedictorian at 19, briefly on OpenAI's superalignment team before being dismissed — built his thesis on a simple claim: scaling AI would require a massive buildout of semiconductors, compute, memory, and energy. For most of two year"
+  - q: "What Citadel's purchase tells you"
+    a: "Citadel doesn't catch falling knives out of charity. Griffin's team bought the public portfolio at distressed prices, which means a firm famous for risk discipline looked at those same SK Hynix, Bloom, and Nebius positions and saw recoverable value — just not at 5x leverage, and not as a single concentrated bet on one macro thesis."
+  - q: "What this means if you're building solo"
+    a: "You're not managing a $10 billion book, so what do you take from this? Three things I'd actually act on."
 ---
 {{< audio src="/audio/ai-hedge-fund-sold-stocks-kept-anthropic-shares.mp3" >}}
 

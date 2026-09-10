@@ -1,5 +1,5 @@
 ---
-title: "Google Fixed More Chrome Bugs in Two Releases Than the Previous 23 Combined — Thanks to AI"
+title: "AI Helped Google Fix More Chrome Bugs in 2 Releases Than the Last 23"
 date: 2026-09-09
 draft: false
 description: "Google says AI helped fix 1,072 Chrome security bugs in two releases — more than the prior 23 milestones combined. Here's what that means for your workflow."
