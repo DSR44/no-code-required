@@ -1,5 +1,5 @@
 ---
-title: "Why Okta Paid $200M for an AI Security Company (And What Changed About Enterprise Threats)"
+title: "Why Okta Paid $200M for an AI Security Company"
 date: 2026-09-11
 draft: false
 description: "Okta just paid ~$200M for Permiso, a startup that watches what AI agents do after they get access. Here's what that tells you about where security is heading."
@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/okta-permiso-ai-security-what-changed.jpg"
   alt: "Zoe reading business news about an acquisition on her laptop with a notebook of workflow sketches beside her coffee"
+faqs:
+  - q: "What actually happened"
+    a: "Okta agreed to acquire Permiso, the Palo Alto-based identity threat detection startup founded by former FireEye executives Paul Nguyen and Jason Martin. TechCrunch's source put the deal at just under $200 million, almost all cash — notable because Permiso had raised only about $29 million total, with an $18.5 million Series A in April 2024 that valued it around $80 million post-money. That's rough"
+  - q: "What changed about enterprise threats"
+    a: "The old security model was a gate: verify who you are at login, then trust the session. That model is breaking for a simple reason — the newest \"users\" on corporate networks aren't people. They're AI agents with their own credentials, API tokens, and permissions, doing work continuously across email, calendars, codebases, and cloud consoles."
+  - q: "Why this matters to you (yes, even solo)"
+    a: "You're not shopping for enterprise identity platforms. But the economics of this deal describe your near future precisely:"
 ---
 
 {{< audio src="/audio/okta-permiso-ai-security-what-changed.mp3" >}}
