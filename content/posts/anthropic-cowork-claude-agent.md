@@ -1,5 +1,5 @@
 ---
-title: "Anthropic's Cowork: A Claude Agent for Your Files"
+title: "Anthropic's Cowork: A Claude Agent for Your Files, No Code Needed"
 date: 2026-06-27
 draft: false
 description: "Anthropic's Cowork lets Claude read, edit, and create files on your computer — no coding, no terminal, no developer skills needed."
@@ -21,7 +21,6 @@ faqs:
     a: "Anthropic has built Cowork with user permission controls, so it only accesses files you explicitly allow it to work with, maintaining your privacy and security."
   - q: "What kinds of tasks can Cowork help me complete?"
     a: "Cowork can help with organizing documents, editing text files, creating new content, and managing your local file system based on your simple instructions."
-
 ---
 
 {{< audio src="/audio/anthropic-cowork-claude-agent.mp3" >}}

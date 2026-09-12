@@ -1,5 +1,5 @@
 ---
-title: "Okta Just Paid $200M for an AI Security Startup — Here's the Market It's Betting On"
+title: "Okta's $200M AI Security Bet: The Agent-Vetting Market Begins"
 date: 2026-09-12
 draft: false
 description: "Okta's $200M Permiso deal isn't about logins — it's the start of an agent-vetting market. What the math says and how builders should read it."
@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/okta-200m-agent-vetting-market.jpg"
   alt: "Zoe reading startup acquisition news on her laptop with a notebook and coffee in a warm editorial scene"
+faqs:
+  - q: "What Permiso actually built — and why it's a category seed"
+    a: "Beneath the acquisition noise, Permiso's pivot is the real story. The company made its name on identity threat detection — spotting attackers who move through cloud systems using stolen credentials. Then it did something sharper: it noticed that the fastest-growing category of credential-holders wasn't human, and extended its platform to monitor AI agents and other machine identities."
+  - q: "What this means for what you'll be using"
+    a: "The enterprise market sets the defaults that eventually reach your stack. Concretely:"
 ---
 
 {{< audio src="/audio/okta-200m-agent-vetting-market.mp3" >}}
