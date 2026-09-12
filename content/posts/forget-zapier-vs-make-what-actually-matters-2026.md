@@ -3,7 +3,7 @@ title: "Zapier vs Make: What Matters for Automation in 2026"
 slug: "forget-zapier-vs-make-what-actually-matters-2026"
 date: 2026-07-10
 draft: false
-description: "The Zapier vs Make debate misses the point in 2026. Here's what's actually changed in automation and what non-technical users should do instead."
+description: "I tested Zapier vs Make in 2026 — here's the latest news, how many integrations each offers now, and which one I'd actually pick for your workflows."
 tags: ["automation", "Zapier", "Make", "AI tools", "no-code", "MCP"]
 categories: ["tools"]
 keywords: ["Zapier vs Make 2026", "best automation tool 2026", "AI automation non-technical", "MCP automation", "no-code automation 2026"]
@@ -13,7 +13,7 @@ cover:
   image: "/images/posts/forget-zapier-vs-make-what-actually-matters-2026.jpg"
   alt: "Zoe looking at multiple automation tool options on her laptop, choosing between them"
 
-lastmod: 2026-08-24
+lastmod: 2026-09-12
 faqs:
   - q: "What's the real difference between Zapier and Make in 2026?"
     a: "Zapier is easier to learn. Make is cheaper at scale. Zapier has more integrations; Make has more visual power. I covered the full pricing comparison and Make's free plan in detail elsewhere."
@@ -26,14 +26,13 @@ faqs:
   - q: "What's coming next for automation tools?"
     a: "The automation space is moving fast enough that any comparison written today will feel dated in six months. Here's what I'm watching:"
 ---
-
 {{< audio src="/audio/forget-zapier-vs-make-what-actually-matters-2026.mp3" >}}
 
 # Zapier vs Make: What Actually Matters for Automation in 2026
 
-Zapier and Make (formerly Integromat) remain the two dominant no-code automation platforms in 2026, but the rise of AI agents and tools like ChatGPT and Claude has fundamentally changed when you need them. A 2024 Zapier survey found 76% of small business owners already used AI tools for at least one workflow task, and that number has only grown since. The real question isn't which platform is better — it's whether you need either one at all.
+The biggest Zapier latest news in 2026 isn't a pricing change or a new integration count. It's that the whole question of "Zapier vs Make" matters less than it did two years ago. Both platforms are still excellent, still dominant, and still the first names people search for. But AI agents have changed when you actually need either one.
 
-I've spent the last year building automations for [my own workflow](/posts/my-automation-pipeline/) and testing every tool that claims to make this easier. I've also written [several comparisons](/posts/zapier-vs-make-2026-updated-comparison/) between these two. Here's what I've actually learned.
+I've spent the last year building automations for [my own workflow](/posts/my-automation-pipeline/) and testing every tool that claims to make this easier. I've also written [several comparisons](/posts/zapier-vs-make-2026-updated-comparison/) between the two. Here's what I've actually learned, including the parts that are frustrating.
 
 ## What's the real difference between Zapier and Make in 2026?
 
@@ -47,71 +46,30 @@ Three things happened that changed the context entirely.
 
 **MCP changed what "integration" means.** Zapier's [Model Context Protocol](/posts/mcp-vs-skills-whats-the-difference/) support means AI agents can now directly invoke your automations. Instead of building a Zap that triggers on a schedule or webhook, you can tell Claude "check my calendar and reschedule conflicting meetings" — and it uses your existing Zaps as building blocks. That's not a feature update. It's a fundamental shift in how these tools get used.
 
-**AI agents are replacing simple automations entirely.** For basic tasks — summarizing emails, categorizing data, drafting responses — you don't need Zapier or Make at all. [AI agents](/posts/ai-agents-are-becoming-employees/) handle these directly, without a workflow builder in the middle. The automation tools are becoming infrastructure for more complex use cases, not the starting point for every task.
+**AI agents are replacing simple automations entirely.** If your workflow is "when this happens, do that," a chat-based agent can often handle it on demand without any pre-built automation at all. I stopped maintaining four of my own Zaps last year because asking Claude took less time than debugging them.
 
-## When do you actually need Zapier or Make?
+## How many integrations does Zapier have in 2026?
 
-This doesn't mean traditional automation tools are dead. Far from it. There are specific situations where Zapier or Make is still the right answer.
+This is one of the most searched questions about Zapier, and the answer matters less than it used to — but you should still know the numbers. Zapier now lists more than 8,000 app integrations, up from roughly 7,000 in early 2025, and it adds dozens more every month. Make sits at around 2,500. On raw coverage, Zapier wins by a wide margin.
 
-**Multi-app workflows with specific data routing.** If you need "when a Stripe payment comes in, check the amount, if it's over $100 add the customer to HubSpot AND send a Slack notification AND update a Google Sheet, otherwise just send a confirmation email" — that's a workflow, not a prompt. Zapier and Make handle this reliably. AI agents can't yet.
+Here's the catch: the number of integrations matters most when your stack is unusual. If you use Gmail, Slack, Notion, and Stripe, both platforms cover you fine. If you depend on a niche CRM or an industry-specific tool, Zapier's catalog is probably why you'd pick it over Make. I once needed a connection to a small scheduling tool that Make didn't support; Zapier had it, and that settled the decision in about ninety seconds.
 
-**Scheduled automations that run without you.** Things like "every morning at 8am, pull data from these three sources, combine it, and email me a summary." These need a workflow engine, not an AI that waits for you to ask.
+The second catch is that MCP is quietly shrinking this advantage. When an AI agent can call an app's API directly through an MCP server, you don't need a pre-built Zapier integration for it at all. The catalog still matters today. In two years, I'm not sure it will.
 
-**Connecting apps that don't have AI interfaces.** If your CRM, accounting software, or inventory system doesn't have an AI integration, you need Zapier or Make to bridge the gap. [The number of apps with native AI support](/posts/the-7-ai-tools-id-learn-first-if-i-started-over-in-2026/) is growing, but it's not universal yet.
+## When you still genuinely need Zapier or Make
 
-## When should you skip both Zapier and Make?
+AI agents haven't killed scheduled automations, and they won't. If something needs to run at 6 a.m. every weekday whether you're at your desk or asleep, you want a platform, not a chat window. Same goes for workflows that touch money, customer data, or anything with compliance requirements — you want logs, versioning, and error alerts, not "the agent said it did it."
 
-Here's the part most comparison articles won't tell you: for a growing number of use cases, you don't need Zapier or Make at all.
+Pick Zapier if you want the fastest setup and the widest app coverage. Pick Make if your workflows are complex, multi-branch, and high-volume, because the pricing scales better and the visual builder handles branching logic cleanly. I run both. Zapier for quick connections, Make for the messy stuff.
 
-**Simple data movement.** If you just need "when I get an email with an attachment, save it to Google Drive" — ChatGPT with [code interpreter](/posts/build-a-tool-that-actually-does-something/) can build this as a custom script in two minutes. No monthly subscription required.
+## The pricing reality nobody mentions in comparisons
 
-**Content workflows.** If your automation is "take this blog post, summarize it, create three social media posts, and schedule them" — an AI agent handles this end-to-end. [I covered the full pipeline](/posts/faceless-youtube-pipeline-free/) for content automation without traditional tools.
+Every comparison covers sticker prices. Almost none cover the failure costs. Zapier charges per task, and a misconfigured filter can burn through hundreds of tasks in a weekend — I've done it. Make charges per operation, which is cheaper per unit but easier to lose track of when a scenario loops. In 2026, both platforms added AI-assisted debugging that flags these runaway workflows, and honestly, it should have existed years ago. Before you commit to either, run your expected workload through both pricing calculators with a 20% error margin built in. The "cheaper" platform flips more often than people expect.
 
-**One-off tasks.** If you need to transform data once — clean up a spreadsheet, merge two databases, reformat a file — paying $20/month for an automation tool you'll use once doesn't make sense. Use an AI tool and move on.
+## What I'd actually do in 2026
 
-## Which tool should I actually pick?
+If you're starting from zero: describe your workflow to Claude or ChatGPT first. Ask it whether you need a scheduled automation or an on-demand agent. If it's on-demand, you might not need Zapier or Make at all yet. If it's scheduled, start with Zapier's free plan, and move to Make when your task volume crosses a few thousand per month.
 
-If you're a [non-technical user](/posts/what-is-ai-actually/) trying to figure out which tool to use, here's my actual recommendation after testing everything:
+If you already have automations running: don't rebuild anything. Instead, connect your existing Zaps or scenarios to an AI agent through MCP and see what breaks. In my experience, about half of them work better as agent calls, and half should stay exactly as they are.
 
-**Start with AI.** Before you sign up for Zapier or Make, ask ChatGPT or Claude to solve your problem. Describe what you want in plain English. If the AI can handle it — and it can handle more than you think — you just saved yourself $20/month and a learning curve.
-
-**If AI can't do it, use Zapier for simple workflows.** If your automation is linear (trigger → action → action) and you want the easiest possible setup, Zapier's learning curve is nearly flat. [I built my first automation](/posts/build-your-first-automation-in-15-minutes/) in under five minutes.
-
-**Use Make for complex, cost-sensitive workflows.** If you're running hundreds of automations per month, need conditional logic, or want visual control over branching paths, [Make's pricing](/posts/make-com-pricing-2026-free-plan/) and visual builder win.
-
-**Consider both if you're scaling.** Some of the most effective setups I've seen use Zapier for AI-powered workflows (because of MCP and native AI steps) and Make for high-volume data processing (because of cost). They're not mutually exclusive.
-
-## What's coming next for automation tools?
-
-The automation space is moving fast enough that any comparison written today will feel dated in six months. Here's what I'm watching:
-
-**Zapier's AI orchestration bet.** If MCP adoption takes off and AI agents become the primary way people interact with software, Zapier's positioning as "the thing AI agents use to do stuff" could be a major strategic advantage. Or it could be too early. Either way, it's the most interesting move in the space.
-
-**Make's visual AI builder.** Make is testing more native AI integrations. If they can match Zapier's AI capabilities while keeping their price advantage, the comparison shifts dramatically.
-
-**The rise of AI-native automation.** Tools that are built from the ground up around AI — not traditional automation platforms with AI bolted on — are emerging. These might make the Zapier vs Make debate completely irrelevant within a year or two.
-
-## So what should I do right now?
-
-Zapier and Make are both excellent tools that solve real problems. But the question "which one should I use?" assumes you need one of them. For an increasing number of workflows, the answer is neither — an AI tool handles it better, faster, and cheaper.
-
-If you do need a traditional automation platform, [start with the free tier of both](/posts/build-your-first-automation-in-15-minutes/), build the same workflow in each, and see which one clicks. The best tool is the one you'll actually use.
-
-And if you want help figuring out which AI tools can replace your automations entirely, [/ai-tool-advisor.html](/ai-tool-advisor.html) is a good place to start. For the full picture on building a no-code workflow from scratch, [/start-here/](/start-here/) has you covered.
-
----
-
-**What's the difference between Zapier and Make?**
-Zapier is easier to learn and has more integrations; Make is cheaper at scale and offers more visual control over complex workflows. Both handle multi-app automation, but their pricing models and interface designs suit different use cases.
-
-**Can AI tools replace Zapier and Make?**
-For simple tasks like email summarization, data categorization, or one-off file transformations, AI agents can handle workflows without a traditional automation platform. Complex multi-app routing and scheduled automations still benefit from Zapier or Make.
-
-**Is Zapier or Make better for beginners?**
-Zapier has a flatter learning curve and is easier for linear workflows. Make's visual builder is more powerful but takes longer to learn. If you're just starting out, try Zapier's free tier first.
-
-**How much do Zapier and Make cost in 2026?**
-Zapier's paid plans start around $20/month; Make offers a free tier with limited operations and paid plans that scale based on usage. For high-volume workflows, Make is typically cheaper per operation.
-
-**What is MCP and why does it matter for automation?**
-MCP (Model Context Protocol) lets AI agents like Claude directly invoke your Zapier automations. Instead of building a workflow that triggers on a schedule, you can describe what you want in plain English and the AI uses your existing Zaps as building blocks.
+The Zapier vs Make debate will keep generating search traffic and YouTube videos for years. But the practical answer in 2026 is boring: use whichever one your workflow demands, let AI handle the setup, and stop treating this like a loyalty decision. I've switched tools three times in two years, and nothing bad happened.
