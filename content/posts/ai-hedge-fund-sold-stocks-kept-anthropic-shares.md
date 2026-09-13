@@ -13,7 +13,6 @@ cover:
   image: "/images/posts/ai-hedge-fund-sold-stocks-kept-anthropic-shares.jpg"
   alt: "Zoe reading financial news on her laptop with a notepad of AI industry notes beside her coffee"
 lastmod: 2026-09-12
-    a: "You're not managing a $10 billion book, so what do you take from this? Three things I'd actually act on."
 faqs:
   - q: "What actually happened to Situational Awareness?"
     a: "Situational Awareness was the hottest AI fund of the year: 439% returns through June, assets that reportedly swelled to $45 billion at peak. Aschenbrenner, Columbia valedictorian at 19 and briefly on OpenAI's superalignment team before being dismissed, built his thesis on a simple claim: scaling AI would require a massive buildout of semiconductors, compute, memory, and energy. For most of two yea"
