@@ -12,6 +12,17 @@ TocOpen: false
 cover:
   image: "/images/posts/what-are-graphs-in-ai-plain-english.jpg"
   alt: "Zoe sketching connected nodes and arrows on paper beside her laptop in a warm coffee shop scene"
+faqs:
+  - q: "What does \"graph\" mean in AI?"
+    a: "In AI, a graph is a map of your workflow: boxes for steps, arrows for the paths between them, and a shared memory that travels along the arrows. It's not a chart or a database — engineers call the boxes nodes and the arrows edges, and those are the only two vocabulary words you really need."
+  - q: "What are nodes and edges?"
+    a: "Nodes are the stations of your workflow — each does exactly one job, like summarizing an email or drafting a reply. Edges are the routes between them: \"after this step, go there.\" Some edges are unconditional, some are conditional. If you can't describe a node in one sentence, it should be two nodes."
+  - q: "What is \"state\" in an AI graph?"
+    a: "State is a shared memory — like a clipboard every node can read from and write to. The summary node writes its result, the drafting node reads it and adds its own. Unlike chained prompts, every node sees everything before it, and because the clipboard persists, crashed workflows can resume instead of restarting."
+  - q: "How is a graph different from an agent loop?"
+    a: "In an agent loop, the AI decides what to do next at every step, forever. In a graph, the AI makes judgment calls only at junctions you designed — the branching points — while the rest of the map is deterministic plumbing. You draw the edges; the AI travels the map you drew."
+  - q: "What is branching in a graph?"
+    a: "Branches are conditional edges — junctions where the route depends on what the work revealed. For example: \"Is the draft good? Yes, send it; no, redraft.\" Branching is where decisions live in a graph, giving you freedom where you want it and structure where you need it."
 ---
 
 {{< audio src="/audio/what-are-graphs-in-ai-plain-english.mp3" >}}
