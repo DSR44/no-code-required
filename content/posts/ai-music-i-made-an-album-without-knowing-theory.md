@@ -19,7 +19,8 @@ faqs:
     a: "| Tool | Best for | Vocals | Free tier | Commercial use | |------|---------|--------|-----------|----------------| | Suno | Complete songs, beginners | Yes, excellent | 10 songs/day | Paid plans | | Udio | High fidelity, control | Yes, good | Limited | Paid plans | | AIVA | Instrumental, classical, scoring | No | 3 downloads/month | Paid plans | | Beatoven.ai | Background music, video | No | Limit"
   - q: "What surprised me most about making an AI album?"
     a: "The vocals. I expected something robotic and uncanny. Instead, certain genres produced output that genuinely sounds like a real singer — enough that I played the album for three people and none guessed it was AI-generated."
----{{< audio src="/audio/ai-music-i-made-an-album-without-knowing-theory.mp3" >}}
+---
+{{< audio src="/audio/ai-music-i-made-an-album-without-knowing-theory.mp3" >}}
 
 
 

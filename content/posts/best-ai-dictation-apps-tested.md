@@ -40,7 +40,8 @@ faqs:
     a: "Otter.ai handles multi-speaker scenarios better than anything else I've tested. It identifies who's talking, generates summaries, and pulls out action items automatically."
   - q: "How accurate are AI dictation apps compared to typing?"
     a: "In my testing, Superwhisper and Wispr Flow both hit roughly 95–98% accuracy on clear English speech with a decent microphone. That sounds high until you realize a 200-word paragraph at 95% accuracy still has 10 errors to fix. The difference between a good app and a great one shows up in proper nouns, technical terms, and punctuation handling — not in everyday words."
----{{< audio src="/audio/best-ai-dictation-apps-tested.mp3" >}}
+---
+{{< audio src="/audio/best-ai-dictation-apps-tested.mp3" >}}
 
 
 

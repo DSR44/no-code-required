@@ -35,7 +35,8 @@ faqs:
     a: "You build a custom GPT inside ChatGPT, train it on your documents, then embed it on your site. This takes roughly 30 minutes and requires a ChatGPT Plus subscription ($20/month)."
   - q: "What can you actually use a no-code chatbot for?"
     a: "Customer support that runs while you sleep, answering the same 15 questions in different phrasings without getting tired or sarcastic. Lead generation that collects emails and qualifies prospects at 3am when no one on your team is awake. Course or product FAQ bots that cut support tickets by more than half, based on what multiple course creators have reported after deploying them. Personal assista"
----{{< audio src="/audio/build-your-own-ai-chatbot-in-30-minutes.mp3" >}}
+---
+{{< audio src="/audio/build-your-own-ai-chatbot-in-30-minutes.mp3" >}}
 
 
 

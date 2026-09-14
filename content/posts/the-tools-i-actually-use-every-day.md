@@ -19,7 +19,8 @@ faqs:
     a: "Notion is where the chaos goes to get sorted. I have databases for blog posts (status, publish date, topic, word count), affiliate links (product, commission rate, last check date), and a content calendar that maps out the next two months."
   - q: "Why Hugo instead of WordPress or Squarespace?"
     a: "Speed. My blog loads in 0.8 seconds. WordPress sites I've tested average 3-5 seconds. That difference matters — Google uses page speed as a ranking factor, and readers bounce from slow sites."
----{{< audio src="/audio/the-tools-i-actually-use-every-day.mp3" >}}
+---
+{{< audio src="/audio/the-tools-i-actually-use-every-day.mp3" >}}
 
 
 

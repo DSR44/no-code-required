@@ -43,7 +43,8 @@ faqs:
     a: "Ideogram. No contest. If your image needs legible words—for social media quotes, simple logos, event posters, or infographics—Ideogram produced consistently readable text where the other four tools frequently failed. It’s the only tool in this test I’d trust for that specific job without post-editing."
   - q: "Is Stable Diffusion worth the effort?"
     a: "That depends on what you want. Stable Diffusion 3.5 is fully open source and can run entirely offline, which appeals to anyone who wants total control—custom model training, fine-tuned parameters, and access to thousands of community-built adaptations on sites like Civitai. The trade-off is a steep, time-consuming learning curve. Without careful prompt engineering and added models like LoRAs or Co"
----{{< audio src="/audio/ai-images-which-tool-actually-works.mp3" >}}
+---
+{{< audio src="/audio/ai-images-which-tool-actually-works.mp3" >}}
 
 
 

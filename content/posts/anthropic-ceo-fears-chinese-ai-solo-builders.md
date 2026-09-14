@@ -22,7 +22,8 @@ faqs:
     a: "Diversify your model dependencies now. Relying on a single provider, especially one under regulatory scrutiny, is a single point of failure. Start prototyping your core tasks with two or three different models. See which handles your work reliably. Build your system to be somewhat model-agnostic if you can, using abstraction layers so you can swap providers without rewriting everything."
   - q: "What's the long-term outlook for AI development?"
     a: "The era of assuming open, global access to top-tier AI models is ending. Amodei's testimony signals a move toward controlling the means of production—the computing power—not just the end products. This will reshape which models are available where, and at what cost. Builders who lock into a single ecosystem now risk being stranded by policy changes they can't predict."
----{{< audio src="/audio/anthropic-ceo-fears-chinese-ai-solo-builders.mp3" >}}
+---
+{{< audio src="/audio/anthropic-ceo-fears-chinese-ai-solo-builders.mp3" >}}
 
 
 Dario Amodei, CEO of Anthropic, testified to Congress in May 2025 that Chinese labs are running "industrial-scale distillation" on American AI models right now. He claims this process—using a top-tier model's outputs to train a smaller, cheaper one—is being used by military-linked researchers to build defense systems. His push for controls on computing power, not just model usage, marks a new kind of choke point for the AI industry.
