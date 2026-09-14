@@ -2,7 +2,7 @@
 title: "OpenAI Filed for an IPO: What It Means for ChatGPT Users"
 date: 2026-07-02
 draft: false
-description: "OpenAI just filed for an IPO, and everyone's asking when ChatGPT goes public. Here's what I found, what it means for users, and how to buy shares."
+description: "Wondering when ChatGPT goes public? OpenAI just filed for an IPO — here's what I found about the timeline and what it means for your account."
 tags: ["AI tools", "OpenAI", "ChatGPT", "no-code"]
 categories: ["tools"]
 slug: "openai-filed-to-go-public-what-that-means-for-chatgpt-users"
@@ -12,7 +12,7 @@ TocOpen: false
 cover:
   image: "/images/posts/openai-filed-to-go-public-what-that-means-for-chatgpt-users.jpg"
   alt: "Stock market chart overlay with AI interface elements and OpenAI logo"
-lastmod: 2026-09-13
+lastmod: 2026-09-14
 faqs:
   - q: "Why is OpenAI going public right now?"
     a: "Three pressures hit at once. OpenAI spends billions training models, running inference at scale, and building hardware deals; an IPO opens access to public market capital beyond private rounds from Microsoft and SoftBank. Anthropic filed its own S-1, and Elon Musk's xAI is reportedly going public too — waiting means risking a crowded field where investors have already allocated their attention. An"
@@ -39,41 +39,47 @@ So when people ask "when does ChatGPT go public," what they usually mean is: whe
 
 ## What the filing actually says about OpenAI's money
 
-Confidential filings hide the juicy numbers, but the paperwork around the paperwork tells a story. OpenAI reportedly spent over $5 billion against roughly $4 billion in revenue during 2024, and analysts tracking the IPO expect the S-1 to show those losses narrowing but nowhere near closed. That matters to you directly, because a company preparing to face public investors has exactly one playbook: raise prices on the people who already pay, and convert free users into paid ones.
+Here's the part I found genuinely surprising. Confidential filings hide revenue figures, but the analysts who've seen the drafts — and the reporting from Bloomberg and The Information — point to the same picture: OpenAI pulled in roughly $12 billion in annualized revenue by mid-2026, up from about $4 billion a year earlier. That's real growth. The problem is the other number.
 
-Watch for it. Plus pricing has already crept up in some regions, and I'd bet on more aggressive paywalling of features that used to be free — deeper reasoning models, longer memory, higher usage caps. If ChatGPT is part of your daily workflow, the practical move is to price out alternatives now (Claude, Gemini, even a local model on your own machine) so you're negotiating with yourself from a position of knowledge, not panic, when the next price change lands.
+OpenAI is still spending more than it earns. Training runs, compute costs, and the free tier that 300 million weekly users ride on all eat cash. Reuters reported the company expects to burn through tens of billions before profitability, and the IPO is partly a way to fund that gap without another mega funding round. So when you read headlines about the filing, remember: this isn't a victory lap. It's a company raising money at scale because the alternative — private markets — has gotten expensive.
 
-## What actually changes for your account
+Why does this matter to you as a user? Because a public OpenAI has to show a path to profit within a few quarters. The easiest levers are prices and ads, and both are on the table.
 
-Here's the part I care about most, because it affects my daily work. Your account, your chat history, your subscription — none of that resets because of an IPO. OpenAI's terms of service don't have a "went public" clause that wipes your data or cancels Plus. What changes is direction, not mechanics.
+## What changes for free users vs. paid subscribers
 
-Public companies answer to shareholders, and shareholders want growth. For ChatGPT users, that historically means three pressures: more aggressive upsells inside the app, tighter free-tier limits to push upgrades, and faster shipping of features that drive subscriptions over features that are merely nice. None of this is a reason to delete your account. It is a reason to pay attention to your renewal emails instead of auto-paying on autopilot like I did for eight months.
+This is the section most coverage skips, and it's the one that affects your daily life most.
 
-## The timeline, step by step
+If you're on the free tier, expect the experience to get more ad-shaped. OpenAI has already experimented with sponsored suggestions and shopping integrations inside ChatGPT. Public shareholders love advertising revenue because it's predictable, and ChatGPT's user base is the audience. My prediction: free users will see more commerce prompts, more "buy it through ChatGPT" flows, and possibly rate limits that nudge you toward paid plans.
 
-Let me lay out how this actually unfolds, because confidential IPOs follow a predictable rhythm:
+If you pay for Plus or Pro, the pressure runs the other direction. Subscription prices have stayed flat since Plus launched at $20/month, but compute costs haven't. A public OpenAI reporting quarterly earnings can't quietly eat margin forever. I'd expect either a price increase, a new tier between Plus and Pro, or usage caps that get tighter on the cheaper plans. None of this is confirmed — it's what the financial math points toward.
 
-1. **Confidential S-1 filed (done — June 8, 2026).** The SEC reviews privately; OpenAI answers questions without public scrutiny.
-2. **Public S-1 disclosure.** This is when you'll finally see revenue, losses, and user numbers. Expect a 15-day minimum public review window before pricing.
-3. **Roadshow.** Executives pitch institutional investors. You'll hear a lot of carefully worded optimism.
-4. **Listing day.** Shares trade under a ticker — my money's on the NYSE given OpenAI's existing relationships there.
+Either way, your data and account carry over. An IPO changes ownership structure, not your login.
 
-Between steps 2 and 4, watch the risk factors section of the public S-1. It's the only place a company is legally required to be honest about what could go wrong, and for OpenAI that list will be long: compute costs, regulatory fights over the for-profit conversion, and competition from Google and Anthropic.
+## How to actually buy OpenAI stock when it lists
 
-## Should you buy OpenAI stock on day one?
+Assuming the listing happens in late 2026 or early 2027, here's the practical path:
 
-I'm not your financial advisor, so take this as one person's read, not advice. IPO day is historically a bad entry point for retail buyers. Studies of IPO performance going back decades show that while first-day pops often reward insiders and institutional buyers, shares bought at the open frequently underperform over the following 6–12 months. Facebook dropped roughly 50% in the months after its 2012 debut before recovering.
+1. **Open a brokerage account now** if you don't have one. Fidelity, Charles Schwab, Robinhood, and Interactive Brokers all handle IPO allocations differently, but you need an account regardless.
+2. **Look for indicated interest.** Some brokers (Fidelity and Schwab especially) let retail customers request IPO shares before the listing date. You won't always get an allocation — popular IPOs go heavily to institutions — but requesting costs nothing.
+3. **Set a price alert for the ticker.** OpenAI's ticker symbol isn't confirmed yet. When the S-1 goes public, the symbol will be in the first pages of the filing.
+4. **Wait for the lockup period to end.** Insiders can't sell for roughly 90–180 days after listing. Shares often dip when that window opens. If you missed day one, the lockup expiry is historically a better entry point.
 
-My plan: wait for the first earnings report. One quarter of real numbers tells you more than any roadshow pitch. If you still want in after that, you'll be buying with information instead of hype.
+One caution: day-one IPO prices are set by investment banks, not the market, and they're frequently wrong in both directions. Don't feel obligated to buy at the open.
 
-## The angle nobody's covering: what this means for free users
+## The risks nobody's pricing in yet
 
-Most coverage focuses on investors. Almost nobody is talking about the 300 million weekly users who pay nothing, but they're the ones most exposed. Free users are the growth story OpenAI will pitch to Wall Street — "look how many people we can convert" — which means the free tier becomes a sales funnel with a target on it.
+Three things could delay or derail this listing, and none of them involve ChatGPT's popularity.
 
-Concretely, I expect the free tier to get more crowded-feeling: shorter context, more rate-limit messages during peak hours, and features teased but locked. If you rely on free ChatGPT, now is a reasonable time to test whether a paid tier is worth it for your actual usage, or whether another tool covers your needs. Don't wait until the squeeze makes the decision for you.
+First, the governance structure. OpenAI's nonprofit board still controls the for-profit arm, and the SEC has never cleared an IPO with quite this arrangement. Restructuring could take longer than anyone expects — Microsoft's stake and the nonprofit's share of equity both need to be sorted.
 
-## What I'm watching next
+Second, competition. Anthropic, Google's Gemini, and Meta's open models are taking real share. If ChatGPT's growth flattens before the listing, the valuation conversation changes fast. A company burning cash needs a growth story.
 
-Three dates matter: the public S-1 disclosure (the real numbers), the first post-IPO earnings call (the real priorities), and any Plus price change (the real signal about how shareholders are being served). I'll update this post as each happens.
+Third, litigation. The New York Times copyright case and various state-level probes create legal overhang. IPOs hate unresolved lawsuits; underwriters will push for clarity before pricing shares.
 
-For now, keep using ChatGPT like normal. Just stop assuming the version you get in 2027 will look like the version you got in 2025 — because the moment quarterly numbers matter, they won't.
+My take: none of these kill the IPO, but any one of them can push the date from late 2026 into 2027. If your financial plan depends on a specific listing date, you're planning wrong. Treat the whole thing as opportunistic.
+
+## What I'd actually do right now
+
+Keep using ChatGPT. Export your conversation history if the data matters to you (Settings → Data controls → Export data — takes two minutes, and it's good hygiene before any corporate shakeup). Set a Google Alert for "OpenAI S-1" so you hear the moment the filing goes public, because that's your real signal for the listing timeline.
+
+And if you're set on owning shares? Decide your budget now, before the hype cycle starts. IPO weeks are emotional, and the people who get burned are the ones who decide how much to invest while reading a ticker on live TV.
