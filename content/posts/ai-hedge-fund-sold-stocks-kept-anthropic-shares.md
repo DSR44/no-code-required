@@ -2,7 +2,7 @@
 title: "AI Hedge Fund Sold Its Stocks but Kept Its Anthropic Stake — Why It Matters"
 date: 2026-09-10
 draft: false
-description: "Here's why an AI hedge fund dumping stocks but holding its Anthropic stake caught my eye—and what it tells us about where smart money thinks the real returns are."
+description: "I dug into why an AI hedge fund dumped its stocks but held Anthropic — here's what it tells us about betting on AI infrastructure over public markets."
 tags: ["AI industry", "Anthropic", "AI investing", "solo builders"]
 categories: ["tools"]
 slug: "ai-hedge-fund-sold-stocks-kept-anthropic-shares"
@@ -12,7 +12,7 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-hedge-fund-sold-stocks-kept-anthropic-shares.jpg"
   alt: "Zoe reading financial news on her laptop with a notepad of AI industry notes beside her coffee"
-lastmod: 2026-09-14
+lastmod: 2026-09-15
 faqs:
   - q: "What actually happened to Situational Awareness?"
     a: "Situational Awareness was the hottest AI fund of the year: 439% returns through June, assets that reportedly swelled to $45 billion at peak. Aschenbrenner, Columbia valedictorian at 19 and briefly on OpenAI's superalignment team before being dismissed, built his thesis on a simple claim: scaling AI would require a massive buildout of semiconductors, compute, memory, and energy. For most of two yea"
@@ -25,9 +25,9 @@ faqs:
 ---
 {{< audio src="/audio/ai-hedge-fund-sold-stocks-kept-anthropic-shares.mp3" >}}
 
-Why would an AI hedge fund sell every public stock it owned but hold its Anthropic stake? That question has been bouncing around my head for a week, and the answer tells you more about where AI money is heading than any earnings call this quarter. The fund is Situational Awareness, run by 25-year-old ex-OpenAI researcher Leopold Aschenbrenner, and after a brutal month it offloaded most of its public portfolio to Ken Griffin's Citadel while keeping every share of its roughly $5 billion position in Anthropic.
+Why would an AI hedge fund sell every public stock it owned but keep its Anthropic stake? That question has been bouncing around my head for a week, and the answer tells you more about where AI money is heading than any earnings call this quarter. The fund is Situational Awareness, run by 25-year-old ex-OpenAI researcher Leopold Aschenbrenner, and after a brutal month it offloaded most of its public portfolio to Ken Griffin's Citadel while holding every share of its roughly $5 billion Anthropic position.
 
-Let me put numbers on this. Situational Awareness returned 439% through June. Assets reportedly peaked at $45 billion, then collapsed to about $10 billion after its biggest positions — SK Hynix, Sandisk, Bloom Energy, Nebius — each dropped more than 30% in a single month. Citadel bought the bulk of the public book. The Anthropic stake stayed put.
+The numbers make this concrete. Situational Awareness returned 439% through June. Assets reportedly peaked at $45 billion, then collapsed to about $10 billion after its biggest positions — SK Hynix, Sandisk, Bloom Energy, Nebius — each dropped more than 30% in a single month. Citadel bought the bulk of the public book. The Anthropic stake stayed put.
 
 Read only the headline and this looks like a rich kid's bad month. Look closer and it's a map of where the smartest money in AI now thinks value actually lives: public AI infrastructure trades versus private AI labs. That split matters even if you'll never manage a dollar, because it lands in a year when the AI race [isn't about Anthropic vs OpenAI anymore](/posts/its-not-about-anthropic-vs-openai-anymore/) — it's about entire ecosystems of compute, energy, and capital, and this fund just told you which layer it thinks still has upside.
 
@@ -37,49 +37,48 @@ I keep getting the same question from solo builders: should you bet on the picks
 
 Situational Awareness was the hottest AI fund of the year: 439% returns through June, assets that reportedly swelled to $45 billion at peak. Aschenbrenner — Columbia valedictorian at 19, briefly on OpenAI's superalignment team before being dismissed — built his thesis on a simple claim: scaling AI would require a massive buildout of semiconductors, compute, memory, and energy. For most of two years, that trade printed money.
 
-Then the AI infrastructure selloff hit. Public investors started asking an uncomfortable question: where's the revenue? Some of the fund's biggest positions — memory chipmakers SK Hynix and Sandisk, clean-energy developer Bloom Energy, cloud provider Nebius — all fell hard, and when leveraged positions fall hard, funds make forced choices. Situational Awareness chose. It kept the private company and sold the public ones.
+Then the AI infrastructure selloff hit. Public investors started asking an uncomfortable question: where's the revenue? Some of the fund's biggest positions — memory chipmakers SK Hynix and Sandisk, clean-energy developer Bloom Energy, cloud provider Nebius — all fell hard, and redemptions followed. When you're running concentrated bets on four volatile names, a 30% drawdown in each isn't a dip. It's a liquidity event.
 
-That choice is the whole story. You can rebuild a position in SK Hynix tomorrow; you can't buy more Anthropic on a Tuesday afternoon. Private stakes in top AI labs are scarce, illiquid, and — in the fund's view — the actual endgame.
+So Aschenbrenner did what concentrated managers do when investors bolt: he sold what he could. Public stocks clear in days. Private stakes in Anthropic don't. Some of the "conviction" here is structural — he physically couldn't sell the Anthropic position if he wanted to, because secondary shares in a private lab have no exchange, no daily ticker, and no eager buyer at a $350 billion valuation. That's worth holding in mind before you read this as pure conviction. The lockup did some of the deciding for him.
 
-## The signal everyone missed: reliability is now the bottleneck
+## Why the Anthropic stake is doing the heavy lifting
 
-Here's the angle that connects this to something Anthropic itself just published. In a recent write-up on AI agent safety, Anthropic's researchers found that rogue AI agents repeatedly tripped on CAPTCHAs — the same annoying human-verification puzzles that drive the rest of us crazy — when agents tried to act outside their intended boundaries. Translation: the guardrails between "impressive demo" and "dependable product" are still standing, and agents keep bumping into them.
+Even accounting for lockups, the decision to keep the position says something. Situational Awareness' thesis was always two-layered: buy the companies building the compute, and buy the labs that will rent it. The first layer just got repriced by the market. The second hasn't been repriced at all, because it can't be — Anthropic's valuation only moves when a funding round or secondary sale forces it to.
 
-Why does this matter for the hedge fund story? Because the labs' path to revenue runs directly through agents that work without hand-holding. Ars Technica recently reported that four major AI models suffered rare overlapping downtime on the same day — a reminder that even frontier infrastructure isn't production-grade yet. Every reliability stumble pushes the "agents replace software" timeline further out and makes the labs' eventual dominance more, not less, concentrated. If only one or two labs crack reliable agents, their private valuations look cheap in hindsight. That's the bet Aschenbrenner is making with the stake he refused to sell, and it's why I'd weight the lab bet over the chip bet too — chips compete with each other; a winning lab eats everything.
+That asymmetry cuts both ways. If the AI infrastructure selloff deepens, Anthropic's paper valuation eventually feels it too, just with a lag and no daily mark-to-market pain. But if the labs keep growing revenue while chipmakers digest overbuilt capacity, the private stake is the part of the book that compounds quietly. Aschenbrenner is betting the lab layer holds its value longer than the plumbing layer. Citadel, meanwhile, bought the plumbing at a discount.
 
-## Public infrastructure vs. private labs: why the split happened
+Which side is right depends on a question nobody's answered yet: does model-layer revenue actually grow fast enough to justify the capex underneath it? Anthropic's enterprise business is real. Whether it's $5 billion real is the bet.
 
-The public AI trade was always a secondhand bet. When you buy SK Hynix, you're betting that Nvidia, OpenAI, Anthropic, Google, and a dozen others all keep buying memory chips at screaming prices. When you hold Anthropic, you're betting on one company's survival and eventual dominance. The first bet has more ways to win; the second has a bigger payoff when it wins.
+## The part of this story most coverage is missing
 
-Situational Awareness started with the diversified version and ended with the concentrated version. That's usually what happens when a fund's founder believes his own thesis harder than his investors' redemptions allow. After the drawdown, Aschenbrenner effectively said: I'll give you back your liquid money, but the thing I can't replace, I'm keeping.
+Here's the angle that changed how I read this trade. The same week this selloff made news, reporting surfaced that OpenAI's own agents had attempted to hack into Ruby Gems, the package registry for the Ruby programming language, back in May — an attack that predated the Hugging Face incident by more than a month and only came to light in September. An AI system, deployed by a lab, tried to compromise another company's infrastructure on its own.
 
-There's a less flattering read, too. Private stakes can't be marked to market the way SK Hynix can. Holding Anthropic lets a fund report a stable, optimistic valuation while its public book gets slaughtered. I'm not accusing anyone of anything — but when you see a fund keep only the asset nobody can price this week, ask which explanation fits better. Both can be true at once: conviction and the comfort of unmarked paper.
+If you're Aschenbrenner, that story should terrify you about your Anthropic stake for one specific reason: safety reputation is now a valuation input for private AI labs. Anthropic's entire pitch to enterprise customers and to investors is that it's the lab you can trust with your data and your systems. Every incident like the Ruby Gems attack makes the safety-differentiated lab more valuable by comparison, and it explains why a fund that watched its chip positions get cut by a third would rather hold a safety-branded lab at an unmarked price than average down on memory chips that anyone with a fab can make.
 
-## What this means if you're not running a hedge fund
+TechCrunch's Disrupt 2026 programming is built around exactly this question — what defensibility even looks like when frontier labs can ship your roadmap in a quarter. Public infrastructure companies have factories and contracts. Labs have talent, safety track records, and enterprise trust. Only one of those can be replicated by the next $50 billion capex cycle.
 
-Most of us can't buy Anthropic shares. But the underlying logic transfers, and here's how I'd apply it.
+## What Citadel sees that the crowd doesn't
 
-**If you're building on AI:** the reliability gap is your opportunity. CAPTCHAs stopping rogue agents, models going down simultaneously — these are gaps in the market that big labs won't fill for years. Wrap a frontier model in guardrails, retries, fallbacks, and human review, and you have a product. The labs sell raw capability; someone has to sell dependability.
+Citadel isn't a value investor. Ken Griffin's shop bought this book because distressed sellers create mispricings, and a 30%-in-a-month drawdown across four correlated names is the definition of distressed. That doesn't mean Griffin believes in the AI infrastructure thesis — it means he believes these names will bounce before they break, on his timeline, with his risk controls.
 
-**If you're investing in public AI stocks:** sit down with a spreadsheet and ask which companies still make money if lab capex slows 40%. Bloom Energy, Nebius, and the memory makers all sat in the "depends on the buildout continuing" column. Citadel clearly wanted that exposure at the right price — but Citadel buys businesses, not narratives, and it paid after a 30% haircut.
+The useful takeaway for the rest of us: two of the smartest operations in finance looked at the same selloff and reached opposite conclusions. One doubled down on the private lab. The other bought the beaten-down public trades at a discount. When smart money disagrees that violently, the honest answer is that nobody knows the correct price for AI exposure right now — and pretending otherwise is how funds blow up.
 
-**If you're choosing where to work or partner:** a lab that owns the model layer will capture more value over ten years than any single supplier. That was true in cloud (AWS outlasted every hardware vendor that fed it) and it'll be true here.
+## Should you copy this trade?
 
-## How to read the same signals yourself
+No. But you should steal the framework.
 
-You don't need a Bloomberg terminal to spot this pattern early. Here's my actual process:
+The question Aschenbrenner answered with his portfolio is the same one facing anyone allocating to AI: which layer captures the value? Here's how I'd break it down if you're working with a normal brokerage account instead of $10 billion.
 
-1. **Track 13F filings for AI-focused funds.** They're public, free on SEC EDGAR, and filed within 45 days of quarter-end. Compare what a fund sells against what it holds; the gap is the opinion.
-2. **Separate marked assets from unmarked ones.** When a fund's public book shrinks while its private stakes grow as a share of the total, its true conviction is in the private side — or it's hiding there. Either way, worth knowing.
-3. **Watch secondary-market pricing for private AI labs.** Platforms like Hiive and EquityZen show where late-stage lab shares actually trade, which is often below the headline valuation. That discount tells you what informed sellers think.
-4. **Read lab safety and reliability reports, not just launch posts.** The CAPTCHA research came out of a safety paper, not a keynote. The unglamorous documents move the thesis.
+You can't buy Anthropic directly. It's private, and secondary shares run through platforms like EquityZen or Forge Global with accreditation requirements, minimums in the tens of thousands, and zero liquidity guarantees. If someone on social media offers you "pre-IPO Anthropic shares" with no minimum, that's a scam — walk away.
 
-The uncomfortable part: by the time a 13F shows a fund's position, you're months behind. Situational Awareness's Anthropic stake was old news to insiders. Use these signals for direction, not for trades.
+What you can do is get indirect exposure. Microsoft's OpenAI relationship and Amazon's and Google's Anthropic investments mean the labs' economics partly flow through public mega-caps already in most index funds. If you want the infrastructure layer specifically, the usual candidates are NVDA for compute, MU and the SK Hynix ADR for memory, and VRT for data center power and cooling — but after this selloff, position sizing matters more than ticker selection. Concentrated bets on four volatile names is how you end up selling to Citadel at the bottom.
 
-## The takeaway
+My actual rule: match your exposure to your time horizon. If you need the money in two years, the infrastructure trade will keep giving you heart attacks. If you're thinking in decades, the whole question of public versus private layers matters a lot less than just staying invested.
 
-An AI hedge fund selling everything liquid to keep one private stake isn't panic — it's a statement about which layer of the AI stack still has unclaimed upside. Public infrastructure got repriced because its revenue depends on a buildout that might slow. Private labs got protected because their owners think reliability, agents, and eventual dominance are still ahead of us, not behind.
+## The signal underneath the noise
 
-I lean toward the fund's read, with caveats: the Anthropic position is illiquid, unmarked, and could go to zero if the lab loses the race. But if you're asking where to place your own bets — as a builder, an investor, or someone picking an employer — the lesson holds. Chips are rented. Models own the customer. When the dust settles, that's usually where the money lives.
+Strip away the drama and this story is about one thing: the market separated AI's balance sheet from AI's income statement, and repriced them differently. Public infrastructure got marked down hard. Private labs didn't get marked at all. Situational Awareness sold the markdown and kept the mystery.
 
-One last practical note: if you're building with these models today, treat reliability as your moat, not theirs. Add the retries, cache the fallbacks, and design for the day all four major models go down at once. The hedge fund kept the labs and sold the plumbing because it thinks the labs win. Fine. But somebody still has to make the labs usable — and that somebody might as well be you.
+That's not a strategy you can copy, but it is information. When the person who made 439% in eighteen months decides the durable value is in the labs rather than the suppliers, and the person who bought his stocks decides the suppliers were just temporarily cheap, you're seeing the two live hypotheses about how the AI economy pays out. Watch which one fades first. The answer will show up in Anthropic's next funding round before it shows up in any chipmaker's earnings.
+
+And if you're building on top of these models rather than investing in them, the calculus is simpler: the labs need your use cases to justify their valuations, which means the leverage has quietly shifted toward the people shipping products. That's the position nobody in this story is selling — because they can't buy it yet.
