@@ -23,7 +23,6 @@ faqs:
     a: "Yes, absolutely. The device is specifically designed for non-coders, with pre-set functions that let you leverage Codex's capabilities through simple button presses instead of writing code."
   - q: "Where can I buy the OpenAI Codex hardware and how much does it cost?"
     a: "The macro pad is a collaboration with Work Louder and will be available through their website. Pricing details are expected to be announced closer to the launch date."
-
 ---
 {{< audio src="/audio/openai-codex-hardware-what-it-means.mp3" >}}
 

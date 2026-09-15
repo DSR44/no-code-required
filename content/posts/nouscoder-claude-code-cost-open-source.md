@@ -1,5 +1,5 @@
 ---
-title: "Open Source AI Cuts Your $200/Month Claude Code Bill"
+title: "Open Source AI Slashes Your $200/Month Claude Code Bill | NCR"
 date: 2026-07-06
 draft: false
 description: "NousCoder-14B scored 67.87% on LiveCodeBench and it's free. Discover how open source AI can slash your $200/month Claude Code bill with no code required."
@@ -21,7 +21,6 @@ faqs:
     a: "No, modern tools and one-click installers have made setup accessible to non-programmers. You can often run these models with a simple download and a few clicks, with no code required."
   - q: "Where can I download NousCoder-14B to replace Claude Code?"
     a: "You can download it directly from its official repository on Hugging Face. The model card there provides all the necessary files and instructions for getting started."
-
 ---
 {{< audio src="/audio/nouscoder-claude-code-cost-open-source.mp3" >}}
 

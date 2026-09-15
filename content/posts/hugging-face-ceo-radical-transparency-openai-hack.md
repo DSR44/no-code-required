@@ -1,5 +1,5 @@
 ---
-title: "Hugging Face CEO Demands AI Transparency After OpenAI Breach"
+title: "Hugging Face CEO Calls for AI Transparency After OpenAI Breach"
 slug: "hugging-face-ceo-radical-transparency-openai-hack"
 date: 2026-08-15
 draft: false

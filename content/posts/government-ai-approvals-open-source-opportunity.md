@@ -1,5 +1,5 @@
 ---
-title: "Open Source AI Wins as Government Approvals Slow Frontier Models"
+title: "Open Source AI Wins as Government Slows Frontier Model Approvals"
 date: 2026-07-09
 draft: false
 description: "As the US government gates frontier AI model releases, open-source AI is quietly becoming the most reliable option for non-coders today."
