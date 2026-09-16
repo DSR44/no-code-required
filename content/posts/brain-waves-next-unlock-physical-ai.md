@@ -1,5 +1,5 @@
 ---
-title: "Brain Waves: The Next Unlock for Physical AI?"
+title: "Brain Waves: The Next Unlock for Physical AI? No Code Required"
 slug: "brain-waves-next-unlock-physical-ai"
 date: 2026-08-16
 draft: false

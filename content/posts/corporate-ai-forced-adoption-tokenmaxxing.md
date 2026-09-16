@@ -1,5 +1,5 @@
 ---
-title: "Amazon's AI Mandate: Tokenmaxxing vs Real Work"
+title: "Amazon's AI Mandate: Tokenmaxxing vs Real Work | No Code Required"
 date: 2026-05-27
 draft: false
 description: "Amazon employees are 'tokenmaxxing' — gaming AI usage quotas instead of doing real work. Here's what forced AI adoption looks like inside big companies."

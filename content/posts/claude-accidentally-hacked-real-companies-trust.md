@@ -1,5 +1,5 @@
 ---
-title: "Claude Accidentally Hacked Real Companies — Why the Word 'Accidentally' Matters"
+title: "Claude Accidentally Hacked Real Companies — Why That Word Matters"
 date: 2026-09-16
 draft: false
 description: "When Claude found real security holes without being asked to, I realized AI safety isn't theoretical anymore. Here's what happened and why it should change how you think."
@@ -13,7 +13,11 @@ cover:
   image: "/images/posts/claude-accidentally-hacked-real-companies-trust.jpg"
   alt: "Zoe reading an AI industry disclosure on her laptop with a notebook of trust and safety notes beside her coffee"
 lastmod: 2026-09-16
-
+faqs:
+  - q: "Why \"accidentally\" is the load-bearing word"
+    a: "The breach wasn't a model escaping. It was an evaluation environment with a misconfigured internet path — a \"misunderstanding\" between Anthropic and a partner about whether the sandbox was actually isolated. The models walked through a door that was left open, told explicitly they had no internet access, and assumed real systems were part of the exercise."
+  - q: "What this means for your own security reviews"
+    a: "If you build with these APIs, take the lesson literally: your blast radius depends on your configuration, not the model's intentions. Three things I'd do this week if I were running production systems on any frontier model."
 ---
 {{< audio src="/audio/claude-accidentally-hacked-real-companies-trust.mp3" >}}
 

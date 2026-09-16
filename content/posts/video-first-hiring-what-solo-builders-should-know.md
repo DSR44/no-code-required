@@ -1,5 +1,5 @@
 ---
-title: "Video-First Hiring Is Here: What Solo Builders Need to Know (and Build)"
+title: "Video-First Hiring: What Solo Builders Need to Know and Build"
 date: 2026-07-07
 draft: false
 description: "Video-first hiring platforms like Fika Jobs are replacing resumes with AI video interviews. What solo builders should know — and the opportunity it creates."
@@ -21,7 +21,6 @@ faqs:
     a: "Absolutely. Many platforms offer APIs, allowing solo builders to create complementary products like advanced analytics dashboards, automated scheduling bots, or candidate feedback systems that enhance the core hiring experience."
   - q: "What skills are most important for candidates in a video-first interview?"
     a: "Clear verbal communication, concise storytelling, and comfort on camera are now critical. Candidates must articulate their experience and fit without the traditional crutch of a formatted resume."
-
 ---
 {{< audio src="/audio/video-first-hiring-what-solo-builders-should-know.mp3" >}}
 

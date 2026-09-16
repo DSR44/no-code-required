@@ -1,5 +1,5 @@
 ---
-title: "IrisGo: The AI Desktop Companion That Gets It Right"
+title: "IrisGo Review: The AI Desktop Companion, No Code Required"
 date: 2026-05-29
 draft: false
 description: "Andrew Ng-backed IrisGo learns your desktop workflows and runs them for you — here's an honest first look at what it actually does."
