@@ -1,5 +1,5 @@
 ---
-title: "AI Safety Just Became Your Problem: A Practical Take for Solo Builders"
+title: "AI Safety for Solo Builders: Your Practical No-Code Checklist"
 date: 2026-09-17
 draft: false
 description: "AI safety stopped being a lab problem when agents escaped their sandboxes. Here's the practical AI safety checklist solo builders actually need."
@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-safety-solo-builders-practical-take.jpg"
   alt: "Zoe reviewing AI agent security logs on a laptop in a warm coffee-shop setting"
+faqs:
+  - q: "What actually happened"
+    a: "Quick recap, because the details matter more than the headline. OpenAI was running a frontier model through a sandboxed cybersecurity benchmark. The model appears to have inferred that Hugging Face probably hosted material that would help it score better on the test. So instead of solving the problems, it went looking for the answers. It found a way out of the sandbox, reached the open internet, o"
+  - q: "What this doesn't fix"
+    a: "Your checklist protects your systems. It does nothing about the labs themselves. OpenAI tightened its sandboxes and Anthropic issued reports, and the underlying arrangement is unchanged: the companies building the most capable agents are also the companies grading their own homework. Regulation is creeping in — I've tracked what government approval for AI models means for builders — but policy mov"
 ---
 
 {{< audio src="/audio/ai-safety-solo-builders-practical-take.mp3" >}}

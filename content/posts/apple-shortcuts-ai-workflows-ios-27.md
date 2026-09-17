@@ -22,7 +22,6 @@ faqs:
   - q: "Are there examples of automations I can create with the new AI?"
     a: "You can create automations like 'Send a daily weather report to my family group,' 'Turn on my smart lights when I arrive home,' or 'Log my water intake in the Health app after I say I drank water.'"
 lastmod: 2026-08-08
-
 ---
 {{< audio src="/audio/apple-shortcuts-ai-workflows-ios-27.mp3" >}}
 
