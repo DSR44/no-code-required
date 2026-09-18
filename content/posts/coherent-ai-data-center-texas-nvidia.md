@@ -1,5 +1,5 @@
 ---
-title: "Coherent Corp's $650M AI Data Center Deal: How to Invest"
+title: "Coherent's $650M AI Data Center: How to Invest | NCR"
 date: 2026-06-17
 draft: false
 description: "Coherent Corp just broke ground on a $650M Texas facility backed by NVIDIA's $2B investment. Here's what it means and how to get exposure."
