@@ -1,5 +1,5 @@
 ---
-title: "Run AI Models on Any Chip Free — No NVIDIA Lock-In"
+title: "Run AI Models on Any Chip Free — No NVIDIA Lock-In | NCR"
 slug: "zml-free-inference-tool-ai-chips"
 date: 2026-07-16
 draft: false
@@ -13,72 +13,86 @@ TocOpen: false
 cover:
   image: "/images/posts/zml-free-inference-tool-ai-chips.jpg"
   alt: "Zoe at laptop discovering AI inference tool running across multiple chips"
-faqs:
-  - q: "How can I run AI models without an NVIDIA GPU?"
-    a: "ZML's free LLMD server lets you run AI models on alternative hardware like AMD, Google TPU, Apple Metal, and Intel Arc. This eliminates the need for expensive NVIDIA GPUs and avoids vendor lock-in."
-  - q: "Is there a free tool to run LLMs on different chips?"
-    a: "Yes, ZML's LLMD server is a free, open-source tool designed to run large language models across multiple chip architectures. It supports NVIDIA, AMD, Google TPU, Apple Metal, and Intel Arc hardware."
-  - q: "Can I use AMD or Intel GPUs for AI model inference?"
-    a: "Absolutely. ZML's LLMD server provides support for AMD and Intel Arc GPUs, allowing you to run AI models on these platforms without being tied to NVIDIA's ecosystem."
-  - q: "What are the benefits of avoiding NVIDIA lock-in for AI?"
-    a: "Avoiding NVIDIA lock-in gives you hardware flexibility, potentially lower costs by using available or cheaper chips, and freedom from vendor-specific constraints. ZML's free LLMD server enables this by supporting multiple chip types."
 
+lastmod: 2026-09-19
+faqs:
+  - q: "What is LLMD, in plain language?"
+    a: "LLMD is a free inference server from ZML that runs the same AI model on NVIDIA, AMD, Google TPU, Apple Metal, or Intel Arc chips without you rewriting anything. Inference is the step where a trained model processes your prompt and generates a response — every time you type into ChatGPT, Claude, or any LLM-powered app, that's inference happening."
+  - q: "Why should solo builders care about NVIDIA lock-in?"
+    a: "Because lock-in compounds, and so does the bill. Three things stack up against you if you run your own AI-powered tool, chatbot, or automation pipeline:"
+  - q: "Is LLMD really free, and what's the catch?"
+    a: "It's free right now, but it's not open source, and ZML plans to charge eventually. Morin's reasoning, in his own words: \"I'd rather measure and then generate revenue where it is most effective without hindering my growth stupidly because I have been too greedy from the get-go.\""
+  - q: "How does ZML compare to the AI inference gold rush?"
+    a: "ZML is one of several startups chasing the same problem: making AI inference faster and cheaper. Baseten was recently valued at $13 billion in what The Next Web called the \"inference gold rush\"; Inferact came from the creators of vLLM, and RadixArk spun out of SGLang."
+  - q: "What should you actually do with your stack right now?"
+    a: "If you only use AI as a consumer — ChatGPT, Claude, Gemini — nothing changes today. If you process AI prompts in production, a few things are worth doing. First, audit your inference costs: if you're spending more than $100/month through a single cloud provider, you're a candidate for testing alternatives. Second, watch LLMD's development; it just launched, so expect rapid iteration, and ZML's tra"
 ---
+
 {{< audio src="/audio/zml-free-inference-tool-ai-chips.mp3" >}}
 
-If you've been building with AI models and assumed you're stuck with NVIDIA GPUs forever, a 20-person Parisian startup just changed that. ZML — endorsed by Turing Award winner Yann LeCun and backed by founders from Docker and Hugging Face — just dropped LLMD, a free inference server that runs open-source AI models at peak speed across NVIDIA, AMD, Google TPU, Apple Metal, and Intel Arc. No vendor lock-in, no licensing fees, no catch.
+If you've been building with AI models and assumed you're stuck with NVIDIA GPUs forever, a 20-person Parisian startup just changed that. ZML — endorsed by Turing Award winner Yann LeCun and backed by founders from Docker and Hugging Face — just dropped LLMD, a free inference server that runs open-source AI models at peak speed across NVIDIA, AMD, Google TPU, Apple Metal, and Intel Arc. No vendor lock-in, no licensing fees.
 
-This matters because inference costs are quietly becoming the biggest expense for anyone running AI tools in production. We've covered free AI tools before — like how [Google I/O 2026 dropped free AI tools for beginners](/posts/google-io-2026-free-ai-tools-for-beginners/) — but those are consumer-facing. If you're building anything that processes prompts repeatedly, the inference bill adds up fast. And if you're locked into one hardware vendor, you're paying whatever they decide to charge. ZML's move is about breaking that dependency, and the [other free tools from startups we've covered](/posts/startup-free-cleaning-robot-training-data/) show this is becoming a pattern: serious infrastructure, released free, monetized later.
+Here's the citable version: LLMD is a free inference server from ZML, a 20-person Paris company that raised $20 million and whose founder (a former Zenly VP of Engineering, where Snapchat acquired the company for nine figures) says the server hits peak performance on NVIDIA, AMD, Google TPU, Apple Metal, and Intel Arc — sometimes faster than each chip's native stack. Yann LeCun has endorsed the project.
 
-## What LLMD actually does (in plain language)
+Inference costs are quietly becoming the biggest expense for anyone running AI tools in production. We've covered free AI tools before — like how [Google I/O 2026 dropped free AI tools for beginners](/posts/google-io-2026-free-ai-tools-for-beginners/) — but those are consumer-facing. If you're building anything that processes prompts repeatedly, the inference bill adds up fast. And if you're locked into one hardware vendor, you're paying whatever they decide to charge. The [other free tools from startups we've covered](/posts/startup-free-cleaning-robot-training-data/) suggest a pattern: serious infrastructure, released free, monetized later.
 
-When you use an AI tool like ChatGPT, Claude, or any app powered by a large language model, the model needs to process your prompt and generate a response. That processing step is called inference. Right now, most inference runs on NVIDIA GPUs because the software ecosystem — CUDA — is deeply entrenched. If you're a company running AI models at scale, you're probably using NVIDIA hardware, and switching to something else means rewriting your entire software stack.
+## What is LLMD, in plain language?
 
-LLMD changes that equation. It's an inference server that translates model operations into whatever hardware you throw at it. The same model, running on AMD chips instead of NVIDIA. Or Google's TPUs. Or even Apple Silicon if that's what you have access to.
+LLMD is a free inference server from ZML that runs the same AI model on NVIDIA, AMD, Google TPU, Apple Metal, or Intel Arc chips without you rewriting anything. Inference is the step where a trained model processes your prompt and generates a response — every time you type into ChatGPT, Claude, or any LLM-powered app, that's inference happening.
 
-The key insight isn't just "it works on different chips." It's that it works at *full speed* on different chips. Morin, ZML's founder, told TechCrunch they're achieving peak performance across hardware — and sometimes going faster than the native stack. That's a bold claim, but the team has serious credentials. Morin was VP of Engineering at Zenly, which Snapchat acquired for nine figures.
+Most inference runs on NVIDIA GPUs because the software ecosystem, CUDA, is deeply entrenched. If you're a company running AI models at scale, you're probably on NVIDIA hardware, and switching means rewriting your entire software stack. LLMD breaks that: it translates model operations into whatever hardware you give it.
 
-## Why solo builders should care
+The claim that got my attention isn't just "it works on different chips." It works at *full speed* on different chips. ZML's founder Morin told TechCrunch they're hitting peak performance across hardware, and sometimes going faster than the native stack. Bold claim. But the credentials check out — Morin was VP of Engineering at Zenly before Snapchat bought it for nine figures.
 
-If you're running your own AI-powered tool, chatbot, or automation pipeline, the economics look like this:
+## Why should solo builders care about NVIDIA lock-in?
 
-**NVIDIA GPUs are expensive and scarce.** Cloud providers charge premium rates for NVIDIA instances because demand outstrips supply. If your app processes 10,000 prompts a day, you're feeling that cost.
+Because lock-in compounds, and so does the bill. Three things stack up against you if you run your own AI-powered tool, chatbot, or automation pipeline:
 
-**Vendor lock-in compounds over time.** Once your entire stack is tuned for NVIDIA, switching is expensive and risky. Providers know this. Your leverage decreases every month.
+NVIDIA GPUs are expensive and scarce. Cloud providers charge premium rates for NVIDIA instances because demand outstrips supply, and if your app processes 10,000 prompts a day, you feel it. Once your stack is tuned for NVIDIA, switching gets riskier every month — providers know this and price accordingly.
 
-**Alternative chips exist and are getting better.** AMD's latest GPUs, Google's TPUs, and even Intel Arc can handle inference workloads well — but the software barrier has kept most developers from experimenting with them. LLMD removes that barrier.
+Meanwhile, the alternatives got good. AMD's latest GPUs, Google's TPUs, and even Intel Arc handle inference well; the software barrier, not the hardware, kept most developers from trying them. LLMD removes that barrier.
 
-What this means practically: if you're building a side project that uses AI, you could potentially run inference on cheaper AMD hardware or even your local Apple Silicon Mac without rewriting anything. If you're running a small AI-powered business, you could mix and match hardware based on price and availability instead of being locked into whatever your cloud provider offers.
+Practically: if you're building a side project that uses AI, you could run inference on cheaper AMD hardware or a local Apple Silicon Mac without rewriting anything. Running a small AI-powered business? Mix and match hardware based on price and availability instead of accepting whatever your cloud provider offers.
 
-## The free strategy — what ZML is actually doing
+## Is LLMD really free, and what's the catch?
 
-LLMD is not open source. But it is free — for now. Morin's reasoning is straightforward: "I'd rather measure and then generate revenue where it is most effective without hindering my growth stupidly because I have been too greedy from the get-go."
+It's free right now, but it's not open source, and ZML plans to charge eventually. Morin's reasoning, in his own words: "I'd rather measure and then generate revenue where it is most effective without hindering my growth stupidly because I have been too greedy from the get-go."
 
-This is the same playbook we've seen from other AI infrastructure startups. [This free cleaning robot training data startup](/posts/startup-free-cleaning-robot-training-data/) gave away its core product to build adoption before monetizing. ZML is doing the same thing at the infrastructure layer — get developers using LLMD, learn how they use it, then charge for premium features or enterprise support.
+It's the playbook we've seen from [this free cleaning robot training data startup](/posts/startup-free-cleaning-robot-training-data/): give away the core product, build adoption, learn how people use it, then charge for premium features or enterprise support. ZML is running the same play at the infrastructure layer.
 
-The cap table tells you who's paying attention. ZML has backing from the founders of Docker, Hugging Face, and Yann LeCun (now with AMI Labs). The company raised $20 million on a lean team of 20 people — that's efficient capital allocation, and it means they can move fast without burning through runway.
+The cap table tells you who's paying attention. Backing from the founders of Docker and Hugging Face, plus Yann LeCun (now with AMI Labs). They raised $20 million with a team of 20 people, which means they can move without burning through runway.
 
-## How this fits into the broader inference landscape
+## How does ZML compare to the AI inference gold rush?
 
-ZML isn't alone in the inference space. The "[inference gold rush](https://thenextweb.com/news/baseten-1-5bn-round-13bn-valuation-ai-inference)" is real — Baseten was recently valued at $13 billion, Inferact came from the creators of vLLM, and RadixArk spun out of SGLang. Each takes a different angle on the same problem: making AI inference faster, cheaper, and more accessible.
+ZML is one of several startups chasing the same problem: making AI inference faster and cheaper. Baseten was recently valued at $13 billion in what [The Next Web called the "inference gold rush"](https://thenextweb.com/news/baseten-1-5bn-round-13bn-valuation-ai-inference); Inferact came from the creators of vLLM, and RadixArk spun out of SGLang.
 
-What separates ZML is the hardware-agnostic approach. Most competitors are optimizing for NVIDIA because that's where the market is. ZML is betting that the market will fragment as more chip makers enter the AI space — European companies like Axelera, Fractile, Kalray, and SiPearl are all building AI-specific chips. If you can run inference on any of them at peak speed, you're positioned for a future where hardware choice matters.
+What separates ZML is the hardware-agnostic angle. Most competitors optimize for NVIDIA because that's where the market is today. ZML bets the market fragments as more chip makers enter — European companies like Axelera, Fractile, Kalray, and SiPearl are all building AI-specific chips. If you can run inference on any of them at peak speed, you're ready for a future where hardware choice matters.
 
-This also connects to something we covered in our breakdown of [OpenAI's hardware ambitions](/posts/openai-hardware-ambitions-codex-micro/) — the companies building AI models are increasingly thinking about hardware. The inference layer is where the money flows, and whoever controls it controls a significant piece of the AI economy.
+This connects to our breakdown of [OpenAI's hardware ambitions](/posts/openai-hardware-ambitions-codex-micro/): the companies building AI models increasingly think about hardware too, because the inference layer is where the money flows.
 
-## What this means for your stack right now
+## What should you actually do with your stack right now?
 
-If you're just using AI tools as a consumer — ChatGPT, Claude, Gemini — this doesn't change your day-to-day. But if you're building anything that processes AI prompts in production, here's what to consider:
+If you only use AI as a consumer — ChatGPT, Claude, Gemini — nothing changes today. If you process AI prompts in production, a few things are worth doing. First, audit your inference costs: if you're spending more than $100/month through a single cloud provider, you're a candidate for testing alternatives. Second, watch LLMD's development; it just launched, so expect rapid iteration, and ZML's track record suggests releases will land quickly.
 
-- **Audit your inference costs.** If you're spending more than $100/month on inference through a single cloud provider, you're a candidate for testing alternatives.
-- **Watch LLMD's development.** It just launched, so expect rapid iteration. ZML has more releases planned, and their track record suggests those will land quickly.
-- **Don't rewrite anything yet.** LLMD is free and worth testing, but it's early. The existing infrastructure works. This is about having options, not ripping out your current stack.
-- **Consider hardware diversity as a competitive advantage.** If your costs are lower because you can run on cheaper hardware, that's margin you can reinvest or pass to customers.
+Don't rewrite anything yet, though. LLMD is free and worth testing, but it's early, and the existing infrastructure works. This is about having options, not ripping out your stack. And if your costs drop because you can run on cheaper hardware, that's margin you can reinvest or pass to customers.
 
-If you're feeling overwhelmed by the pace of AI tool releases, you're not alone — our guide on [escaping AI tool overwhelm](/posts/ai-tool-overwhelm-how-to-escape/) covers how to evaluate what actually matters for your situation.
+If the pace of AI tool releases is overwhelming, you're not alone — our guide on [escaping AI tool overwhelm](/posts/ai-tool-overwhelm-how-to-escape/) covers how to evaluate what actually matters for your situation.
 
-## The bottom line
+## FAQs
 
-ZML's LLMD is a free inference server that breaks the NVIDIA lock-in by running AI models at peak speed across any major chip. It's early, it's free, and it's backed by people who know what they're doing. For solo builders and small teams watching their inference costs climb, this is worth paying attention to.
+**Is ZML's LLMD open source?**
+No. LLMD is free to use but not open source. ZML plans to monetize later, likely through premium features or enterprise support, once they've measured how developers actually use the server. The founder has said he'd rather grow adoption first than charge from day one.
+
+**Which chips does LLMD support?**
+LLMD runs open-source AI models across NVIDIA, AMD, Google TPU, Apple Metal, and Intel Arc. ZML claims peak performance on each, sometimes exceeding what each chip's native software stack achieves.
+
+**Do I need to rewrite my code to switch away from NVIDIA GPUs?**
+That's the point of LLMD: no. It translates model operations into instructions for whichever hardware you point it at, so the same model can run on AMD chips, TPUs, or Apple Silicon without changes to your stack.
+
+**How much does ZML's LLMD cost?**
+Nothing right now. ZML raised $20 million and is giving LLMD away free to build adoption, with monetization planned for later. Expect that to mean paid enterprise tiers or premium features once the user base is established.
+
+**Who is behind ZML?**
+A 20-person team in Paris founded by Morin, previously VP of Engineering at Zenly (acquired by Snapchat for nine figures). Backers include the founders of Docker and Hugging Face, and Turing Award winner Yann LeCun, now with AMI Labs.
 
 If you're just getting started with AI tools, begin with [/start-here/](/start-here/) — no hardware required.

@@ -1,5 +1,5 @@
 ---
-title: "Google Earth Added an AI Image Tool. It Lasted One Day"
+title: "Google Earth's AI Image Tool Lasted One Day — How to Spot AI Images"
 date: 2026-09-19
 draft: false
 description: "Google Earth's AI image tool lasted one day. Here's how to tell AI-generated images from real ones before you share the next screenshot."
