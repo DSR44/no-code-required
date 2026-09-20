@@ -1,5 +1,5 @@
 ---
-title: "Chrome Can Now Browse the Web for You — Should You Let It? | NCR"
+title: "Chrome's AI Agent Can Browse for You — Should You Let It?"
 date: 2026-05-31
 draft: false
 description: "Google just turned Chrome into an AI agent that shops, books, and researches for you. Here's what's free, what's paid, and what's actually useful."

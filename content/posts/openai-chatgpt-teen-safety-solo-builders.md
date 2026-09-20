@@ -1,5 +1,5 @@
 ---
-title: "What Solo Builders Can Copy From ChatGPT Teen Safety"
+title: "What Solo Builders Can Copy From ChatGPT Teen Safety | NCR"
 date: 2026-08-19
 draft: false
 description: "I break down ChatGPT's teen safety features and show you how solo builders can implement similar protections. Practical steps with real tools you can use today."
@@ -22,7 +22,8 @@ faqs:
     a: "You don't need OpenAI's engineering staff. I've done this in my own projects, and here's the actual stack:"
   - q: "Which approach should you copy?"
     a: "Steal the parts that match your product's relationship with its users. If your product functions like a study tool, Google's tutor-first framing costs you almost nothing and avoids the companion problem altogether. If it's conversational, you need OpenAI's parental-oversight layer, and you need it before launch, not after a lawsuit forces it. Either way, the four implementation pieces above — filt"
----{{< audio src="/audio/openai-chatgpt-teen-safety-solo-builders.mp3" >}}
+---
+{{< audio src="/audio/openai-chatgpt-teen-safety-solo-builders.mp3" >}}
 
 
 I build AI products for a living, and when OpenAI announced ChatGPT for Teens, my first thought wasn't "good for them." It was "how much did this cost them in legal fees before they got here?" They didn't add teen safety features out of the goodness of their hearts. They did it after [Florida sued them](https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/) over chatbot interactions linked to teen mental health crises. That's a liability gap, and [OpenAI's IPO filing](/posts/openai-filed-to-go-public-what-that-means-for-chatgpt-users/) makes it even more awkward.
