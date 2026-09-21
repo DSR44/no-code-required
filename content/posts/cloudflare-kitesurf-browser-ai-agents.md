@@ -1,5 +1,5 @@
 ---
-title: "Cloudflare Kitesurf: AI Browser for Solo Builders"
+title: "Cloudflare Kitesurf: AI Browser for Solo Builders, No Code Required"
 date: 2026-08-21
 draft: false
 description: "Cloudflare Kitesurf is a browser built for AI agents, not humans. Here's what solo builders need to know about this new headless browser."

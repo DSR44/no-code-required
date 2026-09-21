@@ -22,7 +22,6 @@ faqs:
   - q: "Can I fine-tune NousCoder-14B for my specific project needs?"
     a: "Absolutely. Being open-source, you can fine-tune it on your own data to better understand your project's context, terminology, or coding style. This customization is a key advantage over many closed-source models."
 lastmod: 2026-09-12
-
 ---
 {{< audio src="/audio/nouscoder-14b-open-source-coding-for-solo-builders.mp3" >}}
 

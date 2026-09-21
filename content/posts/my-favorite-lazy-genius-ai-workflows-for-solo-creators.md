@@ -1,5 +1,5 @@
 ---
-title: "Lazy-Genius AI Workflows for Solo Creators | No Code"
+title: "Lazy-Genius AI Workflows for Solo Creators | No Code Required"
 date: 2026-06-06
 draft: false
 description: "Simple ai automation ideas for small business that save time — 5 copy-paste workflows I actually use every week as a solo creator."
