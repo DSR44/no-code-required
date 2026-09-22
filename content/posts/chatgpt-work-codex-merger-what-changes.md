@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Work Absorbs Codex: What Non-Coders Need to Know | NCR"
+title: "ChatGPT Absorbs Codex: What Non-Coders Need to Know"
 date: 2026-07-23
 draft: false
 description: "I tested ChatGPT's new coding tool, Codex, to see if it's actually useful for non-coders. Here's what happened and how you can use it too."

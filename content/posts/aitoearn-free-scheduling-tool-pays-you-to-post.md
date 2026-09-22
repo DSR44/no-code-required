@@ -1,5 +1,5 @@
 ---
-title: "AiToEarn: Free Scheduler That Pays You to Post | No Code"
+title: "AiToEarn: Free Scheduler That Pays You to Post, No Code"
 date: 2026-06-06
 draft: false
 description: "AiToEarn is a free open-source social media scheduler with a built-in monetization marketplace. Post content, earn money from brand tasks."

@@ -1,5 +1,5 @@
 ---
-title: "AI Orchestrators: One Model Controlling All the Others"
+title: "AI Orchestrators: One Model Controlling All Others, No Code Required"
 date: 2026-05-26
 draft: false
 description: "AI orchestrators route tasks across Claude, GPT, and Gemini automatically. Here's what that means for how you build with AI tools."

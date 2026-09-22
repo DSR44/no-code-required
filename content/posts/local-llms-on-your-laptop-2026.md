@@ -1,5 +1,5 @@
 ---
-title: "Local LLMs in 2026: When Laptop AI Makes Sense"
+title: "Local LLMs in 2026: When Laptop AI Makes Sense — No Code Needed"
 date: 2026-08-22
 draft: false
 description: "Running AI models on your own laptop isn't just for developers anymore. Here's when local LLMs make practical sense in 2026."
