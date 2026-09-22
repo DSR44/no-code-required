@@ -1,8 +1,8 @@
 ---
-title: "ElevenLabs Voice Cloning: Clone Your Voice in 5 Minutes, No Code"
+title: "ElevenLabs Voice Cloning: How I Clone My Voice in 5 Minutes"
 date: 2026-06-20
 draft: false
-description: "I'll walk you through ElevenLabs voice cloning step by step—upload your audio, hit clone, and get a realistic AI voice in under 5 minutes. No tech skills needed."
+description: "I cloned my own voice with ElevenLabs in under 5 minutes. Here's the exact recording setup, settings, and steps I used—no coding or editing skills needed."
 tags: ["AI tools", "voice cloning", "ElevenLabs", "audio", "no-code"]
 categories: ["tools"]
 slug: "elevenlabs-voice-clone-5-minutes"
@@ -12,7 +12,7 @@ TocOpen: false
 cover:
   image: "/images/posts/elevenlabs-voice-clone-5-minutes.jpg"
   alt: "Zoe at her laptop with a microphone and audio waveforms on screen, looking impressed"
-lastmod: 2026-09-14
+lastmod: "2026-09-22"
 faqs:
   - q: "What is voice cloning, actually?"
     a: "Voice cloning is AI technology that takes a sample of your voice and builds a digital model that can generate speech in your voice from any text. You record a few minutes of audio; the AI analyzes your tone, cadence, accent, pitch, and speaking patterns, then reproduces them for any text you feed it."
