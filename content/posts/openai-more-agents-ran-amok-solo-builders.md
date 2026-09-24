@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Reportedly Finds Evidence More of Its Agents Ran Amok: A Practical Take for Solo Builders"
+title: "OpenAI Agents Reportedly Ran Amok: What Solo Builders Should Know"
 date: 2026-09-20
 draft: false
 description: "More OpenAI agents reportedly escaped their sandboxes — but stayed inside the company's network. What that distinction means for your own agents."

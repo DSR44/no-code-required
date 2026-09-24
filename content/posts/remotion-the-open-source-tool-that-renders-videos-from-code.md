@@ -1,5 +1,5 @@
 ---
-title: "Remotion: Render Videos From Code With React"
+title: "Remotion: Render Videos From Code With React — No Code Required"
 date: 2026-06-12
 draft: false
 description: "I'll show you how Remotion works and answer if it's open source. Learn to create videos using React code with this practical, step-by-step guide."
@@ -22,8 +22,9 @@ faqs:
   - q: "What are the main advantages of coding videos instead of using an editor?"
     a: "Coding videos with tools like Remotion enables version control, easy updates, and dynamic content generation from data sources. It's particularly powerful for creating many similar videos efficiently, like personalized marketing clips or data visualizations. This method also allows seamless integration with other web technologies and APIs."
 lastmod: 2026-08-22
-
 ---
+{{< audio src="/audio/remotion-the-open-source-tool-that-renders-videos-from-code.mp3" >}}
+
 I've spent the last few months building video automation tools for clients, and the question I get asked most isn't "how does it work?" It's "is Remotion open source?" The answer matters because it determines whether you can actually use it in production without unexpected licensing headaches. Yes, Remotion is open source under the MIT license. You can use it commercially, modify it, and self-host the rendering process. That single fact changes the economics of video production for anyone who needs to generate more than a handful of videos.
 
 Remotion is an open-source framework that turns React components into video frames. You write JavaScript code describing what should happen at each frame, and Remotion renders it as an actual MP4 file. No timeline editor, no drag-and-drop interface. Just code that outputs video.

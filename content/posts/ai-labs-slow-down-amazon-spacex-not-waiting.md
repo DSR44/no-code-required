@@ -1,5 +1,5 @@
 ---
-title: "AI Labs Want to Slow Down. Amazon and SpaceX Are Not Waiting"
+title: "AI Labs Want to Slow Down. Amazon and SpaceX Won't Wait"
 date: 2026-09-21
 draft: false
 description: "AI labs say they want to slow down. Amazon and SpaceX are building compute in orbit. What the gap means for solo builders using AI tools."

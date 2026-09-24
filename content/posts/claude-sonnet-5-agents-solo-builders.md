@@ -1,5 +1,5 @@
 ---
-title: "Claude Sonnet 5: Affordable AI Agents for Solo Builders"
+title: "Claude Sonnet 5: Affordable AI Agents for Solo Builders, No Code"
 date: 2026-07-04
 draft: false
 description: "Claude Sonnet 5 delivers near-Opus agent performance at 60% lower cost. Here's what solo builders need to know before migrating."

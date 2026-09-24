@@ -1,5 +1,5 @@
 ---
-title: "Even Sam Altman Wants to Slow Down AI Now"
+title: "Even Sam Altman Wants to Slow Down AI Now | No Code Required"
 date: 2026-09-22
 draft: false
 description: "Sam Altman endorsed slowing AI down. Now four subscribers are suing the labs over the pact. What the antitrust lawsuit means for what you pay."
@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/sam-altman-slow-down-ai-antitrust-lawsuit.jpg"
   alt: "Zoe at a laptop reading court filings and AI safety essays, coffee shop table with printed legal documents"
+faqs:
+  - q: "What the lawsuit actually says"
+    a: "On September 18, four subscribers of ChatGPT, Claude, Grok, and Gemini filed in the Northern District of California, seeking to represent paying users nationwide. Their claim is simple and, honestly, well-aimed: Anthropic, OpenAI, Google, and SpaceXAI didn't each independently decide to slow down for safety. They coordinated. And competitors who agree to restrain output — even when the output is \""
+  - q: "Why the timing is brutal for the labs"
+    a: "The lawsuit landed mid-week into a Washington scrum that already had everyone's calendar full. OpenAI published a call for the US to lead global technical standards for frontier AI, including recursive self-improvement — that's the lab asking for rules, which would have sounded dystopian from them two years ago. Altman was scheduled to address the UN Security Council. Treasury Secretary Bessent fl"
+  - q: "What it means for what you pay"
+    a: "Here's where this stops being a Washington story and becomes your invoice. If you pay for one or more AI subscriptions, the plaintiffs' theory is that your subscription is depreciating on purpose. Slower model progress means the $200 tier you pay for stays the $200 tier for longer without getting better. I broke down how the subscription price war reshaped what solo builders should pay — that enti"
 ---
 {{< audio src="/audio/sam-altman-slow-down-ai-antitrust-lawsuit.mp3" >}}
 
