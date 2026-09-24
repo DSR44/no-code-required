@@ -21,7 +21,7 @@ faqs:
   - q: "What are the limitations of Muse Spark 1.1?"
     a: "Meta is late. Anthropic and OpenAI have been iterating on their coding models for years. Claude Code already has a loyal developer base. OpenAI's Codex is deeply integrated into developer workflows. Meta has to prove Spark is reliable in real-world use, not just competitive on benchmarks."
   - q: "How does Muse Spark 1.1 compare to Claude and Codex?"
-    a: "| Feature | Muse Spark 1.1 | Claude (Anthropic) | Codex (OpenAI) | |---------|---------------|-------------------|----------------| | Agentic coding | Yes | Yes (Claude Code) | Yes | | Multi-step workflows | Yes | Yes | Yes | | Pricing (input) | $1.25/M tokens | Varies by model | Varies by model | | Open-source base | Partial (Llama lineage) | No | No | | Developer ecosystem | Early | Mature | Mat"
+    a: "Spark 1.1 does agentic coding and multi-step workflows, same as Claude Code and Codex. Input pricing sits at $1.25 per million tokens, versus variable model pricing for Claude and Codex. Its base has partial open-source Llama lineage where the rivals are closed. The clear gap: the developer ecosystem is early, where Claude's is mature and Codex is maturing fast."
   - q: "What should no-code builders do right now?"
     a: "Do not switch yet. Spark is brand new. Let the early adopters find the bugs. If you have a working pipeline with Claude or Codex, keep it running."
 ---

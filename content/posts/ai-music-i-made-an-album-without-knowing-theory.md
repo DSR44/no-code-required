@@ -16,7 +16,7 @@ faqs:
   - q: "Which AI music tool should someone with zero musical background use?"
     a: "Suno. I tested three — Suno, Udio, and AIVA — and for a complete beginner who wants full songs with vocals, Suno wins by a wide margin."
   - q: "How do the major AI music tools compare?"
-    a: "| Tool | Best for | Vocals | Free tier | Commercial use | |------|---------|--------|-----------|----------------| | Suno | Complete songs, beginners | Yes, excellent | 10 songs/day | Paid plans | | Udio | High fidelity, control | Yes, good | Limited | Paid plans | | AIVA | Instrumental, classical, scoring | No | 3 downloads/month | Paid plans | | Beatoven.ai | Background music, video | No | Limit"
+    a: "Suno is best for complete songs with vocals and has the friendliest free tier at 10 songs a day. Udio offers higher fidelity and finer control, with a limited free tier. AIVA skips vocals entirely and is the pick for instrumental and classical scoring, with three downloads a month free. Beatoven.ai focuses on background music for video. All four gate serious commercial use behind paid plans."
   - q: "What surprised me most about making an AI album?"
     a: "The vocals. I expected something robotic and uncanny. Instead, certain genres produced output that genuinely sounds like a real singer — enough that I played the album for three people and none guessed it was AI-generated."
 ---

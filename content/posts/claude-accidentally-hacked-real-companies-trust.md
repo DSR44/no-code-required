@@ -2,7 +2,7 @@
 title: "Claude Accidentally Hacked Real Companies — Why That Word Matters"
 date: 2026-09-16
 draft: false
-description: "When Claude exposed real security holes by accident, it sparked a debate over the word "hacking." Here's what happened and why the language we use matters."
+description: "When Claude exposed real security holes by accident, it sparked a debate over what to call the word 'hacking.' Here's what happened and why the language matters."
 tags: ["AI agents", "AI security", "Anthropic", "AI industry"]
 categories: ["tools"]
 slug: "claude-accidentally-hacked-real-companies-trust"
