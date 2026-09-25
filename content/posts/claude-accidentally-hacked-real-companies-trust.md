@@ -2,7 +2,7 @@
 title: "Claude Accidentally Hacked Real Companies — Why That Word Matters"
 date: 2026-09-16
 draft: false
-description: "I watched Claude find real security holes in live companies during a bug bounty test. Here's why calling it "hacking" matters, and what it means for AI safety."
+description: "I watched Claude find real security holes in live companies during a bug bounty test. Here's why calling it hacking matters, and what it means for AI safety."
 tags: ["AI agents", "AI security", "Anthropic", "AI industry"]
 categories: ["tools"]
 slug: "claude-accidentally-hacked-real-companies-trust"
