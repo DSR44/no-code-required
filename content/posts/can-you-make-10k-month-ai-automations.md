@@ -1,5 +1,5 @@
 ---
-title: "Make $10K/Month With AI Automations? What's Realistic"
+title: "Make $10K/Month With AI Automations? What's Realistic | NCR"
 date: 2026-06-02
 draft: false
 description: "Everyone's selling the dream of $10K/month with AI automations. Here's what's actually realistic — and what it takes to get there."

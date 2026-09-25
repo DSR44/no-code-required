@@ -1,5 +1,5 @@
 ---
-title: "Ordering DoorDash From the Command Line: The 2-Month Reality Check"
+title: "Ordering DoorDash From the Command Line: A 2-Month Reality Check"
 date: 2026-09-24
 draft: false
 description: "DoorDash's dd-cli is two months old now. What's actually in the tool, who can use it, and whether you should let an AI agent spend your money."
@@ -12,6 +12,11 @@ TocOpen: false
 cover:
   image: "/images/posts/doordash-command-line-reality-check.jpg"
   alt: "Zoe in a cozy home office at a laptop with a terminal window open, coffee mug nearby"
+faqs:
+  - q: "What's actually in the tool now"
+    a: "The feature list is wider than the launch coverage suggested. Beyond the basics, current builds support saved addresses and default selection, card payment methods, store and menu search, individual and group carts, building a cart from a shopping list, listing and applying eligible promos, applying company or employee payment budgets, order preview with full pricing, pickup or delivery, ASAP or s"
+  - q: "What this says about where commerce is going"
+    a: "The reason I keep covering this unglamorous tool: it's the cleanest live example of companies rebuilding their products for agents instead of screens. DoorDash now has ordering surfaces in iMessage, a chatbot, ChatGPT, Claude connectors, and the terminal. Each one is a bet that the next order won't start in their app. The same pattern showed up in Salesforce making its own interface optional this "
 ---
 {{< audio src="/audio/doordash-command-line-reality-check.mp3" >}}
 
