@@ -1,5 +1,5 @@
 ---
-title: "Amazon Just Blocked Meta's AI Agent From Shopping — Here's Why That Matters to You"
+title: "Amazon Blocked Meta's AI Shopping Agent — Why It Matters to You"
 date: 2026-09-25
 draft: false
 description: "Amazon blocked Meta's Muse AI agent from shopping on Amazon.com. What the agentic shopping standoff means for solo builders using AI agents."
@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/meta-muse-blocked-amazon-agentic-shopping.jpg"
   alt: "Zoe in a cozy home office looking at a laptop showing a blocked AI agent checkout error"
+faqs:
+  - q: "What actually happened"
+    a: "Meta's Muse can research products and assemble a cart. When users pushed it toward purchasing on Amazon, Amazon's systems flagged the agent and returned a compliance error instead of an order. GeekWire first spotted it, and Amazon isn't pretending it's a bug — the message reads as a deliberate enforcement action. Meta's agent isn't hacked or jailbroken; it's behaving exactly as designed. It's just"
+  - q: "Why Amazon is hesitating — and why that's temporary"
+    a: "Amazon's position makes sense beyond rivalry. Agentic commerce means re-litigating who's accountable for mistakes, whether agents can apply promos meant for humans, and how you price a customer who never sees a page. Those are policy questions, not engineering ones."
+  - q: "What to do while the fight plays out"
+    a: "If you're tempted to point a browser agent at Amazon today, don't build a business on it — that's the one outcome Amazon has explicitly prohibited, and it's the same lesson from my piece on what tool calling actually means: an agent is only as trustworthy as the access you gave it, and here the platform itself will take that access away."
 ---
 {{< audio src="/audio/meta-muse-blocked-amazon-agentic-shopping.mp3" >}}
 

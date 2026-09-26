@@ -1,5 +1,5 @@
 ---
-title: "How to Make a Legal AI Cover on Spotify in 2 Minutes"
+title: "Make a Legal AI Cover on Spotify in 2 Minutes — No Code Needed"
 date: 2026-06-22
 draft: false
 description: "I'll show you exactly how to create a legal AI cover on Spotify using Spotify Kit AI. Step-by-step, no jargon, ready in 2 minutes."
@@ -22,7 +22,6 @@ faqs:
     a: "No, Spotify Kit AI is designed for beginners with no technical background. The step-by-step process guides you through uploading your audio and selecting the AI voice style."
   - q: "Can I monetize AI-generated covers on Spotify?"
     a: "Yes, AI covers created through Spotify's official tools can be distributed and monetized like any other track, provided you comply with their content policies and have the necessary rights to the original material."
-
 ---
 {{< audio src="/audio/spotify-ai-covers-how-to.mp3" >}}
 

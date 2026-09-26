@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Researcher's $2B AI Startup: Solo Builder Takeaways"
+title: "OpenAI Researcher's $2B AI Startup: Takeaways for Solo Builders"
 date: 2026-07-26
 draft: false
 description: "An OpenAI researcher is leaving to build an AI drug discovery startup at a $2B valuation. What this means for solo builders using AI tools."
