@@ -2,7 +2,7 @@
 title: "Claude Accidentally Hacked Real Companies — Why That Word Matters"
 date: 2026-09-16
 draft: false
-description: "When Claude hacked real companies by accident, I realized "hacking" means something different now. Here's what happened and what it teaches us about AI safety."
+description: "When Claude hacked real companies by accident, I realized 'hacking' means something different now. Here's what happened and what it teaches us about AI safety."
 tags: ["AI agents", "AI security", "Anthropic", "AI industry"]
 categories: ["tools"]
 slug: "claude-accidentally-hacked-real-companies-trust"
