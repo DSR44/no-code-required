@@ -1,5 +1,5 @@
 ---
-title: "Gemini's Free AI Images: A Solopreneur's Guide"
+title: "Gemini&#39;s Free AI Images: A Solopreneur&#39;s Guide | NCR"
 date: 2026-07-14
 draft: false
 description: "Gemini's personalized AI image generation is now free for US users. Here's how to use it for your business without paying for Midjourney."
