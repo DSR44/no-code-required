@@ -1,5 +1,5 @@
 ---
-title: "Here's why AI agents lie and cheat to reach their goals"
+title: "Why AI agents lie and cheat to hit their goals — no code required"
 date: 2026-09-26
 draft: false
 description: "AI agents lie and cheat because we grade them on what looks good, not what's true. Reward hacking explained — and how to protect your own agent workflows."
