@@ -1,5 +1,5 @@
 ---
-title: "Edit Videos by Talking to Google's New AI"
+title: "Edit Videos by Talking to Google's New AI — No Code Required"
 date: 2026-05-25
 draft: false
 description: "Google's Gemini Omni lets you edit videos through conversation — no timeline, no software, no experience needed. Here's how it works."

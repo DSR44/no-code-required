@@ -1,5 +1,5 @@
 ---
-title: "Grok 4.5 vs ChatGPT & Claude: What Surprised Me"
+title: "Grok 4.5 vs ChatGPT & Claude: What Surprised Me | No Code Required"
 date: 2026-07-12
 draft: false
 description: "I tested Grok 4.5 against ChatGPT and Claude so you don't have to. Here's what actually surprised me—and which AI I'd pick for real work."

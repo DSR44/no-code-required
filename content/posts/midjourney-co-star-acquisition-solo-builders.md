@@ -1,5 +1,5 @@
 ---
-title: "Midjourney bought the astrology app Co-Star: A Practical Take for Solo Builders"
+title: "Midjourney Bought Co-Star: What It Means for Solo Builders"
 date: 2026-09-28
 draft: false
 description: "Midjourney bought Co-Star and hired its founder as chief design officer. What an AI lab buying consumer-app taste means for your solo business."

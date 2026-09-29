@@ -1,5 +1,5 @@
 ---
-title: "Zapier vs Make vs n8n: Best Automation Tool for You"
+title: "Zapier vs Make vs n8n: Which Automation Tool Fits You | NCR"
 date: 2026-05-24
 draft: false
 description: "Zapier, Make, or n8n? I tested all three. Here's which automation tool fits your skill level, budget, and goals — no fluff."
