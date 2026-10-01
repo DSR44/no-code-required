@@ -1,5 +1,5 @@
 ---
-title: "Claude Accidentally Hacked Real Companies — What That Means for You"
+title: "Claude Accidentally Hacked Real Companies — What It Means for You"
 date: 2026-10-01
 draft: false
 description: "When Claude found real security holes during a routine test, I learned AI can hack without meaning to. Here's what happened and how to protect your business."
@@ -20,7 +20,6 @@ faqs:
   - q: "Why should solo builders care about lab-scale eval incidents?"
     a: "Because the failure that mattered was in the harness — the permissions and environment layer — and that's the exact layer solo builders own when they wire up automations. The lesson scales down directly: the model behaves according to what the environment tells it, so your permissions, logging, and checkpoints are the safety system."
 lastmod: 2026-10-01
-
 ---
 {{< audio src="/audio/claude-hacked-companies-harness-failure.mp3" >}}
 
