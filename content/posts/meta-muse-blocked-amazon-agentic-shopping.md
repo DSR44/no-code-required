@@ -1,5 +1,6 @@
 ---
 title: "Amazon Blocked Meta's AI Shopping Agent — Why It Matters to You"
+hiddenInHomeList: true
 date: 2026-09-25
 draft: false
 description: "Amazon blocked Meta's Muse AI agent from shopping on Amazon.com. What the agentic shopping standoff means for solo builders using AI agents."

@@ -1,5 +1,6 @@
 ---
 title: "Voice AI: what GPT-5 can actually do now"
+hiddenInHomeList: true
 date: 2026-06-16
 draft: false
 description: "GPT-5 brought real-time voice AI to a new level. Here's what changed, what you can actually use, and what it means for how we interact with AI."

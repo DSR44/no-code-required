@@ -1,5 +1,6 @@
 ---
 title: "Cursor's Free Model Rivals Claude: What It Means for You"
+hiddenInHomeList: true
 date: 2026-05-25
 draft: false
 description: "Cursor's Composer 2.5 rivals Claude Opus at a fraction of the cost. I tested both head-to-head — here's what the data actually shows."

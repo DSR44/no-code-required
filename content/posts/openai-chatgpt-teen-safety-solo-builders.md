@@ -1,5 +1,6 @@
 ---
 title: "What Solo Builders Can Copy From ChatGPT Teen Safety | NCR"
+hiddenInHomeList: true
 date: 2026-08-19
 draft: false
 description: "I break down ChatGPT's teen safety features and show you how solo builders can implement similar protections. Practical steps with real tools you can use today."

@@ -1,5 +1,6 @@
 ---
 title: "HeyGen Avatar V vs Avatar 3: Honest Comparison After Testing"
+hiddenInHomeList: true
 date: 2026-07-07
 draft: false
 description: "I tested HeyGen Avatar 3.0 against the older version so you don't have to. Here's my honest take on quality, pricing, and which one's actually worth your money."

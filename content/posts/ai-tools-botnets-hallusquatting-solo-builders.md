@@ -1,5 +1,6 @@
 ---
 title: "AI HalluSquatting Flaw: Protect Your Solo Builds | NCR"
+hiddenInHomeList: true
 slug: "ai-tools-botnets-hallusquatting-solo-builders"
 date: 2026-07-25
 draft: false

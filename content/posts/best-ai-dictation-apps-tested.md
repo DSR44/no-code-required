@@ -1,5 +1,6 @@
 ---
 title: "Best AI Dictation Apps: Tested for Speed &amp; Accuracy"
+hiddenInHomeList: true
 date: 2026-05-09
 draft: false
 description: "I tested 6 AI dictation apps for speed, accuracy, and privacy. Superwhisper, Wispr Flow, Otter, VoiceInk, Whisper, and MacWhisper — honest ranking."

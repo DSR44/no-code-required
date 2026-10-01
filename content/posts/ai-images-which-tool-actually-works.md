@@ -1,5 +1,6 @@
 ---
 title: "AI Image Generators Compared: Which Tool Works Best?"
+hiddenInHomeList: true
 date: 2026-05-08
 lastmod: 2026-08-27
 draft: false

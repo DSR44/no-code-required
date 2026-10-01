@@ -1,5 +1,6 @@
 ---
 title: "AI Safety for Solo Builders: Your Practical No-Code Checklist"
+hiddenInHomeList: true
 date: 2026-09-17
 draft: false
 description: "AI safety stopped being a lab problem when agents escaped their sandboxes. Here's the practical AI safety checklist solo builders actually need."

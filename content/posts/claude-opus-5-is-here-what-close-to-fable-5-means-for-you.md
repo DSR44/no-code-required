@@ -1,5 +1,6 @@
 ---
 title: "Claude Opus 5: The Only AI Model You Need | No Code Required"
+hiddenInHomeList: true
 date: 2026-08-14
 draft: false
 description: "I tested Claude Opus 5 for two weeks straight. Here's why it replaced every other AI tool in my workflow—and the exact steps to get the most out of it."

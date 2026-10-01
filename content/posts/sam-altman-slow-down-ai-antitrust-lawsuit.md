@@ -1,5 +1,6 @@
 ---
 title: "Even Sam Altman Wants to Slow Down AI Now | No Code Required"
+hiddenInHomeList: true
 date: 2026-09-22
 draft: false
 description: "Sam Altman endorsed slowing AI down. Now four subscribers are suing the labs over the pact. What the antitrust lawsuit means for what you pay."

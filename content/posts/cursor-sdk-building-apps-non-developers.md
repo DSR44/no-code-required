@@ -1,5 +1,6 @@
 ---
 title: "Cursor's AI SDK Makes App Building Easy for Non-Developers"
+hiddenInHomeList: true
 date: 2026-05-25
 draft: false
 description: "Cursor's new SDK lets AI agents build and fix your code automatically. Here's what that means if you've never coded before."

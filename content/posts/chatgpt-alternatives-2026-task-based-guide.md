@@ -1,5 +1,6 @@
 ---
 title: "Best ChatGPT Alternatives 2026: Task-Based Guide"
+hiddenInHomeList: true
 date: 2026-07-11
 draft: false
 description: "Stop asking which AI is best. Here's which ChatGPT alternative to use for writing, coding, research, and automation — based on what you're actually building."

@@ -1,5 +1,6 @@
 ---
 title: "nano-banana: The AI Image Generator That Writes Text, No Code Required"
+hiddenInHomeList: true
 date: 2026-06-19
 draft: false
 description: "nano-banana is Google's AI image model that can render text in images correctly. I tested it against every major alternative — here's what happened."

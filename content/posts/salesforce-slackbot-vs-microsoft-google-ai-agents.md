@@ -1,5 +1,6 @@
 ---
 title: "Agentforce vs Copilot vs Google: AI Agent Picks for Solo Builders"
+hiddenInHomeList: true
 slug: "salesforce-slackbot-vs-microsoft-google-ai-agents"
 date: 2026-06-30
 draft: false

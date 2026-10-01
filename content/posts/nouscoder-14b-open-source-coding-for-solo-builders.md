@@ -1,5 +1,6 @@
 ---
 title: "NousCoder-14B: Free Open-Source AI for Solo Builders"
+hiddenInHomeList: true
 date: 2026-06-21
 draft: false
 description: "I built my whole side project with NousCoder-14B, a free open-source AI coder. Here's how solo devs can use it step by step—no API bills, no limits."

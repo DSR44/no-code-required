@@ -1,5 +1,6 @@
 ---
 title: "Make.com vs Zapier: Which Is Easier for Beginners?"
+hiddenInHomeList: true
 date: 2026-05-26
 draft: false
 description: "Make.com vs Zapier for small business owners without coding experience. I tested both as a beginner — here's which one won and why."

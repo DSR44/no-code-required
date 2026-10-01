@@ -1,5 +1,6 @@
 ---
 title: "Resend review: email marketing without the bloat | No Code Required"
+hiddenInHomeList: true
 date: 2026-06-08
 draft: false
 description: "I tested Resend for email marketing and loved how clean it is. Here's how to set it up, use AI credits wisely, and ditch bloated tools for good."

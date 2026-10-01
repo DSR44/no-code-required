@@ -1,5 +1,6 @@
 ---
 title: "How AI Calls Other Tools (And Why You Should Care)"
+hiddenInHomeList: true
 date: 2026-05-21
 draft: false
 tags: ["AI tools", "no-code", "MCP", "function calling", "agents", "automation"]

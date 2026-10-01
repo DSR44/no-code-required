@@ -1,5 +1,6 @@
 ---
 title: "ChatGPT Work: OpenAI Automation While You Sleep"
+hiddenInHomeList: true
 date: 2026-07-23
 draft: false
 description: "I set up OpenAI automation that works while I sleep—here's my step-by-step system using ChatGPT, Zapier, and Make to handle emails, content, and tasks."

@@ -1,5 +1,6 @@
 ---
 title: "OpenAI's GPT-Red: The AI Super-Hacker and What It Means for Your Agents"
+hiddenInHomeList: true
 date: 2026-09-05
 draft: false
 description: "OpenAI's GPT-Red is an LLM trained to hack other LLMs — and it found attacks humans missed. Here's what the AI security arms race means for your automations."

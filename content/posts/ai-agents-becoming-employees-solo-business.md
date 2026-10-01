@@ -1,5 +1,6 @@
 ---
 title: "AI Agents Are Becoming Employees — And Your Competitors Are Already Hiring Them"
+hiddenInHomeList: true
 date: 2026-06-25
 draft: true
 description: "NewCore raised $66M to give AI agents employee identities. Here's what that means for solo business owners."

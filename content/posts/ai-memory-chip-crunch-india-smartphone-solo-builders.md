@@ -1,5 +1,6 @@
 ---
 title: "AI Memory Chip Crunch: Cloud Costs & No-Code Impact | NCR"
+hiddenInHomeList: true
 date: 2026-07-19
 draft: false
 description: "AI data centers are starving smartphones of memory chips. Here's what the India smartphone crunch means for solo builders and no-code users."

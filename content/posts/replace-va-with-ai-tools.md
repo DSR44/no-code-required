@@ -1,5 +1,6 @@
 ---
 title: "Replacing My $500/Month VA With 3 AI Tools: The Cost Breakdown"
+hiddenInHomeList: true
 date: 2026-07-03
 draft: false
 description: "Discover how I replaced my $500/month VA with ChatGPT, Make.com, and Claude. This cost breakdown shows real tasks, real savings, and zero coding required."

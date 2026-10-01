@@ -1,5 +1,6 @@
 ---
 title: "EU AI Act Labeling Rules: A Practical Take for Solo Builders | NCR"
+hiddenInHomeList: true
 date: 2026-09-30
 draft: false
 description: "EU AI Act transparency rules are live: label AI content, disclose chatbots, use the standard icons. A solo builder's compliance checklist in one afternoon."

@@ -1,5 +1,6 @@
 ---
 title: "US Government Approves AI Models Per User | NCR — No Code Needed"
+hiddenInHomeList: true
 date: 2026-07-09
 draft: false
 description: "The U.S. government is now approving AI models customer by customer. What happened to Anthropic and OpenAI, and what it means for you."

@@ -1,5 +1,6 @@
 ---
 title: "What Is an LLM? A No-Code Explanation That Makes Sense"
+hiddenInHomeList: true
 date: 2026-05-30
 draft: false
 description: "LLMs power ChatGPT, Claude, and every AI tool you use. Here's what they actually are — explained like you've never written a line of code."

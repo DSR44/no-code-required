@@ -1,5 +1,6 @@
 ---
 title: "Claude Science: What Anthropic's Pharma Play Means for AI Builders"
+hiddenInHomeList: true
 date: 2026-07-17
 draft: false
 description: "Anthropic's Claude Science enters pharma drug discovery. Learn what this AI-first strategy means for builders, the no-code future, and healthcare innovation."

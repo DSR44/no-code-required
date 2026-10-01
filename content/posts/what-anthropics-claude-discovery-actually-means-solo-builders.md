@@ -1,5 +1,6 @@
 ---
 title: "Claude's J-Space Discovery: What Solo Builders Should Know"
+hiddenInHomeList: true
 date: 2026-07-22
 draft: false
 description: "MIT Tech Review's CS PhD interview breaks down Claude's J-Space discovery. Here's what solo builders should actually change in their AI workflows."

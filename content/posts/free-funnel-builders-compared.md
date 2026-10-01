@@ -1,5 +1,6 @@
 ---
 title: "Free Funnel Builders: Which One Actually Works?"
+hiddenInHomeList: true
 date: 2026-05-13
 draft: false
 description: "You don't need to pay $300/month for a funnel. Here are the free funnel builders that actually work — with real limits, real features, and honest comparisons."

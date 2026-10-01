@@ -1,5 +1,6 @@
 ---
 title: "AI Agent Governance Belongs in the Data Layer, Not the Prompt"
+hiddenInHomeList: true
 date: 2026-09-06
 draft: false
 description: "Enterprise architects say agent governance belongs at the data layer, not in prompts. Here's what that means when you're a solo builder with no IT department."

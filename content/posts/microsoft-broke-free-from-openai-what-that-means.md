@@ -1,5 +1,6 @@
 ---
 title: "Microsoft's OpenAI Split: What It Means for AI Users"
+hiddenInHomeList: true
 date: 2026-06-11
 draft: false
 description: "I break down what Microsoft's OpenAI split means for Copilot, ChatGPT, and Azure AI users—what changes, what doesn't, and steps to take now."

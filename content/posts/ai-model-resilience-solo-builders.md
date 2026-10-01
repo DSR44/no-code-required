@@ -1,5 +1,6 @@
 ---
 title: "Your AI Model Just Got Pulled. Now What?"
+hiddenInHomeList: true
 slug: "ai-model-resilience-solo-builders"
 date: 2026-07-09
 draft: false

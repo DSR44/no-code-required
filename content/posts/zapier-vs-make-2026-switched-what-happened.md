@@ -1,5 +1,6 @@
 ---
 title: "Zapier vs Make 2026: My Honest Switch Review — No Code Required"
+hiddenInHomeList: true
 date: 2026-07-14
 draft: false
 description: "Zapier vs Make in 2026 — real comparison after switching both tools. Pricing, features, and which automation platform actually fits your workflow."

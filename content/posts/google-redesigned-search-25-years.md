@@ -1,5 +1,6 @@
 ---
 title: "Google Redesigned Search: What Changed for Non-Coders"
+hiddenInHomeList: true
 date: 2026-06-27
 draft: false
 description: "Google just overhauled its search box with AI. Here's what changed, what it means for non-coders, and how to use the new features today."

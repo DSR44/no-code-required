@@ -1,5 +1,6 @@
 ---
 title: "AI Model Regulation: What Solo Builders Must Do Now"
+hiddenInHomeList: true
 slug: "ai-model-regulation-changes-solo-builders"
 date: 2026-07-09
 draft: false

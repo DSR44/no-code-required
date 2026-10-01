@@ -1,5 +1,6 @@
 ---
 title: "Free Home Cleaning If You Let It Record for Robot Training | NCR"
+hiddenInHomeList: true
 date: 2026-06-08
 draft: false
 description: "A startup called MicroAGI is offering free home cleaning in NYC — in exchange for recording your entire home to train robots. Here's what's actually happening."

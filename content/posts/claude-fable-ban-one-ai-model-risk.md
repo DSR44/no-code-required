@@ -1,5 +1,6 @@
 ---
 title: "Surviving AI Model Loss: Lessons from the Claude Fable Ban | NCR"
+hiddenInHomeList: true
 date: 2026-06-23
 draft: false
 description: "The White House pulled Claude Fable 5. Here's how to build AI workflows that survive when one model gets taken away."

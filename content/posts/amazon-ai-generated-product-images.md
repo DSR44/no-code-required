@@ -1,5 +1,6 @@
 ---
 title: "Spotting AI-Generated Amazon Product Images"
+hiddenInHomeList: true
 date: 2026-06-25
 draft: false
 description: "AI-generated product images are flooding Amazon listings. Here's what's happening, why it matters, and how to tell what's real."

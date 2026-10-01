@@ -1,5 +1,6 @@
 ---
 title: "Build Your First AI Workflow: No Code Needed"
+hiddenInHomeList: true
 date: 2026-05-24
 draft: false
 description: "I'll show you how to build AI workflows without writing code using tools like Zapier and Make. Follow my step-by-step guide to automate tasks and create your first workflow today."

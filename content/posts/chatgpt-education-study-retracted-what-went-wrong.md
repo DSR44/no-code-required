@@ -1,5 +1,6 @@
 ---
 title: "ChatGPT Education Study Retracted: What Went Wrong"
+hiddenInHomeList: true
 date: 2026-06-17
 draft: false
 description: "When a ChatGPT education study got retracted, I dug into what went wrong and what it teaches us about trusting AI research. Here's the story, step by step."

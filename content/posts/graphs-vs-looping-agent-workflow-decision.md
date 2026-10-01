@@ -1,5 +1,6 @@
 ---
 title: "Graphs vs Loops: When Your AI Agent Needs a Map, Not a Retry"
+hiddenInHomeList: true
 date: 2026-09-27
 draft: false
 description: "Agent loops beat graphs on sequential tasks; graphs win on branching and parallel work. A decision checklist to pick the right shape for your workflow."

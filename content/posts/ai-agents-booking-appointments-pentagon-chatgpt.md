@@ -1,5 +1,6 @@
 ---
 title: "AI Agents Book Appointments and the Pentagon Now Has ChatGPT"
+hiddenInHomeList: true
 slug: "ai-agents-booking-appointments-pentagon-chatgpt"
 date: 2026-09-01
 draft: false

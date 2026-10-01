@@ -1,5 +1,6 @@
 ---
 title: "Why Your AI Output Sucks (It's Not the AI) | No Code Required"
+hiddenInHomeList: true
 date: 2026-05-28
 draft: false
 description: "Bad AI writing usually isn't the model's fault. It's your prompt, context, and workflow. Here's what actually fixes generic output."

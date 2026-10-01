@@ -1,5 +1,6 @@
 ---
 title: "Build a Faceless YouTube Channel Free With AI Tools"
+hiddenInHomeList: true
 date: 2026-06-13
 draft: false
 description: "Build a faceless YouTube channel from zero using free AI tools. Script, voice, visuals, editing — step by step, no camera needed."

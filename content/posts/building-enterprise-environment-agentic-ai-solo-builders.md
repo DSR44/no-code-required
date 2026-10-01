@@ -1,5 +1,6 @@
 ---
 title: "Agentic AI for Solo Builders: What to Borrow From Enterprise | NCR"
+hiddenInHomeList: true
 slug: "building-enterprise-environment-agentic-ai-solo-builders"
 date: 2026-08-17
 draft: false

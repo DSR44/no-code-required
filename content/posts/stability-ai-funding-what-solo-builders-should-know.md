@@ -1,5 +1,6 @@
 ---
 title: "Stability AI's $76M Round: What Solo Builders Should Know"
+hiddenInHomeList: true
 date: 2026-08-27
 draft: false
 description: "Stability AI raised $76M from music labels and EA. Here's what that funding round means for solo builders using AI image and video tools."

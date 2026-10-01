@@ -1,5 +1,6 @@
 ---
 title: "Build a Tool That Works While You Sleep — No Code Required"
+hiddenInHomeList: true
 date: 2026-05-11
 draft: false
 description: "Everyone's building chatbots. Here's how to build something that actually solves a problem — an automation, a monitor, a system that works while you sleep."

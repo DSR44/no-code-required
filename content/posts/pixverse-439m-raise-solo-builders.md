@@ -1,5 +1,6 @@
 ---
 title: "PixVerse's $439M Raise: What Solo Builders Need to Know"
+hiddenInHomeList: true
 date: 2026-07-24
 draft: false
 description: "PixVerse raised $439M at unicorn valuation. What solo creators need to know about AI video, games, and interactive worlds."

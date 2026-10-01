@@ -1,5 +1,6 @@
 ---
 title: "Pangram Raises $9M for AI Content Detection: Solo Builder Guide"
+hiddenInHomeList: true
 slug: "pangram-ai-detection-9m-solo-builders"
 date: 2026-08-29
 draft: false

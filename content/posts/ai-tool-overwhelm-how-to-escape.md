@@ -1,5 +1,6 @@
 ---
 title: "Escape AI Tool Overwhelm: A Simple Framework — No Code Required"
+hiddenInHomeList: true
 date: 2026-06-05
 draft: false
 description: "Feeling buried under AI tools? Here's why tool overwhelm happens and a simple framework to escape it — without missing the tools that actually matter."

@@ -1,5 +1,6 @@
 ---
 title: "Claude's Memory & OpenAI's Super App: What It Means for You"
+hiddenInHomeList: true
 date: 2026-07-12
 draft: false
 description: "I break down Claude's new memory and OpenAI's app plans, showing you exactly how to use these tools to work smarter today."

@@ -1,5 +1,6 @@
 ---
 title: "The privacy problem nobody talks about"
+hiddenInHomeList: true
 date: 2026-05-23
 draft: false
 description: "Everyone worries about AI storing their data. Nobody's talking about what AI learns about you that you never said out loud."

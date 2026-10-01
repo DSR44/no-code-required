@@ -1,5 +1,6 @@
 ---
 title: "Meta's Free Muse Spark AI Codes Like GPT-5 for Solo Builders"
+hiddenInHomeList: true
 date: 2026-07-11
 draft: false
 description: "I tried Meta's free Muse Spark AI and it codes like GPT-5 — here's how solo builders can use it free today, step by step, no catch."

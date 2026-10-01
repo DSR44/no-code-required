@@ -1,5 +1,6 @@
 ---
 title: "Build a Content Engine for $60/Month — No Code Required"
+hiddenInHomeList: true
 date: 2026-06-09
 draft: false
 description: "How I run two blogs, social media, and content automation for $60/month using AI tools. No team, no code, no expensive subscriptions."

@@ -1,5 +1,6 @@
 ---
 title: "OpenAI Codex Micro: The Pattern Every AI Tool Follows"
+hiddenInHomeList: true
 date: 2026-08-11
 draft: false
 description: "OpenAI's Codex Micro follows a pattern every major technology has repeated — physical interfaces make tools accessible. Here's what that means for you."

@@ -1,5 +1,6 @@
 ---
 title: "Google Killed Its Earth AI Feature in One Day: Lessons for Solo Builders"
+hiddenInHomeList: true
 date: 2026-09-14
 draft: false
 description: "Google's Earth AI image tool survived 24 hours before backlash killed it. The launch-and-pray failure mode every solo builder should study before shipping."

@@ -1,5 +1,6 @@
 ---
 title: "Hiring an AI Agent as Your Next Employee"
+hiddenInHomeList: true
 date: 2026-06-29
 draft: false
 description: "AI agents aren't just tools anymore — they're taking on employee-level roles. Here's what that means for solo creators and small businesses."

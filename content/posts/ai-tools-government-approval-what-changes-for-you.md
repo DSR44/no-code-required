@@ -1,5 +1,6 @@
 ---
 title: "New AI Approval Process: What It Means for Your Daily Tools"
+hiddenInHomeList: true
 slug: "ai-tools-government-approval-what-changes-for-you"
 date: 2026-07-09
 draft: false

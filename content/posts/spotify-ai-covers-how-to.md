@@ -1,5 +1,6 @@
 ---
 title: "Make a Legal AI Cover on Spotify in 2 Minutes — No Code Needed"
+hiddenInHomeList: true
 date: 2026-06-22
 draft: false
 description: "I'll show you exactly how to create a legal AI cover on Spotify using Spotify Kit AI. Step-by-step, no jargon, ready in 2 minutes."

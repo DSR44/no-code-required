@@ -1,5 +1,6 @@
 ---
 title: "HeyGen Video Translation: Reach Global Audiences Fast | NCR"
+hiddenInHomeList: true
 date: 2026-07-07
 draft: false
 description: "I break down the full HeyGen language list and show you exactly how to use HeyGen Translate to reach global audiences fast."

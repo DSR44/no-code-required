@@ -1,5 +1,6 @@
 ---
 title: "AI Agents & Tool Calling Explained — No Code Required"
+hiddenInHomeList: true
 date: 2026-06-08
 draft: false
 description: "AI agents aren't just chatbots. They use tools, make decisions, and get things done. Here's what tool calling actually means in plain English."

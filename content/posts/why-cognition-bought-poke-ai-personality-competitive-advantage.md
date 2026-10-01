@@ -1,5 +1,6 @@
 ---
 title: "Cognition's AI Friend: What It Means for Solo Builders"
+hiddenInHomeList: true
 date: 2026-07-29
 draft: false
 description: "Cognition acquired Poke, an AI assistant with personality. Here's what this means for solo builders choosing AI tools in 2026."

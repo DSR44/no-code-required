@@ -1,5 +1,6 @@
 ---
 title: "AI Coding Agents Train Robots Overnight With No Code Required"
+hiddenInHomeList: true
 slug: "ai-coding-agents-taught-robots-install-gpus"
 date: 2026-07-02
 draft: false

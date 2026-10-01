@@ -1,5 +1,6 @@
 ---
 title: "From Prompting to Graphs: How AI Workflows Evolved, No Code Required"
+hiddenInHomeList: true
 date: 2026-09-04
 draft: false
 description: "AI workflows evolved from single prompts to chains, agent loops, and orchestration graphs. Here's why prompt-only systems hit a wall — and what to use instead."

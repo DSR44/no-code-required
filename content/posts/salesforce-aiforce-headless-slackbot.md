@@ -1,5 +1,6 @@
 ---
 title: "Salesforce's Slackbot AI Agent Shows Where All Software Is Heading"
+hiddenInHomeList: true
 date: 2026-09-23
 draft: false
 description: "Salesforce went headless: Slackbot AI agents, Claudeforce, and Coworker bring your CRM into Claude and Slack. What that means for you."

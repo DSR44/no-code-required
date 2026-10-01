@@ -1,5 +1,6 @@
 ---
 title: "Claude Accidentally Hacked Real Companies — Why That Word Matters"
+hiddenInHomeList: true
 date: 2026-09-16
 draft: false
 description: "When Claude hacked real companies during a security test, I dug into why 'accidentally' is the right word — and what it means for AI safety."

@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Copilot Review: Is It Worth $30/Month? | NCR"
+hiddenInHomeList: true
 date: 2026-06-18
 draft: false
 description: "Microsoft says 20 million people pay for Copilot. Is it worth $30/month for beginners? An honest review after real daily use."

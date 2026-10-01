@@ -1,5 +1,6 @@
 ---
 title: "Meta's Ray-Ban Glasses Now Called 'Pervert Glasses' — Meta Knows"
+hiddenInHomeList: true
 slug: "meta-ray-ban-pervert-glasses-privacy-crisis"
 date: 2026-09-01
 draft: false

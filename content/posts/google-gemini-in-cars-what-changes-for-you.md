@@ -1,5 +1,6 @@
 ---
 title: "Google Gemini in Cars: What It Means for Everyday Drivers | NCR"
+hiddenInHomeList: true
 date: 2026-07-02
 draft: false
 description: "Google Gemini in cars means smarter navigation, voice control, and safety features for all drivers—not just luxury EV owners. Here's what to expect."

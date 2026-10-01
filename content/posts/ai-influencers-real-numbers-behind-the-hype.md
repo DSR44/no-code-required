@@ -1,5 +1,6 @@
 ---
 title: "AI Influencers: The Real Numbers Behind the Hype"
+hiddenInHomeList: true
 date: 2026-06-07
 draft: false
 description: "I built an AI influencer and spent $500+. Here's what actually happened — the real earnings data, platform bans, and why most make $0."

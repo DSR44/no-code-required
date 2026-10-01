@@ -1,5 +1,6 @@
 ---
 title: "OpenAI's Hardware Push: What It Means for AI Users | No Code Required"
+hiddenInHomeList: true
 date: 2026-08-18
 draft: false
 description: "OpenAI is launching physical hardware while Apple sues over stolen trade secrets. Here's what it means for AI tool users."

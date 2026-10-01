@@ -1,5 +1,6 @@
 ---
 title: "OpenAI's Family of Devices: A Practical Take for Solo Builders"
+hiddenInHomeList: true
 date: 2026-09-07
 draft: false
 description: "OpenAI's president confirmed a 'family of devices' for its AI chatbots — and a voice-first future. Here's what solo builders should actually do about it now."

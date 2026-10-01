@@ -1,5 +1,6 @@
 ---
 title: "OpenAI Filed for an IPO: What It Means for ChatGPT Users"
+hiddenInHomeList: true
 date: 2026-07-02
 draft: false
 description: "Wondering when ChatGPT goes public? OpenAI just filed for an IPO — here's what that means for you, your account, and the app you use every day."

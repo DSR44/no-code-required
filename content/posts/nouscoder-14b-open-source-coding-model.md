@@ -1,5 +1,6 @@
 ---
 title: "NousCoder-14B Just Proved Open-Source AI Can Compete With Claude Code — Here's What That Means for Your Wallet"
+hiddenInHomeList: true
 date: 2026-07-06
 draft: false
 description: "Claude Code costs $200/month. NousCoder-14B is free, open source, and trained in 4 days. Here's how the AI coding landscape just shifted."

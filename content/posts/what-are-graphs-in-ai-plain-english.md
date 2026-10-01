@@ -1,5 +1,6 @@
 ---
 title: "What Are Graphs in AI? A Plain-English Intro for Solo Builders"
+hiddenInHomeList: true
 date: 2026-09-13
 draft: false
 description: "Nodes, edges, state, branching, human-in-the-loop — what AI graphs actually are, explained without a CS degree, and why they beat chat threads for real work."

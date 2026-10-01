@@ -1,5 +1,6 @@
 ---
 title: "AI Eval Harnesses: The Hidden Layer Behind Your AI Tools"
+hiddenInHomeList: true
 date: 2026-08-25
 draft: false
 description: "AI eval harnesses are the invisible software layer between you and the model. Here's what they are and why they matter for non-engineers."

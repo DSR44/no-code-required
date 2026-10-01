@@ -1,5 +1,6 @@
 ---
 title: "AI Tools Changing How We Build in 2026"
+hiddenInHomeList: true
 date: 2026-05-21
 draft: false
 tags: ["AI tools", "trends", "open source", "local AI", "automation", "2026"]

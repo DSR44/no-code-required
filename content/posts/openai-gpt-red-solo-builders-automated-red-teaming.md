@@ -1,5 +1,6 @@
 ---
 title: "OpenAI's AI Hacker Attacks Its Own Models: Lessons for Solo Builders"
+hiddenInHomeList: true
 date: 2026-09-05
 draft: false
 description: "OpenAI's GPT-Red red-teams its models with automated attacks. Here's what prompt injection and AI red-teaming mean for your solo-built automations."

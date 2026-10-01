@@ -1,5 +1,6 @@
 ---
 title: "Use Salesforce's Slackbot AI Agent Without Coding — No Code Needed"
+hiddenInHomeList: true
 date: 2026-06-25
 draft: false
 description: "I'll show you how to set up Salesforce's Slackbot AI agent step by step—no coding needed. Get your team automating tasks in minutes."

@@ -1,5 +1,6 @@
 ---
 title: "Anthropic CEO's Chinese AI Warning: What Builders Need to Know"
+hiddenInHomeList: true
 date: 2026-08-20
 draft: false
 description: "Anthropic's CEO just dropped a major warning about Chinese AI competition. Here's what it means for builders and how to stay ahead."

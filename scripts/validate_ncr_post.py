@@ -106,6 +106,24 @@ def validate_slug(slug: str) -> list[str]:
     if word_count < 800:
         errors.append(f"Word count too low ({word_count}) — target 800+ words")
 
+    if post_date >= "2026-10-02":
+        title = fm.get("title") or ""
+        if re.search(
+            r"practical take|what it means|why it matters|solo builder|lessons for"
+            r"|\|\s*ncr|the download:|reportedly|what to know about",
+            title,
+            re.I,
+        ):
+            errors.append(
+                "Title is a news recap. Rewrite as How I / How to / I tested."
+            )
+        if not re.search(r"\b(how to|how i|i tested|i tried|i built|worth it|without code)\b", title, re.I):
+            errors.append("Title must be a task (How to / How I / I tested), not a headline.")
+        if not re.search(r"(?im)^## .*(step|how|what i|do this|try this|what failed)", body):
+            errors.append("Missing a hands-on H2. Do not publish a news recap.")
+        if len(re.findall(r"\bI\b", body)) < 4:
+            errors.append("Needs first-person proof, not a third-person news recap.")
+
     return errors
 
 

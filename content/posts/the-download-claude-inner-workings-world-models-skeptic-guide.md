@@ -1,5 +1,6 @@
 ---
 title: "Claude's Inner Workings: A Solo Builder's Guide | No Code Required"
+hiddenInHomeList: true
 date: 2026-07-22
 draft: false
 description: "What a MIT Tech Review editor with a CS PhD really thinks about Claude's J-Space discovery, and what solo builders should actually change."

@@ -1,5 +1,6 @@
 ---
 title: "Gemini's Free AI Image Generation: When It's Useful"
+hiddenInHomeList: true
 slug: "gemini-free-personalized-images-google-data-practical"
 date: 2026-07-24
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "OpenAI's Hardware Push: What Builders Need to Know"
+hiddenInHomeList: true
 slug: "openai-wants-to-sell-you-hardware-what-changes"
 date: 2026-09-01
 draft: false

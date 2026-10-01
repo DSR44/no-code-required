@@ -1,5 +1,6 @@
 ---
 title: "What Solo Builders Should Learn From the $1B Cyera-Oasis Deal"
+hiddenInHomeList: true
 date: 2026-08-24
 draft: false
 description: "Cyera is buying Oasis Security for $1B to secure AI agents. Here's what that means for solo builders running agents today."

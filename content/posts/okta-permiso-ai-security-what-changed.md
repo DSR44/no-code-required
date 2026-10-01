@@ -1,5 +1,6 @@
 ---
 title: "Why Okta Paid $200M for an AI Security Company"
+hiddenInHomeList: true
 date: 2026-09-11
 draft: false
 description: "Okta just paid ~$200M for Permiso, a startup that watches what AI agents do after they get access. Here's what that tells you about where security is heading."

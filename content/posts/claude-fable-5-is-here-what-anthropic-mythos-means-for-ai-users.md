@@ -1,5 +1,6 @@
 ---
 title: "Claude Fable 5 Returns: What Anthropic Mythos Means for AI Users"
+hiddenInHomeList: true
 date: 2026-07-02
 draft: false
 description: "Claude Fable 5 was banned, then restored. Here's what Anthropic Mythos is and why it matters for anyone using AI tools."

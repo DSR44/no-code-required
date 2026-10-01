@@ -1,5 +1,6 @@
 ---
 title: "7 ChatGPT Alternatives Worth Switching To in 2026"
+hiddenInHomeList: true
 date: 2026-07-24
 draft: false
 description: "I tested 7 ChatGPT alternatives in 2026 to find what actually works better. Here's my honest breakdown of Claude, Gemini, and others with real use cases."

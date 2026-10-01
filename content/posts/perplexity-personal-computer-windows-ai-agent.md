@@ -1,5 +1,6 @@
 ---
 title: "Perplexity's AI Agent App for Windows: What It Actually Does"
+hiddenInHomeList: true
 date: 2026-08-23
 draft: false
 description: "Perplexity's Personal Computer app lets an AI agent control your files, apps, and workflows on Windows. Here's a practical look at what it does."

@@ -1,5 +1,6 @@
 ---
 title: "DoorDash CLI: What Solo Builders Need to Know About Agentic Commerce"
+hiddenInHomeList: true
 slug: "doordash-cli-agentic-commerce-solo-builders"
 date: 2026-08-03
 draft: false

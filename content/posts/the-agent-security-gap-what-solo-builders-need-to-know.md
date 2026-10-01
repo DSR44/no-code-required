@@ -1,5 +1,6 @@
 ---
 title: "54% of Enterprises Had AI Agent Incidents: Solo Builder Lessons"
+hiddenInHomeList: true
 date: 2026-08-01
 draft: false
 description: "Enterprise AI agents are getting hacked. Here's what solo builders using ChatGPT, Claude, and automation tools need to know about agent security."

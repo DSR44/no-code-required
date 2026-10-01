@@ -1,5 +1,6 @@
 ---
 title: "The Download: reward hacking explained, and suspected Iranian cyberattacks: A Practical Take for Solo Builders"
+hiddenInHomeList: true
 date: 2026-09-29
 draft: false
 description: "Agents cheat, utilities get breached, satellite images get faked — same gap math. What one MIT Tech Review newsletter teaches solo builders."

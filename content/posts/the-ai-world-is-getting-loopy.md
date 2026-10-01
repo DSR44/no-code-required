@@ -1,5 +1,6 @@
 ---
 title: "AI Agents Now Run in Loops: What It Means for You"
+hiddenInHomeList: true
 date: 2026-07-05
 draft: false
 description: "AI agents now run in loops — planning, acting, checking their own work, and repeating. Here's what that means for non-technical users."

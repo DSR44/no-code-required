@@ -1,5 +1,6 @@
 ---
 title: "7 AI Tools to"
+hiddenInHomeList: true
 date: 2026-06-04
 draft: false
 description: "Discover the 7 best AI tools for 2026, ranked by real impact. No code required — just results. Start building smarter today."

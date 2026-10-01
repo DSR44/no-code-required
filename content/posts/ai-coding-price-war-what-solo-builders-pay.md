@@ -1,5 +1,6 @@
 ---
 title: "AI Coding Price War 2026: What Solo Builders Actually Pay"
+hiddenInHomeList: true
 slug: "ai-coding-price-war-what-solo-builders-pay"
 date: 2026-07-13
 draft: false

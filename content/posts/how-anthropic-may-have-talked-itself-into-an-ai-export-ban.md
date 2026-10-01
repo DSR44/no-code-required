@@ -1,5 +1,6 @@
 ---
 title: "How Anthropic May Have Talked Itself Into an AI Export Ban"
+hiddenInHomeList: true
 date: 2026-07-05
 draft: false
 description: "I unpack the recent news about Anthropic and the potential export ban, explaining exactly how their public safety statements might have landed them in this regulatory hot water."

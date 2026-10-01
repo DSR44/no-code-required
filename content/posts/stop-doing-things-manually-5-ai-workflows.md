@@ -1,5 +1,6 @@
 ---
 title: "5 AI Workflows That Save Hours Weekly — No Code Needed"
+hiddenInHomeList: true
 date: 2026-06-18
 draft: false
 description: "5 practical AI workflows that automate repetitive tasks — no code needed. Save hours every week with tools you can set up today."

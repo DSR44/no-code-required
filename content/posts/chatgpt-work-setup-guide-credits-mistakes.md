@@ -1,5 +1,6 @@
 ---
 title: "ChatGPT Work: 3 Costly Mistakes Before Your First Workflow"
+hiddenInHomeList: true
 date: 2026-07-23
 draft: false
 description: "ChatGPT Work launched July 9. Before you burn credits on your first workflow, here's what it actually costs and 3 setup mistakes to avoid."

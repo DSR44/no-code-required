@@ -1,5 +1,6 @@
 ---
 title: "AI Guardrails vs Offensive Security Researchers — No Code Needed"
+hiddenInHomeList: true
 date: 2026-08-06
 draft: false
 description: "AI safety guardrails collapse when attackers simply claim permission. What Cisco Talos and AISI found means for solo builders using AI tools."

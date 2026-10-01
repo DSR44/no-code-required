@@ -1,5 +1,6 @@
 ---
 title: "Okta's $200M AI Security Bet: The Agent-Vetting Market Begins"
+hiddenInHomeList: true
 date: 2026-09-12
 draft: false
 description: "Okta's $200M Permiso deal isn't about logins — it's the start of an agent-vetting market. What the math says and how builders should read it."

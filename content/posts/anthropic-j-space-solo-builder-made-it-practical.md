@@ -1,5 +1,6 @@
 ---
 title: "Anthropic's J-Lens: Understanding AI Behavior Made Simple"
+hiddenInHomeList: true
 date: 2026-07-27
 draft: false
 description: "I break down Anthropic's J-Lens tool—what it does, why it matters, and how you can use it to understand AI behavior. No PhD required."

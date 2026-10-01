@@ -1,5 +1,6 @@
 ---
 title: "AI's Groupthink Problem: A Startup Fix for Solo Builders"
+hiddenInHomeList: true
 slug: "ai-groupthink-startup-solution-solo-builders-2026"
 date: 2026-07-18
 draft: false

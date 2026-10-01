@@ -1,5 +1,6 @@
 ---
 title: "Testing 10 AI Writing Tools: What Actually Works"
+hiddenInHomeList: true
 date: 2026-05-18
 draft: false
 tags: ["AI tools", "AI writing", "Jasper", "ChatGPT", "Claude", "no-code", "beginner", "review"]

@@ -1,5 +1,6 @@
 ---
 title: "OpenAI Codex Macro Pad: AI Hardware for Non-Coders | NCR"
+hiddenInHomeList: true
 date: 2026-08-04
 draft: false
 description: "OpenAI is launching a physical macro pad for Codex with Work Louder. Here's what it means for non-coders and why AI hardware is becoming a trend."

@@ -1,5 +1,6 @@
 ---
 title: "Best AI Image Generators in 2026: Tested & Ranked"
+hiddenInHomeList: true
 date: 2026-05-21
 draft: false
 tags: ["AI tools", "image generation", "Midjourney", "DALL-E", "Flux", "free tools"]

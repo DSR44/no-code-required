@@ -1,5 +1,6 @@
 ---
 title: "AI Model Approvals: What Solo Builders Must Know Now"
+hiddenInHomeList: true
 date: 2026-07-09
 draft: false
 description: "The Anthropic vs OpenAI rivalry is over. US government model approvals now affect every solo builder using AI tools. Here's what to do."

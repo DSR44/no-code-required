@@ -1,5 +1,6 @@
 ---
 title: "General Intuition's $2.3B Bet on Video Game Data for AI"
+hiddenInHomeList: true
 date: 2026-07-07
 draft: false
 description: "General Intuition raised $2.3B training AI on gameplay data. Here's why action labels beat raw video for spatial AI."

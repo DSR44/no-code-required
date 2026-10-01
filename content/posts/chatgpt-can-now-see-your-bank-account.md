@@ -1,5 +1,6 @@
 ---
 title: "ChatGPT Bank Account Access: Should You Connect?"
+hiddenInHomeList: true
 date: 2026-05-19
 draft: false
 tags: ["AI tools", "ChatGPT", "privacy", "personal finance", "no-code", "security", "OpenAI"]

@@ -1,5 +1,6 @@
 ---
 title: "My AI Tool Mistakes: Skip Them &amp; Start Right | NCR"
+hiddenInHomeList: true
 date: 2026-05-16
 draft: false
 tags: ["AI tools", "mistakes", "beginner", "productivity", "lessons learned"]

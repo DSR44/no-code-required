@@ -1,5 +1,6 @@
 ---
 title: "OpenAI's Talent Exodus: A Massive Opportunity for Solo Builders"
+hiddenInHomeList: true
 date: 2026-07-26
 draft: false
 description: "OpenAI's talent exodus is shaking up the AI world. I'm breaking down what this means for solo builders and how you can capitalize on it right now."

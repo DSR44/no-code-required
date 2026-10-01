@@ -1,5 +1,6 @@
 ---
 title: "Best No-Code AI Agent Frameworks 2026 Comparison"
+hiddenInHomeList: true
 date: 2026-07-07
 draft: false
 description: "Confused by AI agent frameworks? Here's an honest comparison of LangGraph, CrewAI, OpenClaw, and Hermes — written for people who don't code."

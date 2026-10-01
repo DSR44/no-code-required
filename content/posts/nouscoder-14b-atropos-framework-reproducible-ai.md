@@ -1,5 +1,6 @@
 ---
 title: "NousCoder-14B & Atropos: What Fully Reproducible AI Means"
+hiddenInHomeList: true
 date: 2026-07-05
 draft: false
 description: "Nous Research open-sourced NousCoder's entire training pipeline — not just weights. Here's why that changes everything for AI coding tools."

@@ -1,5 +1,6 @@
 ---
 title: "n8n vs Zapier 2026: Honest Comparison for Non-Coders"
+hiddenInHomeList: true
 slug: "n8n-vs-zapier-2026-honest-comparison"
 date: 2026-07-09
 draft: false

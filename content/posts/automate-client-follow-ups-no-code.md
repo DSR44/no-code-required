@@ -1,5 +1,6 @@
 ---
 title: "Automate Client Follow-Ups in an Afternoon (No Code)"
+hiddenInHomeList: true
 date: 2026-05-23
 draft: false
 description: "Learn how to automate client follow-ups without any code. A practical guide for solo business owners using Make.com — built and tested in an afternoon."

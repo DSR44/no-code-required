@@ -1,5 +1,6 @@
 ---
 title: "Apple Shortcuts AI: Build Workflows With Plain Language"
+hiddenInHomeList: true
 date: 2026-06-28
 draft: false
 description: "I'll show you how to use iOS 27's new AI actions in Shortcuts to build powerful workflows just by describing what you want in plain language."

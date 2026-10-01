@@ -1,5 +1,6 @@
 ---
 title: "ByteDance's Massive AI Model vs Anthropic: What Solo Builders Need"
+hiddenInHomeList: true
 date: 2026-09-03
 draft: false
 description: "I compared ByteDance's huge new AI model to Claude for real solo projects—here's what actually worked, what to skip, and which one I now use daily."

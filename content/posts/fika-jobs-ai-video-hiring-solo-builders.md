@@ -1,5 +1,6 @@
 ---
 title: "AI Agents Run Job Interviews: What Solo Builders Need to Know"
+hiddenInHomeList: true
 date: 2026-07-06
 draft: false
 description: "AI agents now conduct job interviews, reshaping hiring for solo builders. Learn what this shift means for your no-code business and how to adapt."

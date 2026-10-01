@@ -1,5 +1,6 @@
 ---
 title: "Vibe Coding Built My App Fast. Then It Broke. No Code Required"
+hiddenInHomeList: true
 date: 2026-06-28
 draft: false
 description: "Vibe coding sounds magical — build apps without coding. Here's what happens when AI-generated code breaks and you can't read it."

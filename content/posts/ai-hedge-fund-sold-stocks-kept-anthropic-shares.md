@@ -1,5 +1,6 @@
 ---
 title: "AI Hedge Fund Sold Its Stocks but Kept Its Anthropic Stake — Why It Matters"
+hiddenInHomeList: true
 date: 2026-09-10
 draft: false
 description: "I dug into why an AI hedge fund dumped its stocks but held Anthropic — here's what it tells us about betting on AI infrastructure over public markets."

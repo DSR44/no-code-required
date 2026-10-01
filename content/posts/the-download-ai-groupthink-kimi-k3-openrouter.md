@@ -1,5 +1,6 @@
 ---
 title: "Breaking AI Groupthink: Model Diversity as Your Edge"
+hiddenInHomeList: true
 date: 2026-07-18
 draft: false
 description: "Every major AI model is converging on the same answers. Here's what that means for your work, and how to use model diversity as a competitive edge."

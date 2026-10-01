@@ -1,5 +1,6 @@
 ---
 title: "Meta's AI Tools for Solo Builders: What to Know | No Code Required"
+hiddenInHomeList: true
 date: 2026-08-28
 draft: false
 description: "Meta is expanding beyond agents into enterprise AI APIs and compute. Here's what solo builders should know about the opportunity."

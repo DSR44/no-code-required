@@ -1,5 +1,6 @@
 ---
 title: "Make.com Pricing 2026: Is the Free Plan Enough?"
+hiddenInHomeList: true
 date: 2026-07-08
 draft: false
 description: "I tested Make.com's free plan for 30 days — here's what you can actually build without paying, plus when upgrading to a paid plan is worth it."

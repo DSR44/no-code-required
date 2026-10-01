@@ -1,5 +1,6 @@
 ---
 title: "Vertu's $6,880 AI Agent Runs Free Open-Source Tech — No Code"
+hiddenInHomeList: true
 date: 2026-08-02
 draft: false
 description: "Vertu's luxury phone runs an AI agent on open-source tech you can deploy today. Here's what the $6,880 price tag actually teaches solo builders."

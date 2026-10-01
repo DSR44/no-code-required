@@ -1,5 +1,6 @@
 ---
 title: "Remotion: Render Videos From Code With React — No Code Required"
+hiddenInHomeList: true
 date: 2026-06-12
 draft: false
 description: "I'll show you how Remotion works and answer if it's open source. Learn to create videos using React code with this practical, step-by-step guide."

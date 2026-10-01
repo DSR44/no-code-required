@@ -1,5 +1,6 @@
 ---
 title: "Claude Accidentally Hacked Real Companies — What It Means for You"
+hiddenInHomeList: true
 date: 2026-10-01
 draft: false
 description: "When Claude found real security holes during a routine test, I learned AI can hack without meaning to. Here's what happened and how to protect your business."

@@ -1,5 +1,6 @@
 ---
 title: "Protect Your ChatGPT Account With Hardware Security Keys"
+hiddenInHomeList: true
 date: 2026-05-25
 draft: false
 description: "OpenAI partnered with Yubico for hardware security keys. Here's what that means for keeping your ChatGPT account safe."

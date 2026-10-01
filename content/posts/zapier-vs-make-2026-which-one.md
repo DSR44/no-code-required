@@ -1,5 +1,6 @@
 ---
 title: "Zapier vs Make 2026: Which Automation Tool Wins?"
+hiddenInHomeList: true
 date: 2026-07-21
 draft: false
 description: "Zapier and Make both automate your workflows, but they've diverged in 2026. Here's an honest comparison to help you pick the right one."

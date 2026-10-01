@@ -1,5 +1,6 @@
 ---
 title: "AI Fitness Coaching Tools That Actually Work — No Code Required"
+hiddenInHomeList: true
 date: 2026-05-30
 draft: false
 description: "I tested AI tools specifically for fitness coaching — client management, scheduling, progress tracking, and content. Here's what actually works and what's hype."

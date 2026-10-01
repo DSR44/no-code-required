@@ -1,5 +1,6 @@
 ---
 title: "The one prompt that changed everything"
+hiddenInHomeList: true
 date: 2026-05-07
 draft: false
 description: "Meta-prompting: the technique where you ask AI to improve your prompts before it answers. I tested it for 3 months. Here's what actually happened."

@@ -1,5 +1,6 @@
 ---
 title: "Goose: The Free Open-Source Alternative to Claude Code"
+hiddenInHomeList: true
 date: 2026-06-26
 draft: false
 description: "I compare Goose and Claude Code head-to-head—setup, features, and real coding tasks—so you can pick the right AI coding tool without guessing."

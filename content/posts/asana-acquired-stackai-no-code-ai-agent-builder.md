@@ -1,5 +1,6 @@
 ---
 title: "Asana Acquires No-Code AI Agent Builder StackAI"
+hiddenInHomeList: true
 date: 2026-06-21
 draft: false
 description: "I break down Asana's StackAI acquisition and what it means for your workflow. Learn how to build your first Asana AI agent step by step."

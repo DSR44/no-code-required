@@ -1,5 +1,6 @@
 ---
 title: "AI Leaderboards Exposed: Benchmark Loopholes Revealed"
+hiddenInHomeList: true
 date: 2026-06-22
 draft: false
 description: "AI benchmark scores are how most of us pick tools. But new data shows Claude Opus and GPT-5 tank when tested on code they've never seen. Here's what that means."

@@ -17,7 +17,7 @@ canonifyURLs = true
   description = "Learn AI and no-code tools without the jargon. Honest tutorials, tool reviews, and step-by-step guides for non-technical people."
   homeTitle = "No Code Required — AI & No-Code Tool Guides for Beginners"
   hreflang = "en"
-  author = "NCR"
+  author = "Manal"
   env = "production"
   images = ["/images/og-default.jpg"]
 

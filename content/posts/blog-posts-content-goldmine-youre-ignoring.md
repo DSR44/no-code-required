@@ -1,5 +1,6 @@
 ---
 title: "Your Blog Posts Are a Content Goldmine You're Ignoring | NCR"
+hiddenInHomeList: true
 slug: "blog-posts-content-goldmine-youre-ignoring"
 date: 2026-09-01
 draft: false

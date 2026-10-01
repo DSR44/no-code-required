@@ -1,5 +1,6 @@
 ---
 title: "Video-First Hiring: What Solo Builders Need to Know and Build"
+hiddenInHomeList: true
 date: 2026-07-07
 draft: false
 description: "Video-first hiring platforms like Fika Jobs are replacing resumes with AI video interviews. What solo builders should know — and the opportunity it creates."

@@ -1,5 +1,6 @@
 ---
 title: "57% of Enterprises Caught AI Lying: Lessons for No-Code Builders"
+hiddenInHomeList: true
 date: 2026-07-20
 draft: false
 description: "Enterprise AI has a trust problem, not a retrieval problem. Here's what the context gap means for no-code builders and solo operators."

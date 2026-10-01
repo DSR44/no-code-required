@@ -1,5 +1,6 @@
 ---
 title: "Google Gemini's Free AI Image Generation: What It Means"
+hiddenInHomeList: true
 date: 2026-07-17
 draft: false
 description: "I tried Google Gemini's free AI photo generator and here's how to use it step by step—plus what its image powers mean for you."

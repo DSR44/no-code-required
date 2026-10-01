@@ -1,5 +1,6 @@
 ---
 title: "Gemini 3.5 Flash Cyber: Security AI at a Fraction of Claude Mythos Cost"
+hiddenInHomeList: true
 date: 2026-08-08
 draft: false
 description: "Google's Gemini 3.5 Flash Cyber finds vulnerabilities at a fraction of the cost of Claude Mythos. Here's what solo builders need to know."

@@ -1,5 +1,6 @@
 ---
 title: "Encore AI's $30M Raise: Lessons for Solo Builders Using AI"
+hiddenInHomeList: true
 slug: "encore-ai-training-agents-customer-calls"
 date: 2026-08-31
 draft: false

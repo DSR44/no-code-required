@@ -1,5 +1,6 @@
 ---
 title: "xAI Sues Grok Users Over Deepfakes: What AI Users Need to Know"
+hiddenInHomeList: true
 date: 2026-07-31
 draft: false
 description: "xAI is suing users who made illegal deepfakes with Grok. Here's what the lawsuit means for anyone using AI image tools in 2026."

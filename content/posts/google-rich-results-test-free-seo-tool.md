@@ -1,5 +1,6 @@
 ---
 title: "Google Rich Results Test: Free SEO Tool for Your Blog, No Code"
+hiddenInHomeList: true
 date: 2026-07-04
 draft: false
 description: "I tested my blog with Google's Rich Results Test—here's how this free SEO tool checks your structured data in minutes, step by step."

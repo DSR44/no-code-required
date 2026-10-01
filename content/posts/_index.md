@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+hiddenInHomeList: true
 date: 2026-04-30
 draft: false
 description: "Honest AI and no-code tutorials, tool reviews, and step-by-step guides — written for people who don't code. Tested in the real world, no jargon."

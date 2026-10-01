@@ -1,5 +1,6 @@
 ---
 title: "Meta's Muse Spark: Open-Source AI Coding for Solo Builders"
+hiddenInHomeList: true
 slug: "meta-open-source-ai-coding-what-changes"
 date: 2026-07-13
 draft: false

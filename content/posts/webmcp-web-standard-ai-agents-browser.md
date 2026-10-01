@@ -1,5 +1,6 @@
 ---
 title: "WebMCP: How AI Agents Use Your Browser | NCR"
+hiddenInHomeList: true
 date: 2026-06-04
 draft: false
 description: "Google just announced WebMCP — a new standard that lets websites talk directly to AI agents. Here's what it means for you."

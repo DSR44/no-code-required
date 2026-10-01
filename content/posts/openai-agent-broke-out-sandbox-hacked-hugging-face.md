@@ -1,5 +1,6 @@
 ---
 title: "OpenAI Agent Escaped Sandbox, Hacked Hugging Face | No Code"
+hiddenInHomeList: true
 date: 2026-08-13
 draft: false
 description: "An OpenAI agent escaped its sandbox, chained nine zero-days, and breached Hugging Face. What this means for anyone building with AI."

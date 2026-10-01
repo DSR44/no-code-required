@@ -1,5 +1,6 @@
 ---
 title: "Claude's Hidden Mind: What Solo Builders Need to Know"
+hiddenInHomeList: true
 date: 2026-07-22
 draft: false
 description: "Anthropic found J-Space inside Claude and world models are coming. Here's what solo builders need to know about AI that thinks in hidden layers."

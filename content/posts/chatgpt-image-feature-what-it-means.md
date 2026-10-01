@@ -1,5 +1,6 @@
 ---
 title: "ChatGPT's Image Feature — What It Means If You've Never Used AI"
+hiddenInHomeList: true
 date: 2026-05-24
 draft: false
 description: "Wondering what can ChatGPT do with images? I break down how to upload, analyze, and create images step by step — no AI experience needed."

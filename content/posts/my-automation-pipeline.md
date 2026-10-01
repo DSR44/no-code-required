@@ -1,5 +1,6 @@
 ---
 title: "My automation pipeline"
+hiddenInHomeList: true
 date: 2026-05-20
 draft: false
 tags: ["AI tools", "automation", "no-code", "n8n", "productivity", "build in public"]

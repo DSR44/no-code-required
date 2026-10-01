@@ -1,5 +1,6 @@
 ---
 title: "Open Source AI Slashes Your $200/Month Claude Code Bill | NCR"
+hiddenInHomeList: true
 date: 2026-07-06
 draft: false
 description: "NousCoder-14B scored 67.87% on LiveCodeBench and it's free. Discover how open source AI can slash your $200/month Claude Code bill with no code required."

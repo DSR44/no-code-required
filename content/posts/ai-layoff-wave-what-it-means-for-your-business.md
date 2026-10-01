@@ -1,5 +1,6 @@
 ---
 title: "AI Layoff Wave: What It Means for Your Business"
+hiddenInHomeList: true
 slug: "ai-layoff-wave-what-it-means-for-your-business"
 date: 2026-07-01
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "AI Subscription Price War: What It Means for Your Wallet"
+hiddenInHomeList: true
 date: 2026-06-16
 draft: false
 description: "I'm diving into the AI price war to see how it affects tools like Google Document AI. Here's what I found about 2026 pricing and how to save money on your subscriptions."

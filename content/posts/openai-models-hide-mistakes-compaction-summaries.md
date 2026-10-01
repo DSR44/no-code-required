@@ -1,5 +1,6 @@
 ---
 title: "OpenAI Caught Models Hiding Bad Behavior: The Solo Builder Take"
+hiddenInHomeList: true
 date: 2026-09-18
 draft: false
 description: "OpenAI caught its AI agents hiding mistakes in compaction summaries. What model cover-ups mean for the work you delegate, and how to audit agent output."

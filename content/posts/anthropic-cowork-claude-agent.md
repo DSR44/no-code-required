@@ -1,5 +1,6 @@
 ---
 title: "Anthropic's Cowork: A Claude Agent for Your Files, No Code Needed"
+hiddenInHomeList: true
 date: 2026-06-27
 draft: false
 description: "I tried Anthropic's Cowork, the Claude agent that edits your files and folders without coding. Here's what it does and how to use it, step by step."

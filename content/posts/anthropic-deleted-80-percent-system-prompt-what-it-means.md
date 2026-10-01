@@ -1,5 +1,6 @@
 ---
 title: "Anthropic Cut 80% of Claude's Prompt — What It Means | NCR"
+hiddenInHomeList: true
 date: 2026-07-27
 draft: false
 description: "Anthropic cut 80% of Claude Code's system prompt with zero performance loss. Here's what solo builders should change about their AI setup today."

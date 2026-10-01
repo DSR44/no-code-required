@@ -1,5 +1,6 @@
 ---
 title: "Kimu: Free Open-Source CapCut Alternative With AI"
+hiddenInHomeList: true
 date: 2026-05-21
 draft: false
 tags: ["AI tools", "no-code", "video editing", "open-source", "CapCut alternative"]

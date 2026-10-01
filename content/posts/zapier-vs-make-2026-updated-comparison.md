@@ -1,5 +1,6 @@
 ---
 title: "Zapier vs Make 2026: Changes & Costs Compared"
+hiddenInHomeList: true
 date: 2026-07-17
 draft: false
 description: "Both Zapier and Make shipped major updates in 2026. Here's what changed, what it costs, and which one makes sense for your business now."

@@ -1,5 +1,6 @@
 ---
 title: "Free SEO Stack: Auto-Fix Your Blog With Python, No Code Required"
+hiddenInHomeList: true
 date: 2026-08-31
 draft: false
 description: "Stop paying $200/month for SEO tools. Here's the exact Python stack that scans, diagnoses, and auto-fixes every blog post — including AI slop detection."

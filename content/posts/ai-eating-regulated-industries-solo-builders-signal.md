@@ -1,5 +1,6 @@
 ---
 title: "AI Talent Shifts to Regulated Industries: What Builders Should Know"
+hiddenInHomeList: true
 date: 2026-07-26
 draft: false
 description: "OpenAI and Anthropic researchers are flooding into pharma, healthcare, and finance. Here's what that talent migration means for solo builders."

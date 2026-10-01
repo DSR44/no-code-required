@@ -1,5 +1,6 @@
 ---
 title: "Zuckerberg's AI Agents: What Solo Builders Should Do Now"
+hiddenInHomeList: true
 date: 2026-08-26
 draft: false
 description: "Zuckerberg predicts personal AI agents for everyone in 5 years. Here's what that actually means for solo builders — and what to build today."

@@ -1,5 +1,6 @@
 ---
 title: "The AI Layoff Wave and What It Actually Means for Your Online Business"
+hiddenInHomeList: true
 date: 2026-07-01
 draft: true
 description: "Robinhood, Meta, and others are blaming AI for layoffs. Here's where the real opportunity is for solo creators."

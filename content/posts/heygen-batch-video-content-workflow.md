@@ -1,5 +1,6 @@
 ---
 title: "HeyGen Batch Workflow: Create a Week of Videos in 30 Minutes"
+hiddenInHomeList: true
 date: 2026-07-07
 draft: false
 description: "HeyGen batch video creation workflow for solo creators. Generate a week of talking-head social content from one script session — no camera needed."

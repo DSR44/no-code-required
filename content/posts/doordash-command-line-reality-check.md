@@ -1,5 +1,6 @@
 ---
 title: "Ordering DoorDash From the Command Line: A 2-Month Reality Check"
+hiddenInHomeList: true
 date: 2026-09-24
 draft: false
 description: "DoorDash's dd-cli is two months old now. What's actually in the tool, who can use it, and whether you should let an AI agent spend your money."
