@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's Hardware Pivot: Devices for Non-Coders"
+title: "OpenAI's Hardware Pivot: Devices for Non-Coders | No Code Required"
 slug: "openai-hardware-pivot-devices-non-coders"
 date: 2026-08-30
 draft: false
