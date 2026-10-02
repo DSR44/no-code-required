@@ -1,5 +1,5 @@
 ---
-title: "The Download: reward hacking explained, and suspected Iranian cyberattacks: A Practical Take for Solo Builders"
+title: "Reward hacking and suspected Iranian cyberattacks: A take for solo builders"
 hiddenInHomeList: true
 date: 2026-09-29
 draft: false

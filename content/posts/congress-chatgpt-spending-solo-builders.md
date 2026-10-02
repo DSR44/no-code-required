@@ -1,5 +1,5 @@
 ---
-title: "How I Run a 30-Day AI Tool Bake-Off (Congress' ChatGPT Budget Proves You Should Too)"
+title: "How I Run a 30-Day AI Bake-Off: Congress' ChatGPT Budget Proves It"
 date: 2026-10-02
 draft: false
 description: "Congress spent 90% of its AI budget on ChatGPT and 7% on Claude. The House's own spending data is a free masterclass in how to pick your tools."
