@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Work: OpenAI Automation While You Sleep"
+title: "ChatGPT Automation While You Sleep: No Code Required"
 hiddenInHomeList: true
 date: 2026-07-23
 draft: false

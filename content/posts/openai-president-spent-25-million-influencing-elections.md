@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's President Spent $25M Influencing Elections"
+title: "OpenAI's President Spent $25M Influencing Elections | NCR"
 hiddenInHomeList: true
 slug: "openai-president-spent-25-million-influencing-elections"
 date: 2026-09-02

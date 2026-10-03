@@ -1,5 +1,5 @@
 ---
-title: "HeyGen: Make Talking-Head Videos Without Being on Camera | NCR"
+title: "HeyGen: Make Talking-Head Videos Without Being on Camera"
 hiddenInHomeList: true
 date: 2026-07-06
 draft: false
@@ -23,7 +23,6 @@ faqs:
   - q: "How realistic do the AI avatars look in HeyGen?"
     a: "The avatars are highly realistic, with natural facial expressions and lip movements that sync accurately to the audio. The quality continues to improve with new AI models."
 lastmod: 2026-08-22
-
 ---
 I spent three years telling myself I'd start making videos "next quarter." The lighting setup, the awkward re-takes, the way my eyes dart to the script on my laptop — it all felt like too much friction for a 90-second clip. Then a colleague showed me HeyGen, and I realized I'd been overthinking it entirely. If you've been circling the same excuse, here's the short version: you can produce a talking-head video without ever turning on a camera, and the result looks like you hired a videographer.
 

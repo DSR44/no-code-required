@@ -1,5 +1,5 @@
 ---
-title: "How I Run Two Blogs Solo With AI — No Team, No Code"
+title: "How I Run Two Blogs Solo With AI — No Team, No Code Required"
 date: 2026-06-03
 draft: false
 description: "Discover the exact AI automation workflow that lets one person publish on two blogs solo — no team, no VA, no code required. Save 15+ hours weekly."

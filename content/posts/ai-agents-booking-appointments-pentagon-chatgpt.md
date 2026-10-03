@@ -1,5 +1,5 @@
 ---
-title: "AI Agents Book Appointments and the Pentagon Now Has ChatGPT"
+title: "AI Agents Book Appointments and the Pentagon Gets ChatGPT | NCR"
 hiddenInHomeList: true
 slug: "ai-agents-booking-appointments-pentagon-chatgpt"
 date: 2026-09-01

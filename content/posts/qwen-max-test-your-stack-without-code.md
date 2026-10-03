@@ -1,5 +1,5 @@
 ---
-title: "How to Test Qwen-Max Against Your Stack Without Code (Alibaba Just Challenged America's AI Lead)"
+title: "Test Qwen-Max Against Your Stack Without Code: My 30-Minute Method"
 date: 2026-10-03
 draft: false
 description: "Alibaba's open-weight Qwen-Max is challenging US AI dominance. Here's how I tested it against my own stack without code — and the 30-minute method to copy."
