@@ -1,5 +1,5 @@
 ---
-title: "How to Use AI Graphs for 5 Real Workflows (What They're Actually Good For)"
+title: "How to Use AI Graphs for 5 Real Workflows — No Code Required"
 date: 2026-10-04
 draft: false
 description: "Graphs aren't a buzzword — they're a shape. Five workflows where branching AI agents pay for themselves, with the steps to copy each one without code."

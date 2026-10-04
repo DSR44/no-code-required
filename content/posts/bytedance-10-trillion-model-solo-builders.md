@@ -1,5 +1,5 @@
 ---
-title: "ByteDance's Massive AI Model vs Anthropic: What Solo Builders Need"
+title: "ByteDance's Massive AI Model vs Claude: What Solo Builders Need"
 hiddenInHomeList: true
 date: 2026-09-03
 draft: false

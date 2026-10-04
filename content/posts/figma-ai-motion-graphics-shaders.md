@@ -1,5 +1,5 @@
 ---
-title: "Figma AI Motion Graphics & Shaders: No-Code Guide"
+title: "Figma AI Motion Graphics & Shaders: A No-Code Guide"
 hiddenInHomeList: true
 date: 2026-07-08
 draft: false

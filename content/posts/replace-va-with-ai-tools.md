@@ -1,5 +1,5 @@
 ---
-title: "Replacing My $500/Month VA With 3 AI Tools: The Cost Breakdown"
+title: "Replacing My $500/Month VA With 3 AI Tools: Cost Breakdown"
 hiddenInHomeList: true
 date: 2026-07-03
 draft: false
