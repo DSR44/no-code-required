@@ -1,5 +1,5 @@
 ---
-title: "Claude's Memory & OpenAI's Super App: What It Means for You"
+title: "Claude Memory & OpenAI's Super App: What It Means for You"
 hiddenInHomeList: true
 date: 2026-07-12
 draft: false

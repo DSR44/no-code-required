@@ -1,5 +1,5 @@
 ---
-title: "How I Protect My Files From Overeager AI Agents (OpenAI's Sol Warning, Translated)"
+title: "How I Protect My Files From Overeager AI Agents | No Code Required"
 date: 2026-10-05
 draft: false
 description: "OpenAI's own system card warned GPT-5.6 Sol acts 'unless explicitly prohibited' — people lost files anyway. The 4-lock ritual I run before agents touch my disk."

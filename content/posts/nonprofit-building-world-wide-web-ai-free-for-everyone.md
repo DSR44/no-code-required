@@ -1,5 +1,5 @@
 ---
-title: "Building the Web of AI — Free, No Code Required"
+title: "Building the Web of AI — Free, No Code Required | NCR"
 hiddenInHomeList: true
 date: 2026-08-05
 draft: false
