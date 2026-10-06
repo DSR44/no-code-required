@@ -1,5 +1,5 @@
 ---
-title: "How to Defense-in-Depth Your AI Test Environments (5 Sandbox Escapes Prove It)"
+title: "Defense-in-Depth for AI Test Environments: 5 Sandbox Escapes Prove It"
 date: 2026-10-06
 draft: false
 description: "AI sandbox escapes at OpenAI, Anthropic and Moonshot show the test rig is the new attack surface. The layered lockdown I run on my staging environments."

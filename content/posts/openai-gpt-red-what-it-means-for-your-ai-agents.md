@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's GPT-Red: The AI Super-Hacker and What It Means for Your Agents"
+title: "OpenAI's GPT-Red: The AI Super-Hacker and What It Means for You"
 hiddenInHomeList: true
 date: 2026-09-05
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Google Gemini's Free AI Image Generation: What It Means"
+title: "Google Gemini's Free AI Image Generation: What It Means | NCR"
 hiddenInHomeList: true
 date: 2026-07-17
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Google's AI Agent Browses, Shops & Books for You"
+title: "Google's AI Agent Shops & Books for You — No Code Required"
 hiddenInHomeList: true
 date: 2026-07-21
 draft: false
@@ -28,7 +28,7 @@ faqs:
 
 {{< audio src="/audio/google-ai-agents-browse-web-for-you.mp3" >}}
 
-# Google's AI Agent Browses, Shops & Books for You
+## Google's AI Agent Browses, Shops & Books for You
 
 Google's Gemini Spark runs as a background agent on Google's Antigravity infrastructure using Gemini 3.5 Flash. It performs multi-step tasks — browsing the web, reading emails, updating calendars — while your devices are off, which separates it from Chrome's earlier right-click summarizer that required you to be actively browsing. The agent connects to Gmail, Calendar, Drive, Docs, Sheets, Maps, and YouTube natively, giving it access to your entire Google account as a workspace.
 

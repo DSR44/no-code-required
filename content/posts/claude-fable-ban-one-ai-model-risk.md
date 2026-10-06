@@ -1,5 +1,5 @@
 ---
-title: "Surviving AI Model Loss: Lessons from the Claude Fable Ban | NCR"
+title: "Surviving AI Model Loss: Lessons from the Claude Fable Ban"
 hiddenInHomeList: true
 date: 2026-06-23
 draft: false

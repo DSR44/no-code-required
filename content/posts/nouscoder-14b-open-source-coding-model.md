@@ -1,5 +1,5 @@
 ---
-title: "NousCoder-14B Just Proved Open-Source AI Can Compete With Claude Code — Here's What That Means for Your Wallet"
+title: "NousCoder-14B Proves Open-Source AI Can Rival Claude Code"
 hiddenInHomeList: true
 date: 2026-07-06
 draft: false
@@ -22,7 +22,6 @@ faqs:
     a: "It offers a powerful, cost-free alternative that eliminates vendor lock-in and subscription fatigue. Developers can run it locally, customize it for their needs, and avoid recurring expenses without sacrificing capability."
   - q: "How was NousCoder-14B trained so quickly and still be effective?"
     a: "It leveraged efficient training techniques and high-quality open datasets to achieve strong performance in just 4 days. This rapid development cycle highlights the accelerating pace of innovation in open-source AI."
-
 ---
 {{< audio src="/audio/nouscoder-14b-open-source-coding-model.mp3" >}}
 
