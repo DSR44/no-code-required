@@ -7,11 +7,57 @@ import base64
 import json
 import os
 import subprocess
+import urllib.parse
 from http.server import BaseHTTPRequestHandler
 
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
 AUDIENCE_ID = os.environ.get("RESEND_AUDIENCE_ID", "")
 STARTER_KIT_PDF = os.path.join(os.path.dirname(__file__), "assets", "the-0-dollar-ai-starter-kit.pdf")
+
+
+ALLOWED_HOSTS = {"nocoderequired.net", "www.nocoderequired.net"}
+
+
+def remember_page(email, page):
+    """First page wins. A failed save must not fail the signup."""
+    raw = (page or "").strip()
+    if not raw or not email or not RESEND_API_KEY:
+        return
+    try:
+        u = urllib.parse.urlparse(raw.split("?")[0][:300])
+    except Exception:
+        return
+    host = (u.hostname or "").lower()
+    if host not in ALLOWED_HOSTS or u.scheme not in ("http", "https"):
+        return
+    path = u.path or "/"
+    if not path.startswith("/") or ".." in path:
+        return
+    clean = "https://%s%s" % (host, path)
+    try:
+        quoted = urllib.parse.quote(email)
+        got = subprocess.run(
+            ["curl", "-sS", "https://api.resend.com/contacts/" + quoted,
+             "-H", "Authorization: Bearer " + RESEND_API_KEY],
+            capture_output=True, text=True, timeout=15,
+        )
+        current = ""
+        try:
+            current = (json.loads(got.stdout or "{}").get("properties") or {}).get("signup_page") or ""
+        except Exception:
+            current = ""
+        if current:
+            return
+        subprocess.run(
+            ["curl", "-sS", "-X", "PATCH", "https://api.resend.com/contacts/" + quoted,
+             "-H", "Authorization: Bearer " + RESEND_API_KEY,
+             "-H", "Content-Type: application/json",
+             "-d", json.dumps({"properties": {"signup_page": clean}})],
+            capture_output=True, text=True, timeout=15,
+        )
+    except Exception:
+        return
+
 
 WELCOME_HTML = """
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; background: #0a0a0b;">
@@ -125,6 +171,7 @@ class handler(BaseHTTPRequestHandler):
             data = json.loads(body)
             email = data.get("email", "").strip()
             source = data.get("source", "").strip() or None
+            page = data.get("page", "")
 
             if not email or "@" not in email:
                 self.send_response(400)
@@ -145,6 +192,7 @@ class handler(BaseHTTPRequestHandler):
             response = add_contact(email)
 
             if _contact_ok(response):
+                remember_page(email, page)
                 email_result = send_welcome_email(email, source=source)
                 if source == "starter-kit" and not email_result.get("id"):
                     self.send_response(502)
