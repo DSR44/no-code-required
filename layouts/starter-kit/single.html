@@ -60,7 +60,7 @@ document.getElementById('starter-kit-form').addEventListener('submit', async fun
     const response = await fetch('/api/subscribe', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: email, source: 'starter-kit' })
+      body: JSON.stringify({ email: email, source: 'starter-kit', page: location.origin + location.pathname })
     });
     const data = await response.json();
     if (data.id || data.status === 'subscribed') {
