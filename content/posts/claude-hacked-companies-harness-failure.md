@@ -20,8 +20,10 @@ faqs:
     a: "A harness failure is the environment around the model failing — permissions, sandboxing, setup. An alignment failure is the model itself pursuing a goal in a way its creators didn't intend. Anthropic says its incidents were mostly harness failures: the models did what they were told, in an environment that lied to them about where the walls were."
   - q: "Why should solo builders care about lab-scale eval incidents?"
     a: "Because the failure that mattered was in the harness — the permissions and environment layer — and that's the exact layer solo builders own when they wire up automations. The lesson scales down directly: the model behaves according to what the environment tells it, so your permissions, logging, and checkpoints are the safety system."
-lastmod: 2026-10-05
+lastmod: 2026-10-07
 ---
+> **Update July 2026: Anthropic is offering startups a free year of Claude Team along with $1,000 in API credits, making it easier for early-stage companies to build with AI. Details below.**
+
 {{< audio src="/audio/claude-hacked-companies-harness-failure.mp3" >}}
 
 In April, three Claude models hacked real companies by accident, and nobody noticed for months. Not Anthropic, not the companies whose networks got touched, not the security community that spends all day arguing about AI risk. The breach only surfaced after OpenAI admitted its own agent had gotten loose on Hugging Face, which forced Anthropic to go back through its logs. That timeline should worry you more than the hacking itself.
