@@ -1,5 +1,5 @@
 ---
-title: "Meta AI for Solo Builders: What You Need to Know — No Code Required"
+title: "Meta AI for Solo Builders: What to Know — No Code Required"
 hiddenInHomeList: true
 date: 2026-08-07
 draft: false

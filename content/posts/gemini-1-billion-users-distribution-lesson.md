@@ -1,5 +1,5 @@
 ---
-title: "How I Copied Google's Gemini Playbook to 1 Billion Users (It Wasn't the Model)"
+title: "How I Copied Gemini's 1B-User Playbook (It Wasn't the Model)"
 date: 2026-10-07
 draft: false
 description: "Gemini hit 1 billion users — 63% by voice, 150M images a day. The distribution playbook behind it, translated into moves a solo builder can copy."

@@ -1,5 +1,5 @@
 ---
-title: "Vibe Coding Built My App Fast. Then It Broke. No Code Required"
+title: "Vibe Coding Built My App Fast. Then It Broke | No Code Required"
 hiddenInHomeList: true
 date: 2026-06-28
 draft: false

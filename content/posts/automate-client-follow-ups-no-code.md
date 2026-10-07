@@ -1,5 +1,5 @@
 ---
-title: "Automate Client Follow-Ups in an Afternoon (No Code)"
+title: "Automate Client Follow-Ups in an Afternoon — No Code Required"
 hiddenInHomeList: true
 date: 2026-05-23
 draft: false
@@ -44,7 +44,6 @@ faqs:
     a: "Yes, for a solo business owner with a clear follow-up process, you can build, test, and launch a basic automation workflow in a few hours. The key is to have your client list and email templates ready beforehand, so you can focus on connecting the steps within the no-code platform."
   - q: "Do I need a paid Make.com plan to automate my follow-ups?"
     a: "You can start building and testing your follow-up automations on Make.com's free plan, which includes a generous number of operations per month. A paid plan is typically only necessary once your client base grows and you need to run thousands of automated tasks or require more advanced features."
-
 ---
 {{< audio src="/audio/automate-client-follow-ups-no-code.mp3" >}}
 
