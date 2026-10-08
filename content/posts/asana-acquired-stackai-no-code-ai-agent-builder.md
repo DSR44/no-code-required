@@ -23,7 +23,6 @@ faqs:
   - q: "Is the StackAI acquisition part of Asana's paid plans?"
     a: "Asana has not yet announced specific pricing for the integrated AI agent builder. It's possible the functionality could be included in premium business tiers, but details will be confirmed once the feature is officially launched."
 lastmod: 2026-08-29
-
 ---
 I've watched a dozen project management tools promise "AI-powered" workflows over the past two years. Most just added a chatbot that summarizes tasks. Asana's acquisition of StackAI for $75 million is different — they bought the actual machinery to let you build AI agents that do work across your entire software stack. If you've ever wanted your task manager to stop being a passive list and start acting like a teammate who updates Salesforce, pings Slack, and files tickets without you lifting a finger, this is the deal to pay attention to.
 

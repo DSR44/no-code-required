@@ -1,5 +1,5 @@
 ---
-title: "Startup Trains AI Agents on Video Game Data, Raises $300M"
+title: "Startup Trains AI Agents on Video Game Data, Raises $300M | NCR"
 hiddenInHomeList: true
 slug: "general-intuition-ai-agents-video-game-data"
 date: 2026-07-01

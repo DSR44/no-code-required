@@ -1,5 +1,5 @@
 ---
-title: "Meta Muse Spark 1.1: A Guide for No-Code Builders"
+title: "Meta Muse Spark 1.1: A Guide for No-Code Builders | NCR"
 hiddenInHomeList: true
 date: 2026-07-12
 draft: false
