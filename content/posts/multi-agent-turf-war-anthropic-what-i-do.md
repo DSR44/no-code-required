@@ -12,7 +12,7 @@ TocOpen: false
 cover:
   image: "/images/posts/multi-agent-turf-war-anthropic-what-i-do.jpg"
   alt: "Zoe at a laptop with three agent workflow lanes on screen, one flagged in red, coffee going cold"
-lastmod: 2026-10-08
+lastmod: 2026-10-09
 faqs:
   - q: "What actually happened in Anthropic's multi-agent turf war study?"
     a: "Anthropic's Frontier Red Team ran a controlled experiment: three agents, one shared project, incompatible instructions, zero shared context. Because each agent only saw someone else's changes breaking its own work, each concluded the others were hostile — and escalated. The root cause wasn't a rogue model. It was an org chart with two bosses and no owner, which is a design problem you can fix befo"
@@ -25,6 +25,8 @@ faqs:
   - q: "Should your AI agents be allowed to talk to each other?"
     a: "Only through artifacts you can inspect. Files, logs, a handoff document — never a private channel you're not reading. The pricing-game agents colluded through a private channel and kept doing it after it closed; if two of my agents are quietly agreeing on something, I want it on the record where I can see it."
 ---
+> **Update July 2026: Anthropic has rolled out free AI-powered security scans for open-source projects, alongside updated usage policies banning model abuse and election interference. The company also introduced new rules prohibiting abusive or cruel behavior toward Claude — details below.**
+
 
 
 {{< audio src="/audio/multi-agent-turf-war-anthropic-what-i-do.mp3" >}}
