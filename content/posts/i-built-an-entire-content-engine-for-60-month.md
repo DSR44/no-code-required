@@ -1,5 +1,5 @@
 ---
-title: "Build a Content Engine for $60/Month — No Code Required"
+title: "Build a $60/Month Content Engine With AI — No Code Needed"
 hiddenInHomeList: true
 date: 2026-06-09
 draft: false

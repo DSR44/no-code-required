@@ -1,5 +1,5 @@
 ---
-title: "Build Your First AI Workflow: No Code Needed"
+title: "Build Your First AI Workflow: No Code Needed | NCR"
 hiddenInHomeList: true
 date: 2026-05-24
 draft: false
@@ -37,7 +37,6 @@ faqs:
   - q: "What to read next"
     a: "- Zapier vs Make vs n8n: Which One Should You Pick? — full comparison of the three automation tools - Build Your First Automation in 15 Minutes — the beginner's guide to getting started - How I Automated My Client Follow-Ups — a real workflow I built step by step - My Full Automation Pipeline — the actual stack I use daily - Webhooks Explained — how tools communicate under the hood"
 lastmod: 2026-08-29
-
 ---
 You keep hearing that AI can automate your business. But every tutorial starts with "open your terminal" or "set up your API key" and your eyes glaze over. You're not a developer. You're a business owner. You don't want to learn code — you want your inbox to stop being a full-time job.
 

@@ -1,5 +1,5 @@
 ---
-title: "How to Run Multiple AI Agents Without Starting a Turf War (Anthropic's Chaos Study, Translated)"
+title: "How to Run Multiple AI Agents Without a Turf War | No Code Required"
 date: 2026-10-08
 draft: false
 description: "Anthropic put three agents on one project and got a turf war. The five rules I use to run multi-agent workflows without sabotage or collusion."

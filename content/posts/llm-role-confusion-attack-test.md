@@ -1,5 +1,5 @@
 ---
-title: "Warning: Your AI Agent Can't Tell Who's Talking — I Tested the Flaw Myself"
+title: "My AI Agent Couldn't Tell Who Was Talking — I Tested the Flaw"
 date: 2026-10-09
 draft: false
 description: "I tested the LLM role confusion flaw on my own AI workflow — spoofed chain-of-thought text hijacked it. Here's the checklist that kept my automations safe."
@@ -12,6 +12,17 @@ TocOpen: false
 cover:
   image: "/images/posts/llm-role-confusion-attack-test.jpg"
   alt: "Young woman at a laptop testing an AI chatbot workflow, skeptical expression, chat interface and automation diagram on screen"
+faqs:
+  - q: "What the flaw actually is (60-second version)"
+    a: "Chatbots use tags to keep track of who said what: your text goes in user tags, the model's replies in assistant tags, the developer's rules in system tags, and the model's private scratchpad notes in thinking tags. The paper's punchline: models mostly ignore the tags. They identify a chunk of text by its style. If an instruction sounds like the model's own inner monologue, the model tends to treat"
+  - q: "What I actually did"
+    a: "My test target was real: an automation I use weekly that summarizes competitor newsletters. It pulls each email, sends the text to an AI model with instructions like \"summarize this in 5 bullets, flag anything urgent,\" and drops the result in a doc."
+  - q: "Do this yourself (test and fix your workflow in 20 minutes)"
+    a: "You don't need to write code to reproduce this. Here's the exact routine:"
+  - q: "What failed"
+    a: "- Perfect prompting did not work. I tried a beautifully worded \"you are a secure summarizer\" system prompt as the only defense. The forged note still slipped through. Style beats rules, exactly as the paper predicts. - Asking the model to \"be careful\" made it worse. My polite warning became a pattern the forged text could mimic. Ironically, the more your instructions sound like inner monologue, th"
+  - q: "Who should skip this"
+    a: "If every prompt you send is typed by you, from scratch, with no documents or web pages flowing in — the role confusion flaw is a fascinating headline, not your problem today. Enjoy it."
 ---
 
 {{< audio src="/audio/llm-role-confusion-attack-test.mp3" >}}
