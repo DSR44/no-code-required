@@ -1,5 +1,5 @@
 ---
-title: "Zapier vs Make 2026: Changes & Costs Compared"
+title: "Zapier vs Make 2026: Changes & Costs Compared | No Code Required"
 hiddenInHomeList: true
 date: 2026-07-17
 draft: false

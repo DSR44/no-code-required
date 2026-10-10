@@ -1,5 +1,5 @@
 ---
-title: "54% of Enterprises Had AI Agent Incidents: Solo Builder Lessons"
+title: "54% of Enterprises Had AI Agent Incidents: Lessons for Solo Builders"
 hiddenInHomeList: true
 date: 2026-08-01
 draft: false
