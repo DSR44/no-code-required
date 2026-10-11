@@ -1,5 +1,5 @@
 ---
-title: "AI Helped Google Fix More Chrome Bugs in 2 Releases Than the Last 23"
+title: "AI Fixed More Chrome Bugs in 2 Releases Than the Last 23"
 hiddenInHomeList: true
 date: 2026-09-09
 draft: false

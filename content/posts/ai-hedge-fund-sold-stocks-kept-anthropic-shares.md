@@ -1,5 +1,5 @@
 ---
-title: "AI Hedge Fund Sold Its Stocks but Kept Its Anthropic Stake — Why It Matters"
+title: "AI Hedge Fund Sold Stocks but Kept Its Anthropic Stake — Why"
 hiddenInHomeList: true
 date: 2026-09-10
 draft: false

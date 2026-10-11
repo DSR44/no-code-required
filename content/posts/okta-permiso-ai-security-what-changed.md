@@ -1,5 +1,5 @@
 ---
-title: "Why Okta Paid $200M for an AI Security Company"
+title: "Why Okta Paid $200M for an AI Security Startup | No Code Required"
 hiddenInHomeList: true
 date: 2026-09-11
 draft: false
