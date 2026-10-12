@@ -1,5 +1,5 @@
 ---
-title: "I Tested a Free Open-Weight AI Model Against Paid ChatGPT — When Free Wins, When It Doesn't"
+title: "I Tested Free Open-Weight AI vs Paid ChatGPT: When Free Wins"
 date: 2026-10-11
 draft: false
 description: "Open-weight AI models are months behind the frontier now, and mostly free. I tested where free wins for solo builders — and the safety gap that should decide."

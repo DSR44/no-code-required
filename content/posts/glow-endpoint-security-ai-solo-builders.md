@@ -1,5 +1,5 @@
 ---
-title: "Glow's $1.2B Bet on Endpoint Security: What Solo Builders Should Know"
+title: "Glow's $1.2B Endpoint Security Bet: What Solo Builders Should Know"
 hiddenInHomeList: true
 date: 2026-08-09
 draft: false
