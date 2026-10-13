@@ -1,5 +1,5 @@
 ---
-title: "WebMCP: How AI Agents Use Your Browser | NCR"
+title: "WebMCP: How AI Agents Use Your Browser — No Code Required"
 hiddenInHomeList: true
 date: 2026-06-04
 draft: false

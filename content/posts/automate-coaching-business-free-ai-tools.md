@@ -1,5 +1,5 @@
 ---
-title: "Automate Your Coaching Business With Free AI Tools"
+title: "Automate Your Coaching Business With Free AI Tools — No Code Needed"
 hiddenInHomeList: true
 date: 2026-05-27
 draft: false

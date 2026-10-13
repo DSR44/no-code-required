@@ -1,5 +1,5 @@
 ---
-title: "I Tested Alibaba's Qwen3.8-Max Against Claude — Here's Who Should Switch and Who Shouldn't"
+title: "Qwen3.8-Max vs Claude Tested: Who Should Switch and Who Shouldn't"
 date: 2026-10-13
 draft: false
 description: "Alibaba's Qwen3.8-Max hits near-frontier capability at $2 per million tokens. I tested it against my paid stack — here's when switching makes sense."
@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/qwen3-8-max-solo-builders-test.jpg"
   alt: "Young woman comparing AI model outputs side by side on a laptop, two chat windows with benchmark charts, focused expression"
+faqs:
+  - q: "What I actually did"
+    a: "Setup was deliberately boring: Qwen3.8-Max through its API and through a third-party router, side by side with my existing paid assistant, on the same tasks — drafting, summarizing research, code fixes, and a long-context document review (the API takes a million tokens of context, which is genuinely useful for book-length work)."
+  - q: "Do this yourself (test Qwen against your real work in 30 minutes)"
+    a: "1. Pick your three most-repeated AI tasks. Not benchmarks — the things you actually prompt daily. Draft emails, summarize research, generate code snippets, whatever your version is. 2. Run each through Qwen3.8-Max and your current model, same prompts, same day. Use the Qwen chat app (free) or a router like OpenRouter where you pay per token with no subscription. 3. Score honestly on three axes: qu"
+  - q: "What failed"
+    a: "- The \"beats Fable 5\" claim is benchmark-flavored. Alibaba's own testing shows parity \"sometimes.\" In my week, the gap appeared exactly where it always does: long reasoning chains, ambiguous instructions, taste. Benchmarks measure exams; your work measures judgment. - Router roulette is real. The same model name on different routers gave me different speeds and occasional quirks. If you build on Q"
+  - q: "Who should skip this"
+    a: "Skip Qwen3.8-Max if your entire AI usage fits inside one $20 subscription and you never hit limits — the savings won't buy back the switching friction. Skip it if your work regularly touches China-sensitive topics or strict data-residency requirements. And skip the \"migrate everything\" impulse entirely: this is a lane addition, not a lane replacement."
 ---
 
 {{< audio src="/audio/qwen3-8-max-solo-builders-test.mp3" >}}
