@@ -1,5 +1,5 @@
 ---
-title: "What Are Graphs in AI? A Plain-English Intro for Solo Builders"
+title: "Graphs in AI: A Plain-English Intro for Solo Builders"
 hiddenInHomeList: true
 date: 2026-09-13
 draft: false
