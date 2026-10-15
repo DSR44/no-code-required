@@ -1,5 +1,5 @@
 ---
-title: "How to Get Your Store Ready for AI Customer Agents — Before Your Competitors Do"
+title: "Get Your Store Ready for AI Customer Agents Before Competitors Do"
 date: 2026-10-15
 draft: false
 description: "Klaviyo just bought Agency and is shipping AI support agents to 200,000 businesses. Here's how to prep your store so the agents work for you, not against you."
@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/klaviyo-agency-ai-support-agents-prep.jpg"
   alt: "Young woman reviewing customer support tickets on a laptop beside an AI agent panel, organized desk, calm confident expression"
+faqs:
+  - q: "What I actually did (mapped the rollout against a real store)"
+    a: "I took a mid-size Shopify-style store setup and mapped what Klaviyo's announced agents would actually touch, then tested how each would behave with the store's current state of organization. The picture:"
+  - q: "Do this yourself (the 5-step agent-readiness sprint)"
+    a: "Do this before the rollout reaches you — it takes one focused afternoon:"
+  - q: "What failed"
+    a: "- \"AI handles everything\" is still fiction. In my mapping, roughly two-thirds of tickets were agent-ready; the rest — disputes, edge cases, emotional conversations — needed a human from the first reply. Budget for that, don't pretend otherwise. - Data preparation is the actual work. The tools are one-click. Cleaning three years of inconsistent order notes and thread-hijacked email chains is not. I"
+  - q: "Who should skip this"
+    a: "Skip the prep sprint if you don't sell anything and never will — this is an e-commerce story. Skip the panic if you already run a disciplined support operation with written policies and tracked tickets; you're most of the way there, and the agents will mostly amplify your system. And if your business is high-touch consulting where every customer conversation is the product, automated support is th"
 ---
 
 {{< audio src="/audio/klaviyo-agency-ai-support-agents-prep.mp3" >}}

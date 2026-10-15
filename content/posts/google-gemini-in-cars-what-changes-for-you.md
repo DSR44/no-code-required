@@ -1,5 +1,5 @@
 ---
-title: "Google Gemini in Cars: What It Means for Everyday Drivers | NCR"
+title: "Google Gemini in Cars: What It Means for Everyday Drivers"
 hiddenInHomeList: true
 date: 2026-07-02
 draft: false

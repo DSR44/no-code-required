@@ -1,5 +1,5 @@
 ---
-title: "nano-banana: The AI Image Generator That Writes Text, No Code Required"
+title: "nano-banana: The AI Image Generator That Writes Text, No Code Needed"
 hiddenInHomeList: true
 date: 2026-06-19
 draft: false
