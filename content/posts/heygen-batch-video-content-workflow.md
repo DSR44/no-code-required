@@ -1,5 +1,5 @@
 ---
-title: "HeyGen Batch Workflow: Create a Week of Videos in 30 Minutes"
+title: "HeyGen Batch Workflow: A Week of Videos in 30 Minutes, No Code"
 hiddenInHomeList: true
 date: 2026-07-07
 draft: false

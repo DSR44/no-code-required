@@ -18,7 +18,6 @@ faqs:
   - q: "What I'd actually recommend"
     a: "If you're just starting: Use Zapier's free plan to learn the concepts. Then switch to Make's free plan (1,000 operations) once you need multi-step workflows. You'll get5x the capacity for free."
 lastmod: 2026-10-03
-
 ---
 {{< audio src="/audio/zapier-pricing-2026-what-you-pay.mp3" >}}
 

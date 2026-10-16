@@ -1,5 +1,5 @@
 ---
-title: "How I Stopped My AI Agent Crashing Mid-Task — and What the Data Says About Why"
+title: "How I Stopped My AI Agent Crashing Mid-Task — What the Data Says"
 date: 2026-10-16
 draft: false
 description: "AI agents crash mid-task for predictable reasons: context rot, memory overrun, runaway loops. I fixed mine with a context budget — here's the routine."
@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-agent-crash-context-budget.jpg"
   alt: "Young woman fixing a crashed AI agent session on her laptop, error log on screen, focused calm expression, warm desk lamp"
+faqs:
+  - q: "What I actually did"
+    a: "My culprit was a weekly research agent: feed it a topic, it browses, reads, and writes a brief. In early runs it died around the 40-minute mark — earlier and earlier as I gave it more sources to chew. I logged every failure for two weeks and found three distinct crash modes:"
+  - q: "Do this yourself (the context-budget routine)"
+    a: "You don't need to code this from scratch — most agent tools (n8n, Make, ChatGPT agent mode, Claude projects) support the pattern with plain instructions:"
+  - q: "What failed"
+    a: "- Summarization isn't free of bias. My bullet summaries still favored vivid details over load-bearing ones early on. The partial fix: instruct summaries to always include numbers, dates, and names, and to mark anything uncertain with a literal \"?\". - Bigger context windows made it worse, not better. I tried the \"just give it 1M tokens\" route first. More room meant more sludge, more rot, later cras"
+  - q: "Who should skip this"
+    a: "If your \"agent\" is a single chat conversation you drive yourself, none of this applies — you are the context manager, and that's fine. Skip the elaborate routine if your tasks finish in under five minutes; short tasks rarely hit the failure modes. And if you've never built an agent at all, don't start here — start with agents as employees to get the mental model, then build your first simple autom"
 ---
 
 {{< audio src="/audio/ai-agent-crash-context-budget.mp3" >}}
