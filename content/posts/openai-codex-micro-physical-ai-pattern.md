@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Codex Micro: The Pattern Every AI Tool Follows"
+title: "OpenAI Codex Micro: The Pattern Every AI Tool Follows, No Code Needed"
 hiddenInHomeList: true
 date: 2026-08-11
 draft: false

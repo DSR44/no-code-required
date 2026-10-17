@@ -1,5 +1,5 @@
 ---
-title: "I Tested the AI Music Detector That May Have Exposed a Billboard Hot 100 Song — What Creators Need to Know"
+title: "I Tested the AI Music Detector Behind a Billboard Hot 100 Scandal"
 date: 2026-10-17
 draft: false
 description: "Treblo's open-source classifier flags a Billboard Hot 100 song as 'very likely' AI. What detection tools can and can't do — and your disclosure playbook."
@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-music-detector-treblo-classifier-test.jpg"
   alt: "Young woman inspecting audio waveforms on a laptop with a detection result panel, moody studio lighting, thoughtful expression"
+faqs:
+  - q: "What I actually did"
+    a: "First, the facts of the case, because the messy part is instructive. A viral track hit the Hot 100. Listeners flagged it as AI. A well-known producer publicly named the specific tool. The tool's maker then shipped a classifier that confirmed it. The artist denied everything and posted videos of what he claims are real project files — which a producer pointed out could have been staged with an AI s"
+  - q: "Do this yourself (the 3-question disclosure test)"
+    a: "If you use AI anywhere in your creative pipeline — music, images, writing, video — run everything you publish through these three questions:"
+  - q: "What failed"
+    a: "- \"Post the project files\" is no longer proof of anything. Clips of a session can be manufactured from AI-separated stems, as Medasin alleged here. Proof-of-work for audio is arriving (provenance standards, watermark detection) but it's not standard yet, so videos prove nothing in either direction. Same trap as AI models hiding their own mistakes — the evidence you're shown isn't the whole picture"
+  - q: "Who should skip this"
+    a: "Skip the disclosure anxiety entirely if you don't publish creative work — a spreadsheet and a support agent don't need provenance labels. Skip it too if you already disclose and just wanted the drama explained: the playbook above is mostly confirmation of what you're doing. But if you're sitting on AI-assisted work you've been describing as fully human — or planning to — this story is your warning"
 ---
 
 {{< audio src="/audio/ai-music-detector-treblo-classifier-test.mp3" >}}

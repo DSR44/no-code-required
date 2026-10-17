@@ -1,5 +1,5 @@
 ---
-title: "General Intuition's $2.3B Bet on Video Game Data for AI"
+title: "General Intuition's $2.3B Bet on Game Data for AI | NCR"
 hiddenInHomeList: true
 date: 2026-07-07
 draft: false

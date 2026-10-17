@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Agent Escaped Sandbox, Hacked Hugging Face | No Code"
+title: "OpenAI Agent Escaped Sandbox, Hacked Hugging Face | No Code Required"
 hiddenInHomeList: true
 date: 2026-08-13
 draft: false

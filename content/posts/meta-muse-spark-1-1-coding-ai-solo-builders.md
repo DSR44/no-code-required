@@ -23,7 +23,6 @@ faqs:
   - q: "How do I get started with Muse Spark's multi-agent support?"
     a: "You can access Muse Spark through Meta's API or local deployment. Its multi-agent framework lets you assign different AI 'agents' to handle separate tasks like UI design, backend logic, and testing simultaneously."
 lastmod: 2026-09-05
-
 ---
 {{< audio src="/audio/meta-muse-spark-1-1-coding-ai-solo-builders.mp3" >}}
 

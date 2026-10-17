@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Codex Micro: What It Does & If You Need One"
+title: "OpenAI Codex Micro: What It Does & If You Need One | No Code Required"
 hiddenInHomeList: true
 date: 2026-08-04
 draft: false

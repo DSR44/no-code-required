@@ -1,5 +1,5 @@
 ---
-title: "Anthropic AI Ban: What It Means for AI Users | NCR"
+title: "Anthropic AI Ban: What It Means for AI Users | No Code Required"
 hiddenInHomeList: true
 slug: "who-decides-when-ai-is-too-dangerous"
 date: 2026-07-02
