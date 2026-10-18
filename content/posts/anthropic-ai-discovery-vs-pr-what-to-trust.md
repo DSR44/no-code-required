@@ -1,5 +1,5 @@
 ---
-title: "Why Solo Builders Should Rethink Trusting Claude"
+title: "Why Solo Builders Should Rethink Trusting Claude — No Code Required"
 hiddenInHomeList: true
 date: 2026-07-27
 draft: false

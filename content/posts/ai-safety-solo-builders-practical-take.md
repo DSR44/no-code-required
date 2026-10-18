@@ -1,5 +1,5 @@
 ---
-title: "AI Safety for Solo Builders: Your Practical No-Code Checklist"
+title: "AI Safety for Solo Builders: A Practical No-Code Checklist"
 hiddenInHomeList: true
 date: 2026-09-17
 draft: false
