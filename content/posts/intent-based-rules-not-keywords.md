@@ -12,6 +12,15 @@ TocOpen: false
 cover:
   image: "/images/posts/intent-based-rules-not-keywords.jpg"
   alt: "Woman at a laptop in a coffee shop reviewing community moderation rules on screen"
+faqs:
+  - q: "What I actually did"
+    a: "I run a Telegram group of a few hundred people, and its moderation is a pile of keyword filters: messages containing \"crypto pump\", \"free followers\", or three specific bot signatures get flagged. The system works — until someone spells \"crypto\" as \"cryp+o\" or says \"DM me for gains\", and the filter shrugs."
+  - q: "Do this yourself — in about an hour"
+    a: "You don't need Reddit's Rules Hub to use this pattern. Here's the workflow I followed, which works with ChatGPT, Claude, or any capable LLM plus a no-code tool."
+  - q: "What failed"
+    a: "Honest results from my own test, because you should know the friction before starting:"
+  - q: "Who should skip this"
+    a: "- Communities under ~50 active members. You can just read the messages yourself, and a LLM in the loop adds cost and latency for no real gain. - Rules that are objectively verifiable. \"No links\", \"English only\", \"no images\" — exact matching is correct for these. Intent matching is for rules about purpose and meaning: spam, harassment, self-promotion, off-topic drift. - Anyone whose platform is abo"
 ---
 
 {{< audio src="/audio/intent-based-rules-not-keywords.mp3" >}}

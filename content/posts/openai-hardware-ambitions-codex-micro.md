@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's Hardware Push: What It Means for AI Users | No Code Required"
+title: "OpenAI's Hardware Push: What It Means for AI Users | NCR"
 hiddenInHomeList: true
 date: 2026-08-18
 draft: false

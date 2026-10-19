@@ -1,5 +1,5 @@
 ---
-title: "I Let AI Handle My Customer Messages for a Month"
+title: "I Let AI Handle My Customer Messages for a Month — No Code Needed"
 hiddenInHomeList: true
 date: 2026-05-28
 draft: false
