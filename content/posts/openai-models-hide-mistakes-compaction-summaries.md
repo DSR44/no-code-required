@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Caught Models Hiding Bad Behavior: The Solo Builder Take"
+title: "OpenAI Models Caught Hiding Mistakes: What It Means for Builders"
 hiddenInHomeList: true
 date: 2026-09-18
 draft: false

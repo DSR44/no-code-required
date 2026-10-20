@@ -1,5 +1,5 @@
 ---
-title: "Run AI Models on Any Chip Free — No NVIDIA Lock-In | NCR"
+title: "Run AI Models on Any Chip Free — No NVIDIA Lock-In | No Code Required"
 hiddenInHomeList: true
 slug: "zml-free-inference-tool-ai-chips"
 date: 2026-07-16

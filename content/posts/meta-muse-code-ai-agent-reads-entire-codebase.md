@@ -1,5 +1,5 @@
 ---
-title: "I Tested Meta's Muse Code: The AI Agent That Reads Your Entire Codebase"
+title: "I Tested Meta's Muse Code: The AI Agent That Reads Your Codebase"
 date: 2026-10-20
 draft: false
 description: "Meta's Muse Code is a terminal AI agent that reads your entire codebase. Here is what it does, what it costs, and whether non-coders should bother."

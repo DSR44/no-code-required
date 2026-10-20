@@ -1,5 +1,5 @@
 ---
-title: "Reddit's AI Moderator Is Replacing Keyword Rules — Here's How to Write Intent-Based Rules"
+title: "Reddit's AI Moderator Replaces Keyword Rules: Writing Intent-Based Rules"
 date: 2026-10-19
 draft: false
 description: "Reddit's Rules Hub replaces brittle keyword matching with AI that reads intent. Here's how to write intent-based rules for your own community or workflow."

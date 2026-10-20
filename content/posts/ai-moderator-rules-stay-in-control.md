@@ -12,6 +12,13 @@ TocOpen: false
 cover:
   image: "/images/posts/ai-moderator-rules-stay-in-control.jpg"
   alt: "Woman at a laptop reviewing community moderation settings on screen in a warm coffee shop"
+faqs:
+  - q: "What I actually did"
+    a: "I run a Telegram group of a few hundred people, and last week I rebuilt its moderation around a three-tier enforcement system instead of the binary flag-or-ignore I had before. Nothing about the rules changed — I documented that rewrite separately. What changed is what the system does when a rule fires."
+  - q: "Do this yourself — in about an hour"
+    a: "This works whether you moderate on Reddit, Discord, Telegram, or any platform where you can wire an AI step into your workflow."
+  - q: "Who should skip this"
+    a: "- Communities under ~50 active members. Read the messages yourself. A three-tier AI pipeline is overhead you don't need at that scale. - Rules that are objectively verifiable. \"No links\", \"English only\" — exact matching handles these perfectly. Intent tiers are for rules about purpose: spam, harassment, self-promotion, off-topic drift. - Anyone unwilling to do the weekly loop. An untuned AI modera"
 ---
 
 {{< audio src="/audio/ai-moderator-rules-stay-in-control.mp3" >}}
