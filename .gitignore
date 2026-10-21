@@ -3,3 +3,4 @@ resources/
 .hugo_build.lock
 .vercel
 .env*.local
+ncr_stray_pending.json
