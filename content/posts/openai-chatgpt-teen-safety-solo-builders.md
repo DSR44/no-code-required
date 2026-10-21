@@ -1,5 +1,5 @@
 ---
-title: "What Solo Builders Can Copy From ChatGPT Teen Safety | NCR"
+title: "What Solo Builders Can Copy From ChatGPT Teen Safety | No Code"
 hiddenInHomeList: true
 date: 2026-08-19
 draft: false

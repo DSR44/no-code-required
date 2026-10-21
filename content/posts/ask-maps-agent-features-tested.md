@@ -1,5 +1,5 @@
 ---
-title: "Finally: Google Maps Does Things for You (I Tested Its New Agent Features)"
+title: "I Tested Google Maps' New Agent Features: Ordering, Booking & More"
 date: 2026-10-21
 slug: ask-maps-agent-features-tested
 draft: false
