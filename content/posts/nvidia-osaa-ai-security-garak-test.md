@@ -1,5 +1,5 @@
 ---
-title: "I Tested Nvidia's Free AI Vulnerability Scanner Against My Own Agent — Here's What It Caught"
+title: "I Tested Nvidia's Free AI Vulnerability Scanner Garak on My Own Agent"
 date: 2026-10-22
 draft: false
 description: "Nvidia's new 120-company AI alliance opened its security playbook. I tested Garak, the free AI vulnerability scanner — here's what it caught."
