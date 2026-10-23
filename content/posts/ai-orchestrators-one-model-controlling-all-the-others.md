@@ -1,5 +1,5 @@
 ---
-title: "AI Orchestrators: One Model Controlling All Others, No Code Required"
+title: "AI Orchestrators: One Model Controlling All Others, No Code"
 hiddenInHomeList: true
 date: 2026-05-26
 draft: false

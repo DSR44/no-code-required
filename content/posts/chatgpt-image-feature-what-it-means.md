@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT's Image Feature — What It Means If You've Never Used AI"
+title: "ChatGPT Image Feature: A Beginner's Guide — No Code Required"
 hiddenInHomeList: true
 date: 2026-05-24
 draft: false

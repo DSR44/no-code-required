@@ -1,5 +1,5 @@
 ---
-title: "How I Moved My AI Side Project From Consumers to Businesses After Reading the 2% Stat"
+title: "How I Pivoted My AI Side Project to B2B After the 2% Stat"
 date: 2026-10-23
 draft: false
 description: "Only 2% of consumers pay for AI. I audited my own AI side project against that stat and rebuilt it for business buyers — here's the 20-minute version."
