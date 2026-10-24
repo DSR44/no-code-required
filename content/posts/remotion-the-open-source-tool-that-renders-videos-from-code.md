@@ -1,5 +1,5 @@
 ---
-title: "Remotion: Render Videos From Code With React — No Code Required"
+title: "Render Videos From Code With React Using Remotion"
 hiddenInHomeList: true
 date: 2026-06-12
 draft: false

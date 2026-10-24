@@ -1,5 +1,5 @@
 ---
-title: "How I Audited My AI Stack for the Custom-Chip Era (20-Minute Checklist)"
+title: "How I Audited My AI Stack for the Custom-Chip Era: 20-Min Checklist"
 date: 2026-10-24
 draft: false
 description: "Anthropic is building an in-house silicon team for Claude. I audited my own AI stack against the custom-chip trend — here's my 20-minute checklist."

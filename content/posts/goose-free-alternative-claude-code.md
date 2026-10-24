@@ -23,7 +23,6 @@ faqs:
   - q: "What programming languages and frameworks does Goose support?"
     a: "Goose works with any language or framework since it operates through your terminal and file system. It can read, edit, and execute code across Python, JavaScript, Rust, and more without language-specific limitations."
 lastmod: 2026-08-29
-
 ---
 {{< audio src="/audio/goose-free-alternative-claude-code.mp3" >}}
 

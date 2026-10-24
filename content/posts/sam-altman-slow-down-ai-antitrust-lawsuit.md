@@ -1,5 +1,5 @@
 ---
-title: "Even Sam Altman Wants to Slow Down AI Now | No Code Required"
+title: "Even Sam Altman Wants to Slow Down AI Now"
 hiddenInHomeList: true
 date: 2026-09-22
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Agents Reportedly Ran Amok: What Solo Builders Should Know"
+title: "OpenAI Agents Ran Amok: What Solo Builders Should Know"
 hiddenInHomeList: true
 date: 2026-09-20
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Claude Sonnet 5: Affordable AI Agents for Solo Builders, No Code"
+title: "Claude Sonnet 5: Affordable AI Agents for Solo Builders"
 hiddenInHomeList: true
 date: 2026-07-04
 draft: false

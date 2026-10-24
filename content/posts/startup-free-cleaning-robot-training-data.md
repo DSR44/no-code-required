@@ -1,5 +1,5 @@
 ---
-title: "Free Home Cleaning If You Let It Record for Robot Training | NCR"
+title: "Free Home Cleaning in NYC If You Let Robots Record Your Home"
 hiddenInHomeList: true
 date: 2026-06-08
 draft: false
