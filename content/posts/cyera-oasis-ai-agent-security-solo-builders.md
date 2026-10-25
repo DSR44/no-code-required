@@ -1,5 +1,5 @@
 ---
-title: "What Solo Builders Should Learn From the $1B Cyera-Oasis Deal"
+title: "What Solo Builders Can Learn From the $1B Cyera-Oasis Deal"
 hiddenInHomeList: true
 date: 2026-08-24
 draft: false

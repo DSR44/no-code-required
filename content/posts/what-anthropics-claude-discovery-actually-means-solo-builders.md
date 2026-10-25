@@ -1,5 +1,5 @@
 ---
-title: "Claude's J-Space Discovery: What Solo Builders Should Know"
+title: "Claude's J-Space Discovery: What Solo Builders Need to Know"
 hiddenInHomeList: true
 date: 2026-07-22
 draft: false

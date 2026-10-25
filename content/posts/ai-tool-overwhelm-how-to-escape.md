@@ -1,5 +1,5 @@
 ---
-title: "Escape AI Tool Overwhelm: A Simple Framework — No Code Required"
+title: "Escape AI Tool Overwhelm: A Simple No-Code Framework That Works"
 hiddenInHomeList: true
 date: 2026-06-05
 draft: false

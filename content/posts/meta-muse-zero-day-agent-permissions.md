@@ -1,5 +1,5 @@
 ---
-title: "How I Audited Every AI Agent Permission on My Mac After Meta's Muse 0-Day"
+title: "How I Audited My Mac's AI Agent Permissions After Meta's Muse 0-Day"
 date: 2026-10-25
 draft: false
 description: "Meta's Muse needed a hotfix for a 0-day that handed over account tokens. I audited every AI agent permission I've granted — here's the 20-minute version."
