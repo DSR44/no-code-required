@@ -1,5 +1,24 @@
 {{- define "main" }}
 
+{{- if eq .Type "categories" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Blog Categories | No Code Required",
+  "description": "Browse No Code Required by topic — AI tools, automation, basics, and honest reviews.",
+  "url": "https://nocoderequired.net/categories/",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://nocoderequired.net/" },
+      { "@type": "ListItem", "position": 2, "name": "Categories", "item": "https://nocoderequired.net/categories/" }
+    ]
+  }
+}
+</script>
+{{- end }}
+
 <header class="page-header">
   <h1>{{ .Title }}</h1>
   {{- with .Description }}
