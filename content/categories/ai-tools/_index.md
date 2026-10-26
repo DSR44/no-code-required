@@ -1,13 +1,13 @@
 ---
-title: "AI Tools"
-description: "Hands-on AI tool reviews and guides for non-developers — image generators, writing assistants, and apps tested honestly by someone who started from zero."
+title: "AI Tools for Beginners"
+description: "Discover the best AI tools for beginners — honest, hands-on reviews of image generators, writing assistants, and no-code apps tested by someone who started from zero."
 ---
 
-The **AI Tools** category covers apps that use artificial intelligence to create, edit, automate, or analyze — tested by someone with no developer background and no patience for hype.
+The **AI Tools for Beginners** category covers apps that use artificial intelligence to create, edit, automate, or analyze — tested by someone with no developer background and no patience for hype.
 
 If you're comparing ChatGPT features, trying your first AI image generator, or wondering whether a new launch is worth your time, start here. Every post is written after real use, not after reading a press release.
 
-## What this category covers
+## What This AI Tools for Beginners Category Covers
 
 **Image and media AI** — tools that generate or edit photos, thumbnails, and visual content without Photoshop skills. See our [ChatGPT image feature guide](/posts/chatgpt-image-feature-what-it-means/) for a recent example.
 
@@ -15,7 +15,7 @@ If you're comparing ChatGPT features, trying your first AI image generator, or w
 
 **Honest comparisons** — when a tool claims to replace designers, writers, or developers, we test it and report what actually happened — including the failures.
 
-## Who this is for
+## Who These No-Code AI App Reviews Are For
 
 You don't need to know what an API is. You don't need a CS degree. You need a straight answer on whether a tool saves time or wastes money.
 
