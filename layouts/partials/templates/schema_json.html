@@ -63,7 +63,7 @@
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": {{ .Title | plainify }},
+  "name": {{ with .Params.schema_name }}{{ . | plainify }}{{ else }}{{ .Title | plainify }}{{ end }},
   "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ site.Params.description | plainify }}{{ end }},
   "url": {{ .Permalink | safeHTML }},
   "inLanguage": {{ .Language.Lang | default "en" | safeHTML }},
