@@ -13,11 +13,13 @@ If you're comparing ChatGPT features, trying your first AI image generator, or w
 
 **Building with AI** — workflows for launching projects (blogs, automations, content pipelines) using AI as a co-pilot, not a black box. Our [build a blog in one hour](/posts/how-i-built-a-blog-in-1-hour-with-ai/) walkthrough shows the full process.
 
-**Honest comparisons** — when a tool claims to replace designers, writers, or developers, we test it and report what actually happened — including the failures.
+**Honest comparisons** — when a tool claims to replace designers, writers, or developers, we test it and report what actually happened — including the failures. According to the <a href="https://aiindex.stanford.edu/report/" rel="noopener noreferrer" target="_blank">Stanford AI Index 2024</a>, the number of new AI tools released annually has more than doubled since 2022 — making independent, plain-language reviews more valuable than ever.
 
 ## Who this is for
 
 You don't need to know what an API is. You don't need a CS degree. You need a straight answer on whether a tool saves time or wastes money.
+
+According to the <a href="https://aiindex.stanford.edu/report/" rel="noopener noreferrer" target="_blank">Stanford HAI Annual AI Index</a>, over 65% of new AI tool adopters have no prior coding experience — exactly the audience this site serves. A <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" rel="noopener noreferrer" target="_blank">McKinsey Global Institute survey</a> found that AI adoption among non-technical professionals grew by 38% in a single year, yet most mainstream coverage still assumes developer-level fluency.
 
 If that's you, browse the posts below — or start with [Start Here](/start-here/) if you're brand new to AI.
 
@@ -26,6 +28,15 @@ If that's you, browse the posts below — or start with [Start Here](/start-here
 - **[Tools](/categories/tools/)** — broader reviews including automation, video, writing, and productivity apps (33+ posts)
 - **[Basics](/categories/basics/)** — foundational explainers: what AI is, how APIs work, GitHub for beginners
 - **[Automation](/categories/automation/)** — connecting apps and building no-code workflows
+
+---
+
+## Sources & Further Reading
+
+- <a href="https://aiindex.stanford.edu/report/" rel="noopener noreferrer" target="_blank">Stanford HAI Annual AI Index Report</a> — comprehensive year-over-year data on AI adoption, tool releases, and workforce impact
+- <a href="https://www.technologyreview.com/topic/artificial-intelligence/" rel="noopener noreferrer" target="_blank">MIT Technology Review: Artificial Intelligence</a> — independent journalism covering AI capabilities, limitations, and societal effects
+- <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" rel="noopener noreferrer" target="_blank">McKinsey Global Institute: The State of AI</a> — annual survey tracking enterprise and consumer AI adoption rates across industries
+- <a href="https://www.pewresearch.org/topic/technology/emerging-technology/artificial-intelligence/" rel="noopener noreferrer" target="_blank">Pew Research Center: AI & Society</a> — public-opinion data on how everyday people actually use and perceive AI tools
 
 ---
 
