@@ -1,5 +1,5 @@
 ---
-title: "Best ChatGPT Alternatives 2026: Task-Based Guide"
+title: "Best ChatGPT Alternatives 2026: Task-Based Guide | NCR"
 hiddenInHomeList: true
 date: 2026-07-11
 draft: false

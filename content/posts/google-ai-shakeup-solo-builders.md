@@ -1,5 +1,5 @@
 ---
-title: "How I Decided Whether to Keep Building on Google's AI Tools After the DeepMind Shake-Up"
+title: "Should I Keep Building on Google's AI Tools After the DeepMind Shake-Up?"
 date: 2026-10-26
 draft: false
 description: "Google's AI leadership reshuffle moved Jeff Dean out and reshaped DeepMind. I ran a 20-minute keep-or-leave check on my Google AI stack — here's the process."

@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's Talent Exodus: A Massive Opportunity for Solo Builders"
+title: "OpenAI's Talent Exodus: A Huge Opportunity for Solo Builders"
 hiddenInHomeList: true
 date: 2026-07-26
 draft: false

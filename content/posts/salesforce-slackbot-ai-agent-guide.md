@@ -1,5 +1,5 @@
 ---
-title: "Use Salesforce's Slackbot AI Agent Without Coding — No Code Needed"
+title: "Set Up Salesforce's Slackbot AI Agent Without Coding"
 hiddenInHomeList: true
 date: 2026-06-25
 draft: false

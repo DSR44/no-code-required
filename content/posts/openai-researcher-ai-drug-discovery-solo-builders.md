@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Researcher's $2B AI Startup: Takeaways for Solo Builders"
+title: "OpenAI Researcher's $2B Startup: Takeaways for Solo Builders"
 hiddenInHomeList: true
 date: 2026-07-26
 draft: false
