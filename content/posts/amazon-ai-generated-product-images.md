@@ -1,5 +1,5 @@
 ---
-title: "Spotting AI-Generated Amazon Product Images"
+title: "Spotting AI-Generated Amazon Product Images — No Code Required"
 hiddenInHomeList: true
 date: 2026-06-25
 draft: false

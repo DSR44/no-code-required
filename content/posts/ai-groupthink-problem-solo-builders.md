@@ -14,7 +14,7 @@ cover:
   image: "/images/posts/ai-groupthink-problem-solo-builders.jpg"
   alt: "Zoe at her laptop noticing multiple AI chat windows producing identical outputs"
 
-lastmod: 2026-09-26
+lastmod: 2026-10-27
 faqs:
   - q: "Why do all the AI tools sound the same?"
     a: "Because they're all guessing the most likely next word from overlapping training data. When you ask for a LinkedIn post about productivity, you get the same three frameworks. Ask for a blog intro, same hook structure. Ask for a business plan, same sections in the same order with the same buzzwords."
@@ -30,13 +30,13 @@ faqs:
 
 {{< audio src="/audio/ai-groupthink-problem-solo-builders.mp3" >}}
 
-Last week I asked ChatGPT, Claude, and Gemini to write a product description for a handmade candle business. Same prompt, three tools. The outputs were nearly identical — same adjectives, same rhythm, same "elevate your space" energy. That's not laziness on their part; it's how large language models work. They predict the most probable next token based on patterns in the same training data, so when millions of people ask similar questions, the models converge on the same "average" response. If you're a solo builder using AI for content, emails, or product copy, you risk sounding exactly like every other solo builder using the same tools.
+Last week I asked ChatGPT, Claude, and Gemini to write a product description for a handmade candle business. Same prompt, three tools. The outputs were nearly identical: same adjectives, same rhythm, same "elevate your space" energy. That's not laziness on their part; it's how large language models work. They predict the most probable next token based on patterns in the same training data, so when millions of people ask similar questions, the models converge on the same "average" response. If you're a solo builder using AI for content, emails, or product copy, you risk sounding exactly like every other solo builder using the same tools.
 
-Researchers call this mode collapse; I call it groupthink. Either way, the mechanism is the same: three tools trained on overlapping internet text, optimized for the same "helpful" responses, produce the same voice. In a market where differentiation is everything, that's a real problem — and it's the thing I watch for most in my own testing.
+Researchers call this mode collapse; I call it groupthink. Either way, the mechanism is identical: three tools trained on overlapping internet text, optimized for the same "helpful" responses, produce the same voice. In my own testing, the sameness shows up fastest in openings and closings, the two spots readers actually notice. In a market where differentiation is everything, that's the problem I watch for most.
 
 ## Why do all the AI tools sound the same?
 
-Because they're all guessing the most likely next word from overlapping training data. When you ask for a LinkedIn post about productivity, you get the same three frameworks. Ask for a blog intro, same hook structure. Ask for a business plan, same sections in the same order with the same buzzwords.
+They're all guessing the most likely next word from overlapping training data. When you ask for a LinkedIn post about productivity, you get the same three frameworks. Ask for a blog intro, same hook structure. Ask for a business plan, same sections in the same order with the same buzzwords.
 
 The problem compounds when AI touches multiple pieces of one project. If your email sequence, landing page, and social posts are all AI-generated, they carry the same sentence patterns — an invisible fingerprint your audience won't consciously notice but will feel as generic.
 
@@ -64,9 +64,9 @@ Use AI for structure, then rewrite the opening and closing yourself. Those two s
 
 **Break the prompt pattern.** Instead of "write a product description for X," try "write it as if you're explaining it to a skeptical friend over coffee" or "write it in the style of a 1990s catalog." The more specific the framing, the further you get from the average.
 
-**Add constraints.** Ban certain words ("elevate," "streamline," "unlock"). Limit sentence length. Require a specific structure. Constraints force the model off its default patterns.
+**Add constraints.** Ban certain words ("elevate," "unlock," "game-changing"). Limit sentence length. Require a specific structure. Constraints force the model off its default patterns.
 
-**Use [AI orchestrators](/posts/ai-orchestrators-one-model-controlling-all-the-others/)** that chain several models together. Running one prompt through multiple models and synthesizing the results introduces diversity at the architecture level, not just the prompt level.
+**Use [AI orchestrators](/posts/ai-orchestrators-one-model-controlling-all-the-others/)** that chain several models together. Running one prompt through multiple models and synthesizing the results introduces diversity at the architecture level, above the prompt level.
 
 **Keep a human pass on anything public.** It sounds obvious, but the temptation to publish AI output directly is real when you're a team of one. Even ten minutes of editing — cutting generic phrases, adding a specific anecdote, adjusting the rhythm — is the difference between "AI wrote this" and "AI helped me write this."
 
@@ -78,7 +78,7 @@ My whole [content pipeline](/posts/my-automation-pipeline/) runs on that princip
 
 ## Will this get worse as models improve?
 
-Probably, on the sameness front. As models get more capable, they also get more similar, because they're trained on the same internet and tuned toward the same outcomes. Which means the solo builders who win won't be the ones using AI the most. They'll be the ones using it differently: as a starting point, not an endpoint. Feed it your voice, not just your prompt. Compare outputs across models. And never publish something that reads like it could have come from anyone with the same subscription.
+Probably, on the sameness front. As models get more capable, they also get more similar, because they're trained on the same internet and tuned toward the same outcomes. Which means the solo builders who win won't be the ones using AI the most. They'll be the ones using it differently: as a starting point rather than an endpoint. Feed it your voice along with your prompt. Compare outputs across models. And never publish something that reads like it could have come from anyone with the same subscription.
 
 If you're building something solo and using AI to do it, [start here](/start-here/) — it walks through the tools and workflows that actually work for teams of one.
 

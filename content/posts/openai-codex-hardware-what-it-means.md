@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Codex Hardware: A Game-Changer for Non-Coders"
+title: "OpenAI Codex Hardware: A No-Code Game-Changer for Non-Coders"
 hiddenInHomeList: true
 slug: "openai-codex-hardware-what-it-means"
 date: 2026-07-11

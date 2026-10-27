@@ -1,5 +1,5 @@
 ---
-title: "AI Influencers: The Real Numbers Behind the Hype"
+title: "AI Influencers: The Real Numbers Behind the Hype — No Code Required"
 hiddenInHomeList: true
 date: 2026-06-07
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "How I Measured What AI Wait Times Cost Me — and When 'Fast Mode' Is Actually Worth It"
+title: "How I Measured AI Wait Time Costs — and When Fast Mode Is Worth It"
 date: 2026-10-27
 draft: false
 description: "A French startup claims 30x faster AI inference on GPUs you already own. I timed my own AI workflows to see what waiting really costs — here's the test."
