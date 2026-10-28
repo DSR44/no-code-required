@@ -1,5 +1,5 @@
 ---
-title: "Apple Shortcuts AI: Build Workflows With Plain Language"
+title: "Apple Shortcuts AI: Build Workflows in Plain Language, No Code"
 hiddenInHomeList: true
 date: 2026-06-28
 draft: false

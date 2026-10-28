@@ -1,5 +1,5 @@
 ---
-title: "How I Treated My AI Agents Like Untrusted Employees After Microsoft's Warning"
+title: "I Treated My AI Agents Like Untrusted Employees After Microsoft's Warning"
 date: 2026-10-28
 draft: false
 description: "Microsoft says AI agents should be treated like insider threats. I applied the rule to my one-person business in 20 minutes — here's the checklist."
