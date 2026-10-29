@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Work: 3 Costly Mistakes Before Your First Workflow"
+title: "ChatGPT Work: 3 Costly First-Workflow Mistakes — No Code Required"
 hiddenInHomeList: true
 date: 2026-07-23
 draft: false

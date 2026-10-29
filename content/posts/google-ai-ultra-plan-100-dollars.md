@@ -1,5 +1,5 @@
 ---
-title: "Google&#39;s $100/Month AI Plan: What You Actually Get | NCR"
+title: "Google's $100/Month AI Plan: What You Actually Get"
 hiddenInHomeList: true
 date: 2026-06-13
 draft: false

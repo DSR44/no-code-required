@@ -1,5 +1,5 @@
 ---
-title: "AI Productivity Tools 2026: What Works vs. Hype — No Code Required"
+title: "AI Productivity Tools 2026: What Works vs. Hype | No Code Required"
 hiddenInHomeList: true
 date: 2026-07-04
 draft: false
